@@ -1,0 +1,238 @@
+{
+  "id": 1,
+  "nameSimple": "Al-Fatihah",
+  "nameArabic": "الفاتحة",
+  "meaning": "The Opener",
+  "revelationPlace": "makkah",
+  "versesCount": 7,
+  "bismillahPre": false,
+  "translation": {
+    "id": 20,
+    "name": "Saheeh International"
+  },
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "1:1",
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+      "translation": "In the name of Allāh, the Entirely Merciful, the Especially Merciful.",
+      "page": 1,
+      "juz": 1,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "بِسْمِ",
+          "meaning": "In (the) name",
+          "transliteration": "bis'mi"
+        },
+        {
+          "text": "ٱللَّهِ",
+          "meaning": "(of) Allah",
+          "transliteration": "l-lahi"
+        },
+        {
+          "text": "ٱلرَّحْمَـٰنِ",
+          "meaning": "the Most Gracious",
+          "transliteration": "l-raḥmāni"
+        },
+        {
+          "text": "ٱلرَّحِيمِ",
+          "meaning": "the Most Merciful",
+          "transliteration": "l-raḥīmi"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "1:2",
+      "text": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
+      "translation": "[All] praise is [due] to Allāh, Lord of the worlds -",
+      "page": 1,
+      "juz": 1,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱلْحَمْدُ",
+          "meaning": "All praises and thanks",
+          "transliteration": "al-ḥamdu"
+        },
+        {
+          "text": "لِلَّهِ",
+          "meaning": "(be) to Allah",
+          "transliteration": "lillahi"
+        },
+        {
+          "text": "رَبِّ",
+          "meaning": "the Lord",
+          "transliteration": "rabbi"
+        },
+        {
+          "text": "ٱلْعَـٰلَمِينَ",
+          "meaning": "of the universe",
+          "transliteration": "l-ʿālamīna"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "1:3",
+      "text": "ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+      "translation": "The Entirely Merciful, the Especially Merciful,",
+      "page": 1,
+      "juz": 1,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱلرَّحْمَـٰنِ",
+          "meaning": "The Most Gracious",
+          "transliteration": "al-raḥmāni"
+        },
+        {
+          "text": "ٱلرَّحِيمِ",
+          "meaning": "the Most Merciful",
+          "transliteration": "l-raḥīmi"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "1:4",
+      "text": "مَـٰلِكِ يَوْمِ ٱلدِّينِ",
+      "translation": "Sovereign of the Day of Recompense.",
+      "page": 1,
+      "juz": 1,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "مَـٰلِكِ",
+          "meaning": "(The) Master",
+          "transliteration": "māliki"
+        },
+        {
+          "text": "يَوْمِ",
+          "meaning": "(of the) Day",
+          "transliteration": "yawmi"
+        },
+        {
+          "text": "ٱلدِّينِ",
+          "meaning": "(of the) Judgment",
+          "transliteration": "l-dīni"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "1:5",
+      "text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "translation": "It is You we worship and You we ask for help.",
+      "page": 1,
+      "juz": 1,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِيَّاكَ",
+          "meaning": "You Alone",
+          "transliteration": "iyyāka"
+        },
+        {
+          "text": "نَعْبُدُ",
+          "meaning": "we worship",
+          "transliteration": "naʿbudu"
+        },
+        {
+          "text": "وَإِيَّاكَ",
+          "meaning": "and You Alone",
+          "transliteration": "wa-iyyāka"
+        },
+        {
+          "text": "نَسْتَعِينُ",
+          "meaning": "we ask for help",
+          "transliteration": "nastaʿīnu"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "1:6",
+      "text": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+      "translation": "Guide us to the straight path -",
+      "page": 1,
+      "juz": 1,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱهْدِنَا",
+          "meaning": "Guide us",
+          "transliteration": "ih'dinā"
+        },
+        {
+          "text": "ٱلصِّرَٰطَ",
+          "meaning": "(to) the path",
+          "transliteration": "l-ṣirāṭa"
+        },
+        {
+          "text": "ٱلْمُسْتَقِيمَ",
+          "meaning": "the straight",
+          "transliteration": "l-mus'taqīma"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "1:7",
+      "text": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+      "translation": "The path of those upon whom You have bestowed favor, not of those who have earned [Your] anger or of those who are astray.",
+      "page": 1,
+      "juz": 1,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "صِرَٰطَ",
+          "meaning": "(The) path",
+          "transliteration": "ṣirāṭa"
+        },
+        {
+          "text": "ٱلَّذِينَ",
+          "meaning": "(of) those",
+          "transliteration": "alladhīna"
+        },
+        {
+          "text": "أَنْعَمْتَ",
+          "meaning": "You have bestowed (Your) Favors",
+          "transliteration": "anʿamta"
+        },
+        {
+          "text": "عَلَيْهِمْ",
+          "meaning": "on them",
+          "transliteration": "ʿalayhim"
+        },
+        {
+          "text": "غَيْرِ",
+          "meaning": "not (of)",
+          "transliteration": "ghayri"
+        },
+        {
+          "text": "ٱلْمَغْضُوبِ",
+          "meaning": "those who earned (Your) wrath",
+          "transliteration": "l-maghḍūbi"
+        },
+        {
+          "text": "عَلَيْهِمْ",
+          "meaning": "on themselves",
+          "transliteration": "ʿalayhim"
+        },
+        {
+          "text": "وَلَا",
+          "meaning": "and not",
+          "transliteration": "walā"
+        },
+        {
+          "text": "ٱلضَّآلِّينَ",
+          "meaning": "(of) those who go astray",
+          "transliteration": "l-ḍālīna"
+        }
+      ]
+    }
+  ]
+}
