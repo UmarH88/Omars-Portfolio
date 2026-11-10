@@ -1,16 +1,36 @@
 ---
+// Intro page. For now: just the heading and text, to test the base layout.
+// The person, orbiting badges, ticker and buttons come in the next steps.
+import Base from '../layouts/Base.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Base title="Omar's Library" theme="space">
+  <main class="intro">
+    <h1>Hi, I’m Omar.</h1>
+    <p>
+      Planes, the Quran, science, computers and languages. I built this library out of my own
+      interest, to learn all of it properly.
+    </p>
+  </main>
+</Base>
+
+<style>
+  /* Styles here only affect this page (Astro scopes them automatically) */
+  .intro {
+    max-width: 40rem;
+    margin-inline: auto;
+    padding: 4rem var(--gutter);
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 9vw, 4rem); /* grows with screen width, within limits */
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    margin-top: 1rem;
+    color: var(--muted);
+    font-size: 1.125rem;
+  }
+</style>

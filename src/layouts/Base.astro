@@ -1,0 +1,59 @@
+---
+/*
+  Base.astro: the shared frame for every page (head, fonts, theme).
+  Usage:
+    <Base title="Intro" theme="space">...page content...</Base>
+    <Base title="Al-Fatihah" theme="mushaf" fonts={['arabic']}>...</Base>
+*/
+import '../styles/global.css';
+
+type Theme = 'space' | 'library' | 'mushaf';
+type ExtraFont = 'arabic' | 'library';
+
+interface Props {
+  title: string;
+  description?: string;
+  theme?: Theme;
+  fonts?: ExtraFont[];
+}
+
+const {
+  title,
+  description = "Omar's Library: a personal study site for the Quran, science and code.",
+  theme = 'space',
+  fonts = [],
+} = Astro.props;
+
+// Every page gets the UI fonts. Heavy fonts (Arabic, library serif) load
+// only on pages that ask for them, so the intro page stays fast.
+const families = [
+  'Inter:wght@400;500;600',
+  'Space+Grotesk:wght@500;700',
+  ...(fonts.includes('arabic') ? ['Amiri:wght@400;700', 'Amiri+Quran'] : []),
+  ...(fonts.includes('library') ? ['Cormorant+Garamond:wght@500;600;700'] : []),
+];
+const fontsUrl = `https://fonts.googleapis.com/css2?${families
+  .map((f) => `family=${f}`)
+  .join('&')}&display=swap`;
+
+const pageTitle = title === "Omar's Library" ? title : `${title} · Omar's Library`;
+---
+
+<html lang="en" data-theme={theme}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- preconnect = open the connection to Google Fonts early, so text appears sooner -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href={fontsUrl} />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

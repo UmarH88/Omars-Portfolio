@@ -1,0 +1,143 @@
+/*
+  global.css: colours and shared styles for the whole site.
+  Pages never hard-code colours; they use these variables,
+  so a colour is changed in one place only.
+*/
+
+/* ---------- 1. Palette: every colour from the designs, named once ---------- */
+:root {
+  /* Space (intro + study mode) */
+  --navy-950: #04060c;
+  --navy-900: #070b16;
+  --navy-800: #0d1424;
+  --glow-purple: #2b1f4d;
+  --cyan-300: #7fd8ec;
+
+  /* Library */
+  --walnut-950: #120c07;
+  --walnut-900: #1d140c;
+  --walnut-700: #3a2a1b;
+  --gold-300: #e8c47c;
+  --gold-500: #c9a24a;
+
+  /* Mushaf paper */
+  --paper: #f6efdd;
+  --ink: #1c1a16;
+  --green-700: #1f5a45;
+
+  /* Neutrals */
+  --white: #eef2f7;
+  --grey-400: #a9b2c3;
+
+  /* Fonts (loaded in Base.astro) */
+  --font-ui: 'Inter', system-ui, sans-serif;
+  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --font-library: 'Cormorant Garamond', Georgia, serif;
+  --font-arabic: 'Amiri Quran', 'Amiri', serif;
+
+  /* Spacing and shapes reused everywhere */
+  --gutter: 1.25rem;
+  --radius-pill: 999px;
+  --radius-card: 1rem;
+}
+
+/* ---------- 2. Themes: each page picks one with <Base theme="..."> ---------- */
+/* Pages use only these "role" variables (--bg, --text...), never the palette directly. */
+[data-theme='space'] {
+  --bg: var(--navy-950);
+  --surface: var(--navy-800);
+  --text: var(--white);
+  --muted: var(--grey-400);
+  --accent: var(--cyan-300);
+  --highlight: var(--gold-300);
+}
+
+[data-theme='library'] {
+  --bg: var(--walnut-950);
+  --surface: var(--walnut-900);
+  --text: #f3e9d6;
+  --muted: #cbbba0;
+  --accent: var(--gold-300);
+  --highlight: var(--gold-300);
+}
+
+[data-theme='mushaf'] {
+  --bg: var(--walnut-950); /* dark around the page... */
+  --surface: var(--paper); /* ...cream paper on top */
+  --text: var(--white);
+  --muted: var(--grey-400);
+  --accent: var(--green-700);
+  --highlight: var(--gold-500);
+}
+
+/* ---------- 3. Base styles ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* width includes padding, so layouts add up */
+}
+
+html {
+  color-scheme: dark;
+  -webkit-text-size-adjust: 100%; /* stop phones enlarging text on rotate */
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh; /* dvh = real visible height on phones */
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-ui);
+  line-height: 1.55;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  line-height: 1.1;
+  margin: 0;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+/* Arabic text always uses the Quran font */
+:lang(ar) {
+  font-family: var(--font-arabic);
+}
+
+/* Visible focus ring for keyboard users (not shown on mouse click) */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* Hidden visually but still read by screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Respect users who turn off animations in their system settings */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
