@@ -83,11 +83,16 @@ scripts/fetch-quran.mjs        downloads Quran data once
 - `node scripts/fetch-quran.mjs` → refresh Quran data
 
 ## Quran data: strict rules
-- Source: Quran Foundation API (api-docs.quran.foundation), verses by chapter with `words=true`
-  plus an English translation.
+- Source: the Quran Foundation's data, via Quran.com's open API `https://api.quran.com/api/v4`
+  (no keys; Omar chose this on 2026-11-10 instead of waiting for production approval).
+  Same data and format as the keyed API (api-docs.quran.foundation), which stays as a fallback.
+  Verses by chapter with `words=true`, translation Saheeh International (id 20),
+  tafsir Ibn Kathir (Abridged) (id 169).
 - NEVER type Quran text or meanings from memory. All Arabic and meanings come from the API data.
-- Fetch once at build time with the Node script and save JSON in `src/data/surahs`.
-  The browser never calls the API.
+- Fetch with the Node script (`npm run fetch:quran`) and COMMIT the JSON in `src/data`.
+  Cloudflare builds from the committed JSON, so it never needs the keys. The browser never calls the API.
+- `QF_ENV` in `.env` picks `public` (default, no keys), `prelive` (test keys, surahs 1–2 only)
+  or `production` (keyed, after approval).
 - Max 50 verses per request, so paginate (Al-Baqarah has 286).
 - Handle failures: retries, clear errors, never write a half-empty file.
 - Show the translation's name and attribution on the site.
@@ -115,7 +120,8 @@ scripts/fetch-quran.mjs        downloads Quran data once
 - [x] API keys + `.env` (pre-live keys: surahs 1–2 only; request production access later)
 - [ ] Fetch script
 - [x] Base layout, fonts, colours
-- [ ] Intro page
+- [ ] Intro page (text, ticker, buttons done; person postponed, plan: option A "2.5D" layered SVG
+      with moving rim light, in its own `Person.astro` so Three.js can replace it later)
 - [ ] 3D library
 - [ ] Quran book animation
 - [ ] Quran index

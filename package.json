@@ -9,6 +9,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "fetch:quran": "node scripts/fetch-quran.mjs",
     "astro": "astro"
   },
   "dependencies": {
