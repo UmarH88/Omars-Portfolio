@@ -1,0 +1,94 @@
+---
+/*
+  InterestTicker: a strip of words that scrolls sideways forever.
+  Trick: the list is rendered twice in a row. We slide the whole row left by
+  exactly half its width (= one list), then it jumps back to the start.
+  Because both halves are identical, the jump is invisible.
+*/
+interface Props {
+  items: string[];
+  label?: string; // what screen readers announce for the strip
+}
+
+const { items, label = 'My interests' } = Astro.props;
+---
+
+<div class="ticker" role="region" aria-label={label}>
+  <div class="track">
+    <ul class="list">
+      {items.map((item) => <li>{item}</li>)}
+    </ul>
+    <!-- The copy is only for the visual loop, so screen readers skip it -->
+    <ul class="list" aria-hidden="true">
+      {items.map((item) => <li>{item}</li>)}
+    </ul>
+  </div>
+</div>
+
+<style>
+  .ticker {
+    overflow: hidden;
+    border-block: 1px solid color-mix(in srgb, var(--text) 10%, transparent);
+    padding-block: 0.9rem;
+    /* Fade the words out at both edges instead of a hard cut */
+    mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+  }
+
+  .track {
+    display: flex;
+    width: max-content; /* as wide as all the words, not the screen */
+    animation: scroll 28s linear infinite;
+  }
+
+  /* Pause when someone hovers, so they can read a word */
+  .ticker:hover .track {
+    animation-play-state: paused;
+  }
+
+  .list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    color: var(--text);
+  }
+
+  /* The small dot between words */
+  li::after {
+    content: '';
+    display: inline-block;
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-inline: 1.1rem;
+    border-radius: 50%;
+    background: var(--muted);
+    opacity: 0.5;
+    vertical-align: middle;
+  }
+
+  @keyframes scroll {
+    to {
+      transform: translateX(-50%); /* exactly one list width */
+    }
+  }
+
+  /* Reduced motion: no scrolling; let people swipe the strip by hand instead */
+  @media (prefers-reduced-motion: reduce) {
+    .ticker {
+      overflow-x: auto;
+    }
+    .track {
+      animation: none;
+    }
+    .list[aria-hidden='true'] {
+      display: none;
+    }
+  }
+</style>

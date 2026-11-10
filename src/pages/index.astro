@@ -1,36 +1,144 @@
 ---
-// Intro page. For now: just the heading and text, to test the base layout.
-// The person, orbiting badges, ticker and buttons come in the next steps.
+// Intro page. Done so far: text, interests ticker, buttons.
+// Still to come: the person with orbiting badges, and the tilt effect.
 import Base from '../layouts/Base.astro';
+import InterestTicker from '../components/InterestTicker.astro';
+
+const interests = [
+  'Quran',
+  'Islamic studies',
+  'Physics',
+  'Quantum computing',
+  'Aerospace',
+  'Computer science',
+  'Space',
+  'Languages',
+];
+
+const githubUrl = 'https://github.com/UmarH88';
 ---
 
 <Base title="Omar's Library" theme="space">
   <main class="intro">
-    <h1>Hi, I’m Omar.</h1>
-    <p>
-      Planes, the Quran, science, computers and languages. I built this library out of my own
-      interest, to learn all of it properly.
-    </p>
+    <section class="text">
+      <h1>Hi, I’m Omar.</h1>
+      <p>
+        Planes, the Quran, science, computers and languages. I built this library out of my own
+        interest, to learn all of it properly.
+      </p>
+    </section>
+
+    <InterestTicker items={interests} />
+
+    <nav class="actions" aria-label="Main">
+      <a class="btn-primary" href="/library">
+        Enter the library
+        <span class="arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M13 6l6 6-6 6" />
+          </svg>
+        </span>
+      </a>
+
+      <!-- Icon-only link: aria-label gives it a name for screen readers -->
+      <a class="btn-icon" href={githubUrl} aria-label="Omar on GitHub" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+          stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+          <path d="M9 18c-4.51 2-5-2-7-2" />
+        </svg>
+      </a>
+    </nav>
   </main>
 </Base>
 
 <style>
-  /* Styles here only affect this page (Astro scopes them automatically) */
+  /* Phone-first: one column filling the screen, buttons at the bottom */
   .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* push content down; the scene will fill the top later */
+    gap: 1.75rem;
+    min-height: 100dvh;
     max-width: 40rem;
     margin-inline: auto;
-    padding: 4rem var(--gutter);
+    padding-block: 2rem;
+  }
+
+  .text,
+  .actions {
+    padding-inline: var(--gutter);
   }
 
   h1 {
-    font-size: clamp(2.5rem, 9vw, 4rem); /* grows with screen width, within limits */
+    font-size: clamp(2.5rem, 11vw, 4rem); /* grows with screen width, within limits */
     font-weight: 700;
     letter-spacing: -0.02em;
   }
 
   p {
-    margin-top: 1rem;
+    margin: 1rem 0 0;
     color: var(--muted);
-    font-size: 1.125rem;
+    font-size: 1.05rem;
+  }
+
+  .actions {
+    display: flex;
+    gap: 0.75rem;
+  }
+
+  /* "Enter the library": light pill with a dark round arrow */
+  .btn-primary {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 3.5rem;
+    padding: 0.4rem 0.4rem 0.4rem 1.4rem;
+    border-radius: var(--radius-pill);
+    background: var(--white);
+    color: var(--navy-950);
+    font-weight: 600;
+    font-size: 1.05rem;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+
+  .arrow {
+    display: grid;
+    place-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
+    background: var(--navy-950);
+    color: var(--white);
+    transition: transform 0.2s ease;
+  }
+
+  .btn-primary:hover .arrow {
+    transform: translateX(3px); /* small nudge: "this goes somewhere" */
+  }
+
+  /* GitHub: outlined circle, same height as the main button */
+  .btn-icon {
+    display: grid;
+    place-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 1px solid color-mix(in srgb, var(--text) 25%, transparent);
+    color: var(--text);
+    transition: border-color 0.2s ease;
+  }
+
+  .btn-icon:hover {
+    border-color: var(--text);
+  }
+
+  .btn-primary:active,
+  .btn-icon:active {
+    transform: scale(0.97); /* feels pressed on a phone */
   }
 </style>

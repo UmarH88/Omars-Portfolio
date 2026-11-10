@@ -114,7 +114,7 @@ scripts/fetch-quran.mjs        downloads Quran data once
 - [x] Connect Cloudflare Pages
 - [x] API keys + `.env` (pre-live keys: surahs 1–2 only; request production access later)
 - [ ] Fetch script
-- [ ] Base layout, fonts, colours
+- [x] Base layout, fonts, colours
 - [ ] Intro page
 - [ ] 3D library
 - [ ] Quran book animation
