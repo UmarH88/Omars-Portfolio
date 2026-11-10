@@ -91,7 +91,7 @@ scripts/fetch-quran.mjs        downloads Quran data once
 ## Progress
 - [x] Tools checked
 - [x] Astro project at repo root, pushed to GitHub
-- [ ] Connect Cloudflare Pages
+- [x] Connect Cloudflare Pages
 - [ ] API keys + `.env`
 - [ ] Fetch script
 - [ ] Base layout, fonts, colours
