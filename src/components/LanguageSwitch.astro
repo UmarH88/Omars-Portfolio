@@ -1,0 +1,96 @@
+---
+/*
+  LanguageSwitch: English ◯── Indonesia, a ball that slides between the two.
+  It only adds/removes the class "lang-id" on <html>; CSS in QuranWord and
+  StudyVerse then shows the right language. The choice is remembered.
+*/
+import { LANGUAGE_LABELS } from '../lib/quran';
+---
+
+<div class="language-switch">
+  <span class="label" aria-hidden="true">{LANGUAGE_LABELS.en}</span>
+  <button type="button" class="track" id="language-switch" role="switch" aria-checked="false"
+    aria-label="Indonesian translation">
+    <span class="ball"></span>
+  </button>
+  <span class="label" aria-hidden="true">{LANGUAGE_LABELS.id}</span>
+</div>
+
+<script>
+  const KEY = 'quran-language';
+  const button = document.getElementById('language-switch')!;
+
+  function apply(indonesian: boolean) {
+    document.documentElement.classList.toggle('lang-id', indonesian);
+    button.setAttribute('aria-checked', String(indonesian));
+  }
+
+  // localStorage can fail (private mode, blocked storage): the page still works
+  let saved = false;
+  try {
+    saved = localStorage.getItem(KEY) === 'id';
+  } catch {}
+  apply(saved);
+
+  button.addEventListener('click', () => {
+    const indonesian = button.getAttribute('aria-checked') !== 'true';
+    apply(indonesian);
+    try {
+      localStorage.setItem(KEY, indonesian ? 'id' : 'en');
+    } catch {}
+  });
+</script>
+
+<style>
+  .language-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .label {
+    color: var(--muted);
+    transition: color 0.2s ease;
+  }
+
+  /* The active language's label lights up */
+  .label:first-child,
+  :global(html.lang-id) .label:last-child {
+    color: var(--text);
+  }
+
+  :global(html.lang-id) .label:first-child {
+    color: var(--muted);
+  }
+
+  .track {
+    position: relative;
+    width: 3.2rem;
+    height: 1.75rem;
+    padding: 0;
+    border: 1px solid color-mix(in srgb, var(--accent) 50%, transparent);
+    border-radius: var(--radius-pill);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+    cursor: pointer;
+  }
+
+  /* The ball: slides right when Indonesian is on */
+  .ball {
+    position: absolute;
+    top: 50%;
+    left: 0.2rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 12px color-mix(in srgb, var(--accent) 60%, transparent);
+    transform: translateY(-50%);
+    transition: transform 0.25s ease;
+  }
+
+  .track[aria-checked='true'] .ball {
+    transform: translate(1.4rem, -50%);
+  }
+</style>

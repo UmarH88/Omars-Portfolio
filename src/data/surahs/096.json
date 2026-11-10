@@ -1,0 +1,866 @@
+{
+  "id": 96,
+  "nameSimple": "Al-'Alaq",
+  "nameArabic": "العلق",
+  "meaning": "The Clot",
+  "revelationPlace": "makkah",
+  "versesCount": 19,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "96:1",
+      "text": " ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+      "translations": {
+        "en": "Recite in the name of your Lord who created",
+        "id": "Bacalah dengan (menyebut) nama Tuhanmu yang menciptakan,"
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱقْرَأْ",
+          "meanings": {
+            "en": "Read",
+            "id": "bacalah"
+          },
+          "transliteration": "iq'ra"
+        },
+        {
+          "text": "بِٱسْمِ",
+          "meanings": {
+            "en": "in (the) name",
+            "id": "dengan nama"
+          },
+          "transliteration": "bi-is'mi"
+        },
+        {
+          "text": "رَبِّكَ",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbika"
+        },
+        {
+          "text": "ٱلَّذِى",
+          "meanings": {
+            "en": "the One Who",
+            "id": "yang"
+          },
+          "transliteration": "alladhī"
+        },
+        {
+          "text": "خَلَقَ",
+          "meanings": {
+            "en": "created ",
+            "id": "menciptakan"
+          },
+          "transliteration": "khalaqa"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "96:2",
+      "text": "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ",
+      "translations": {
+        "en": "Created man from a clinging substance.",
+        "id": "Dia telah menciptakan manusia dari segumpal darah."
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "خَلَقَ",
+          "meanings": {
+            "en": "He created",
+            "id": "menciptakan"
+          },
+          "transliteration": "khalaqa"
+        },
+        {
+          "text": "ٱلْإِنسَـٰنَ",
+          "meanings": {
+            "en": "man",
+            "id": "manusia"
+          },
+          "transliteration": "l-insāna"
+        },
+        {
+          "text": "مِنْ",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "عَلَقٍ",
+          "meanings": {
+            "en": "a clinging substance",
+            "id": "segumpal darah"
+          },
+          "transliteration": "ʿalaqin"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "96:3",
+      "text": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ",
+      "translations": {
+        "en": "Recite, and your Lord is the most Generous -",
+        "id": "Bacalah, dan Tuhanmulah Yang Mahamulia."
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱقْرَأْ",
+          "meanings": {
+            "en": "Read",
+            "id": "bacalah"
+          },
+          "transliteration": "iq'ra"
+        },
+        {
+          "text": "وَرَبُّكَ",
+          "meanings": {
+            "en": "and your Lord",
+            "id": "dan Tuhanmu"
+          },
+          "transliteration": "warabbuka"
+        },
+        {
+          "text": "ٱلْأَكْرَمُ",
+          "meanings": {
+            "en": "(is) the Most Generous",
+            "id": "amat mulia"
+          },
+          "transliteration": "l-akramu"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "96:4",
+      "text": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ",
+      "translations": {
+        "en": "Who taught by the pen",
+        "id": "Yang mengajar (manusia) dengan pena."
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱلَّذِى",
+          "meanings": {
+            "en": "The One Who",
+            "id": "yang"
+          },
+          "transliteration": "alladhī"
+        },
+        {
+          "text": "عَلَّمَ",
+          "meanings": {
+            "en": "taught",
+            "id": "Dia mengajar"
+          },
+          "transliteration": "ʿallama"
+        },
+        {
+          "text": "بِٱلْقَلَمِ",
+          "meanings": {
+            "en": "by the pen",
+            "id": "dengan kalam"
+          },
+          "transliteration": "bil-qalami"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "96:5",
+      "text": "عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ",
+      "translations": {
+        "en": "Taught man that which he knew not.",
+        "id": "Dia mengajarkan manusia apa yang tidak diketahuinya."
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "عَلَّمَ",
+          "meanings": {
+            "en": "Taught",
+            "id": "Dia mengajarkan"
+          },
+          "transliteration": "ʿallama"
+        },
+        {
+          "text": "ٱلْإِنسَـٰنَ",
+          "meanings": {
+            "en": "man",
+            "id": "manusia"
+          },
+          "transliteration": "l-insāna"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "لَمْ",
+          "meanings": {
+            "en": "not",
+            "id": "tidak"
+          },
+          "transliteration": "lam"
+        },
+        {
+          "text": "يَعْلَمْ",
+          "meanings": {
+            "en": "he knew",
+            "id": "dia ketahui"
+          },
+          "transliteration": "yaʿlam"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "96:6",
+      "text": "كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ",
+      "translations": {
+        "en": "No! [But] indeed, man transgresses",
+        "id": "Sekali-sekali tidak! Sungguh, manusia itu benar-benar melampaui batas,"
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "كَلَّآ",
+          "meanings": {
+            "en": "Nay",
+            "id": "sekali-kali tidak"
+          },
+          "transliteration": "kallā"
+        },
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "ٱلْإِنسَـٰنَ",
+          "meanings": {
+            "en": "man",
+            "id": "manusia"
+          },
+          "transliteration": "l-insāna"
+        },
+        {
+          "text": "لَيَطْغَىٰٓ",
+          "meanings": {
+            "en": "surely transgresses",
+            "id": "benar-benar melampui batas"
+          },
+          "transliteration": "layaṭghā"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "96:7",
+      "text": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ",
+      "translations": {
+        "en": "Because he sees himself self-sufficient.",
+        "id": "apabila melihat dirinya serba cukup."
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَن",
+          "meanings": {
+            "en": "That",
+            "id": "bahwa"
+          },
+          "transliteration": "an"
+        },
+        {
+          "text": "رَّءَاهُ",
+          "meanings": {
+            "en": "he sees himself",
+            "id": "ia melihatnya"
+          },
+          "transliteration": "raāhu"
+        },
+        {
+          "text": "ٱسْتَغْنَىٰٓ",
+          "meanings": {
+            "en": "self-sufficient",
+            "id": "dia serba cukup"
+          },
+          "transliteration": "is'taghnā"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "96:8",
+      "text": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
+      "translations": {
+        "en": "Indeed, to your Lord is the return.",
+        "id": "Sungguh, hanya kepada Tuhanmulah tempat kembali(mu)."
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "إِلَىٰ",
+          "meanings": {
+            "en": "to",
+            "id": "kepada"
+          },
+          "transliteration": "ilā"
+        },
+        {
+          "text": "رَبِّكَ",
+          "meanings": {
+            "en": "your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbika"
+        },
+        {
+          "text": "ٱلرُّجْعَىٰٓ",
+          "meanings": {
+            "en": "(is) the return",
+            "id": "tempat kembali"
+          },
+          "transliteration": "l-ruj'ʿā"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "key": "96:9",
+      "text": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
+      "translations": {
+        "en": "Have you seen the one who forbids",
+        "id": "Bagaimana pendapatmu tentang orang yang melarang?"
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَرَءَيْتَ",
+          "meanings": {
+            "en": "Have you seen",
+            "id": "apakah kamu lihat/pendapatmu"
+          },
+          "transliteration": "ara-ayta"
+        },
+        {
+          "text": "ٱلَّذِى",
+          "meanings": {
+            "en": "the one who",
+            "id": "yang/orang-orang"
+          },
+          "transliteration": "alladhī"
+        },
+        {
+          "text": "يَنْهَىٰ",
+          "meanings": {
+            "en": "forbids",
+            "id": "ia melarang"
+          },
+          "transliteration": "yanhā"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "key": "96:10",
+      "text": "عَبْدًا إِذَا صَلَّىٰٓ",
+      "translations": {
+        "en": "A servant when he prays?",
+        "id": "seorang hamba ketika dia melaksanakan salat,"
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "عَبْدًا",
+          "meanings": {
+            "en": "A slave",
+            "id": "hamba"
+          },
+          "transliteration": "ʿabdan"
+        },
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "when",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "صَلَّىٰٓ",
+          "meanings": {
+            "en": "he prays",
+            "id": "sholat"
+          },
+          "transliteration": "ṣallā"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "key": "96:11",
+      "text": "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ",
+      "translations": {
+        "en": "Have you seen if he is upon guidance",
+        "id": "bagaimana pendapatmu jika dia (yang dilarang salat itu) berada di atas kebenaran (petunjuk),"
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَرَءَيْتَ",
+          "meanings": {
+            "en": "Have you seen",
+            "id": "apakah kamu lihat/pendapatmu"
+          },
+          "transliteration": "ara-ayta"
+        },
+        {
+          "text": "إِن",
+          "meanings": {
+            "en": "if",
+            "id": "jika"
+          },
+          "transliteration": "in"
+        },
+        {
+          "text": "كَانَ",
+          "meanings": {
+            "en": "he is",
+            "id": "adalah"
+          },
+          "transliteration": "kāna"
+        },
+        {
+          "text": "عَلَى",
+          "meanings": {
+            "en": "upon",
+            "id": "atas"
+          },
+          "transliteration": "ʿalā"
+        },
+        {
+          "text": "ٱلْهُدَىٰٓ",
+          "meanings": {
+            "en": "[the] guidance",
+            "id": "petunjuk"
+          },
+          "transliteration": "l-hudā"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "key": "96:12",
+      "text": "أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ",
+      "translations": {
+        "en": "Or enjoins righteousness?",
+        "id": "atau dia menyuruh bertakwa (kepada Allah)?"
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَوْ",
+          "meanings": {
+            "en": "Or",
+            "id": "atau"
+          },
+          "transliteration": "aw"
+        },
+        {
+          "text": "أَمَرَ",
+          "meanings": {
+            "en": "he enjoins",
+            "id": "dia menyuruh"
+          },
+          "transliteration": "amara"
+        },
+        {
+          "text": "بِٱلتَّقْوَىٰٓ",
+          "meanings": {
+            "en": "[of the] righteousness",
+            "id": "dengan taqwa"
+          },
+          "transliteration": "bil-taqwā"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "key": "96:13",
+      "text": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
+      "translations": {
+        "en": "Have you seen if he denies and turns away -",
+        "id": "Bagaimana pendapatmu jika dia (yang melarang) itu mendustakan dan berpaling?"
+      },
+      "page": 598,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَرَءَيْتَ",
+          "meanings": {
+            "en": "Have you seen",
+            "id": "apakah kamu lihat/pendapatmu"
+          },
+          "transliteration": "ara-ayta"
+        },
+        {
+          "text": "إِن",
+          "meanings": {
+            "en": "if",
+            "id": "jika"
+          },
+          "transliteration": "in"
+        },
+        {
+          "text": "كَذَّبَ",
+          "meanings": {
+            "en": "he denies",
+            "id": "mendustakan"
+          },
+          "transliteration": "kadhaba"
+        },
+        {
+          "text": "وَتَوَلَّىٰٓ",
+          "meanings": {
+            "en": "and turns away",
+            "id": "dan dia berpaling"
+          },
+          "transliteration": "watawallā"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "key": "96:14",
+      "text": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
+      "translations": {
+        "en": "Does he not know that Allāh sees?",
+        "id": "Tidakkah dia mengetahui bahwa sesungguhnya Allah melihat (segala perbuatannya)?"
+      },
+      "page": 598,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَلَمْ",
+          "meanings": {
+            "en": "Does not",
+            "id": "apakah tidak/tidaklah"
+          },
+          "transliteration": "alam"
+        },
+        {
+          "text": "يَعْلَم",
+          "meanings": {
+            "en": "he know",
+            "id": "dia mengetahui"
+          },
+          "transliteration": "yaʿlam"
+        },
+        {
+          "text": "بِأَنَّ",
+          "meanings": {
+            "en": "that",
+            "id": "bahwa sesungguhnya"
+          },
+          "transliteration": "bi-anna"
+        },
+        {
+          "text": "ٱللَّهَ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-laha"
+        },
+        {
+          "text": "يَرَىٰ",
+          "meanings": {
+            "en": "sees",
+            "id": "Dia melihat"
+          },
+          "transliteration": "yarā"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "key": "96:15",
+      "text": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
+      "translations": {
+        "en": "No! If he does not desist, We will surely drag him by the forelock",
+        "id": "Sekali-kali tidak! Sungguh, jika dia tidak berhenti (berbuat demikian) niscaya Kami tarik ubun-ubunnya (ke dalam neraka),"
+      },
+      "page": 598,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "كَلَّا",
+          "meanings": {
+            "en": "Nay",
+            "id": "sekali-kali tidak"
+          },
+          "transliteration": "kallā"
+        },
+        {
+          "text": "لَئِن",
+          "meanings": {
+            "en": "If",
+            "id": "sungguh jika"
+          },
+          "transliteration": "la-in"
+        },
+        {
+          "text": "لَّمْ",
+          "meanings": {
+            "en": "not",
+            "id": "tidak"
+          },
+          "transliteration": "lam"
+        },
+        {
+          "text": "يَنتَهِ",
+          "meanings": {
+            "en": "he desists",
+            "id": "dia berhenti"
+          },
+          "transliteration": "yantahi"
+        },
+        {
+          "text": "لَنَسْفَعًۢا",
+          "meanings": {
+            "en": "surely We will drag him",
+            "id": "niscaya kami pegang/tarik"
+          },
+          "transliteration": "lanasfaʿan"
+        },
+        {
+          "text": "بِٱلنَّاصِيَةِ",
+          "meanings": {
+            "en": "by the forelock",
+            "id": "dengan umbun-umbun"
+          },
+          "transliteration": "bil-nāṣiyati"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "key": "96:16",
+      "text": "نَاصِيَةٍ كَـٰذِبَةٍ خَاطِئَةٍ",
+      "translations": {
+        "en": "A lying, sinning forelock.",
+        "id": "(yaitu) ubun-ubun orang yang mendustakan dan durhaka."
+      },
+      "page": 598,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "نَاصِيَةٍۢ",
+          "meanings": {
+            "en": "A forelock",
+            "id": "umbun-umbun"
+          },
+          "transliteration": "nāṣiyatin"
+        },
+        {
+          "text": "كَـٰذِبَةٍ",
+          "meanings": {
+            "en": "lying",
+            "id": "pendusta"
+          },
+          "transliteration": "kādhibatin"
+        },
+        {
+          "text": "خَاطِئَةٍۢ",
+          "meanings": {
+            "en": "sinful",
+            "id": "salah/durhaka"
+          },
+          "transliteration": "khāṭi-atin"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "key": "96:17",
+      "text": "فَلْيَدْعُ نَادِيَهُۥ",
+      "translations": {
+        "en": "Then let him call his associates;",
+        "id": "Maka biarlah dia memanggil golongannya (untuk menolongnya),"
+      },
+      "page": 598,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَلْيَدْعُ",
+          "meanings": {
+            "en": "Then let him call",
+            "id": "maka hendaklah dia memanggil"
+          },
+          "transliteration": "falyadʿu"
+        },
+        {
+          "text": "نَادِيَهُۥ",
+          "meanings": {
+            "en": "his associates",
+            "id": "kaum/golongannya"
+          },
+          "transliteration": "nādiyahu"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "key": "96:18",
+      "text": "سَنَدْعُ ٱلزَّبَانِيَةَ",
+      "translations": {
+        "en": "We will call the angels of Hell.",
+        "id": "kelak Kami akan memanggil Malaikat Zabaniyah (penyiksa orang-orang yang berdosa)"
+      },
+      "page": 598,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "سَنَدْعُ",
+          "meanings": {
+            "en": "We will call",
+            "id": "kelak Kami memanggil"
+          },
+          "transliteration": "sanadʿu"
+        },
+        {
+          "text": "ٱلزَّبَانِيَةَ",
+          "meanings": {
+            "en": "the Angels of Hell",
+            "id": "Zabaniyah"
+          },
+          "transliteration": "l-zabāniyata"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "key": "96:19",
+      "text": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+      "translations": {
+        "en": "No! Do not obey him. But prostrate and draw near [to Allāh].",
+        "id": "sekali-kali tidak! Janganlah kamu patuh kepadanya; dan sujudlah serta dekatkanlah (dirimu kepada Allah)."
+      },
+      "page": 598,
+      "juz": 30,
+      "sajdah": true,
+      "words": [
+        {
+          "text": "كَلَّا",
+          "meanings": {
+            "en": "Nay",
+            "id": "sekali-kali"
+          },
+          "transliteration": "kallā"
+        },
+        {
+          "text": "لَا",
+          "meanings": {
+            "en": "(Do) not",
+            "id": "jangan"
+          },
+          "transliteration": "lā"
+        },
+        {
+          "text": "تُطِعْهُ",
+          "meanings": {
+            "en": "obey him",
+            "id": "kamu patuh kepadanya"
+          },
+          "transliteration": "tuṭiʿ'hu"
+        },
+        {
+          "text": "وَٱسْجُدْ",
+          "meanings": {
+            "en": "But prostrate",
+            "id": "dan sujudlah"
+          },
+          "transliteration": "wa-us'jud"
+        },
+        {
+          "text": "وَٱقْتَرِب ۩",
+          "meanings": {
+            "en": "and draw near (to Allah)",
+            "id": "dan dekatkanlah"
+          },
+          "transliteration": "wa-iq'tarib"
+        }
+      ]
+    }
+  ]
+}

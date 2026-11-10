@@ -1,0 +1,2204 @@
+{
+  "id": 64,
+  "nameSimple": "At-Taghabun",
+  "nameArabic": "التغابن",
+  "meaning": "The Mutual Disillusion",
+  "revelationPlace": "madinah",
+  "versesCount": 18,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "64:1",
+      "text": " يُسَبِّحُ لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۖ لَهُ ٱلْمُلْكُ وَلَهُ ٱلْحَمْدُ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "translations": {
+        "en": "Whatever is in the heavens and whatever is on the earth is exalting Allāh. To Him belongs dominion, and to Him belongs [all] praise, and He is over all things competent.",
+        "id": "Apa yang ada di langit dan apa yang ada di bumi senantiasa bertasbih kepada Allah; milik-Nya semua kerajaan dan bagi-Nya (pula) segala puji; dan Dia Mahakuasa atas segala sesuatu."
+      },
+      "page": 556,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يُسَبِّحُ",
+          "meanings": {
+            "en": "Glorifies",
+            "id": "bertasbih"
+          },
+          "transliteration": "yusabbiḥu"
+        },
+        {
+          "text": "لِلَّهِ",
+          "meanings": {
+            "en": "[to] Allah",
+            "id": "kepada Allah"
+          },
+          "transliteration": "lillahi"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "whatever",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "(is) in",
+            "id": "di"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "ٱلسَّمَـٰوَٰتِ",
+          "meanings": {
+            "en": "the heavens",
+            "id": "langit(jamak)"
+          },
+          "transliteration": "l-samāwāti"
+        },
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "and whatever",
+            "id": "dan apa"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "(is) in",
+            "id": "di"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "ٱلْأَرْضِ ۖ",
+          "meanings": {
+            "en": "the earth",
+            "id": "bumi"
+          },
+          "transliteration": "l-arḍi"
+        },
+        {
+          "text": "لَهُ",
+          "meanings": {
+            "en": "For Him",
+            "id": "bagi-Nya"
+          },
+          "transliteration": "lahu"
+        },
+        {
+          "text": "ٱلْمُلْكُ",
+          "meanings": {
+            "en": "(is the) dominion",
+            "id": "kerajaan"
+          },
+          "transliteration": "l-mul'ku"
+        },
+        {
+          "text": "وَلَهُ",
+          "meanings": {
+            "en": "and for Him",
+            "id": "dan bagi-Nya"
+          },
+          "transliteration": "walahu"
+        },
+        {
+          "text": "ٱلْحَمْدُ ۖ",
+          "meanings": {
+            "en": "(is) the praise",
+            "id": "puji-pujian"
+          },
+          "transliteration": "l-ḥamdu"
+        },
+        {
+          "text": "وَهُوَ",
+          "meanings": {
+            "en": "And He",
+            "id": "dan Dia"
+          },
+          "transliteration": "wahuwa"
+        },
+        {
+          "text": "عَلَىٰ",
+          "meanings": {
+            "en": "(is) on",
+            "id": "atas"
+          },
+          "transliteration": "ʿalā"
+        },
+        {
+          "text": "كُلِّ",
+          "meanings": {
+            "en": "every",
+            "id": "segala"
+          },
+          "transliteration": "kulli"
+        },
+        {
+          "text": "شَىْءٍۢ",
+          "meanings": {
+            "en": "thing",
+            "id": "sesuatu"
+          },
+          "transliteration": "shayin"
+        },
+        {
+          "text": "قَدِيرٌ",
+          "meanings": {
+            "en": "All-Powerful",
+            "id": "Maha Kuasa"
+          },
+          "transliteration": "qadīrun"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "64:2",
+      "text": "هُوَ ٱلَّذِى خَلَقَكُمْ فَمِنكُمْ كَافِرٌ وَمِنكُم مُّؤْمِنٌ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "translations": {
+        "en": "It is He who created you, and among you is the disbeliever, and among you is the believer. And Allāh, of what you do, is Seeing.",
+        "id": "Dialah yang menciptakan kamu, lalu di antara kamu ada yang kafir dan di antara kamu (juga) ada yang mukmin. Dan Allah Maha Melihat apa yang kamu kerjakan."
+      },
+      "page": 556,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "هُوَ",
+          "meanings": {
+            "en": "He",
+            "id": "Dia"
+          },
+          "transliteration": "huwa"
+        },
+        {
+          "text": "ٱلَّذِى",
+          "meanings": {
+            "en": "(is) the One Who",
+            "id": "yang"
+          },
+          "transliteration": "alladhī"
+        },
+        {
+          "text": "خَلَقَكُمْ",
+          "meanings": {
+            "en": "created you",
+            "id": "menciptakan kalian"
+          },
+          "transliteration": "khalaqakum"
+        },
+        {
+          "text": "فَمِنكُمْ",
+          "meanings": {
+            "en": "and among you",
+            "id": "maka diantara kamu"
+          },
+          "transliteration": "faminkum"
+        },
+        {
+          "text": "كَافِرٌۭ",
+          "meanings": {
+            "en": "(is) a disbeliever",
+            "id": "kafir"
+          },
+          "transliteration": "kāfirun"
+        },
+        {
+          "text": "وَمِنكُم",
+          "meanings": {
+            "en": "and among you",
+            "id": "dan antara kamu"
+          },
+          "transliteration": "waminkum"
+        },
+        {
+          "text": "مُّؤْمِنٌۭ ۚ",
+          "meanings": {
+            "en": "(is) a believer",
+            "id": "orang yang beriman"
+          },
+          "transliteration": "mu'minun"
+        },
+        {
+          "text": "وَٱللَّهُ",
+          "meanings": {
+            "en": "And Allah",
+            "id": "dan Allah"
+          },
+          "transliteration": "wal-lahu"
+        },
+        {
+          "text": "بِمَا",
+          "meanings": {
+            "en": "of what",
+            "id": "terhadap apa"
+          },
+          "transliteration": "bimā"
+        },
+        {
+          "text": "تَعْمَلُونَ",
+          "meanings": {
+            "en": "you do",
+            "id": "kamu kerjakan"
+          },
+          "transliteration": "taʿmalūna"
+        },
+        {
+          "text": "بَصِيرٌ",
+          "meanings": {
+            "en": "(is) All-Seer",
+            "id": "Maha Melihat"
+          },
+          "transliteration": "baṣīrun"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "64:3",
+      "text": "خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ وَصَوَّرَكُمْ فَأَحْسَنَ صُوَرَكُمْ ۖ وَإِلَيْهِ ٱلْمَصِيرُ",
+      "translations": {
+        "en": "He created the heavens and earth in truth and formed you and perfected your forms; and to Him is the [final] destination.",
+        "id": "Dia menciptakan langit dan bumi dengan (tujuan) yang benar, Dia membentuk rupamu lalu memperbagus rupamu, dan kepada-Nya tempat kembali."
+      },
+      "page": 556,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "خَلَقَ",
+          "meanings": {
+            "en": "He created",
+            "id": "Dia menciptakan"
+          },
+          "transliteration": "khalaqa"
+        },
+        {
+          "text": "ٱلسَّمَـٰوَٰتِ",
+          "meanings": {
+            "en": "the heavens",
+            "id": "langit(jamak)"
+          },
+          "transliteration": "l-samāwāti"
+        },
+        {
+          "text": "وَٱلْأَرْضَ",
+          "meanings": {
+            "en": "and the earth",
+            "id": "dan bumi"
+          },
+          "transliteration": "wal-arḍa"
+        },
+        {
+          "text": "بِٱلْحَقِّ",
+          "meanings": {
+            "en": "with truth",
+            "id": "dengan benar/hak"
+          },
+          "transliteration": "bil-ḥaqi"
+        },
+        {
+          "text": "وَصَوَّرَكُمْ",
+          "meanings": {
+            "en": "and He formed you",
+            "id": "dan Dia membentuk rupa kamu"
+          },
+          "transliteration": "waṣawwarakum"
+        },
+        {
+          "text": "فَأَحْسَنَ",
+          "meanings": {
+            "en": "and made good",
+            "id": "lalu Dia membaguskan"
+          },
+          "transliteration": "fa-aḥsana"
+        },
+        {
+          "text": "صُوَرَكُمْ ۖ",
+          "meanings": {
+            "en": "your forms",
+            "id": "bentuk rupa kamu"
+          },
+          "transliteration": "ṣuwarakum"
+        },
+        {
+          "text": "وَإِلَيْهِ",
+          "meanings": {
+            "en": "and to Him",
+            "id": "dan kepada-Nya"
+          },
+          "transliteration": "wa-ilayhi"
+        },
+        {
+          "text": "ٱلْمَصِيرُ",
+          "meanings": {
+            "en": "(is) the final return",
+            "id": "tempat kembali"
+          },
+          "transliteration": "l-maṣīru"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "64:4",
+      "text": "يَعْلَمُ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَيَعْلَمُ مَا تُسِرُّونَ وَمَا تُعْلِنُونَ ۚ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
+      "translations": {
+        "en": "He knows what is within the heavens and earth and knows what you conceal and what you declare. And Allāh is Knowing of that within the breasts.",
+        "id": "Dia mengetahui apa yang ada di langit dan di bumi, dan mengetahui apa yang kamu rahasiakan dan apa yang kamu nyatakan. Dan Allah Maha Mengetahui segala isi hati."
+      },
+      "page": 556,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يَعْلَمُ",
+          "meanings": {
+            "en": "He knows",
+            "id": "Dia mengetahui"
+          },
+          "transliteration": "yaʿlamu"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "(is) in",
+            "id": "di"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "ٱلسَّمَـٰوَٰتِ",
+          "meanings": {
+            "en": "the heavens",
+            "id": "langit(jamak)"
+          },
+          "transliteration": "l-samāwāti"
+        },
+        {
+          "text": "وَٱلْأَرْضِ",
+          "meanings": {
+            "en": "and the earth",
+            "id": "dan bumi"
+          },
+          "transliteration": "wal-arḍi"
+        },
+        {
+          "text": "وَيَعْلَمُ",
+          "meanings": {
+            "en": "and He knows",
+            "id": "dan Dia mengetahui"
+          },
+          "transliteration": "wayaʿlamu"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "تُسِرُّونَ",
+          "meanings": {
+            "en": "you conceal",
+            "id": "kamu rahasiakan"
+          },
+          "transliteration": "tusirrūna"
+        },
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "and what",
+            "id": "dan apa"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "تُعْلِنُونَ ۚ",
+          "meanings": {
+            "en": "you declare",
+            "id": "kamu nyatakan"
+          },
+          "transliteration": "tuʿ'linūna"
+        },
+        {
+          "text": "وَٱللَّهُ",
+          "meanings": {
+            "en": "And Allah",
+            "id": "dan Allah"
+          },
+          "transliteration": "wal-lahu"
+        },
+        {
+          "text": "عَلِيمٌۢ",
+          "meanings": {
+            "en": "(is) All-Knowing",
+            "id": "Maha Mengetahui"
+          },
+          "transliteration": "ʿalīmun"
+        },
+        {
+          "text": "بِذَاتِ",
+          "meanings": {
+            "en": "of what",
+            "id": "dengan yang ada"
+          },
+          "transliteration": "bidhāti"
+        },
+        {
+          "text": "ٱلصُّدُورِ",
+          "meanings": {
+            "en": "(is in) the breasts",
+            "id": "dada"
+          },
+          "transliteration": "l-ṣudūri"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "64:5",
+      "text": "أَلَمْ يَأْتِكُمْ نَبَؤُا۟ ٱلَّذِينَ كَفَرُوا۟ مِن قَبْلُ فَذَاقُوا۟ وَبَالَ أَمْرِهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
+      "translations": {
+        "en": "Has there not come to you the news of those who disbelieved before? So they tasted the bad consequence of their affair, and they will have a painful punishment.",
+        "id": "Apakah belum sampai kepadamu (orang-orang kafir) berita orang-orang kafir dahulu? Maka mereka telah merasakan akibat buruk dari perbuatannya dan mereka memperoleh azab yang pedih."
+      },
+      "page": 556,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَلَمْ",
+          "meanings": {
+            "en": "Has not",
+            "id": "apakah tidak/belum"
+          },
+          "transliteration": "alam"
+        },
+        {
+          "text": "يَأْتِكُمْ",
+          "meanings": {
+            "en": "come to you",
+            "id": "datang kepadamu"
+          },
+          "transliteration": "yatikum"
+        },
+        {
+          "text": "نَبَؤُا۟",
+          "meanings": {
+            "en": "(the) news",
+            "id": "berita"
+          },
+          "transliteration": "naba-u"
+        },
+        {
+          "text": "ٱلَّذِينَ",
+          "meanings": {
+            "en": "(of) those who",
+            "id": "orang-orang yang"
+          },
+          "transliteration": "alladhīna"
+        },
+        {
+          "text": "كَفَرُوا۟",
+          "meanings": {
+            "en": "disbelieved",
+            "id": "kafir/ingkar"
+          },
+          "transliteration": "kafarū"
+        },
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "قَبْلُ",
+          "meanings": {
+            "en": "before",
+            "id": "sebelum/dahulu"
+          },
+          "transliteration": "qablu"
+        },
+        {
+          "text": "فَذَاقُوا۟",
+          "meanings": {
+            "en": "So they tasted",
+            "id": "maka mereka merasakan"
+          },
+          "transliteration": "fadhāqū"
+        },
+        {
+          "text": "وَبَالَ",
+          "meanings": {
+            "en": "(the bad) consequence",
+            "id": "akibat buruk"
+          },
+          "transliteration": "wabāla"
+        },
+        {
+          "text": "أَمْرِهِمْ",
+          "meanings": {
+            "en": "(of) their affair",
+            "id": "urusan/perbuatan mereka"
+          },
+          "transliteration": "amrihim"
+        },
+        {
+          "text": "وَلَهُمْ",
+          "meanings": {
+            "en": "and for them",
+            "id": "dan bagi mereka"
+          },
+          "transliteration": "walahum"
+        },
+        {
+          "text": "عَذَابٌ",
+          "meanings": {
+            "en": "(is) a punishment",
+            "id": "azab"
+          },
+          "transliteration": "ʿadhābun"
+        },
+        {
+          "text": "أَلِيمٌۭ",
+          "meanings": {
+            "en": "painful",
+            "id": "pedih"
+          },
+          "transliteration": "alīmun"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "64:6",
+      "text": "ذَٰلِكَ بِأَنَّهُۥ كَانَت تَّأْتِيهِمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ فَقَالُوٓا۟ أَبَشَرٌ يَهْدُونَنَا فَكَفَرُوا۟ وَتَوَلَّوا۟ ۚ وَّٱسْتَغْنَى ٱللَّهُ ۚ وَٱللَّهُ غَنِىٌّ حَمِيدٌ",
+      "translations": {
+        "en": "That is because their messengers used to come to them with clear evidences, but they said, \"Shall human beings guide us?\" and disbelieved and turned away. And Allāh dispensed [with them]; and Allāh is Free of need and Praiseworthy.",
+        "id": "Yang demikian itu karena sesungguhnya ketika rasul-rasul datang kepada mereka membawa keterangan-keterangan, lalu mereka berkata, \"Apakah (pantas) manusia yang memberi petunjuk kepada kami?\" Lalu mereka ingkar dan berpaling; padahal Allah tidak memerlukan (mereka). Dan Allah Mahakaya, Maha Terpuji."
+      },
+      "page": 556,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ذَٰلِكَ",
+          "meanings": {
+            "en": "That",
+            "id": "demikian itu"
+          },
+          "transliteration": "dhālika"
+        },
+        {
+          "text": "بِأَنَّهُۥ",
+          "meanings": {
+            "en": "(is) because",
+            "id": "karena sesungguhnya"
+          },
+          "transliteration": "bi-annahu"
+        },
+        {
+          "text": "كَانَت",
+          "meanings": {
+            "en": "had",
+            "id": "adalah"
+          },
+          "transliteration": "kānat"
+        },
+        {
+          "text": "تَّأْتِيهِمْ",
+          "meanings": {
+            "en": "come to them",
+            "id": "datang kepada mereka"
+          },
+          "transliteration": "tatīhim"
+        },
+        {
+          "text": "رُسُلُهُم",
+          "meanings": {
+            "en": "their Messengers",
+            "id": "rasul-rasul mereka"
+          },
+          "transliteration": "rusuluhum"
+        },
+        {
+          "text": "بِٱلْبَيِّنَـٰتِ",
+          "meanings": {
+            "en": "with clear proofs",
+            "id": "dengan keterangan-keterangan"
+          },
+          "transliteration": "bil-bayināti"
+        },
+        {
+          "text": "فَقَالُوٓا۟",
+          "meanings": {
+            "en": "but they said",
+            "id": "lalu mereka berkata"
+          },
+          "transliteration": "faqālū"
+        },
+        {
+          "text": "أَبَشَرٌۭ",
+          "meanings": {
+            "en": "Shall human beings",
+            "id": "apakah manusia"
+          },
+          "transliteration": "abasharun"
+        },
+        {
+          "text": "يَهْدُونَنَا",
+          "meanings": {
+            "en": "guide us",
+            "id": "memberi petunjuk kepada kami"
+          },
+          "transliteration": "yahdūnanā"
+        },
+        {
+          "text": "فَكَفَرُوا۟",
+          "meanings": {
+            "en": "So they disbelieved",
+            "id": "lalu mereka ingkar"
+          },
+          "transliteration": "fakafarū"
+        },
+        {
+          "text": "وَتَوَلَّوا۟ ۚ",
+          "meanings": {
+            "en": "and turned away",
+            "id": "dan mereka berpaling"
+          },
+          "transliteration": "watawallaw"
+        },
+        {
+          "text": "وَّٱسْتَغْنَى",
+          "meanings": {
+            "en": "And can do without them",
+            "id": "dan mencukupi/tidak memerlukan"
+          },
+          "transliteration": "wa-is'taghnā"
+        },
+        {
+          "text": "ٱللَّهُ ۚ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahu"
+        },
+        {
+          "text": "وَٱللَّهُ",
+          "meanings": {
+            "en": "And Allah",
+            "id": "dan Allah"
+          },
+          "transliteration": "wal-lahu"
+        },
+        {
+          "text": "غَنِىٌّ",
+          "meanings": {
+            "en": "(is) Self-sufficient",
+            "id": "Maha Kaya"
+          },
+          "transliteration": "ghaniyyun"
+        },
+        {
+          "text": "حَمِيدٌۭ",
+          "meanings": {
+            "en": "Praiseworthy",
+            "id": "Maha Terpuji"
+          },
+          "transliteration": "ḥamīdun"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "64:7",
+      "text": "زَعَمَ ٱلَّذِينَ كَفَرُوٓا۟ أَن لَّن يُبْعَثُوا۟ ۚ قُلْ بَلَىٰ وَرَبِّى لَتُبْعَثُنَّ ثُمَّ لَتُنَبَّؤُنَّ بِمَا عَمِلْتُمْ ۚ وَذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
+      "translations": {
+        "en": "Those who disbelieve have claimed that they will never be resurrected. Say, \"Yes, by my Lord, you will surely be resurrected; then you will surely be informed of what you did. And that, for Allāh, is easy.\"",
+        "id": "Orang-orang yang kafir mengira, bahwa mereka tidak akan dibangkitkan. Katakanlah (Muhammad), \"Tidak demikian, demi Tuhanku, kamu pasti dibangkitkan, kemudian diberitakan semua yang telah kamu kerjakan.\" Dan yang demikian itu mudah bagi Allah."
+      },
+      "page": 556,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "زَعَمَ",
+          "meanings": {
+            "en": "Claim",
+            "id": "mengira"
+          },
+          "transliteration": "zaʿama"
+        },
+        {
+          "text": "ٱلَّذِينَ",
+          "meanings": {
+            "en": "those who",
+            "id": "orang-orang yang"
+          },
+          "transliteration": "alladhīna"
+        },
+        {
+          "text": "كَفَرُوٓا۟",
+          "meanings": {
+            "en": "disbelieve",
+            "id": "kafir/ingkar"
+          },
+          "transliteration": "kafarū"
+        },
+        {
+          "text": "أَن",
+          "meanings": {
+            "en": "that",
+            "id": "bahwa"
+          },
+          "transliteration": "an"
+        },
+        {
+          "text": "لَّن",
+          "meanings": {
+            "en": "never",
+            "id": "tidak"
+          },
+          "transliteration": "lan"
+        },
+        {
+          "text": "يُبْعَثُوا۟ ۚ",
+          "meanings": {
+            "en": "will they be raised",
+            "id": "mereka dibangkitkan"
+          },
+          "transliteration": "yub'ʿathū"
+        },
+        {
+          "text": "قُلْ",
+          "meanings": {
+            "en": "Say",
+            "id": "katakan"
+          },
+          "transliteration": "qul"
+        },
+        {
+          "text": "بَلَىٰ",
+          "meanings": {
+            "en": "Yes",
+            "id": "bahkan/tidak demikian"
+          },
+          "transliteration": "balā"
+        },
+        {
+          "text": "وَرَبِّى",
+          "meanings": {
+            "en": "by my Lord",
+            "id": "demi Tuhanku"
+          },
+          "transliteration": "warabbī"
+        },
+        {
+          "text": "لَتُبْعَثُنَّ",
+          "meanings": {
+            "en": "surely you will be raised",
+            "id": "sungguh kamu akan dibangkitkan"
+          },
+          "transliteration": "latub'ʿathunna"
+        },
+        {
+          "text": "ثُمَّ",
+          "meanings": {
+            "en": "then",
+            "id": "kemudian"
+          },
+          "transliteration": "thumma"
+        },
+        {
+          "text": "لَتُنَبَّؤُنَّ",
+          "meanings": {
+            "en": "surely you will be informed",
+            "id": "sungguh kamu akan diberitahukan"
+          },
+          "transliteration": "latunabba-unna"
+        },
+        {
+          "text": "بِمَا",
+          "meanings": {
+            "en": "of what",
+            "id": "terhadap apa"
+          },
+          "transliteration": "bimā"
+        },
+        {
+          "text": "عَمِلْتُمْ ۚ",
+          "meanings": {
+            "en": "you did",
+            "id": "kamu kerjakan"
+          },
+          "transliteration": "ʿamil'tum"
+        },
+        {
+          "text": "وَذَٰلِكَ",
+          "meanings": {
+            "en": "And that",
+            "id": "dan demikian itu"
+          },
+          "transliteration": "wadhālika"
+        },
+        {
+          "text": "عَلَى",
+          "meanings": {
+            "en": "for",
+            "id": "atas"
+          },
+          "transliteration": "ʿalā"
+        },
+        {
+          "text": "ٱللَّهِ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahi"
+        },
+        {
+          "text": "يَسِيرٌۭ",
+          "meanings": {
+            "en": "(is) easy",
+            "id": "mudah"
+          },
+          "transliteration": "yasīrun"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "64:8",
+      "text": "فَـَٔامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَٱلنُّورِ ٱلَّذِىٓ أَنزَلْنَا ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "translations": {
+        "en": "So believe in Allāh and His Messenger and the light [i.e., the Qur’ān] which We have sent down. And Allāh is Aware of what you do.",
+        "id": "Maka berimanlah kamu kepada Allah dan Rasul-Nya dan kepada cahaya (Alquran) yang telah Kami turunkan. Dan Allah Mahateliti terhadap apa yang kamu kerjakan."
+      },
+      "page": 556,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَـَٔامِنُوا۟",
+          "meanings": {
+            "en": "So believe",
+            "id": "maka berimanlah kamu"
+          },
+          "transliteration": "faāminū"
+        },
+        {
+          "text": "بِٱللَّهِ",
+          "meanings": {
+            "en": "in Allah",
+            "id": "kepada Allah"
+          },
+          "transliteration": "bil-lahi"
+        },
+        {
+          "text": "وَرَسُولِهِۦ",
+          "meanings": {
+            "en": "and His Messenger",
+            "id": "dan rasul-Nya"
+          },
+          "transliteration": "warasūlihi"
+        },
+        {
+          "text": "وَٱلنُّورِ",
+          "meanings": {
+            "en": "and the Light",
+            "id": "dan cahaya"
+          },
+          "transliteration": "wal-nūri"
+        },
+        {
+          "text": "ٱلَّذِىٓ",
+          "meanings": {
+            "en": "which",
+            "id": "yang"
+          },
+          "transliteration": "alladhī"
+        },
+        {
+          "text": "أَنزَلْنَا ۚ",
+          "meanings": {
+            "en": "We have sent down",
+            "id": "Kami turunkan"
+          },
+          "transliteration": "anzalnā"
+        },
+        {
+          "text": "وَٱللَّهُ",
+          "meanings": {
+            "en": "And Allah",
+            "id": "dan Allah"
+          },
+          "transliteration": "wal-lahu"
+        },
+        {
+          "text": "بِمَا",
+          "meanings": {
+            "en": "of what",
+            "id": "terhadap apa"
+          },
+          "transliteration": "bimā"
+        },
+        {
+          "text": "تَعْمَلُونَ",
+          "meanings": {
+            "en": "you do",
+            "id": "kamu kerjakan"
+          },
+          "transliteration": "taʿmalūna"
+        },
+        {
+          "text": "خَبِيرٌۭ",
+          "meanings": {
+            "en": "(is) All-Aware",
+            "id": "Maha Mengetahui"
+          },
+          "transliteration": "khabīrun"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "key": "64:9",
+      "text": "يَوْمَ يَجْمَعُكُمْ لِيَوْمِ ٱلْجَمْعِ ۖ ذَٰلِكَ يَوْمُ ٱلتَّغَابُنِ ۗ وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَـٰلِحًا يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُدْخِلْهُ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+      "translations": {
+        "en": "The Day He will assemble you for the Day of Assembly - that is the Day of Deprivation. And whoever believes in Allāh and does righteousness - He will remove from him his misdeeds and admit him to gardens beneath which rivers flow, wherein they will abide forever. That is the great attainment.",
+        "id": "(Ingatlah) pada hari (ketika) Allah mengumpulkan kamu pada hari berhimpun, itulah hari pengungkapan kesalahan-kesalahan. Dan barangsiapa beriman kepada Allah dan mengerjakan kebajikan niscaya Allah akan menghapus kesalahan-kesalahannya dan memasukkannya ke dalam surga yang mengalir di bawahnya sungai-sungai, mereka kekal di dalamnya selama-lamanya. Itulah kemenangan yang agung."
+      },
+      "page": 556,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يَوْمَ",
+          "meanings": {
+            "en": "(The) Day",
+            "id": "hari"
+          },
+          "transliteration": "yawma"
+        },
+        {
+          "text": "يَجْمَعُكُمْ",
+          "meanings": {
+            "en": "He will assemble you",
+            "id": "Dia mengumpulkan kamu"
+          },
+          "transliteration": "yajmaʿukum"
+        },
+        {
+          "text": "لِيَوْمِ",
+          "meanings": {
+            "en": "for (the) Day",
+            "id": "di hari"
+          },
+          "transliteration": "liyawmi"
+        },
+        {
+          "text": "ٱلْجَمْعِ ۖ",
+          "meanings": {
+            "en": "(of) the Assembly",
+            "id": "pengumpulan"
+          },
+          "transliteration": "l-jamʿi"
+        },
+        {
+          "text": "ذَٰلِكَ",
+          "meanings": {
+            "en": "that",
+            "id": "demikian itu"
+          },
+          "transliteration": "dhālika"
+        },
+        {
+          "text": "يَوْمُ",
+          "meanings": {
+            "en": "(will be the) Day",
+            "id": "hari"
+          },
+          "transliteration": "yawmu"
+        },
+        {
+          "text": "ٱلتَّغَابُنِ ۗ",
+          "meanings": {
+            "en": "(of) mutual loss and gain",
+            "id": "dinampakkan kesalahan-kesalahan"
+          },
+          "transliteration": "l-taghābuni"
+        },
+        {
+          "text": "وَمَن",
+          "meanings": {
+            "en": "And whoever",
+            "id": "dan barangsiapa"
+          },
+          "transliteration": "waman"
+        },
+        {
+          "text": "يُؤْمِنۢ",
+          "meanings": {
+            "en": "believes",
+            "id": "beriman"
+          },
+          "transliteration": "yu'min"
+        },
+        {
+          "text": "بِٱللَّهِ",
+          "meanings": {
+            "en": "in Allah",
+            "id": "kepada Allah"
+          },
+          "transliteration": "bil-lahi"
+        },
+        {
+          "text": "وَيَعْمَلْ",
+          "meanings": {
+            "en": "and does",
+            "id": "dan berbuat/beramal"
+          },
+          "transliteration": "wayaʿmal"
+        },
+        {
+          "text": "صَـٰلِحًۭا",
+          "meanings": {
+            "en": "righteous deeds",
+            "id": "kebaikan/saleh"
+          },
+          "transliteration": "ṣāliḥan"
+        },
+        {
+          "text": "يُكَفِّرْ",
+          "meanings": {
+            "en": "He will remove",
+            "id": "dan akan menutup/menghapus"
+          },
+          "transliteration": "yukaffir"
+        },
+        {
+          "text": "عَنْهُ",
+          "meanings": {
+            "en": "from him",
+            "id": "dari padanya"
+          },
+          "transliteration": "ʿanhu"
+        },
+        {
+          "text": "سَيِّـَٔاتِهِۦ",
+          "meanings": {
+            "en": "his evil deeds",
+            "id": "kesalahan-kesalahannya"
+          },
+          "transliteration": "sayyiātihi"
+        },
+        {
+          "text": "وَيُدْخِلْهُ",
+          "meanings": {
+            "en": "and He will admit him",
+            "id": "dan Dia akan memasukkannya"
+          },
+          "transliteration": "wayud'khil'hu"
+        },
+        {
+          "text": "جَنَّـٰتٍۢ",
+          "meanings": {
+            "en": "(to) Gardens",
+            "id": "sorga"
+          },
+          "transliteration": "jannātin"
+        },
+        {
+          "text": "تَجْرِى",
+          "meanings": {
+            "en": "flow",
+            "id": "mengalir"
+          },
+          "transliteration": "tajrī"
+        },
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "تَحْتِهَا",
+          "meanings": {
+            "en": "underneath it",
+            "id": "bawahnya"
+          },
+          "transliteration": "taḥtihā"
+        },
+        {
+          "text": "ٱلْأَنْهَـٰرُ",
+          "meanings": {
+            "en": "the rivers",
+            "id": "sungai-sungai"
+          },
+          "transliteration": "l-anhāru"
+        },
+        {
+          "text": "خَـٰلِدِينَ",
+          "meanings": {
+            "en": "abiding",
+            "id": "mereka kekal"
+          },
+          "transliteration": "khālidīna"
+        },
+        {
+          "text": "فِيهَآ",
+          "meanings": {
+            "en": "therein",
+            "id": "di dalamnya"
+          },
+          "transliteration": "fīhā"
+        },
+        {
+          "text": "أَبَدًۭا ۚ",
+          "meanings": {
+            "en": "forever",
+            "id": "selama-lamanya"
+          },
+          "transliteration": "abadan"
+        },
+        {
+          "text": "ذَٰلِكَ",
+          "meanings": {
+            "en": "That",
+            "id": "demikan itu"
+          },
+          "transliteration": "dhālika"
+        },
+        {
+          "text": "ٱلْفَوْزُ",
+          "meanings": {
+            "en": "(is) the success",
+            "id": "keuntungan"
+          },
+          "transliteration": "l-fawzu"
+        },
+        {
+          "text": "ٱلْعَظِيمُ",
+          "meanings": {
+            "en": "the great",
+            "id": "yang besar"
+          },
+          "transliteration": "l-ʿaẓīmu"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "key": "64:10",
+      "text": "وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَـٰتِنَآ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ خَـٰلِدِينَ فِيهَا ۖ وَبِئْسَ ٱلْمَصِيرُ",
+      "translations": {
+        "en": "But the ones who disbelieved and denied Our verses - those are the companions of the Fire, abiding eternally therein; and wretched is the destination.",
+        "id": "Dan orang-orang yang kafir dan mendustakan ayat-ayat Kami, mereka itulah penghuni neraka, mereka kekal di dalamnya. Dan itulah seburuk-buruk tempat kembali."
+      },
+      "page": 557,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلَّذِينَ",
+          "meanings": {
+            "en": "But those who",
+            "id": "dan orang-orang yang"
+          },
+          "transliteration": "wa-alladhīna"
+        },
+        {
+          "text": "كَفَرُوا۟",
+          "meanings": {
+            "en": "disbelieved",
+            "id": "kafir/ingkar"
+          },
+          "transliteration": "kafarū"
+        },
+        {
+          "text": "وَكَذَّبُوا۟",
+          "meanings": {
+            "en": "and denied",
+            "id": "dan mereka mendustakan"
+          },
+          "transliteration": "wakadhabū"
+        },
+        {
+          "text": "بِـَٔايَـٰتِنَآ",
+          "meanings": {
+            "en": "[in] Our Verses",
+            "id": "pada ayat-ayat Kami"
+          },
+          "transliteration": "biāyātinā"
+        },
+        {
+          "text": "أُو۟لَـٰٓئِكَ",
+          "meanings": {
+            "en": "those",
+            "id": "mereka itu"
+          },
+          "transliteration": "ulāika"
+        },
+        {
+          "text": "أَصْحَـٰبُ",
+          "meanings": {
+            "en": "(are the) companions",
+            "id": "penghuni"
+          },
+          "transliteration": "aṣḥābu"
+        },
+        {
+          "text": "ٱلنَّارِ",
+          "meanings": {
+            "en": "(of) the Fire",
+            "id": "api/neraka"
+          },
+          "transliteration": "l-nāri"
+        },
+        {
+          "text": "خَـٰلِدِينَ",
+          "meanings": {
+            "en": "abiding forever",
+            "id": "mereka kekal"
+          },
+          "transliteration": "khālidīna"
+        },
+        {
+          "text": "فِيهَا ۖ",
+          "meanings": {
+            "en": "therein",
+            "id": "di dalamnya"
+          },
+          "transliteration": "fīhā"
+        },
+        {
+          "text": "وَبِئْسَ",
+          "meanings": {
+            "en": "And wretched is",
+            "id": "dan seburuk-buruk"
+          },
+          "transliteration": "wabi'sa"
+        },
+        {
+          "text": "ٱلْمَصِيرُ",
+          "meanings": {
+            "en": "the destination",
+            "id": "tempat kembali"
+          },
+          "transliteration": "l-maṣīru"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "key": "64:11",
+      "text": "مَآ أَصَابَ مِن مُّصِيبَةٍ إِلَّا بِإِذْنِ ٱللَّهِ ۗ وَمَن يُؤْمِنۢ بِٱللَّهِ يَهْدِ قَلْبَهُۥ ۚ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "translations": {
+        "en": "No disaster strikes except by permission of Allāh. And whoever believes in Allāh - He will guide his heart. And Allāh is Knowing of all things.",
+        "id": "Tidak ada suatu musibah yang menimpa (seseorang), kecuali dengan izin Allah; dan barangsiapa beriman kepada Allah, niscaya Allah akan memberi petunjuk kepada hatinya. Dan Allah Maha Mengetahui segala sesuatu."
+      },
+      "page": 557,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "مَآ",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "أَصَابَ",
+          "meanings": {
+            "en": "strikes",
+            "id": "menimpa"
+          },
+          "transliteration": "aṣāba"
+        },
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "any",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "مُّصِيبَةٍ",
+          "meanings": {
+            "en": "disaster",
+            "id": "musibah"
+          },
+          "transliteration": "muṣībatin"
+        },
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "بِإِذْنِ",
+          "meanings": {
+            "en": "by (the) permission",
+            "id": "dengan izin"
+          },
+          "transliteration": "bi-idh'ni"
+        },
+        {
+          "text": "ٱللَّهِ ۗ",
+          "meanings": {
+            "en": "(of) Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahi"
+        },
+        {
+          "text": "وَمَن",
+          "meanings": {
+            "en": "And whoever",
+            "id": "dan barangsiapa"
+          },
+          "transliteration": "waman"
+        },
+        {
+          "text": "يُؤْمِنۢ",
+          "meanings": {
+            "en": "believes",
+            "id": "beriman"
+          },
+          "transliteration": "yu'min"
+        },
+        {
+          "text": "بِٱللَّهِ",
+          "meanings": {
+            "en": "in Allah",
+            "id": "kepada Allah"
+          },
+          "transliteration": "bil-lahi"
+        },
+        {
+          "text": "يَهْدِ",
+          "meanings": {
+            "en": "He guides",
+            "id": "Dia memberi petunjuk"
+          },
+          "transliteration": "yahdi"
+        },
+        {
+          "text": "قَلْبَهُۥ ۚ",
+          "meanings": {
+            "en": "his heart",
+            "id": "hatinya"
+          },
+          "transliteration": "qalbahu"
+        },
+        {
+          "text": "وَٱللَّهُ",
+          "meanings": {
+            "en": "And Allah",
+            "id": "dan Allah"
+          },
+          "transliteration": "wal-lahu"
+        },
+        {
+          "text": "بِكُلِّ",
+          "meanings": {
+            "en": "of every",
+            "id": "dengan segala"
+          },
+          "transliteration": "bikulli"
+        },
+        {
+          "text": "شَىْءٍ",
+          "meanings": {
+            "en": "thing",
+            "id": "sesuatu"
+          },
+          "transliteration": "shayin"
+        },
+        {
+          "text": "عَلِيمٌۭ",
+          "meanings": {
+            "en": "(is) All-Knowing",
+            "id": "Maha Mengetahui"
+          },
+          "transliteration": "ʿalīmun"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "key": "64:12",
+      "text": "وَأَطِيعُوا۟ ٱللَّهَ وَأَطِيعُوا۟ ٱلرَّسُولَ ۚ فَإِن تَوَلَّيْتُمْ فَإِنَّمَا عَلَىٰ رَسُولِنَا ٱلْبَلَـٰغُ ٱلْمُبِينُ",
+      "translations": {
+        "en": "And obey Allāh and obey the Messenger; but if you turn away - then upon Our Messenger is only [the duty of] clear notification.",
+        "id": "Dan taatlah kepada Allah dan taatlah kepada Rasul. Jika kamu berpaling maka sesungguhnya kewajiban Rasul Kami hanyalah menyampaikan (amanah Allah) dengan terang."
+      },
+      "page": 557,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَطِيعُوا۟",
+          "meanings": {
+            "en": "So obey",
+            "id": "dan taatlah"
+          },
+          "transliteration": "wa-aṭīʿū"
+        },
+        {
+          "text": "ٱللَّهَ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-laha"
+        },
+        {
+          "text": "وَأَطِيعُوا۟",
+          "meanings": {
+            "en": "and obey",
+            "id": "dan taatlah"
+          },
+          "transliteration": "wa-aṭīʿū"
+        },
+        {
+          "text": "ٱلرَّسُولَ ۚ",
+          "meanings": {
+            "en": "the Messenger",
+            "id": "rasul"
+          },
+          "transliteration": "l-rasūla"
+        },
+        {
+          "text": "فَإِن",
+          "meanings": {
+            "en": "but if",
+            "id": "maka sesungguhnya hanyalah"
+          },
+          "transliteration": "fa-in"
+        },
+        {
+          "text": "تَوَلَّيْتُمْ",
+          "meanings": {
+            "en": "you turn away",
+            "id": "kamu berpaling"
+          },
+          "transliteration": "tawallaytum"
+        },
+        {
+          "text": "فَإِنَّمَا",
+          "meanings": {
+            "en": "then only",
+            "id": "maka sesungguhnya hanyalah"
+          },
+          "transliteration": "fa-innamā"
+        },
+        {
+          "text": "عَلَىٰ",
+          "meanings": {
+            "en": "upon",
+            "id": "atas"
+          },
+          "transliteration": "ʿalā"
+        },
+        {
+          "text": "رَسُولِنَا",
+          "meanings": {
+            "en": "Our Messenger",
+            "id": "rasul Kami"
+          },
+          "transliteration": "rasūlinā"
+        },
+        {
+          "text": "ٱلْبَلَـٰغُ",
+          "meanings": {
+            "en": "(is) the conveyance",
+            "id": "penyampaian"
+          },
+          "transliteration": "l-balāghu"
+        },
+        {
+          "text": "ٱلْمُبِينُ",
+          "meanings": {
+            "en": "clear",
+            "id": "terang/nyata"
+          },
+          "transliteration": "l-mubīnu"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "key": "64:13",
+      "text": "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
+      "translations": {
+        "en": "Allāh - there is no deity except Him. And upon Allāh let the believers rely.",
+        "id": "(Dialah) Allah, tidak ada tuhan selain Dia. Dan hendaklah orang-orang mukmin bertawakal kepada Allah."
+      },
+      "page": 557,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱللَّهُ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "al-lahu"
+        },
+        {
+          "text": "لَآ",
+          "meanings": {
+            "en": "(there is) no",
+            "id": "tidak"
+          },
+          "transliteration": "lā"
+        },
+        {
+          "text": "إِلَـٰهَ",
+          "meanings": {
+            "en": "god",
+            "id": "Tuhan"
+          },
+          "transliteration": "ilāha"
+        },
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "هُوَ ۚ",
+          "meanings": {
+            "en": "Him",
+            "id": "Dia"
+          },
+          "transliteration": "huwa"
+        },
+        {
+          "text": "وَعَلَى",
+          "meanings": {
+            "en": "And upon",
+            "id": "dan atas/kepada"
+          },
+          "transliteration": "waʿalā"
+        },
+        {
+          "text": "ٱللَّهِ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahi"
+        },
+        {
+          "text": "فَلْيَتَوَكَّلِ",
+          "meanings": {
+            "en": "let put (their) trust",
+            "id": "maka hendaklah bertawakkal"
+          },
+          "transliteration": "falyatawakkali"
+        },
+        {
+          "text": "ٱلْمُؤْمِنُونَ",
+          "meanings": {
+            "en": "the believers",
+            "id": "orang-orang yang beriman"
+          },
+          "transliteration": "l-mu'minūna"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "key": "64:14",
+      "text": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ مِنْ أَزْوَٰجِكُمْ وَأَوْلَـٰدِكُمْ عَدُوًّا لَّكُمْ فَٱحْذَرُوهُمْ ۚ وَإِن تَعْفُوا۟ وَتَصْفَحُوا۟ وَتَغْفِرُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "translations": {
+        "en": "O you who have believed, indeed, among your spouses and your children are enemies to you, so beware of them. But if you pardon and overlook and forgive - then indeed, Allāh is Forgiving and Merciful.",
+        "id": "Wahai orang-orang yang beriman! Sesungguhnya di antara istri-istrimu dan anak-anakmu ada yang menjadi musuh bagimu, maka berhati-hatilah kamu terhadap mereka; dan jika kamu maafkan dan kamu santuni serta ampuni (mereka), maka sungguh, Allah Maha Pengampun, Maha Penyayang."
+      },
+      "page": 557,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يَـٰٓأَيُّهَا",
+          "meanings": {
+            "en": "O",
+            "id": "wahai"
+          },
+          "transliteration": "yāayyuhā"
+        },
+        {
+          "text": "ٱلَّذِينَ",
+          "meanings": {
+            "en": "(you) who",
+            "id": "orang-orang yang"
+          },
+          "transliteration": "alladhīna"
+        },
+        {
+          "text": "ءَامَنُوٓا۟",
+          "meanings": {
+            "en": "believe",
+            "id": "beriman"
+          },
+          "transliteration": "āmanū"
+        },
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "مِنْ",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "أَزْوَٰجِكُمْ",
+          "meanings": {
+            "en": "your spouses",
+            "id": "isteri-isterimu"
+          },
+          "transliteration": "azwājikum"
+        },
+        {
+          "text": "وَأَوْلَـٰدِكُمْ",
+          "meanings": {
+            "en": "and your children",
+            "id": "dan anak-anakmu"
+          },
+          "transliteration": "wa-awlādikum"
+        },
+        {
+          "text": "عَدُوًّۭا",
+          "meanings": {
+            "en": "(are) enemies",
+            "id": "musuh"
+          },
+          "transliteration": "ʿaduwwan"
+        },
+        {
+          "text": "لَّكُمْ",
+          "meanings": {
+            "en": "to you",
+            "id": "bagi kalian"
+          },
+          "transliteration": "lakum"
+        },
+        {
+          "text": "فَٱحْذَرُوهُمْ ۚ",
+          "meanings": {
+            "en": "so beware of them",
+            "id": "maka berhati-hatilah kepada mereka"
+          },
+          "transliteration": "fa-iḥ'dharūhum"
+        },
+        {
+          "text": "وَإِن",
+          "meanings": {
+            "en": "But if",
+            "id": "dan jika"
+          },
+          "transliteration": "wa-in"
+        },
+        {
+          "text": "تَعْفُوا۟",
+          "meanings": {
+            "en": "you pardon",
+            "id": "kamu memaafkan"
+          },
+          "transliteration": "taʿfū"
+        },
+        {
+          "text": "وَتَصْفَحُوا۟",
+          "meanings": {
+            "en": "and overlook",
+            "id": "dan kamu berhati lapang"
+          },
+          "transliteration": "wataṣfaḥū"
+        },
+        {
+          "text": "وَتَغْفِرُوا۟",
+          "meanings": {
+            "en": "and forgive",
+            "id": "dan kamu mengampuni"
+          },
+          "transliteration": "wataghfirū"
+        },
+        {
+          "text": "فَإِنَّ",
+          "meanings": {
+            "en": "then indeed",
+            "id": "maka sesungguhnya"
+          },
+          "transliteration": "fa-inna"
+        },
+        {
+          "text": "ٱللَّهَ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-laha"
+        },
+        {
+          "text": "غَفُورٌۭ",
+          "meanings": {
+            "en": "(is) Oft-Forgiving",
+            "id": "Maha Pengampun"
+          },
+          "transliteration": "ghafūrun"
+        },
+        {
+          "text": "رَّحِيمٌ",
+          "meanings": {
+            "en": "Most Merciful",
+            "id": "Maha Penyayang"
+          },
+          "transliteration": "raḥīmun"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "key": "64:15",
+      "text": "إِنَّمَآ أَمْوَٰلُكُمْ وَأَوْلَـٰدُكُمْ فِتْنَةٌ ۚ وَٱللَّهُ عِندَهُۥٓ أَجْرٌ عَظِيمٌ",
+      "translations": {
+        "en": "Your wealth and your children are but a trial, and Allāh has with Him a great reward.",
+        "id": "Sesungguhnya hartamu dan anak-anakmu hanyalah cobaan (bagimu), dan di sisi Allah pahala yang besar."
+      },
+      "page": 557,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّمَآ",
+          "meanings": {
+            "en": "Only",
+            "id": "sesungguhnya hanyalah"
+          },
+          "transliteration": "innamā"
+        },
+        {
+          "text": "أَمْوَٰلُكُمْ",
+          "meanings": {
+            "en": "your wealth",
+            "id": "hartamu"
+          },
+          "transliteration": "amwālukum"
+        },
+        {
+          "text": "وَأَوْلَـٰدُكُمْ",
+          "meanings": {
+            "en": "and your children",
+            "id": "dan anak-anakmu"
+          },
+          "transliteration": "wa-awlādukum"
+        },
+        {
+          "text": "فِتْنَةٌۭ ۚ",
+          "meanings": {
+            "en": "(are) a trial",
+            "id": "fitnah/ujian"
+          },
+          "transliteration": "fit'natun"
+        },
+        {
+          "text": "وَٱللَّهُ",
+          "meanings": {
+            "en": "and Allah ",
+            "id": "dan Allah"
+          },
+          "transliteration": "wal-lahu"
+        },
+        {
+          "text": "عِندَهُۥٓ",
+          "meanings": {
+            "en": "with Him",
+            "id": "disisi-Nya"
+          },
+          "transliteration": "ʿindahu"
+        },
+        {
+          "text": "أَجْرٌ",
+          "meanings": {
+            "en": "(is) a reward",
+            "id": "pahala"
+          },
+          "transliteration": "ajrun"
+        },
+        {
+          "text": "عَظِيمٌۭ",
+          "meanings": {
+            "en": "great",
+            "id": "besar"
+          },
+          "transliteration": "ʿaẓīmun"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "key": "64:16",
+      "text": "فَٱتَّقُوا۟ ٱللَّهَ مَا ٱسْتَطَعْتُمْ وَٱسْمَعُوا۟ وَأَطِيعُوا۟ وَأَنفِقُوا۟ خَيْرًا لِّأَنفُسِكُمْ ۗ وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "translations": {
+        "en": "So fear Allāh as much as you are able and listen and obey and spend [in the way of Allāh]; it is better for your selves. And whoever is protected from the stinginess of his soul - it is those who will be the successful.",
+        "id": "Maka bertakwalah kamu kepada Allah menurut kesanggupanmu dan dengarlah serta taatlah; dan infakkanlah harta yang baik untuk dirimu. Dan barangsiapa dijaga dirinya dari kekikiran, mereka itulah orang-orang yang beruntung."
+      },
+      "page": 557,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَٱتَّقُوا۟",
+          "meanings": {
+            "en": "So fear",
+            "id": "maka bertakwalah kamu"
+          },
+          "transliteration": "fa-ittaqū"
+        },
+        {
+          "text": "ٱللَّهَ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-laha"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "ٱسْتَطَعْتُمْ",
+          "meanings": {
+            "en": "you are able",
+            "id": "menurut kesanggupanmu"
+          },
+          "transliteration": "is'taṭaʿtum"
+        },
+        {
+          "text": "وَٱسْمَعُوا۟",
+          "meanings": {
+            "en": "and listen",
+            "id": "dan dengarlah"
+          },
+          "transliteration": "wa-is'maʿū"
+        },
+        {
+          "text": "وَأَطِيعُوا۟",
+          "meanings": {
+            "en": "and obey",
+            "id": "dan taatlah"
+          },
+          "transliteration": "wa-aṭīʿū"
+        },
+        {
+          "text": "وَأَنفِقُوا۟",
+          "meanings": {
+            "en": "and spend",
+            "id": "dan belanjakan"
+          },
+          "transliteration": "wa-anfiqū"
+        },
+        {
+          "text": "خَيْرًۭا",
+          "meanings": {
+            "en": "(it is) better",
+            "id": "baik"
+          },
+          "transliteration": "khayran"
+        },
+        {
+          "text": "لِّأَنفُسِكُمْ ۗ",
+          "meanings": {
+            "en": "for yourselves",
+            "id": "bagi dirimu"
+          },
+          "transliteration": "li-anfusikum"
+        },
+        {
+          "text": "وَمَن",
+          "meanings": {
+            "en": "And whoever",
+            "id": "dan barang siapa"
+          },
+          "transliteration": "waman"
+        },
+        {
+          "text": "يُوقَ",
+          "meanings": {
+            "en": "is saved",
+            "id": "dipelihara"
+          },
+          "transliteration": "yūqa"
+        },
+        {
+          "text": "شُحَّ",
+          "meanings": {
+            "en": "(from the) greediness",
+            "id": "kekikiran"
+          },
+          "transliteration": "shuḥḥa"
+        },
+        {
+          "text": "نَفْسِهِۦ",
+          "meanings": {
+            "en": "(of) his soul",
+            "id": "dirinya"
+          },
+          "transliteration": "nafsihi"
+        },
+        {
+          "text": "فَأُو۟لَـٰٓئِكَ",
+          "meanings": {
+            "en": "then those",
+            "id": "maka mereka itu"
+          },
+          "transliteration": "fa-ulāika"
+        },
+        {
+          "text": "هُمُ",
+          "meanings": {
+            "en": "[they]",
+            "id": "mereka"
+          },
+          "transliteration": "humu"
+        },
+        {
+          "text": "ٱلْمُفْلِحُونَ",
+          "meanings": {
+            "en": "(are) the successful ones",
+            "id": "orang-orang yang beruntung"
+          },
+          "transliteration": "l-muf'liḥūna"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "key": "64:17",
+      "text": "إِن تُقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا يُضَـٰعِفْهُ لَكُمْ وَيَغْفِرْ لَكُمْ ۚ وَٱللَّهُ شَكُورٌ حَلِيمٌ",
+      "translations": {
+        "en": "If you loan Allāh a goodly loan, He will multiply it for you and forgive you. And Allāh is [most] Appreciative and Forbearing,",
+        "id": "Jika kamu meminjamkan kepada Allah dengan pinjaman yang baik, niscaya Dia melipatgandakan (balasan) untukmu dan mengampuni kamu. Dan Allah Maha Mensyukuri, Maha Penyantun."
+      },
+      "page": 557,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِن",
+          "meanings": {
+            "en": "If",
+            "id": "jika"
+          },
+          "transliteration": "in"
+        },
+        {
+          "text": "تُقْرِضُوا۟",
+          "meanings": {
+            "en": "you loan",
+            "id": "kamu memberi pinjaman"
+          },
+          "transliteration": "tuq'riḍū"
+        },
+        {
+          "text": "ٱللَّهَ",
+          "meanings": {
+            "en": "(to) Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-laha"
+        },
+        {
+          "text": "قَرْضًا",
+          "meanings": {
+            "en": "a loan",
+            "id": "pinjaman"
+          },
+          "transliteration": "qarḍan"
+        },
+        {
+          "text": "حَسَنًۭا",
+          "meanings": {
+            "en": "goodly",
+            "id": "baik"
+          },
+          "transliteration": "ḥasanan"
+        },
+        {
+          "text": "يُضَـٰعِفْهُ",
+          "meanings": {
+            "en": "He will multiply it",
+            "id": "Dia melipat gandakannya"
+          },
+          "transliteration": "yuḍāʿif'hu"
+        },
+        {
+          "text": "لَكُمْ",
+          "meanings": {
+            "en": "for you",
+            "id": "bagi kalian"
+          },
+          "transliteration": "lakum"
+        },
+        {
+          "text": "وَيَغْفِرْ",
+          "meanings": {
+            "en": "and will forgive",
+            "id": "dan Dia mengampuni"
+          },
+          "transliteration": "wayaghfir"
+        },
+        {
+          "text": "لَكُمْ ۚ",
+          "meanings": {
+            "en": "you",
+            "id": "bagi kalian"
+          },
+          "transliteration": "lakum"
+        },
+        {
+          "text": "وَٱللَّهُ",
+          "meanings": {
+            "en": "And Allah",
+            "id": "dan Allah"
+          },
+          "transliteration": "wal-lahu"
+        },
+        {
+          "text": "شَكُورٌ",
+          "meanings": {
+            "en": "(is) Most Appreciative",
+            "id": "Maha Mensyukuri"
+          },
+          "transliteration": "shakūrun"
+        },
+        {
+          "text": "حَلِيمٌ",
+          "meanings": {
+            "en": "Most Forbearing",
+            "id": "Maha Penyantun"
+          },
+          "transliteration": "ḥalīmun"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "key": "64:18",
+      "text": "عَـٰلِمُ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "translations": {
+        "en": "Knower of the unseen and the witnessed, the Exalted in Might, the Wise.",
+        "id": "Yang Mengetahui yang gaib dan yang nyata. Yang Mahaperkasa, Mahabijaksana."
+      },
+      "page": 557,
+      "juz": 28,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "عَـٰلِمُ",
+          "meanings": {
+            "en": "(The) Knower",
+            "id": "Yang Mengetahui"
+          },
+          "transliteration": "ʿālimu"
+        },
+        {
+          "text": "ٱلْغَيْبِ",
+          "meanings": {
+            "en": "(of) the unseen",
+            "id": "yang gaib"
+          },
+          "transliteration": "l-ghaybi"
+        },
+        {
+          "text": "وَٱلشَّهَـٰدَةِ",
+          "meanings": {
+            "en": "and the witnessed",
+            "id": "dan yang nyata"
+          },
+          "transliteration": "wal-shahādati"
+        },
+        {
+          "text": "ٱلْعَزِيزُ",
+          "meanings": {
+            "en": "the All-Mighty",
+            "id": "Maha Perkasa"
+          },
+          "transliteration": "l-ʿazīzu"
+        },
+        {
+          "text": "ٱلْحَكِيمُ",
+          "meanings": {
+            "en": "the All-Wise",
+            "id": "Maha Bijaksana"
+          },
+          "transliteration": "l-ḥakīmu"
+        }
+      ]
+    }
+  ]
+}

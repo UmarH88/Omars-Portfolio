@@ -1,0 +1,3772 @@
+{
+  "id": 53,
+  "nameSimple": "An-Najm",
+  "nameArabic": "النجم",
+  "meaning": "The Star",
+  "revelationPlace": "makkah",
+  "versesCount": 62,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "53:1",
+      "text": " وَٱلنَّجْمِ إِذَا هَوَىٰ",
+      "translations": {
+        "en": "By the star when it descends,",
+        "id": "Demi bintang ketika terbenam,"
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلنَّجْمِ",
+          "meanings": {
+            "en": "By the star",
+            "id": "demi bintang"
+          },
+          "transliteration": "wal-najmi"
+        },
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "when",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "هَوَىٰ",
+          "meanings": {
+            "en": "it goes down",
+            "id": "terbenam"
+          },
+          "transliteration": "hawā"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "53:2",
+      "text": "مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ",
+      "translations": {
+        "en": "Your companion [i.e., Muḥammad] has not strayed, nor has he erred,",
+        "id": "kawanmu (Muhammad) tidak sesat dan tidak (pula) keliru,"
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "ضَلَّ",
+          "meanings": {
+            "en": "has strayed",
+            "id": "sesat"
+          },
+          "transliteration": "ḍalla"
+        },
+        {
+          "text": "صَاحِبُكُمْ",
+          "meanings": {
+            "en": "your companion",
+            "id": "kawanmu"
+          },
+          "transliteration": "ṣāḥibukum"
+        },
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "and not",
+            "id": "dan tidak"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "غَوَىٰ",
+          "meanings": {
+            "en": "has he erred",
+            "id": "keliru/sesat"
+          },
+          "transliteration": "ghawā"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "53:3",
+      "text": "وَمَا يَنطِقُ عَنِ ٱلْهَوَىٰٓ",
+      "translations": {
+        "en": "Nor does he speak from [his own] inclination.",
+        "id": "dan tidaklah yang diucapkannya itu (Alquran) menurut keinginannya."
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "And not",
+            "id": "dan tidak"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "يَنطِقُ",
+          "meanings": {
+            "en": "he speaks",
+            "id": "dia mengucap/berkata"
+          },
+          "transliteration": "yanṭiqu"
+        },
+        {
+          "text": "عَنِ",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "ʿani"
+        },
+        {
+          "text": "ٱلْهَوَىٰٓ",
+          "meanings": {
+            "en": "the desire",
+            "id": "hawa nafsu"
+          },
+          "transliteration": "l-hawā"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "53:4",
+      "text": "إِنْ هُوَ إِلَّا وَحْىٌ يُوحَىٰ",
+      "translations": {
+        "en": "It is not but a revelation revealed,",
+        "id": "Tidak lain (Alquran itu) adalah wahyu yang diwahyukan (kepadanya),"
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنْ",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak lain"
+          },
+          "transliteration": "in"
+        },
+        {
+          "text": "هُوَ",
+          "meanings": {
+            "en": "it",
+            "id": "dia"
+          },
+          "transliteration": "huwa"
+        },
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "(is) except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "وَحْىٌۭ",
+          "meanings": {
+            "en": "a revelation",
+            "id": "wahyu"
+          },
+          "transliteration": "waḥyun"
+        },
+        {
+          "text": "يُوحَىٰ",
+          "meanings": {
+            "en": "revealed",
+            "id": "diwahyukan"
+          },
+          "transliteration": "yūḥā"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "53:5",
+      "text": "عَلَّمَهُۥ شَدِيدُ ٱلْقُوَىٰ",
+      "translations": {
+        "en": "Taught to him by one intense in strength [i.e., Gabriel] -",
+        "id": "yang diajarkan kepadanya oleh (Jibril) yang sangat kuat,"
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "عَلَّمَهُۥ",
+          "meanings": {
+            "en": "Has taught him",
+            "id": "mengajarkan kepadanya"
+          },
+          "transliteration": "ʿallamahu"
+        },
+        {
+          "text": "شَدِيدُ",
+          "meanings": {
+            "en": "the (one) mighty",
+            "id": "sangat"
+          },
+          "transliteration": "shadīdu"
+        },
+        {
+          "text": "ٱلْقُوَىٰ",
+          "meanings": {
+            "en": "(in) power",
+            "id": "kuat"
+          },
+          "transliteration": "l-quwā"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "53:6",
+      "text": "ذُو مِرَّةٍ فَٱسْتَوَىٰ",
+      "translations": {
+        "en": "One of soundness. And he rose to [his] true form",
+        "id": "yang mempunyai keteguhan; maka (Jibril itu) menampakkan diri dengan rupa yang asli (rupa yang bagus dan perkasa)"
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ذُو",
+          "meanings": {
+            "en": "Possessor of soundness",
+            "id": "mempunyai"
+          },
+          "transliteration": "dhū"
+        },
+        {
+          "text": "مِرَّةٍۢ",
+          "meanings": {
+            "en": "Possessor of soundness",
+            "id": "kekuatan/kecerdasan"
+          },
+          "transliteration": "mirratin"
+        },
+        {
+          "text": "فَٱسْتَوَىٰ",
+          "meanings": {
+            "en": "And he rose",
+            "id": "lalu dia cukup sempurna"
+          },
+          "transliteration": "fa-is'tawā"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "53:7",
+      "text": "وَهُوَ بِٱلْأُفُقِ ٱلْأَعْلَىٰ",
+      "translations": {
+        "en": "While he was in the higher [part of the] horizon.",
+        "id": "Sedang dia berada di ufuk yang tinggi."
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَهُوَ",
+          "meanings": {
+            "en": "While he",
+            "id": "dan dia"
+          },
+          "transliteration": "wahuwa"
+        },
+        {
+          "text": "بِٱلْأُفُقِ",
+          "meanings": {
+            "en": "(was) in the horizon ",
+            "id": "di ufuk"
+          },
+          "transliteration": "bil-ufuqi"
+        },
+        {
+          "text": "ٱلْأَعْلَىٰ",
+          "meanings": {
+            "en": "the highest",
+            "id": "yang tinggi"
+          },
+          "transliteration": "l-aʿlā"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "53:8",
+      "text": "ثُمَّ دَنَا فَتَدَلَّىٰ",
+      "translations": {
+        "en": "Then he approached and descended",
+        "id": "Kemudian dia mendekat (pada Muhammad), lalu bertambah dekat,"
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ثُمَّ",
+          "meanings": {
+            "en": "Then",
+            "id": "kemudian"
+          },
+          "transliteration": "thumma"
+        },
+        {
+          "text": "دَنَا",
+          "meanings": {
+            "en": "he approached",
+            "id": "dia mendekat"
+          },
+          "transliteration": "danā"
+        },
+        {
+          "text": "فَتَدَلَّىٰ",
+          "meanings": {
+            "en": "and came down",
+            "id": "lalu dia turun"
+          },
+          "transliteration": "fatadallā"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "key": "53:9",
+      "text": "فَكَانَ قَابَ قَوْسَيْنِ أَوْ أَدْنَىٰ",
+      "translations": {
+        "en": "And was at a distance of two bow lengths or nearer.",
+        "id": "sehingga jaraknya (sekitar) dua busur panah atau lebih dekat (lagi)."
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَكَانَ",
+          "meanings": {
+            "en": "And was",
+            "id": "maka adalah dia"
+          },
+          "transliteration": "fakāna"
+        },
+        {
+          "text": "قَابَ",
+          "meanings": {
+            "en": "(at) a distance",
+            "id": "ukuran/jarak"
+          },
+          "transliteration": "qāba"
+        },
+        {
+          "text": "قَوْسَيْنِ",
+          "meanings": {
+            "en": "(of) two bow-(lengths)",
+            "id": "dua busur panah"
+          },
+          "transliteration": "qawsayni"
+        },
+        {
+          "text": "أَوْ",
+          "meanings": {
+            "en": "or",
+            "id": "atau"
+          },
+          "transliteration": "aw"
+        },
+        {
+          "text": "أَدْنَىٰ",
+          "meanings": {
+            "en": "nearer",
+            "id": "lebih dekat"
+          },
+          "transliteration": "adnā"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "key": "53:10",
+      "text": "فَأَوْحَىٰٓ إِلَىٰ عَبْدِهِۦ مَآ أَوْحَىٰ",
+      "translations": {
+        "en": "And he revealed to His Servant what he revealed [i.e., conveyed].",
+        "id": "Lalu disampaikannya wahyu kepada hamba-Nya (Muhammad) apa yang telah diwahyukan Allah."
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَأَوْحَىٰٓ",
+          "meanings": {
+            "en": "So he revealed",
+            "id": "maka Dia mewahyukan"
+          },
+          "transliteration": "fa-awḥā"
+        },
+        {
+          "text": "إِلَىٰ",
+          "meanings": {
+            "en": "to",
+            "id": "kepada"
+          },
+          "transliteration": "ilā"
+        },
+        {
+          "text": "عَبْدِهِۦ",
+          "meanings": {
+            "en": "His slave",
+            "id": "hamba-Nya"
+          },
+          "transliteration": "ʿabdihi"
+        },
+        {
+          "text": "مَآ",
+          "meanings": {
+            "en": "what",
+            "id": "apa yang"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "أَوْحَىٰ",
+          "meanings": {
+            "en": "he revealed",
+            "id": "Dia wahyukan"
+          },
+          "transliteration": "awḥā"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "key": "53:11",
+      "text": "مَا كَذَبَ ٱلْفُؤَادُ مَا رَأَىٰٓ",
+      "translations": {
+        "en": "The heart did not lie [about] what it saw.",
+        "id": "Hatinya tidak mendustakan apa yang telah dilihatnya."
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "كَذَبَ",
+          "meanings": {
+            "en": "lied",
+            "id": "mendustakan"
+          },
+          "transliteration": "kadhaba"
+        },
+        {
+          "text": "ٱلْفُؤَادُ",
+          "meanings": {
+            "en": "the heart",
+            "id": "hati itu"
+          },
+          "transliteration": "l-fuādu"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "رَأَىٰٓ",
+          "meanings": {
+            "en": "it saw",
+            "id": "dia lihat"
+          },
+          "transliteration": "raā"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "key": "53:12",
+      "text": "أَفَتُمَـٰرُونَهُۥ عَلَىٰ مَا يَرَىٰ",
+      "translations": {
+        "en": "So will you dispute with him over what he saw?",
+        "id": "Maka apakah kamu (musyrikin Mekkah) hendak membantahnya tentang apa yang dilihatnya itu?"
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَفَتُمَـٰرُونَهُۥ",
+          "meanings": {
+            "en": "Then will you dispute with him",
+            "id": "apakah maka kamu membantahnya"
+          },
+          "transliteration": "afatumārūnahu"
+        },
+        {
+          "text": "عَلَىٰ",
+          "meanings": {
+            "en": "about",
+            "id": "atas"
+          },
+          "transliteration": "ʿalā"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa yang"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "يَرَىٰ",
+          "meanings": {
+            "en": "he saw",
+            "id": "dia lihat"
+          },
+          "transliteration": "yarā"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "key": "53:13",
+      "text": "وَلَقَدْ رَءَاهُ نَزْلَةً أُخْرَىٰ",
+      "translations": {
+        "en": "And he certainly saw him in another descent",
+        "id": "Dan sungguh, dia (Muhammad) telah melihatnya (dalam rupanya yang asli) pada waktu yang lain,"
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَلَقَدْ",
+          "meanings": {
+            "en": "And certainly",
+            "id": "dan sesungguhnya"
+          },
+          "transliteration": "walaqad"
+        },
+        {
+          "text": "رَءَاهُ",
+          "meanings": {
+            "en": "he saw him",
+            "id": "dia telah melihatnya"
+          },
+          "transliteration": "raāhu"
+        },
+        {
+          "text": "نَزْلَةً",
+          "meanings": {
+            "en": "(in) descent",
+            "id": "satu kali turun"
+          },
+          "transliteration": "nazlatan"
+        },
+        {
+          "text": "أُخْرَىٰ",
+          "meanings": {
+            "en": "another",
+            "id": "yang lain"
+          },
+          "transliteration": "ukh'rā"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "key": "53:14",
+      "text": "عِندَ سِدْرَةِ ٱلْمُنتَهَىٰ",
+      "translations": {
+        "en": "At the Lote Tree of the Utmost Boundary -",
+        "id": "(yaitu) di Sidratilmuntahā,"
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "عِندَ",
+          "meanings": {
+            "en": "Near",
+            "id": "di sisi"
+          },
+          "transliteration": "ʿinda"
+        },
+        {
+          "text": "سِدْرَةِ",
+          "meanings": {
+            "en": "(the) Lote Tree",
+            "id": "Sidratil"
+          },
+          "transliteration": "sid'rati"
+        },
+        {
+          "text": "ٱلْمُنتَهَىٰ",
+          "meanings": {
+            "en": "(of) the utmost boundary",
+            "id": "Muntaha"
+          },
+          "transliteration": "l-muntahā"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "key": "53:15",
+      "text": "عِندَهَا جَنَّةُ ٱلْمَأْوَىٰٓ",
+      "translations": {
+        "en": "Near it is the Garden of Refuge [i.e., Paradise] -",
+        "id": "di dekatnya ada surga tempat tinggal,"
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "عِندَهَا",
+          "meanings": {
+            "en": "Near it",
+            "id": "di sisinya"
+          },
+          "transliteration": "ʿindahā"
+        },
+        {
+          "text": "جَنَّةُ",
+          "meanings": {
+            "en": "(is the) Garden",
+            "id": "surga"
+          },
+          "transliteration": "jannatu"
+        },
+        {
+          "text": "ٱلْمَأْوَىٰٓ",
+          "meanings": {
+            "en": "(of) Abode",
+            "id": "tempat tinggal"
+          },
+          "transliteration": "l-mawā"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "key": "53:16",
+      "text": "إِذْ يَغْشَى ٱلسِّدْرَةَ مَا يَغْشَىٰ",
+      "translations": {
+        "en": "When there covered the Lote Tree that which covered [it].",
+        "id": "(Muhammad melihat Jibril) ketika Sidratilmuntahā diliputi oleh sesuatu yang meliputinya,"
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِذْ",
+          "meanings": {
+            "en": "When",
+            "id": "ketika"
+          },
+          "transliteration": "idh"
+        },
+        {
+          "text": "يَغْشَى",
+          "meanings": {
+            "en": "covered",
+            "id": "meliputi"
+          },
+          "transliteration": "yaghshā"
+        },
+        {
+          "text": "ٱلسِّدْرَةَ",
+          "meanings": {
+            "en": "the Lote Tree",
+            "id": "Sidratil"
+          },
+          "transliteration": "l-sid'rata"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa/sesuatu"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "يَغْشَىٰ",
+          "meanings": {
+            "en": "covers",
+            "id": "yang meliputi"
+          },
+          "transliteration": "yaghshā"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "key": "53:17",
+      "text": "مَا زَاغَ ٱلْبَصَرُ وَمَا طَغَىٰ",
+      "translations": {
+        "en": "The sight [of the Prophet (ﷺ)] did not swerve, nor did it transgress [its limit].",
+        "id": "penglihatannya (Muhammad) tidak menyimpang dari yang dilihatnya itu dan tidak (pula) melampauinya."
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "زَاغَ",
+          "meanings": {
+            "en": "swerved",
+            "id": "berpaling"
+          },
+          "transliteration": "zāgha"
+        },
+        {
+          "text": "ٱلْبَصَرُ",
+          "meanings": {
+            "en": "the sight",
+            "id": "penglihatan"
+          },
+          "transliteration": "l-baṣaru"
+        },
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "and not",
+            "id": "dan tidak"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "طَغَىٰ",
+          "meanings": {
+            "en": "it transgressed",
+            "id": "melampaui batas"
+          },
+          "transliteration": "ṭaghā"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "key": "53:18",
+      "text": "لَقَدْ رَأَىٰ مِنْ ءَايَـٰتِ رَبِّهِ ٱلْكُبْرَىٰٓ",
+      "translations": {
+        "en": "He certainly saw of the greatest signs of his Lord.",
+        "id": "Sungguh, dia telah melihat sebagian tanda-tanda (kebesaran) Tuhannya yang paling besar."
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "لَقَدْ",
+          "meanings": {
+            "en": "Certainly",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "laqad"
+        },
+        {
+          "text": "رَأَىٰ",
+          "meanings": {
+            "en": "he saw",
+            "id": "dia telah melihat"
+          },
+          "transliteration": "raā"
+        },
+        {
+          "text": "مِنْ",
+          "meanings": {
+            "en": "of",
+            "id": "dari/sebagian"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "ءَايَـٰتِ",
+          "meanings": {
+            "en": "(the) Signs",
+            "id": "tanda-tanda"
+          },
+          "transliteration": "āyāti"
+        },
+        {
+          "text": "رَبِّهِ",
+          "meanings": {
+            "en": "(of) his Lord",
+            "id": "Tuhannya"
+          },
+          "transliteration": "rabbihi"
+        },
+        {
+          "text": "ٱلْكُبْرَىٰٓ",
+          "meanings": {
+            "en": "the Greatest",
+            "id": "paling besar"
+          },
+          "transliteration": "l-kub'rā"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "key": "53:19",
+      "text": "أَفَرَءَيْتُمُ ٱللَّـٰتَ وَٱلْعُزَّىٰ",
+      "translations": {
+        "en": "So have you considered al-Lāt and al-ʿUzzā?",
+        "id": "Maka apakah patut kamu (orang-orang musyrik) menganggap (berhala) Al-Lāta dan Al-'Uzzā,"
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَفَرَءَيْتُمُ",
+          "meanings": {
+            "en": "So have you seen",
+            "id": "apakah maka kamu perhatikan"
+          },
+          "transliteration": "afara-aytumu"
+        },
+        {
+          "text": "ٱللَّـٰتَ",
+          "meanings": {
+            "en": "the Lat",
+            "id": "Al Lata"
+          },
+          "transliteration": "l-lāta"
+        },
+        {
+          "text": "وَٱلْعُزَّىٰ",
+          "meanings": {
+            "en": "and the Uzza",
+            "id": "dan Al 'Uzza"
+          },
+          "transliteration": "wal-ʿuzā"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "key": "53:20",
+      "text": "وَمَنَوٰةَ ٱلثَّالِثَةَ ٱلْأُخْرَىٰٓ",
+      "translations": {
+        "en": "And Manāt, the third - the other one?",
+        "id": "dan Manāt, yang ketiga yang paling kemudian (sebagai anak perempuan Allah)."
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمَنَوٰةَ",
+          "meanings": {
+            "en": "And Manat",
+            "id": "dan Manah"
+          },
+          "transliteration": "wamanata"
+        },
+        {
+          "text": "ٱلثَّالِثَةَ",
+          "meanings": {
+            "en": "the third",
+            "id": "yang ketiga"
+          },
+          "transliteration": "l-thālithata"
+        },
+        {
+          "text": "ٱلْأُخْرَىٰٓ",
+          "meanings": {
+            "en": "the other",
+            "id": "yang lain/hina"
+          },
+          "transliteration": "l-ukh'rā"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "key": "53:21",
+      "text": "أَلَكُمُ ٱلذَّكَرُ وَلَهُ ٱلْأُنثَىٰ",
+      "translations": {
+        "en": "Is the male for you and for Him the female?",
+        "id": "Apakah (pantas) untuk kamu yang laki-laki dan untuk-Nya yang perempuan?"
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَلَكُمُ",
+          "meanings": {
+            "en": "Is for you",
+            "id": "apakah bagimu"
+          },
+          "transliteration": "alakumu"
+        },
+        {
+          "text": "ٱلذَّكَرُ",
+          "meanings": {
+            "en": "the male",
+            "id": "laki-laki"
+          },
+          "transliteration": "l-dhakaru"
+        },
+        {
+          "text": "وَلَهُ",
+          "meanings": {
+            "en": "and for Him",
+            "id": "dan bagi-Nya"
+          },
+          "transliteration": "walahu"
+        },
+        {
+          "text": "ٱلْأُنثَىٰ",
+          "meanings": {
+            "en": "the female",
+            "id": "perempuan"
+          },
+          "transliteration": "l-unthā"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "key": "53:22",
+      "text": "تِلْكَ إِذًا قِسْمَةٌ ضِيزَىٰٓ",
+      "translations": {
+        "en": "That, then, is an unjust division.",
+        "id": "Yang demikian itu tentulah suatu pembagian yang timpang."
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "تِلْكَ",
+          "meanings": {
+            "en": "This",
+            "id": "itu"
+          },
+          "transliteration": "til'ka"
+        },
+        {
+          "text": "إِذًۭا",
+          "meanings": {
+            "en": "then",
+            "id": "jika demikian"
+          },
+          "transliteration": "idhan"
+        },
+        {
+          "text": "قِسْمَةٌۭ",
+          "meanings": {
+            "en": "(is) a division",
+            "id": "pembagian"
+          },
+          "transliteration": "qis'matun"
+        },
+        {
+          "text": "ضِيزَىٰٓ",
+          "meanings": {
+            "en": "unfair",
+            "id": "tidak adil"
+          },
+          "transliteration": "ḍīzā"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "key": "53:23",
+      "text": "إِنْ هِىَ إِلَّآ أَسْمَآءٌ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَـٰنٍ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَمَا تَهْوَى ٱلْأَنفُسُ ۖ وَلَقَدْ جَآءَهُم مِّن رَّبِّهِمُ ٱلْهُدَىٰٓ",
+      "translations": {
+        "en": "They are not but [mere] names you have named them - you and your forefathers - for which Allāh has sent down no authority. They follow not except assumption and what [their] souls desire, and there has already come to them from their Lord guidance.",
+        "id": "Itu tidak lain hanyalah nama-nama yang kamu dan nenek moyangmu mengada-adakannya; Allah tidak menurunkan suatu keterangan apa pun untuk (menyembah)nya. Mereka hanya mengikuti dugaan, dan apa yang diingini oleh keinginannya. Padahal sungguh, telah datang petunjuk dari Tuhan mereka."
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنْ",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak lain"
+          },
+          "transliteration": "in"
+        },
+        {
+          "text": "هِىَ",
+          "meanings": {
+            "en": "they",
+            "id": "dia"
+          },
+          "transliteration": "hiya"
+        },
+        {
+          "text": "إِلَّآ",
+          "meanings": {
+            "en": "(are) except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "أَسْمَآءٌۭ",
+          "meanings": {
+            "en": "names",
+            "id": "nama-nama"
+          },
+          "transliteration": "asmāon"
+        },
+        {
+          "text": "سَمَّيْتُمُوهَآ",
+          "meanings": {
+            "en": "you have named them",
+            "id": "kamu menamainya"
+          },
+          "transliteration": "sammaytumūhā"
+        },
+        {
+          "text": "أَنتُمْ",
+          "meanings": {
+            "en": "you",
+            "id": "kamu"
+          },
+          "transliteration": "antum"
+        },
+        {
+          "text": "وَءَابَآؤُكُم",
+          "meanings": {
+            "en": "and your forefathers",
+            "id": "dan bapak-bapakmu"
+          },
+          "transliteration": "waābāukum"
+        },
+        {
+          "text": "مَّآ",
+          "meanings": {
+            "en": "not",
+            "id": "tidak"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "أَنزَلَ",
+          "meanings": {
+            "en": "has Allah sent down",
+            "id": "menurunkan"
+          },
+          "transliteration": "anzala"
+        },
+        {
+          "text": "ٱللَّهُ",
+          "meanings": {
+            "en": "has Allah sent down",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahu"
+        },
+        {
+          "text": "بِهَا",
+          "meanings": {
+            "en": "for it",
+            "id": "dengannya"
+          },
+          "transliteration": "bihā"
+        },
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "any",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "سُلْطَـٰنٍ ۚ",
+          "meanings": {
+            "en": "authority",
+            "id": "kekuasaan"
+          },
+          "transliteration": "sul'ṭānin"
+        },
+        {
+          "text": "إِن",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak lain"
+          },
+          "transliteration": "in"
+        },
+        {
+          "text": "يَتَّبِعُونَ",
+          "meanings": {
+            "en": "they follow",
+            "id": "mereka mengikuti"
+          },
+          "transliteration": "yattabiʿūna"
+        },
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "ٱلظَّنَّ",
+          "meanings": {
+            "en": "assumption",
+            "id": "sangkaan"
+          },
+          "transliteration": "l-ẓana"
+        },
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "and what",
+            "id": "dan apa yang"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "تَهْوَى",
+          "meanings": {
+            "en": "desire",
+            "id": "menginginkan"
+          },
+          "transliteration": "tahwā"
+        },
+        {
+          "text": "ٱلْأَنفُسُ ۖ",
+          "meanings": {
+            "en": "the(ir) souls",
+            "id": "hawa nafsu"
+          },
+          "transliteration": "l-anfusu"
+        },
+        {
+          "text": "وَلَقَدْ",
+          "meanings": {
+            "en": "And certainly",
+            "id": "dan sesungguhnya"
+          },
+          "transliteration": "walaqad"
+        },
+        {
+          "text": "جَآءَهُم",
+          "meanings": {
+            "en": "has come to them",
+            "id": "telah datang kepada mereka"
+          },
+          "transliteration": "jāahum"
+        },
+        {
+          "text": "مِّن",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "رَّبِّهِمُ",
+          "meanings": {
+            "en": "their Lord",
+            "id": "Tuhan mereka"
+          },
+          "transliteration": "rabbihimu"
+        },
+        {
+          "text": "ٱلْهُدَىٰٓ",
+          "meanings": {
+            "en": "the guidance",
+            "id": "petunjuk"
+          },
+          "transliteration": "l-hudā"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "key": "53:24",
+      "text": "أَمْ لِلْإِنسَـٰنِ مَا تَمَنَّىٰ",
+      "translations": {
+        "en": "Or is there for man whatever he wishes?",
+        "id": "Atau apakah manusia akan mendapat segala yang dicita-citakannya?"
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَمْ",
+          "meanings": {
+            "en": "Or",
+            "id": "ataukah/apakah"
+          },
+          "transliteration": "am"
+        },
+        {
+          "text": "لِلْإِنسَـٰنِ",
+          "meanings": {
+            "en": "(is) for man",
+            "id": "bagi manusia"
+          },
+          "transliteration": "lil'insāni"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa yang"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "تَمَنَّىٰ",
+          "meanings": {
+            "en": "he wishes",
+            "id": "ia inginkan"
+          },
+          "transliteration": "tamannā"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "key": "53:25",
+      "text": "فَلِلَّهِ ٱلْـَٔاخِرَةُ وَٱلْأُولَىٰ",
+      "translations": {
+        "en": "Rather, to Allāh belongs the Hereafter and the first [life].",
+        "id": "(Tidak!) Maka milik Allah lah kehidupan akhirat dan kehidupan dunia."
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَلِلَّهِ",
+          "meanings": {
+            "en": "But for Allah",
+            "id": "maka kepunyaan Allah"
+          },
+          "transliteration": "falillahi"
+        },
+        {
+          "text": "ٱلْـَٔاخِرَةُ",
+          "meanings": {
+            "en": "(is) the last",
+            "id": "kehidupan akhirat"
+          },
+          "transliteration": "l-ākhiratu"
+        },
+        {
+          "text": "وَٱلْأُولَىٰ",
+          "meanings": {
+            "en": "and the first",
+            "id": "dan kehidupan dunia"
+          },
+          "transliteration": "wal-ūlā"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "key": "53:26",
+      "text": "۞ وَكَم مِّن مَّلَكٍ فِى ٱلسَّمَـٰوَٰتِ لَا تُغْنِى شَفَـٰعَتُهُمْ شَيْـًٔا إِلَّا مِنۢ بَعْدِ أَن يَأْذَنَ ٱللَّهُ لِمَن يَشَآءُ وَيَرْضَىٰٓ",
+      "translations": {
+        "en": "And how many angels there are in the heavens whose intercession will not avail at all except [only] after Allāh has permitted [it] to whom He wills and approves.",
+        "id": "Dan betapa banyak malaikat di langit, syafaat (pertolongan) mereka sedikit pun tidak berguna kecuali apabila Allah telah mengizinkan (dan hanya) bagi siapa yang Dia kehendaki dan Dia ridai."
+      },
+      "page": 526,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "۞ وَكَم",
+          "meanings": {
+            "en": "And how many",
+            "id": "dan berapa banyak"
+          },
+          "transliteration": "wakam"
+        },
+        {
+          "text": "مِّن",
+          "meanings": {
+            "en": "of",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "مَّلَكٍۢ",
+          "meanings": {
+            "en": "(the) Angels",
+            "id": "malaikat"
+          },
+          "transliteration": "malakin"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "in",
+            "id": "di"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "ٱلسَّمَـٰوَٰتِ",
+          "meanings": {
+            "en": "the heavens",
+            "id": "langit(jamak)"
+          },
+          "transliteration": "l-samāwāti"
+        },
+        {
+          "text": "لَا",
+          "meanings": {
+            "en": "not",
+            "id": "tidak"
+          },
+          "transliteration": "lā"
+        },
+        {
+          "text": "تُغْنِى",
+          "meanings": {
+            "en": "will avail",
+            "id": "berguna"
+          },
+          "transliteration": "tugh'nī"
+        },
+        {
+          "text": "شَفَـٰعَتُهُمْ",
+          "meanings": {
+            "en": "their intercession",
+            "id": "pertolongan mereka"
+          },
+          "transliteration": "shafāʿatuhum"
+        },
+        {
+          "text": "شَيْـًٔا",
+          "meanings": {
+            "en": "anything",
+            "id": "sedikitpun"
+          },
+          "transliteration": "shayan"
+        },
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "مِنۢ",
+          "meanings": {
+            "en": "after",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "بَعْدِ",
+          "meanings": {
+            "en": "after",
+            "id": "sesudah"
+          },
+          "transliteration": "baʿdi"
+        },
+        {
+          "text": "أَن",
+          "meanings": {
+            "en": "[that]",
+            "id": "bahwa"
+          },
+          "transliteration": "an"
+        },
+        {
+          "text": "يَأْذَنَ",
+          "meanings": {
+            "en": "Allah has given permission",
+            "id": "memberi izin"
+          },
+          "transliteration": "yadhana"
+        },
+        {
+          "text": "ٱللَّهُ",
+          "meanings": {
+            "en": "Allah has given permission",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahu"
+        },
+        {
+          "text": "لِمَن",
+          "meanings": {
+            "en": "for whom",
+            "id": "bagi siapa"
+          },
+          "transliteration": "liman"
+        },
+        {
+          "text": "يَشَآءُ",
+          "meanings": {
+            "en": "He wills",
+            "id": "Dia kehendaki"
+          },
+          "transliteration": "yashāu"
+        },
+        {
+          "text": "وَيَرْضَىٰٓ",
+          "meanings": {
+            "en": "and approves",
+            "id": "dan Dia ridhai"
+          },
+          "transliteration": "wayarḍā"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "key": "53:27",
+      "text": "إِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ لَيُسَمُّونَ ٱلْمَلَـٰٓئِكَةَ تَسْمِيَةَ ٱلْأُنثَىٰ",
+      "translations": {
+        "en": "Indeed, those who do not believe in the Hereafter name the angels female names,",
+        "id": "Sesungguhnya orang-orang yang tidak beriman kepada kehidupan akhirat, sungguh mereka menamakan para malaikat dengan nama perempuan."
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "ٱلَّذِينَ",
+          "meanings": {
+            "en": "those who",
+            "id": "orang-orang yang"
+          },
+          "transliteration": "alladhīna"
+        },
+        {
+          "text": "لَا",
+          "meanings": {
+            "en": "(do) not",
+            "id": "tidak"
+          },
+          "transliteration": "lā"
+        },
+        {
+          "text": "يُؤْمِنُونَ",
+          "meanings": {
+            "en": "believe",
+            "id": "beriman"
+          },
+          "transliteration": "yu'minūna"
+        },
+        {
+          "text": "بِٱلْـَٔاخِرَةِ",
+          "meanings": {
+            "en": "in the Hereafter",
+            "id": "kepada akhirat"
+          },
+          "transliteration": "bil-ākhirati"
+        },
+        {
+          "text": "لَيُسَمُّونَ",
+          "meanings": {
+            "en": "surely they name",
+            "id": "sungguh mereka menamakan"
+          },
+          "transliteration": "layusammūna"
+        },
+        {
+          "text": "ٱلْمَلَـٰٓئِكَةَ",
+          "meanings": {
+            "en": "the Angels",
+            "id": "malaikat"
+          },
+          "transliteration": "l-malāikata"
+        },
+        {
+          "text": "تَسْمِيَةَ",
+          "meanings": {
+            "en": "name(s)",
+            "id": "nama"
+          },
+          "transliteration": "tasmiyata"
+        },
+        {
+          "text": "ٱلْأُنثَىٰ",
+          "meanings": {
+            "en": "(of) female",
+            "id": "perempuan"
+          },
+          "transliteration": "l-unthā"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "key": "53:28",
+      "text": "وَمَا لَهُم بِهِۦ مِنْ عِلْمٍ ۖ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ ۖ وَإِنَّ ٱلظَّنَّ لَا يُغْنِى مِنَ ٱلْحَقِّ شَيْـًٔا",
+      "translations": {
+        "en": "And they have thereof no knowledge. They follow not except assumption, and indeed, assumption avails not against the truth at all.",
+        "id": "Dan mereka tidak mempunyai ilmu tentang itu. Mereka tidak lain hanyalah mengikuti dugaan, dan sesungguhnya dugaan itu tidak berfaedah sedikit pun terhadap kebenaran."
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "And not",
+            "id": "dan tidak"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "لَهُم",
+          "meanings": {
+            "en": "for them",
+            "id": "mereka mempunyai"
+          },
+          "transliteration": "lahum"
+        },
+        {
+          "text": "بِهِۦ",
+          "meanings": {
+            "en": "about it",
+            "id": "dengannya"
+          },
+          "transliteration": "bihi"
+        },
+        {
+          "text": "مِنْ",
+          "meanings": {
+            "en": "any",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "عِلْمٍ ۖ",
+          "meanings": {
+            "en": "knowledge",
+            "id": "pengetahuan"
+          },
+          "transliteration": "ʿil'min"
+        },
+        {
+          "text": "إِن",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak lain"
+          },
+          "transliteration": "in"
+        },
+        {
+          "text": "يَتَّبِعُونَ",
+          "meanings": {
+            "en": "they follow",
+            "id": "mereka mengikuti"
+          },
+          "transliteration": "yattabiʿūna"
+        },
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "but",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "ٱلظَّنَّ ۖ",
+          "meanings": {
+            "en": "assumption",
+            "id": "sangkaan"
+          },
+          "transliteration": "l-ẓana"
+        },
+        {
+          "text": "وَإِنَّ",
+          "meanings": {
+            "en": "And indeed",
+            "id": "dan sesungguhnya"
+          },
+          "transliteration": "wa-inna"
+        },
+        {
+          "text": "ٱلظَّنَّ",
+          "meanings": {
+            "en": "the assumption",
+            "id": "sankaan"
+          },
+          "transliteration": "l-ẓana"
+        },
+        {
+          "text": "لَا",
+          "meanings": {
+            "en": "(does) not",
+            "id": "tidak"
+          },
+          "transliteration": "lā"
+        },
+        {
+          "text": "يُغْنِى",
+          "meanings": {
+            "en": "avail",
+            "id": "berguna"
+          },
+          "transliteration": "yugh'nī"
+        },
+        {
+          "text": "مِنَ",
+          "meanings": {
+            "en": "against",
+            "id": "dari"
+          },
+          "transliteration": "mina"
+        },
+        {
+          "text": "ٱلْحَقِّ",
+          "meanings": {
+            "en": "the truth",
+            "id": "kebenaran"
+          },
+          "transliteration": "l-ḥaqi"
+        },
+        {
+          "text": "شَيْـًۭٔا",
+          "meanings": {
+            "en": "anything",
+            "id": "sedikitpun"
+          },
+          "transliteration": "shayan"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "key": "53:29",
+      "text": "فَأَعْرِضْ عَن مَّن تَوَلَّىٰ عَن ذِكْرِنَا وَلَمْ يُرِدْ إِلَّا ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+      "translations": {
+        "en": "So turn away from whoever turns his back on Our message and desires not except the worldly life.",
+        "id": "Maka tinggalkanlah (Muhammad) orang yang berpaling dari peringatan Kami, dan dia hanya mengingini kehidupan dunia."
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَأَعْرِضْ",
+          "meanings": {
+            "en": "So turn away",
+            "id": "maka berpalinglah"
+          },
+          "transliteration": "fa-aʿriḍ"
+        },
+        {
+          "text": "عَن",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "ʿan"
+        },
+        {
+          "text": "مَّن",
+          "meanings": {
+            "en": "(him) who",
+            "id": "siapa yang"
+          },
+          "transliteration": "man"
+        },
+        {
+          "text": "تَوَلَّىٰ",
+          "meanings": {
+            "en": "turns away",
+            "id": "dia berpaling"
+          },
+          "transliteration": "tawallā"
+        },
+        {
+          "text": "عَن",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "ʿan"
+        },
+        {
+          "text": "ذِكْرِنَا",
+          "meanings": {
+            "en": "Our Reminder",
+            "id": "mengingat Kami"
+          },
+          "transliteration": "dhik'rinā"
+        },
+        {
+          "text": "وَلَمْ",
+          "meanings": {
+            "en": "and not",
+            "id": "dan tidak"
+          },
+          "transliteration": "walam"
+        },
+        {
+          "text": "يُرِدْ",
+          "meanings": {
+            "en": "he desires",
+            "id": "dia menghendaki"
+          },
+          "transliteration": "yurid"
+        },
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "ٱلْحَيَوٰةَ",
+          "meanings": {
+            "en": "the life",
+            "id": "kehidupan"
+          },
+          "transliteration": "l-ḥayata"
+        },
+        {
+          "text": "ٱلدُّنْيَا",
+          "meanings": {
+            "en": "(of) the world",
+            "id": "dunia"
+          },
+          "transliteration": "l-dun'yā"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "key": "53:30",
+      "text": "ذَٰلِكَ مَبْلَغُهُم مِّنَ ٱلْعِلْمِ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِمَنِ ٱهْتَدَىٰ",
+      "translations": {
+        "en": "That is their sum of knowledge. Indeed, your Lord is most knowing of who strays from His way, and He is most knowing of who is guided.",
+        "id": "Itulah kadar ilmu mereka. Sungguh, Tuhanmu, Dia lebih mengetahui siapa yang tersesat dari jalan-Nya dan Dia pula yang lebih mengetahui siapa yang mendapat petunjuk."
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ذَٰلِكَ",
+          "meanings": {
+            "en": "That",
+            "id": "demikian itu"
+          },
+          "transliteration": "dhālika"
+        },
+        {
+          "text": "مَبْلَغُهُم",
+          "meanings": {
+            "en": "(is) their sum",
+            "id": "kesudahan mereka"
+          },
+          "transliteration": "mablaghuhum"
+        },
+        {
+          "text": "مِّنَ",
+          "meanings": {
+            "en": "of",
+            "id": "dari"
+          },
+          "transliteration": "mina"
+        },
+        {
+          "text": "ٱلْعِلْمِ ۚ",
+          "meanings": {
+            "en": "knowledge",
+            "id": "penegtahuan"
+          },
+          "transliteration": "l-ʿil'mi"
+        },
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "رَبَّكَ",
+          "meanings": {
+            "en": "your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbaka"
+        },
+        {
+          "text": "هُوَ",
+          "meanings": {
+            "en": "(is) He (Who)",
+            "id": "Dia"
+          },
+          "transliteration": "huwa"
+        },
+        {
+          "text": "أَعْلَمُ",
+          "meanings": {
+            "en": "knows best",
+            "id": "lebih mengetahui"
+          },
+          "transliteration": "aʿlamu"
+        },
+        {
+          "text": "بِمَن",
+          "meanings": {
+            "en": "(he) who",
+            "id": "kepada siapa"
+          },
+          "transliteration": "biman"
+        },
+        {
+          "text": "ضَلَّ",
+          "meanings": {
+            "en": "strays",
+            "id": "dia tersesat"
+          },
+          "transliteration": "ḍalla"
+        },
+        {
+          "text": "عَن",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "ʿan"
+        },
+        {
+          "text": "سَبِيلِهِۦ",
+          "meanings": {
+            "en": "His Path",
+            "id": "jalan-Nya"
+          },
+          "transliteration": "sabīlihi"
+        },
+        {
+          "text": "وَهُوَ",
+          "meanings": {
+            "en": "and He",
+            "id": "dan Dia"
+          },
+          "transliteration": "wahuwa"
+        },
+        {
+          "text": "أَعْلَمُ",
+          "meanings": {
+            "en": "knows best",
+            "id": "lebih mengetahui"
+          },
+          "transliteration": "aʿlamu"
+        },
+        {
+          "text": "بِمَنِ",
+          "meanings": {
+            "en": "(he) who",
+            "id": "kepada siapa"
+          },
+          "transliteration": "bimani"
+        },
+        {
+          "text": "ٱهْتَدَىٰ",
+          "meanings": {
+            "en": "is guided",
+            "id": "mendapat petunjuk"
+          },
+          "transliteration": "ih'tadā"
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "key": "53:31",
+      "text": "وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ لِيَجْزِىَ ٱلَّذِينَ أَسَـٰٓـُٔوا۟ بِمَا عَمِلُوا۟ وَيَجْزِىَ ٱلَّذِينَ أَحْسَنُوا۟ بِٱلْحُسْنَى",
+      "translations": {
+        "en": "And to Allāh belongs whatever is in the heavens and whatever is in the earth - that He may recompense those who do evil with [the penalty of] what they have done and recompense those who do good with the best [reward] -",
+        "id": "Dan milik Allah lah apa yang ada di langit dan apa yang ada di bumi. (Dengan demikian) Dia akan memberi balasan kepada orang-orang yang berbuat jahat sesuai dengan apa yang telah mereka kerjakan dan Dia akan memberi balasan kepada orang-orang yang berbuat baik dengan pahala yang lebih baik (surga)."
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَلِلَّهِ",
+          "meanings": {
+            "en": "And for Allah",
+            "id": "dan kepunyaan Allah"
+          },
+          "transliteration": "walillahi"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "(is) whatever",
+            "id": "apa yang"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "(is) in",
+            "id": "ada di"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "ٱلسَّمَـٰوَٰتِ",
+          "meanings": {
+            "en": "the heavens",
+            "id": "langit(jamak)"
+          },
+          "transliteration": "l-samāwāti"
+        },
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "and whatever",
+            "id": "dan apa yang"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "(is) in",
+            "id": "ada di"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "ٱلْأَرْضِ",
+          "meanings": {
+            "en": "the earth",
+            "id": "bumi"
+          },
+          "transliteration": "l-arḍi"
+        },
+        {
+          "text": "لِيَجْزِىَ",
+          "meanings": {
+            "en": "that He may recompense",
+            "id": "Dia akan memberi balasan"
+          },
+          "transliteration": "liyajziya"
+        },
+        {
+          "text": "ٱلَّذِينَ",
+          "meanings": {
+            "en": "those who",
+            "id": "orang-orang yang"
+          },
+          "transliteration": "alladhīna"
+        },
+        {
+          "text": "أَسَـٰٓـُٔوا۟",
+          "meanings": {
+            "en": "do evil",
+            "id": "mereka berbuat jahat"
+          },
+          "transliteration": "asāū"
+        },
+        {
+          "text": "بِمَا",
+          "meanings": {
+            "en": "with what",
+            "id": "terhadap apa"
+          },
+          "transliteration": "bimā"
+        },
+        {
+          "text": "عَمِلُوا۟",
+          "meanings": {
+            "en": "they have done",
+            "id": "mereka kerjakan"
+          },
+          "transliteration": "ʿamilū"
+        },
+        {
+          "text": "وَيَجْزِىَ",
+          "meanings": {
+            "en": "and recompense",
+            "id": "dan dia akan memberi balasan"
+          },
+          "transliteration": "wayajziya"
+        },
+        {
+          "text": "ٱلَّذِينَ",
+          "meanings": {
+            "en": "those who",
+            "id": "orang-orang yang"
+          },
+          "transliteration": "alladhīna"
+        },
+        {
+          "text": "أَحْسَنُوا۟",
+          "meanings": {
+            "en": "do good",
+            "id": "mereka berbuat baik"
+          },
+          "transliteration": "aḥsanū"
+        },
+        {
+          "text": "بِٱلْحُسْنَى",
+          "meanings": {
+            "en": "with the best",
+            "id": "denganyang lebih baik"
+          },
+          "transliteration": "bil-ḥus'nā"
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "key": "53:32",
+      "text": "ٱلَّذِينَ يَجْتَنِبُونَ كَبَـٰٓئِرَ ٱلْإِثْمِ وَٱلْفَوَٰحِشَ إِلَّا ٱللَّمَمَ ۚ إِنَّ رَبَّكَ وَٰسِعُ ٱلْمَغْفِرَةِ ۚ هُوَ أَعْلَمُ بِكُمْ إِذْ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَإِذْ أَنتُمْ أَجِنَّةٌ فِى بُطُونِ أُمَّهَـٰتِكُمْ ۖ فَلَا تُزَكُّوٓا۟ أَنفُسَكُمْ ۖ هُوَ أَعْلَمُ بِمَنِ ٱتَّقَىٰٓ",
+      "translations": {
+        "en": "Those who avoid the major sins and immoralities, only [committing] slight ones. Indeed, your Lord is vast in forgiveness. He was most knowing of you when He produced you from the earth and when you were fetuses in the wombs of your mothers. So do not claim yourselves to be pure; He is most knowing of who fears Him.",
+        "id": "(Yaitu) mereka yang menjauhi dosa-dosa besar dan perbuatan keji, kecuali kesalahan-kesalahan kecil. Sungguh, Tuhanmu Mahaluas ampunan-Nya. Dia mengetahui tentang kamu, sejak Dia menjadikan kamu dari tanah lalu ketika kamu masih janin dalam perut ibumu. Maka janganlah kamu menganggap dirimu suci. Dia mengetahui tentang orang yang bertakwa."
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱلَّذِينَ",
+          "meanings": {
+            "en": "Those who",
+            "id": "orang-orang yang"
+          },
+          "transliteration": "alladhīna"
+        },
+        {
+          "text": "يَجْتَنِبُونَ",
+          "meanings": {
+            "en": "avoid",
+            "id": "mereka menjauhi"
+          },
+          "transliteration": "yajtanibūna"
+        },
+        {
+          "text": "كَبَـٰٓئِرَ",
+          "meanings": {
+            "en": "great",
+            "id": "besar"
+          },
+          "transliteration": "kabāira"
+        },
+        {
+          "text": "ٱلْإِثْمِ",
+          "meanings": {
+            "en": "sins",
+            "id": "dosa"
+          },
+          "transliteration": "l-ith'mi"
+        },
+        {
+          "text": "وَٱلْفَوَٰحِشَ",
+          "meanings": {
+            "en": "and the immoralities",
+            "id": "dan perbuatan keji"
+          },
+          "transliteration": "wal-fawāḥisha"
+        },
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "ٱللَّمَمَ ۚ",
+          "meanings": {
+            "en": "the small faults",
+            "id": "teringat sepintas lalu"
+          },
+          "transliteration": "l-lamama"
+        },
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "رَبَّكَ",
+          "meanings": {
+            "en": "your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbaka"
+        },
+        {
+          "text": "وَٰسِعُ",
+          "meanings": {
+            "en": "(is) vast",
+            "id": "Maha Luas"
+          },
+          "transliteration": "wāsiʿu"
+        },
+        {
+          "text": "ٱلْمَغْفِرَةِ ۚ",
+          "meanings": {
+            "en": "(in) forgiveness",
+            "id": "ampunan"
+          },
+          "transliteration": "l-maghfirati"
+        },
+        {
+          "text": "هُوَ",
+          "meanings": {
+            "en": "He",
+            "id": "Dia"
+          },
+          "transliteration": "huwa"
+        },
+        {
+          "text": "أَعْلَمُ",
+          "meanings": {
+            "en": "(is) most knowing about you",
+            "id": "lebih mengetahui"
+          },
+          "transliteration": "aʿlamu"
+        },
+        {
+          "text": "بِكُمْ",
+          "meanings": {
+            "en": "(is) most knowing about you",
+            "id": "dengan/untuk kalian"
+          },
+          "transliteration": "bikum"
+        },
+        {
+          "text": "إِذْ",
+          "meanings": {
+            "en": "when",
+            "id": "ketika"
+          },
+          "transliteration": "idh"
+        },
+        {
+          "text": "أَنشَأَكُم",
+          "meanings": {
+            "en": "He produced you",
+            "id": "Dia menjadikan kamu"
+          },
+          "transliteration": "ansha-akum"
+        },
+        {
+          "text": "مِّنَ",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "mina"
+        },
+        {
+          "text": "ٱلْأَرْضِ",
+          "meanings": {
+            "en": "the earth",
+            "id": "bumi"
+          },
+          "transliteration": "l-arḍi"
+        },
+        {
+          "text": "وَإِذْ",
+          "meanings": {
+            "en": "and when",
+            "id": "dan ketika"
+          },
+          "transliteration": "wa-idh"
+        },
+        {
+          "text": "أَنتُمْ",
+          "meanings": {
+            "en": "you (were)",
+            "id": "kamu"
+          },
+          "transliteration": "antum"
+        },
+        {
+          "text": "أَجِنَّةٌۭ",
+          "meanings": {
+            "en": "fetuses",
+            "id": "janin"
+          },
+          "transliteration": "ajinnatun"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "in",
+            "id": "dalam"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "بُطُونِ",
+          "meanings": {
+            "en": "(the) wombs",
+            "id": "perut"
+          },
+          "transliteration": "buṭūni"
+        },
+        {
+          "text": "أُمَّهَـٰتِكُمْ ۖ",
+          "meanings": {
+            "en": "(of) your mothers",
+            "id": "ibu-ibu kamu"
+          },
+          "transliteration": "ummahātikum"
+        },
+        {
+          "text": "فَلَا",
+          "meanings": {
+            "en": "So (do) not",
+            "id": "maka jangan"
+          },
+          "transliteration": "falā"
+        },
+        {
+          "text": "تُزَكُّوٓا۟",
+          "meanings": {
+            "en": "ascribe purity",
+            "id": "kamu menganggap suci"
+          },
+          "transliteration": "tuzakkū"
+        },
+        {
+          "text": "أَنفُسَكُمْ ۖ",
+          "meanings": {
+            "en": "(to) yourselves",
+            "id": "diri kalian sendiri"
+          },
+          "transliteration": "anfusakum"
+        },
+        {
+          "text": "هُوَ",
+          "meanings": {
+            "en": "He",
+            "id": "Dia"
+          },
+          "transliteration": "huwa"
+        },
+        {
+          "text": "أَعْلَمُ",
+          "meanings": {
+            "en": "knows best",
+            "id": "lebih mengetahui"
+          },
+          "transliteration": "aʿlamu"
+        },
+        {
+          "text": "بِمَنِ",
+          "meanings": {
+            "en": "(he) who",
+            "id": "dengan siapa"
+          },
+          "transliteration": "bimani"
+        },
+        {
+          "text": "ٱتَّقَىٰٓ",
+          "meanings": {
+            "en": "fears",
+            "id": "yang bertakwa"
+          },
+          "transliteration": "ittaqā"
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "key": "53:33",
+      "text": "أَفَرَءَيْتَ ٱلَّذِى تَوَلَّىٰ",
+      "translations": {
+        "en": "Have you seen the one who turned away",
+        "id": "Maka tidakkah engkau melihat orang yang berpaling (dari Alquran)?"
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَفَرَءَيْتَ",
+          "meanings": {
+            "en": "Did you see",
+            "id": "maka apakah kamu memperhatikan"
+          },
+          "transliteration": "afara-ayta"
+        },
+        {
+          "text": "ٱلَّذِى",
+          "meanings": {
+            "en": "the one who",
+            "id": "orang yang"
+          },
+          "transliteration": "alladhī"
+        },
+        {
+          "text": "تَوَلَّىٰ",
+          "meanings": {
+            "en": "turned away",
+            "id": "dia berpaling"
+          },
+          "transliteration": "tawallā"
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "key": "53:34",
+      "text": "وَأَعْطَىٰ قَلِيلًا وَأَكْدَىٰٓ",
+      "translations": {
+        "en": "And gave a little and [then] refrained?",
+        "id": "dan dia memberikan sedikit (dari apa yang dijanjikan) lalu menahan sisanya."
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَعْطَىٰ",
+          "meanings": {
+            "en": "And gave",
+            "id": "dan Dia memberi"
+          },
+          "transliteration": "wa-aʿṭā"
+        },
+        {
+          "text": "قَلِيلًۭا",
+          "meanings": {
+            "en": "a little",
+            "id": "sedikit"
+          },
+          "transliteration": "qalīlan"
+        },
+        {
+          "text": "وَأَكْدَىٰٓ",
+          "meanings": {
+            "en": "and withheld",
+            "id": "dan Dia menahan/tidak memberi"
+          },
+          "transliteration": "wa-akdā"
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "key": "53:35",
+      "text": "أَعِندَهُۥ عِلْمُ ٱلْغَيْبِ فَهُوَ يَرَىٰٓ",
+      "translations": {
+        "en": "Does he have knowledge of the unseen, so he sees?",
+        "id": "Apakah dia mempunyai ilmu tentang yang gaib sehingga dia dapat melihat(nya)?"
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَعِندَهُۥ",
+          "meanings": {
+            "en": "Is with him",
+            "id": "apakah di sisi"
+          },
+          "transliteration": "aʿindahu"
+        },
+        {
+          "text": "عِلْمُ",
+          "meanings": {
+            "en": "(the) knowledge",
+            "id": "pengetahuan"
+          },
+          "transliteration": "ʿil'mu"
+        },
+        {
+          "text": "ٱلْغَيْبِ",
+          "meanings": {
+            "en": "(of) the unseen",
+            "id": "gaib"
+          },
+          "transliteration": "l-ghaybi"
+        },
+        {
+          "text": "فَهُوَ",
+          "meanings": {
+            "en": "so he",
+            "id": "maka dia"
+          },
+          "transliteration": "fahuwa"
+        },
+        {
+          "text": "يَرَىٰٓ",
+          "meanings": {
+            "en": "sees",
+            "id": "dia melihat"
+          },
+          "transliteration": "yarā"
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "key": "53:36",
+      "text": "أَمْ لَمْ يُنَبَّأْ بِمَا فِى صُحُفِ مُوسَىٰ",
+      "translations": {
+        "en": "Or has he not been informed of what was in the scriptures of Moses",
+        "id": "Ataukah belum diberitakan (kepadanya) apa yang ada dalam lembaran-lembaran (Kitab Suci yang diturunkan kepada) Musa?"
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَمْ",
+          "meanings": {
+            "en": "Or",
+            "id": "ataukah/apakah"
+          },
+          "transliteration": "am"
+        },
+        {
+          "text": "لَمْ",
+          "meanings": {
+            "en": "not",
+            "id": "belum"
+          },
+          "transliteration": "lam"
+        },
+        {
+          "text": "يُنَبَّأْ",
+          "meanings": {
+            "en": "he was informed",
+            "id": "diberitakan dia"
+          },
+          "transliteration": "yunabba"
+        },
+        {
+          "text": "بِمَا",
+          "meanings": {
+            "en": "with what",
+            "id": "dengan apa"
+          },
+          "transliteration": "bimā"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "(was) in",
+            "id": "dalam"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "صُحُفِ",
+          "meanings": {
+            "en": "(the) Scriptures",
+            "id": "lembaran-lembaran"
+          },
+          "transliteration": "ṣuḥufi"
+        },
+        {
+          "text": "مُوسَىٰ",
+          "meanings": {
+            "en": "(of) Musa",
+            "id": "Musa"
+          },
+          "transliteration": "mūsā"
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "key": "53:37",
+      "text": "وَإِبْرَٰهِيمَ ٱلَّذِى وَفَّىٰٓ",
+      "translations": {
+        "en": "And [of] Abraham, who fulfilled [his obligations] -",
+        "id": "Dan (lembaran-lembaran) Ibrahim yang selalu menyempurnakan janji?"
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَإِبْرَٰهِيمَ",
+          "meanings": {
+            "en": "And Ibrahim",
+            "id": "dan Ibrahim"
+          },
+          "transliteration": "wa-ib'rāhīma"
+        },
+        {
+          "text": "ٱلَّذِى",
+          "meanings": {
+            "en": "who",
+            "id": "yang"
+          },
+          "transliteration": "alladhī"
+        },
+        {
+          "text": "وَفَّىٰٓ",
+          "meanings": {
+            "en": "fulfilled",
+            "id": "dia sempurnakan"
+          },
+          "transliteration": "waffā"
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "key": "53:38",
+      "text": "أَلَّا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ",
+      "translations": {
+        "en": "That no bearer of burdens will bear the burden of another",
+        "id": "(yaitu) bahwa seseorang yang berdosa tidak akan memikul dosa orang lain,"
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَلَّا",
+          "meanings": {
+            "en": "That not",
+            "id": "bahwa tidak"
+          },
+          "transliteration": "allā"
+        },
+        {
+          "text": "تَزِرُ",
+          "meanings": {
+            "en": "will bear",
+            "id": "kamu memikul dosa"
+          },
+          "transliteration": "taziru"
+        },
+        {
+          "text": "وَازِرَةٌۭ",
+          "meanings": {
+            "en": "a bearer of burdens",
+            "id": "orang yang berdosa"
+          },
+          "transliteration": "wāziratun"
+        },
+        {
+          "text": "وِزْرَ",
+          "meanings": {
+            "en": "(the) burden",
+            "id": "beban/dosa"
+          },
+          "transliteration": "wiz'ra"
+        },
+        {
+          "text": "أُخْرَىٰ",
+          "meanings": {
+            "en": "(of) another",
+            "id": "orang lain"
+          },
+          "transliteration": "ukh'rā"
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "key": "53:39",
+      "text": "وَأَن لَّيْسَ لِلْإِنسَـٰنِ إِلَّا مَا سَعَىٰ",
+      "translations": {
+        "en": "And that there is not for man except that [good] for which he strives",
+        "id": "dan bahwa manusia hanya memperoleh apa yang telah diusahakannya,"
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَن",
+          "meanings": {
+            "en": "And that",
+            "id": "dan bahwa"
+          },
+          "transliteration": "wa-an"
+        },
+        {
+          "text": "لَّيْسَ",
+          "meanings": {
+            "en": "is not",
+            "id": "tidak"
+          },
+          "transliteration": "laysa"
+        },
+        {
+          "text": "لِلْإِنسَـٰنِ",
+          "meanings": {
+            "en": "for man",
+            "id": "bagi manusia"
+          },
+          "transliteration": "lil'insāni"
+        },
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa yang"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "سَعَىٰ",
+          "meanings": {
+            "en": "he strives (for)",
+            "id": "ia usahakan"
+          },
+          "transliteration": "saʿā"
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "key": "53:40",
+      "text": "وَأَنَّ سَعْيَهُۥ سَوْفَ يُرَىٰ",
+      "translations": {
+        "en": "And that his effort is going to be seen -",
+        "id": "dan sesungguhnya usahanya itu kelak akan diperlihatkan (kepadanya),"
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَنَّ",
+          "meanings": {
+            "en": "And that",
+            "id": "dan bahwasanya"
+          },
+          "transliteration": "wa-anna"
+        },
+        {
+          "text": "سَعْيَهُۥ",
+          "meanings": {
+            "en": "his striving",
+            "id": "usahanya"
+          },
+          "transliteration": "saʿyahu"
+        },
+        {
+          "text": "سَوْفَ",
+          "meanings": {
+            "en": "will soon",
+            "id": "kelak"
+          },
+          "transliteration": "sawfa"
+        },
+        {
+          "text": "يُرَىٰ",
+          "meanings": {
+            "en": "be seen",
+            "id": "diperlihatkan"
+          },
+          "transliteration": "yurā"
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "key": "53:41",
+      "text": "ثُمَّ يُجْزَىٰهُ ٱلْجَزَآءَ ٱلْأَوْفَىٰ",
+      "translations": {
+        "en": "Then he will be recompensed for it with the fullest recompense -",
+        "id": "kemudian akan diberi balasan kepadanya dengan balasan yang paling sempurna,"
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ثُمَّ",
+          "meanings": {
+            "en": "Then",
+            "id": "kemudian"
+          },
+          "transliteration": "thumma"
+        },
+        {
+          "text": "يُجْزَىٰهُ",
+          "meanings": {
+            "en": "he will be recompensed for it",
+            "id": "diberi balasan kepadanya"
+          },
+          "transliteration": "yuj'zāhu"
+        },
+        {
+          "text": "ٱلْجَزَآءَ",
+          "meanings": {
+            "en": "the recompense",
+            "id": "balasan"
+          },
+          "transliteration": "l-jazāa"
+        },
+        {
+          "text": "ٱلْأَوْفَىٰ",
+          "meanings": {
+            "en": "the fullest",
+            "id": "cukup/sempurna"
+          },
+          "transliteration": "l-awfā"
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "key": "53:42",
+      "text": "وَأَنَّ إِلَىٰ رَبِّكَ ٱلْمُنتَهَىٰ",
+      "translations": {
+        "en": "And that to your Lord is the finality",
+        "id": "dan sesungguhnya kepada Tuhanmulah kesudahannya (segala sesuatu),"
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَنَّ",
+          "meanings": {
+            "en": "And that",
+            "id": "dan bahwasanya"
+          },
+          "transliteration": "wa-anna"
+        },
+        {
+          "text": "إِلَىٰ",
+          "meanings": {
+            "en": "to",
+            "id": "kepada"
+          },
+          "transliteration": "ilā"
+        },
+        {
+          "text": "رَبِّكَ",
+          "meanings": {
+            "en": "your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbika"
+        },
+        {
+          "text": "ٱلْمُنتَهَىٰ",
+          "meanings": {
+            "en": "(is) the final goal",
+            "id": "akhir tujuan"
+          },
+          "transliteration": "l-muntahā"
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "key": "53:43",
+      "text": "وَأَنَّهُۥ هُوَ أَضْحَكَ وَأَبْكَىٰ",
+      "translations": {
+        "en": "And that it is He who makes [one] laugh and weep",
+        "id": "dan sesungguhnya Dialah yang menjadikan orang tertawa dan menangis,"
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَنَّهُۥ",
+          "meanings": {
+            "en": "And that He",
+            "id": "dan bahwasanya"
+          },
+          "transliteration": "wa-annahu"
+        },
+        {
+          "text": "هُوَ",
+          "meanings": {
+            "en": "[He]",
+            "id": "Dia"
+          },
+          "transliteration": "huwa"
+        },
+        {
+          "text": "أَضْحَكَ",
+          "meanings": {
+            "en": "makes (one) laugh",
+            "id": "menjadikan ia tertawa"
+          },
+          "transliteration": "aḍḥaka"
+        },
+        {
+          "text": "وَأَبْكَىٰ",
+          "meanings": {
+            "en": "and makes (one) weep",
+            "id": "dan menjadikan ia menangis"
+          },
+          "transliteration": "wa-abkā"
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "key": "53:44",
+      "text": "وَأَنَّهُۥ هُوَ أَمَاتَ وَأَحْيَا",
+      "translations": {
+        "en": "And that it is He who causes death and gives life",
+        "id": "dan sesungguhnya Dialah yang mematikan dan menghidupkan,"
+      },
+      "page": 527,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَنَّهُۥ",
+          "meanings": {
+            "en": "And that He",
+            "id": "dan bahwasanya"
+          },
+          "transliteration": "wa-annahu"
+        },
+        {
+          "text": "هُوَ",
+          "meanings": {
+            "en": "[He]",
+            "id": "Dia"
+          },
+          "transliteration": "huwa"
+        },
+        {
+          "text": "أَمَاتَ",
+          "meanings": {
+            "en": "causes death",
+            "id": "mematikan"
+          },
+          "transliteration": "amāta"
+        },
+        {
+          "text": "وَأَحْيَا",
+          "meanings": {
+            "en": "and gives life",
+            "id": "dan menghidupkan"
+          },
+          "transliteration": "wa-aḥyā"
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "key": "53:45",
+      "text": "وَأَنَّهُۥ خَلَقَ ٱلزَّوْجَيْنِ ٱلذَّكَرَ وَٱلْأُنثَىٰ",
+      "translations": {
+        "en": "And that He creates the two mates - the male and female -",
+        "id": "dan sesungguhnya Dialah yang menciptakan pasangan laki-laki dan perempuan,"
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَنَّهُۥ",
+          "meanings": {
+            "en": "And that He",
+            "id": "dan bahwasanya"
+          },
+          "transliteration": "wa-annahu"
+        },
+        {
+          "text": "خَلَقَ",
+          "meanings": {
+            "en": "created",
+            "id": "Dia menciptakan"
+          },
+          "transliteration": "khalaqa"
+        },
+        {
+          "text": "ٱلزَّوْجَيْنِ",
+          "meanings": {
+            "en": "the pairs",
+            "id": "berpasangan"
+          },
+          "transliteration": "l-zawjayni"
+        },
+        {
+          "text": "ٱلذَّكَرَ",
+          "meanings": {
+            "en": "the male",
+            "id": "laki-laki"
+          },
+          "transliteration": "l-dhakara"
+        },
+        {
+          "text": "وَٱلْأُنثَىٰ",
+          "meanings": {
+            "en": "and the female",
+            "id": "dan perempuan"
+          },
+          "transliteration": "wal-unthā"
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "key": "53:46",
+      "text": "مِن نُّطْفَةٍ إِذَا تُمْنَىٰ",
+      "translations": {
+        "en": "From a sperm-drop when it is emitted",
+        "id": "dari mani, apabila dipancarkan,"
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "From",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "نُّطْفَةٍ",
+          "meanings": {
+            "en": "a semen-drop",
+            "id": "air mani"
+          },
+          "transliteration": "nuṭ'fatin"
+        },
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "when",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "تُمْنَىٰ",
+          "meanings": {
+            "en": "it is emitted",
+            "id": "dipancarkan"
+          },
+          "transliteration": "tum'nā"
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "key": "53:47",
+      "text": "وَأَنَّ عَلَيْهِ ٱلنَّشْأَةَ ٱلْأُخْرَىٰ",
+      "translations": {
+        "en": "And that [incumbent] upon Him is the other [i.e., next] creation.",
+        "id": "dan sesungguhnya Dialah yang menetapkan penciptaan yang lain (kebangkitan setelah mati),"
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَنَّ",
+          "meanings": {
+            "en": "And that",
+            "id": "dan bahwasanya"
+          },
+          "transliteration": "wa-anna"
+        },
+        {
+          "text": "عَلَيْهِ",
+          "meanings": {
+            "en": "upon Him",
+            "id": "atasnya"
+          },
+          "transliteration": "ʿalayhi"
+        },
+        {
+          "text": "ٱلنَّشْأَةَ",
+          "meanings": {
+            "en": "(is) the bringing forth",
+            "id": "kejadian"
+          },
+          "transliteration": "l-nashata"
+        },
+        {
+          "text": "ٱلْأُخْرَىٰ",
+          "meanings": {
+            "en": "another",
+            "id": "yang lain"
+          },
+          "transliteration": "l-ukh'rā"
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "key": "53:48",
+      "text": "وَأَنَّهُۥ هُوَ أَغْنَىٰ وَأَقْنَىٰ",
+      "translations": {
+        "en": "And that it is He who enriches and suffices",
+        "id": "dan sesungguhnya Dialah yang memberikan kekayaan dan kecukupan."
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَنَّهُۥ",
+          "meanings": {
+            "en": "And that He",
+            "id": "dan bahwasanya"
+          },
+          "transliteration": "wa-annahu"
+        },
+        {
+          "text": "هُوَ",
+          "meanings": {
+            "en": "[He]",
+            "id": "Dia"
+          },
+          "transliteration": "huwa"
+        },
+        {
+          "text": "أَغْنَىٰ",
+          "meanings": {
+            "en": "enriches",
+            "id": "memberikan kekayaan"
+          },
+          "transliteration": "aghnā"
+        },
+        {
+          "text": "وَأَقْنَىٰ",
+          "meanings": {
+            "en": "and suffices",
+            "id": "dan memberikan kecukupan"
+          },
+          "transliteration": "wa-aqnā"
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "key": "53:49",
+      "text": "وَأَنَّهُۥ هُوَ رَبُّ ٱلشِّعْرَىٰ",
+      "translations": {
+        "en": "And that it is He who is the Lord of Sirius.",
+        "id": "dan sesungguhnya Dialah Tuhan (yang memiliki) bintang Syi'rā,"
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَنَّهُۥ",
+          "meanings": {
+            "en": "And that He",
+            "id": "dan bahwasanya"
+          },
+          "transliteration": "wa-annahu"
+        },
+        {
+          "text": "هُوَ",
+          "meanings": {
+            "en": "[He]",
+            "id": "dia"
+          },
+          "transliteration": "huwa"
+        },
+        {
+          "text": "رَبُّ",
+          "meanings": {
+            "en": "(is the) Lord",
+            "id": "Tuhan"
+          },
+          "transliteration": "rabbu"
+        },
+        {
+          "text": "ٱلشِّعْرَىٰ",
+          "meanings": {
+            "en": "(of) Sirius",
+            "id": "bintang syi'ra"
+          },
+          "transliteration": "l-shiʿ'rā"
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "key": "53:50",
+      "text": "وَأَنَّهُۥٓ أَهْلَكَ عَادًا ٱلْأُولَىٰ",
+      "translations": {
+        "en": "And that He destroyed the first [people of] ʿAad.",
+        "id": "dan sesungguhnya Dialah yang telah membinasakan kaum 'Ād dahulu kala,"
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَنَّهُۥٓ",
+          "meanings": {
+            "en": "And that He",
+            "id": "dan bahwasanya"
+          },
+          "transliteration": "wa-annahu"
+        },
+        {
+          "text": "أَهْلَكَ",
+          "meanings": {
+            "en": "destroyed",
+            "id": "Dia telah membinasakan"
+          },
+          "transliteration": "ahlaka"
+        },
+        {
+          "text": "عَادًا",
+          "meanings": {
+            "en": "Aad",
+            "id": "kaum'Ad"
+          },
+          "transliteration": "ʿādan"
+        },
+        {
+          "text": "ٱلْأُولَىٰ",
+          "meanings": {
+            "en": "the first",
+            "id": "dahulu"
+          },
+          "transliteration": "l-ūlā"
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "key": "53:51",
+      "text": "وَثَمُودَا۟ فَمَآ أَبْقَىٰ",
+      "translations": {
+        "en": "And Thamūd - and He did not spare [them] -",
+        "id": "dan kaum Samud, tidak seorang pun yang ditinggalkan-Nya (hidup),"
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَثَمُودَا۟",
+          "meanings": {
+            "en": "And Thamud",
+            "id": "dan kaum Tsamud"
+          },
+          "transliteration": "wathamūdā"
+        },
+        {
+          "text": "فَمَآ",
+          "meanings": {
+            "en": "so not",
+            "id": "maka tidak"
+          },
+          "transliteration": "famā"
+        },
+        {
+          "text": "أَبْقَىٰ",
+          "meanings": {
+            "en": "He spared",
+            "id": "Dia tertinggal"
+          },
+          "transliteration": "abqā"
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "key": "53:52",
+      "text": "وَقَوْمَ نُوحٍ مِّن قَبْلُ ۖ إِنَّهُمْ كَانُوا۟ هُمْ أَظْلَمَ وَأَطْغَىٰ",
+      "translations": {
+        "en": "And the people of Noah before. Indeed, it was they who were [even] more unjust and oppressing.",
+        "id": "dan (juga) kaum Nuh sebelum itu. Sungguh, mereka adalah orang-orang yang paling zalim dan paling durhaka."
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَقَوْمَ",
+          "meanings": {
+            "en": "And (the) people",
+            "id": "dan kaum"
+          },
+          "transliteration": "waqawma"
+        },
+        {
+          "text": "نُوحٍۢ",
+          "meanings": {
+            "en": "(of) Nuh",
+            "id": "Nuh"
+          },
+          "transliteration": "nūḥin"
+        },
+        {
+          "text": "مِّن",
+          "meanings": {
+            "en": "before",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "قَبْلُ ۖ",
+          "meanings": {
+            "en": "before",
+            "id": "sebelum itu"
+          },
+          "transliteration": "qablu"
+        },
+        {
+          "text": "إِنَّهُمْ",
+          "meanings": {
+            "en": "Indeed, they",
+            "id": "sesungguhnya mereka"
+          },
+          "transliteration": "innahum"
+        },
+        {
+          "text": "كَانُوا۟",
+          "meanings": {
+            "en": "they were",
+            "id": "adalah mereka"
+          },
+          "transliteration": "kānū"
+        },
+        {
+          "text": "هُمْ",
+          "meanings": {
+            "en": "they were",
+            "id": "mereka"
+          },
+          "transliteration": "hum"
+        },
+        {
+          "text": "أَظْلَمَ",
+          "meanings": {
+            "en": "more unjust",
+            "id": "lebih zalim"
+          },
+          "transliteration": "aẓlama"
+        },
+        {
+          "text": "وَأَطْغَىٰ",
+          "meanings": {
+            "en": "and more rebellious",
+            "id": "dan lebih durhaka"
+          },
+          "transliteration": "wa-aṭghā"
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "key": "53:53",
+      "text": "وَٱلْمُؤْتَفِكَةَ أَهْوَىٰ",
+      "translations": {
+        "en": "And the overturned towns He hurled down.",
+        "id": "Dan prahara angin telah meruntuhkan (negeri kaum Luṭ),"
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلْمُؤْتَفِكَةَ",
+          "meanings": {
+            "en": "And the overturned cities",
+            "id": "dan Mu'tafikah"
+          },
+          "transliteration": "wal-mu'tafikata"
+        },
+        {
+          "text": "أَهْوَىٰ",
+          "meanings": {
+            "en": "He overthrew",
+            "id": "Dia hancurkan"
+          },
+          "transliteration": "ahwā"
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "key": "53:54",
+      "text": "فَغَشَّىٰهَا مَا غَشَّىٰ",
+      "translations": {
+        "en": "And covered them by that which He covered.",
+        "id": "lalu menimbuni negeri itu (sebagai azab) dengan (puing-puing) yang menimpanya."
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَغَشَّىٰهَا",
+          "meanings": {
+            "en": "So covered them",
+            "id": "maka Dia menutupinya"
+          },
+          "transliteration": "faghashāhā"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa(azab)"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "غَشَّىٰ",
+          "meanings": {
+            "en": "covered",
+            "id": "menutupi/menimpa"
+          },
+          "transliteration": "ghashā"
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "key": "53:55",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكَ تَتَمَارَىٰ",
+      "translations": {
+        "en": "Then which of the favors of your Lord do you doubt?",
+        "id": "Maka terhadap nikmat Tuhanmu yang manakah yang masih kamu ragukan?"
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "Then which (of)",
+            "id": "maka terhadap"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "the Favors",
+            "id": "atas"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكَ",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbika"
+        },
+        {
+          "text": "تَتَمَارَىٰ",
+          "meanings": {
+            "en": "will you doubt",
+            "id": "ragu"
+          },
+          "transliteration": "tatamārā"
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "key": "53:56",
+      "text": "هَـٰذَا نَذِيرٌ مِّنَ ٱلنُّذُرِ ٱلْأُولَىٰٓ",
+      "translations": {
+        "en": "This [Prophet (ﷺ)] is a warner from [i.e., like] the former warners.",
+        "id": "Ini (Muhammad) salah seorang pemberi peringatan di antara para pemberi peringatan yang telah terdahulu."
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "هَـٰذَا",
+          "meanings": {
+            "en": "This",
+            "id": "Ini"
+          },
+          "transliteration": "hādhā"
+        },
+        {
+          "text": "نَذِيرٌۭ",
+          "meanings": {
+            "en": "(is) a warner",
+            "id": "pemberi peringatan"
+          },
+          "transliteration": "nadhīrun"
+        },
+        {
+          "text": "مِّنَ",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "mina"
+        },
+        {
+          "text": "ٱلنُّذُرِ",
+          "meanings": {
+            "en": "the warners",
+            "id": "antara pemberi peringatan"
+          },
+          "transliteration": "l-nudhuri"
+        },
+        {
+          "text": "ٱلْأُولَىٰٓ",
+          "meanings": {
+            "en": "the former",
+            "id": "terdahulu"
+          },
+          "transliteration": "l-ūlā"
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "key": "53:57",
+      "text": "أَزِفَتِ ٱلْـَٔازِفَةُ",
+      "translations": {
+        "en": "The Approaching Day has approached.",
+        "id": "Yang dekat (hari Kiamat) telah makin mendekat."
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَزِفَتِ",
+          "meanings": {
+            "en": "Has approached",
+            "id": "telah dekat"
+          },
+          "transliteration": "azifati"
+        },
+        {
+          "text": "ٱلْـَٔازِفَةُ",
+          "meanings": {
+            "en": "the Approaching Day",
+            "id": "kiamat"
+          },
+          "transliteration": "l-āzifatu"
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "key": "53:58",
+      "text": "لَيْسَ لَهَا مِن دُونِ ٱللَّهِ كَاشِفَةٌ",
+      "translations": {
+        "en": "Of it, [from those] besides Allāh, there is no remover.",
+        "id": "Tidak ada yang akan dapat mengungkapkan (terjadinya hari itu) selain Allah."
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "لَيْسَ",
+          "meanings": {
+            "en": "Not is",
+            "id": "tidak"
+          },
+          "transliteration": "laysa"
+        },
+        {
+          "text": "لَهَا",
+          "meanings": {
+            "en": "for it",
+            "id": "padanya"
+          },
+          "transliteration": "lahā"
+        },
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "besides",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "دُونِ",
+          "meanings": {
+            "en": "besides",
+            "id": "sisi"
+          },
+          "transliteration": "dūni"
+        },
+        {
+          "text": "ٱللَّهِ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahi"
+        },
+        {
+          "text": "كَاشِفَةٌ",
+          "meanings": {
+            "en": "any remover",
+            "id": "menyatakan"
+          },
+          "transliteration": "kāshifatun"
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "key": "53:59",
+      "text": "أَفَمِنْ هَـٰذَا ٱلْحَدِيثِ تَعْجَبُونَ",
+      "translations": {
+        "en": "Then at this statement do you wonder?",
+        "id": "Maka apakah kamu merasa heran terhadap pemberitaan ini?"
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَفَمِنْ",
+          "meanings": {
+            "en": "Then of",
+            "id": "maka apakah"
+          },
+          "transliteration": "afamin"
+        },
+        {
+          "text": "هَـٰذَا",
+          "meanings": {
+            "en": "this",
+            "id": "ini"
+          },
+          "transliteration": "hādhā"
+        },
+        {
+          "text": "ٱلْحَدِيثِ",
+          "meanings": {
+            "en": "statement",
+            "id": "pemberitaan"
+          },
+          "transliteration": "l-ḥadīthi"
+        },
+        {
+          "text": "تَعْجَبُونَ",
+          "meanings": {
+            "en": "you wonder",
+            "id": "kamu heran"
+          },
+          "transliteration": "taʿjabūna"
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "key": "53:60",
+      "text": "وَتَضْحَكُونَ وَلَا تَبْكُونَ",
+      "translations": {
+        "en": "And you laugh and do not weep",
+        "id": "dan kamu tertawakan dan tidak menangis,"
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَتَضْحَكُونَ",
+          "meanings": {
+            "en": "And you laugh",
+            "id": "dan kamu mentertawakan"
+          },
+          "transliteration": "wataḍḥakūna"
+        },
+        {
+          "text": "وَلَا",
+          "meanings": {
+            "en": "and (do) not",
+            "id": "dan tidak"
+          },
+          "transliteration": "walā"
+        },
+        {
+          "text": "تَبْكُونَ",
+          "meanings": {
+            "en": "weep",
+            "id": "menangis"
+          },
+          "transliteration": "tabkūna"
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "key": "53:61",
+      "text": "وَأَنتُمْ سَـٰمِدُونَ",
+      "translations": {
+        "en": "While you are proudly sporting?",
+        "id": "sedang kamu lengah (darinya)."
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَنتُمْ",
+          "meanings": {
+            "en": "While you",
+            "id": "dan kalian"
+          },
+          "transliteration": "wa-antum"
+        },
+        {
+          "text": "سَـٰمِدُونَ",
+          "meanings": {
+            "en": "amuse (yourselves)",
+            "id": "melengahkan"
+          },
+          "transliteration": "sāmidūna"
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "key": "53:62",
+      "text": "فَٱسْجُدُوا۟ لِلَّهِ وَٱعْبُدُوا۟ ۩",
+      "translations": {
+        "en": "So prostrate to Allāh and worship [Him].",
+        "id": "Maka bersujudlah kepada Allah dan sembahlah (Dia)!"
+      },
+      "page": 528,
+      "juz": 27,
+      "sajdah": true,
+      "words": [
+        {
+          "text": "فَٱسْجُدُوا۟",
+          "meanings": {
+            "en": "So prostrate",
+            "id": "maka bersujudlah"
+          },
+          "transliteration": "fa-us'judū"
+        },
+        {
+          "text": "لِلَّهِ",
+          "meanings": {
+            "en": "to Allah",
+            "id": "kepada Allah"
+          },
+          "transliteration": "lillahi"
+        },
+        {
+          "text": "وَٱعْبُدُوا۟ ۩",
+          "meanings": {
+            "en": "and worship (Him)",
+            "id": "dan sembahlah (Dia)"
+          },
+          "transliteration": "wa-uʿ'budū"
+        }
+      ]
+    }
+  ]
+}

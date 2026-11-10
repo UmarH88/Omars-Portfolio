@@ -1,0 +1,178 @@
+{
+  "id": 103,
+  "nameSimple": "Al-'Asr",
+  "nameArabic": "العصر",
+  "meaning": "The Declining Day",
+  "revelationPlace": "makkah",
+  "versesCount": 3,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "103:1",
+      "text": " وَٱلْعَصْرِ",
+      "translations": {
+        "en": "By time,",
+        "id": "Demi masa."
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلْعَصْرِ",
+          "meanings": {
+            "en": "By the time",
+            "id": "demi waktu"
+          },
+          "transliteration": "wal-ʿaṣri"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "103:2",
+      "text": "إِنَّ ٱلْإِنسَـٰنَ لَفِى خُسْرٍ",
+      "translations": {
+        "en": "Indeed, mankind is in loss,",
+        "id": "Sungguh, manusia berada dalam kerugian,"
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "ٱلْإِنسَـٰنَ",
+          "meanings": {
+            "en": "mankind",
+            "id": "manusia"
+          },
+          "transliteration": "l-insāna"
+        },
+        {
+          "text": "لَفِى",
+          "meanings": {
+            "en": "(is) surely, in",
+            "id": "benar-benar dalam"
+          },
+          "transliteration": "lafī"
+        },
+        {
+          "text": "خُسْرٍ",
+          "meanings": {
+            "en": "loss",
+            "id": "kerugian"
+          },
+          "transliteration": "khus'rin"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "103:3",
+      "text": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+      "translations": {
+        "en": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.",
+        "id": "kecuali orang-orang yang beriman dan mengerjakan kebajikan serta saling menasihati untuk kebenaran dan saling menasihati untuk kesabaran."
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "Except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "ٱلَّذِينَ",
+          "meanings": {
+            "en": "those who",
+            "id": "orang-orang yang"
+          },
+          "transliteration": "alladhīna"
+        },
+        {
+          "text": "ءَامَنُوا۟",
+          "meanings": {
+            "en": "believe",
+            "id": "beriman"
+          },
+          "transliteration": "āmanū"
+        },
+        {
+          "text": "وَعَمِلُوا۟",
+          "meanings": {
+            "en": "and do",
+            "id": "dan mereka berbuat/beramal"
+          },
+          "transliteration": "waʿamilū"
+        },
+        {
+          "text": "ٱلصَّـٰلِحَـٰتِ",
+          "meanings": {
+            "en": "righteous deeds",
+            "id": "kebajikan/sholeh"
+          },
+          "transliteration": "l-ṣāliḥāti"
+        },
+        {
+          "text": "وَتَوَاصَوْا۟",
+          "meanings": {
+            "en": "and enjoin (each other)",
+            "id": "dan mereka saling berwasiat/menasehati"
+          },
+          "transliteration": "watawāṣaw"
+        },
+        {
+          "text": "بِٱلْحَقِّ",
+          "meanings": {
+            "en": "to the truth",
+            "id": "dengan kebenaran"
+          },
+          "transliteration": "bil-ḥaqi"
+        },
+        {
+          "text": "وَتَوَاصَوْا۟",
+          "meanings": {
+            "en": "and enjoin (each other)",
+            "id": "dan mereka saling berwasiat/menasehati"
+          },
+          "transliteration": "watawāṣaw"
+        },
+        {
+          "text": "بِٱلصَّبْرِ",
+          "meanings": {
+            "en": "to [the] patience",
+            "id": "dengan kesabaran"
+          },
+          "transliteration": "bil-ṣabri"
+        }
+      ]
+    }
+  ]
+}

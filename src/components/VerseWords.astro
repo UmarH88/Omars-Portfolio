@@ -1,0 +1,19 @@
+---
+/*
+  VerseWords: the tappable words of one verse, optionally followed by its
+  round verse marker. Spaces between words let justified text spread evenly.
+*/
+import QuranWord from './QuranWord.astro';
+import VerseMarker from './VerseMarker.astro';
+import type { MushafVerse } from '../lib/quran';
+
+interface Props {
+  verse: MushafVerse;
+  marker?: boolean; // false for the Bismillah line (never numbered)
+}
+
+const { verse, marker = true } = Astro.props;
+---
+
+{verse.words.map((word) => <Fragment><QuranWord word={word} />{' '}</Fragment>)}
+{marker && <Fragment><VerseMarker number={verse.number} />{' '}</Fragment>}

@@ -1,0 +1,134 @@
+---
+/*
+  Person: a gender-neutral figure seen from behind (hood up), drawn as layered SVG.
+  "2.5D": the layers react to CSS variables set by the scene's tilt script:
+    --lx  -1 (light from the left) ... 1 (light from the right)
+  so the rim light moves and the floor shadow shifts the opposite way.
+  Kept in its own component so a Three.js model can replace it later.
+*/
+interface Props {
+  class?: string;
+}
+const { class: className } = Astro.props;
+---
+
+<svg class:list={['person', className]} viewBox="0 0 200 400" role="img"
+  aria-label="A person in a hoodie, seen from behind">
+  <defs>
+    <linearGradient id="p-hoodie" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#353944" />
+      <stop offset="1" stop-color="#22252d" />
+    </linearGradient>
+    <linearGradient id="p-hood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3e4a" />
+      <stop offset="1" stop-color="#262932" />
+    </linearGradient>
+    <linearGradient id="p-jeans" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#25324f" />
+      <stop offset="1" stop-color="#18203a" />
+    </linearGradient>
+    <!-- Soft shading across the back: darker at the sides, like a rounded body -->
+    <linearGradient id="p-shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.35" />
+      <stop offset="0.5" stop-color="#000" stop-opacity="0" />
+      <stop offset="1" stop-color="#000" stop-opacity="0.35" />
+    </linearGradient>
+    <!-- Rim light colours: purple glow (top right of the page) into cyan -->
+    <linearGradient id="p-rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9a4ff" />
+      <stop offset="1" stop-color="#7fd8ec" />
+    </linearGradient>
+    <radialGradient id="p-floor">
+      <stop offset="0" stop-color="#7fd8ec" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#7fd8ec" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- 1. Floor glow + shadow (moves opposite to the light) -->
+  <g class="floor">
+    <ellipse cx="100" cy="384" rx="78" ry="12" fill="url(#p-floor)" />
+    <ellipse cx="100" cy="382" rx="44" ry="5" fill="#000" opacity="0.55" />
+  </g>
+
+  <!-- 2. Legs and shoes -->
+  <g class="legs">
+    <path d="M71 248 L98 250 L97 366 L74 366 Z" fill="url(#p-jeans)" />
+    <path d="M102 250 L129 248 L126 366 L103 366 Z" fill="url(#p-jeans)" />
+    <!-- a darker seam down each leg -->
+    <path d="M85 256 L85.5 364 M115 256 L114.5 364" stroke="#0f1528" stroke-width="1.5" opacity="0.6" />
+    <!-- white soles / heels -->
+    <rect x="71" y="364" width="29" height="15" rx="5" fill="#e9ebf1" />
+    <rect x="100" y="364" width="29" height="15" rx="5" fill="#e9ebf1" />
+    <rect x="71" y="364" width="29" height="6" rx="3" fill="#c9ccd6" />
+    <rect x="100" y="364" width="29" height="6" rx="3" fill="#c9ccd6" />
+  </g>
+
+  <!-- 3. Upper body: breathes (very slow, tiny rise of the shoulders) -->
+  <g class="upper">
+    <!-- arms hanging at the sides -->
+    <path d="M50 142 Q36 196 41 248 L57 250 Q57 200 64 154 Z" fill="url(#p-hoodie)" />
+    <path d="M150 142 Q164 196 159 248 L143 250 Q143 200 136 154 Z" fill="url(#p-hoodie)" />
+    <!-- body -->
+    <path d="M50 142 Q54 110 100 104 Q146 110 150 142 L156 252 Q100 264 44 252 Z" fill="url(#p-hoodie)" />
+    <path d="M50 142 Q54 110 100 104 Q146 110 150 142 L156 252 Q100 264 44 252 Z" fill="url(#p-shade)" />
+    <!-- waistband and cuffs -->
+    <path d="M44 240 Q100 252 156 240 L156 252 Q100 264 44 252 Z" fill="#1d2027" />
+    <path d="M41 240 L57 242 L57 250 L41 248 Z M143 242 L159 240 L159 248 L143 250 Z" fill="#1d2027" />
+
+    <!-- hood -->
+    <path d="M67 116 Q60 62 100 52 Q140 62 133 116 Q100 128 67 116 Z" fill="url(#p-hood)" />
+    <path d="M67 116 Q60 62 100 52 Q140 62 133 116 Q100 128 67 116 Z" fill="url(#p-shade)" />
+    <!-- centre seam of the hood -->
+    <path d="M100 54 Q103 86 100 122" stroke="#4a4f5d" stroke-width="1.2" fill="none" opacity="0.7" />
+
+    <!-- 4. Rim light: brighter on the side the light comes from -->
+    <g class="rim rim-left" fill="none" stroke="url(#p-rim)" stroke-width="2" stroke-linecap="round">
+      <path d="M68 114 Q60 64 98 53" />
+      <path d="M50 142 Q53 116 78 107" />
+      <path d="M50 146 Q37 196 41 246" />
+    </g>
+    <g class="rim rim-right" fill="none" stroke="url(#p-rim)" stroke-width="2" stroke-linecap="round">
+      <path d="M132 114 Q140 64 102 53" />
+      <path d="M150 142 Q147 116 122 107" />
+      <path d="M150 146 Q163 196 159 246" />
+    </g>
+  </g>
+</svg>
+
+<style>
+  .person {
+    overflow: visible;
+  }
+
+  .floor {
+    /* shadow slides away from the light */
+    transform: translateX(calc(var(--lx, 0) * -8px));
+    transition: transform 0.4s ease-out;
+  }
+
+  .upper {
+    transform-box: fill-box;
+    transform-origin: 50% 100%; /* breathe from the waist */
+    animation: breathe 5s ease-in-out infinite;
+  }
+
+  @keyframes breathe {
+    50% {
+      transform: scaleY(1.012);
+    }
+  }
+
+  /* Light from the left (--lx = -1): left rim bright, right rim faint, and the other way round */
+  .rim {
+    transition: opacity 0.4s ease-out;
+    filter: drop-shadow(0 0 3px #b9a4ff);
+  }
+
+  .rim-left {
+    opacity: calc(0.45 - var(--lx, 0) * 0.45);
+  }
+
+  .rim-right {
+    opacity: calc(0.45 + var(--lx, 0) * 0.45);
+  }
+</style>

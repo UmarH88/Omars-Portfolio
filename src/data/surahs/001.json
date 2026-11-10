@@ -6,39 +6,62 @@
   "revelationPlace": "makkah",
   "versesCount": 7,
   "bismillahPre": false,
-  "translation": {
-    "id": 20,
-    "name": "Saheeh International"
-  },
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
   "source": "Quran.com / Quran Foundation API v4",
   "verses": [
     {
       "number": 1,
       "key": "1:1",
       "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
-      "translation": "In the name of Allāh, the Entirely Merciful, the Especially Merciful.",
+      "translations": {
+        "en": "In the name of Allāh, the Entirely Merciful, the Especially Merciful.",
+        "id": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang."
+      },
       "page": 1,
       "juz": 1,
       "sajdah": false,
       "words": [
         {
           "text": "بِسْمِ",
-          "meaning": "In (the) name",
+          "meanings": {
+            "en": "In (the) name",
+            "id": "dengan nama"
+          },
           "transliteration": "bis'mi"
         },
         {
           "text": "ٱللَّهِ",
-          "meaning": "(of) Allah",
+          "meanings": {
+            "en": "(of) Allah",
+            "id": "Allah"
+          },
           "transliteration": "l-lahi"
         },
         {
           "text": "ٱلرَّحْمَـٰنِ",
-          "meaning": "the Most Gracious",
+          "meanings": {
+            "en": "the Most Gracious",
+            "id": "Maha Pengasih"
+          },
           "transliteration": "l-raḥmāni"
         },
         {
           "text": "ٱلرَّحِيمِ",
-          "meaning": "the Most Merciful",
+          "meanings": {
+            "en": "the Most Merciful",
+            "id": "Maha Penyayang"
+          },
           "transliteration": "l-raḥīmi"
         }
       ]
@@ -47,29 +70,44 @@
       "number": 2,
       "key": "1:2",
       "text": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
-      "translation": "[All] praise is [due] to Allāh, Lord of the worlds -",
+      "translations": {
+        "en": "[All] praise is [due] to Allāh, Lord of the worlds -",
+        "id": "Segala puji bagi Allah, Tuhan seluruh alam,"
+      },
       "page": 1,
       "juz": 1,
       "sajdah": false,
       "words": [
         {
           "text": "ٱلْحَمْدُ",
-          "meaning": "All praises and thanks",
+          "meanings": {
+            "en": "All praises and thanks",
+            "id": "pujian"
+          },
           "transliteration": "al-ḥamdu"
         },
         {
           "text": "لِلَّهِ",
-          "meaning": "(be) to Allah",
+          "meanings": {
+            "en": "(be) to Allah",
+            "id": "bagi Allah"
+          },
           "transliteration": "lillahi"
         },
         {
           "text": "رَبِّ",
-          "meaning": "the Lord",
+          "meanings": {
+            "en": "the Lord",
+            "id": "Tuhan"
+          },
           "transliteration": "rabbi"
         },
         {
           "text": "ٱلْعَـٰلَمِينَ",
-          "meaning": "of the universe",
+          "meanings": {
+            "en": "of the universe",
+            "id": "alam semesta"
+          },
           "transliteration": "l-ʿālamīna"
         }
       ]
@@ -78,19 +116,28 @@
       "number": 3,
       "key": "1:3",
       "text": "ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
-      "translation": "The Entirely Merciful, the Especially Merciful,",
+      "translations": {
+        "en": "The Entirely Merciful, the Especially Merciful,",
+        "id": "Yang Maha Pengasih, Maha Penyayang,"
+      },
       "page": 1,
       "juz": 1,
       "sajdah": false,
       "words": [
         {
           "text": "ٱلرَّحْمَـٰنِ",
-          "meaning": "The Most Gracious",
+          "meanings": {
+            "en": "The Most Gracious",
+            "id": "Maha Pengasih"
+          },
           "transliteration": "al-raḥmāni"
         },
         {
           "text": "ٱلرَّحِيمِ",
-          "meaning": "the Most Merciful",
+          "meanings": {
+            "en": "the Most Merciful",
+            "id": "Maha Penyayang"
+          },
           "transliteration": "l-raḥīmi"
         }
       ]
@@ -99,24 +146,36 @@
       "number": 4,
       "key": "1:4",
       "text": "مَـٰلِكِ يَوْمِ ٱلدِّينِ",
-      "translation": "Sovereign of the Day of Recompense.",
+      "translations": {
+        "en": "Sovereign of the Day of Recompense.",
+        "id": "Pemilik hari pembalasan."
+      },
       "page": 1,
       "juz": 1,
       "sajdah": false,
       "words": [
         {
           "text": "مَـٰلِكِ",
-          "meaning": "(The) Master",
+          "meanings": {
+            "en": "(The) Master",
+            "id": "Penguasa"
+          },
           "transliteration": "māliki"
         },
         {
           "text": "يَوْمِ",
-          "meaning": "(of the) Day",
+          "meanings": {
+            "en": "(of the) Day",
+            "id": "hari"
+          },
           "transliteration": "yawmi"
         },
         {
           "text": "ٱلدِّينِ",
-          "meaning": "(of the) Judgment",
+          "meanings": {
+            "en": "(of the) Judgment",
+            "id": "pembalasan"
+          },
           "transliteration": "l-dīni"
         }
       ]
@@ -125,29 +184,44 @@
       "number": 5,
       "key": "1:5",
       "text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
-      "translation": "It is You we worship and You we ask for help.",
+      "translations": {
+        "en": "It is You we worship and You we ask for help.",
+        "id": "Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan."
+      },
       "page": 1,
       "juz": 1,
       "sajdah": false,
       "words": [
         {
           "text": "إِيَّاكَ",
-          "meaning": "You Alone",
+          "meanings": {
+            "en": "You Alone",
+            "id": "hanya kepadaMu"
+          },
           "transliteration": "iyyāka"
         },
         {
           "text": "نَعْبُدُ",
-          "meaning": "we worship",
+          "meanings": {
+            "en": "we worship",
+            "id": "kami menyembah"
+          },
           "transliteration": "naʿbudu"
         },
         {
           "text": "وَإِيَّاكَ",
-          "meaning": "and You Alone",
+          "meanings": {
+            "en": "and You Alone",
+            "id": "dan hanya kepadaMu"
+          },
           "transliteration": "wa-iyyāka"
         },
         {
           "text": "نَسْتَعِينُ",
-          "meaning": "we ask for help",
+          "meanings": {
+            "en": "we ask for help",
+            "id": "kami mohon pertolongan"
+          },
           "transliteration": "nastaʿīnu"
         }
       ]
@@ -156,24 +230,36 @@
       "number": 6,
       "key": "1:6",
       "text": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
-      "translation": "Guide us to the straight path -",
+      "translations": {
+        "en": "Guide us to the straight path -",
+        "id": "Tunjukilah kami jalan yang lurus,"
+      },
       "page": 1,
       "juz": 1,
       "sajdah": false,
       "words": [
         {
           "text": "ٱهْدِنَا",
-          "meaning": "Guide us",
+          "meanings": {
+            "en": "Guide us",
+            "id": "tunjukkan kami"
+          },
           "transliteration": "ih'dinā"
         },
         {
           "text": "ٱلصِّرَٰطَ",
-          "meaning": "(to) the path",
+          "meanings": {
+            "en": "(to) the path",
+            "id": "jalan"
+          },
           "transliteration": "l-ṣirāṭa"
         },
         {
           "text": "ٱلْمُسْتَقِيمَ",
-          "meaning": "the straight",
+          "meanings": {
+            "en": "the straight",
+            "id": "lurus"
+          },
           "transliteration": "l-mus'taqīma"
         }
       ]
@@ -182,54 +268,84 @@
       "number": 7,
       "key": "1:7",
       "text": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
-      "translation": "The path of those upon whom You have bestowed favor, not of those who have earned [Your] anger or of those who are astray.",
+      "translations": {
+        "en": "The path of those upon whom You have bestowed favor, not of those who have earned [Your] anger or of those who are astray.",
+        "id": "(yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat."
+      },
       "page": 1,
       "juz": 1,
       "sajdah": false,
       "words": [
         {
           "text": "صِرَٰطَ",
-          "meaning": "(The) path",
+          "meanings": {
+            "en": "(The) path",
+            "id": "jalan"
+          },
           "transliteration": "ṣirāṭa"
         },
         {
           "text": "ٱلَّذِينَ",
-          "meaning": "(of) those",
+          "meanings": {
+            "en": "(of) those",
+            "id": "orang-orang yang"
+          },
           "transliteration": "alladhīna"
         },
         {
           "text": "أَنْعَمْتَ",
-          "meaning": "You have bestowed (Your) Favors",
+          "meanings": {
+            "en": "You have bestowed (Your) Favors",
+            "id": "diberi nikmat"
+          },
           "transliteration": "anʿamta"
         },
         {
           "text": "عَلَيْهِمْ",
-          "meaning": "on them",
+          "meanings": {
+            "en": "on them",
+            "id": "kepadanya"
+          },
           "transliteration": "ʿalayhim"
         },
         {
           "text": "غَيْرِ",
-          "meaning": "not (of)",
+          "meanings": {
+            "en": "not (of)",
+            "id": "bukan"
+          },
           "transliteration": "ghayri"
         },
         {
           "text": "ٱلْمَغْضُوبِ",
-          "meaning": "those who earned (Your) wrath",
+          "meanings": {
+            "en": "those who earned (Your) wrath",
+            "id": "orang yang dimurkai"
+          },
           "transliteration": "l-maghḍūbi"
         },
         {
           "text": "عَلَيْهِمْ",
-          "meaning": "on themselves",
+          "meanings": {
+            "en": "on themselves",
+            "id": "kepadanya"
+          },
           "transliteration": "ʿalayhim"
         },
         {
           "text": "وَلَا",
-          "meaning": "and not",
+          "meanings": {
+            "en": "and not",
+            "id": "dan tidak"
+          },
           "transliteration": "walā"
         },
         {
           "text": "ٱلضَّآلِّينَ",
-          "meaning": "(of) those who go astray",
+          "meanings": {
+            "en": "(of) those who go astray",
+            "id": "orang-orang yang sesat"
+          },
           "transliteration": "l-ḍālīna"
         }
       ]

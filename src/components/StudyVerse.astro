@@ -1,0 +1,76 @@
+---
+/*
+  StudyVerse: one row in Study mode.
+  Arabic (tappable words + verse markers), then the numbered translation.
+  Every language's translation is in the page; CSS shows the active one
+  (<html class="lang-id"> = Indonesian, set by LanguageSwitch).
+*/
+import QuranWord from './QuranWord.astro';
+import VerseMarker from './VerseMarker.astro';
+import type { Lang, StudyRow } from '../lib/quran';
+
+interface Props {
+  row: StudyRow;
+  langs: Lang[];
+}
+
+const { row, langs } = Astro.props;
+const heading = row.label ? `Verse ${row.label}` : 'Bismillah';
+---
+
+<article class="study-verse" id={row.anchor} aria-label={heading}>
+  <p class="arabic" lang="ar" dir="rtl">
+    {
+      row.segments.map((segment) => (
+        <Fragment>
+          {segment.words.map((word) => <Fragment><QuranWord word={word} langs={langs} gloss />{' '}</Fragment>)}
+          {segment.number !== null && <VerseMarker number={segment.number} />}{' '}
+        </Fragment>
+      ))
+    }
+  </p>
+
+  {
+    langs.map((lang) => (
+      <p class="translation" data-lang={lang} lang={lang}>
+        {row.label && <span class="number">{row.label}.</span>}
+        {row.translations[lang]}
+      </p>
+    ))
+  }
+</article>
+
+<style>
+  .study-verse {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--text) 10%, transparent);
+    scroll-margin-top: 5rem; /* when jumping to #v-5, don't hide it under the sticky bar */
+  }
+
+  .arabic {
+    margin: 0;
+    font-size: clamp(1.6rem, 7vw, 2.1rem);
+    line-height: 2.2;
+    text-align: right;
+  }
+
+  .translation {
+    display: none; /* shown below for the active language only */
+    gap: 0.6rem;
+    margin: 0.75rem 0 0;
+    color: var(--muted);
+    font-size: 1rem;
+  }
+
+  :global(html:not(.lang-id)) .translation[data-lang='en'],
+  :global(html.lang-id) .translation[data-lang='id'] {
+    display: flex;
+  }
+
+  .number {
+    flex-shrink: 0;
+    color: var(--highlight);
+    font-size: 0.85rem;
+    line-height: 1.7;
+  }
+</style>

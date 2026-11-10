@@ -3,7 +3,7 @@
   and saves it as JSON in src/data, so the site never calls the API.
 
   Run:
-    npm run fetch:quran                    all surahs (skips ones already saved)
+    npm run fetch:quran                    all surahs (skips ones already saved in the current format)
     npm run fetch:quran -- --only=1,2      just these surahs
     npm run fetch:quran -- --force         download again even if saved
   Source: QF_ENV in .env = "public" (default, Quran.com open API, no keys),
@@ -14,6 +14,7 @@
     src/data/surahs/001.json ...    verses, words, meanings, translation
 */
 import { existsSync } from 'node:fs';
+import { readFile } from 'node:fs/promises';
 
 // Load .env BEFORE importing the API module, because it reads the settings on load.
 // The public API needs no keys, so a missing .env is fine.
@@ -30,8 +31,16 @@ const SURAHS_DIR = 'src/data/surahs';
 const SURAH_COUNT = 114;
 const VERSES_PER_REQUEST = 50; // the API's maximum
 
-// Translation shown on the site. Name and id checked against /resources/translations.
-const TRANSLATION = { id: 20, name: 'Saheeh International' };
+/*
+  Languages on the site: a translation + word-by-word meanings for each.
+  Ids and names checked against /resources/translations.
+  To add a language: add one line here, then run with --force.
+*/
+const LANGUAGES = [
+  { lang: 'en', translationId: 20, name: 'Saheeh International' },
+  { lang: 'id', translationId: 33, name: 'Kementerian Agama RI (Indonesian Ministry of Religious Affairs)' },
+];
+const [MAIN_LANGUAGE, ...OTHER_LANGUAGES] = LANGUAGES;
 
 // ---------- Chapters ----------
 
@@ -109,34 +118,39 @@ function cleanTranslation(html) {
     .trim();
 }
 
-// One word: its Arabic, English meaning and transliteration (how it sounds).
+// "end" items are the verse-number sign; we draw our own markers instead
+const onlyWords = (rawVerse) => rawVerse.words.filter((w) => w.char_type_name === 'word');
+
+// One word: its Arabic, meaning (main language for now) and transliteration (how it sounds).
 function toWord(raw, verseKey) {
   const word = {
     text: raw.text_uthmani,
-    meaning: raw.translation?.text,
+    meanings: { [MAIN_LANGUAGE.lang]: raw.translation?.text },
     transliteration: raw.transliteration?.text ?? null,
   };
-  if (!word.text || !word.meaning) {
+  if (!word.text || !word.meanings[MAIN_LANGUAGE.lang]) {
     throw new Error(`Word ${raw.position} in ${verseKey} is missing its text or meaning.`);
   }
   return word;
 }
 
 function toVerse(raw) {
-  const translation = raw.translations?.find((t) => t.resource_id === TRANSLATION.id);
-  if (!raw.text_uthmani || !translation?.text) {
-    throw new Error(`Verse ${raw.verse_key} is missing its Arabic or translation.`);
+  const translations = {};
+  for (const { lang, translationId } of LANGUAGES) {
+    const found = raw.translations?.find((t) => t.resource_id === translationId);
+    if (!found?.text) throw new Error(`Verse ${raw.verse_key} is missing its "${lang}" translation.`);
+    translations[lang] = cleanTranslation(found.text);
   }
+  if (!raw.text_uthmani) throw new Error(`Verse ${raw.verse_key} is missing its Arabic.`);
 
-  // "end" items are the verse-number sign; we draw our own markers instead
-  const words = raw.words.filter((w) => w.char_type_name === 'word').map((w) => toWord(w, raw.verse_key));
+  const words = onlyWords(raw).map((w) => toWord(w, raw.verse_key));
   if (words.length === 0) throw new Error(`Verse ${raw.verse_key} has no words.`);
 
   return {
     number: raw.verse_number,
     key: raw.verse_key, // "2:255"
     text: raw.text_uthmani,
-    translation: cleanTranslation(translation.text),
+    translations,
     page: raw.page_number, // page in the standard Madani mushaf
     juz: raw.juz_number,
     sajdah: raw.sajdah_number !== null, // verse of prostration
@@ -145,28 +159,70 @@ function toVerse(raw) {
 }
 
 // Download every verse of one surah, 50 at a time, following the API's pages.
-async function fetchVerses(chapterId) {
+async function fetchAllPages(chapterId, params) {
   const verses = [];
   let page = 1;
   while (page) {
     const data = await apiGet(`/verses/by_chapter/${chapterId}`, {
-      language: 'en',
-      words: 'true',
-      word_fields: 'text_uthmani',
-      fields: 'text_uthmani',
-      translations: TRANSLATION.id,
+      ...params,
       per_page: VERSES_PER_REQUEST,
       page,
     });
-    verses.push(...data.verses.map(toVerse));
+    verses.push(...data.verses);
     page = data.pagination?.next_page ?? null; // null = that was the last page
   }
   return verses;
 }
 
+/*
+  1. Main request: Arabic, all translations, and word meanings in the main language.
+  2. One extra request per other language: the API gives word meanings in the
+     language we ask for, so we fetch the words again and add those meanings.
+*/
+async function fetchVerses(chapterId) {
+  const raw = await fetchAllPages(chapterId, {
+    language: MAIN_LANGUAGE.lang,
+    words: 'true',
+    word_fields: 'text_uthmani',
+    fields: 'text_uthmani',
+    translations: LANGUAGES.map((l) => l.translationId).join(','),
+  });
+  const verses = raw.map(toVerse);
+
+  for (const { lang } of OTHER_LANGUAGES) {
+    const other = await fetchAllPages(chapterId, { language: lang, words: 'true', word_fields: 'text_uthmani' });
+    if (other.length !== verses.length) throw new Error(`"${lang}" word meanings: verse count differs.`);
+
+    other.forEach((rawVerse, i) => {
+      const words = onlyWords(rawVerse);
+      const target = verses[i].words;
+      // Same words in the same order, or we refuse to mix them
+      if (words.length !== target.length || words.some((w, j) => w.text_uthmani !== target[j].text)) {
+        throw new Error(`"${lang}" word meanings don't line up in ${verses[i].key}.`);
+      }
+      words.forEach((w, j) => {
+        if (!w.translation?.text) throw new Error(`Word ${j + 1} in ${verses[i].key} has no "${lang}" meaning.`);
+        target[j].meanings[lang] = w.translation.text;
+      });
+    });
+  }
+  return verses;
+}
+
+// A saved file only counts if it has exactly the current languages (an old format gets refetched)
+async function isUpToDate(file) {
+  if (!existsSync(file)) return false;
+  try {
+    const saved = JSON.parse(await readFile(file, 'utf8'));
+    return JSON.stringify(saved.languages) === JSON.stringify(LANGUAGES);
+  } catch {
+    return false; // unreadable = fetch again
+  }
+}
+
 async function fetchSurah(chapter, { force }) {
   const file = `${SURAHS_DIR}/${String(chapter.id).padStart(3, '0')}.json`; // 1 -> 001.json
-  if (!force && existsSync(file)) return 'skipped';
+  if (!force && (await isUpToDate(file))) return 'skipped';
 
   const verses = await fetchVerses(chapter.id);
 
@@ -181,7 +237,7 @@ async function fetchSurah(chapter, { force }) {
 
   await writeJsonSafely(file, {
     ...chapter,
-    translation: TRANSLATION,
+    languages: LANGUAGES,
     source: 'Quran.com / Quran Foundation API v4',
     verses,
   });

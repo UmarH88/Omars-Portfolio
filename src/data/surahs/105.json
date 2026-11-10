@@ -1,0 +1,278 @@
+{
+  "id": 105,
+  "nameSimple": "Al-Fil",
+  "nameArabic": "الفيل",
+  "meaning": "The Elephant",
+  "revelationPlace": "makkah",
+  "versesCount": 5,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "105:1",
+      "text": " أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ",
+      "translations": {
+        "en": "Have you not considered, [O Muḥammad], how your Lord dealt with the companions of the elephant?",
+        "id": "Tidakkah engkau (Muhammad) perhatikan bagaimana Tuhanmu telah bertindak terhadap pasukan bergajah?"
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَلَمْ",
+          "meanings": {
+            "en": "Have not",
+            "id": "apakah tidak"
+          },
+          "transliteration": "alam"
+        },
+        {
+          "text": "تَرَ",
+          "meanings": {
+            "en": "you seen",
+            "id": "kamu perhatikan"
+          },
+          "transliteration": "tara"
+        },
+        {
+          "text": "كَيْفَ",
+          "meanings": {
+            "en": "how",
+            "id": "bagaimana"
+          },
+          "transliteration": "kayfa"
+        },
+        {
+          "text": "فَعَلَ",
+          "meanings": {
+            "en": "dealt",
+            "id": "berbuat/bertindak"
+          },
+          "transliteration": "faʿala"
+        },
+        {
+          "text": "رَبُّكَ",
+          "meanings": {
+            "en": "your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbuka"
+        },
+        {
+          "text": "بِأَصْحَـٰبِ",
+          "meanings": {
+            "en": "with (the) Companions",
+            "id": "terhadap golongan (tentara)"
+          },
+          "transliteration": "bi-aṣḥābi"
+        },
+        {
+          "text": "ٱلْفِيلِ",
+          "meanings": {
+            "en": "(of the) Elephant",
+            "id": "gajah"
+          },
+          "transliteration": "l-fīli"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "105:2",
+      "text": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ",
+      "translations": {
+        "en": "Did He not make their plan into misguidance?",
+        "id": "Bukankah Dia telah menjadikan tipu daya mereka itu sia-sia?"
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَلَمْ",
+          "meanings": {
+            "en": "Did not",
+            "id": "apakah tidak"
+          },
+          "transliteration": "alam"
+        },
+        {
+          "text": "يَجْعَلْ",
+          "meanings": {
+            "en": "He make",
+            "id": "Dia jadikan"
+          },
+          "transliteration": "yajʿal"
+        },
+        {
+          "text": "كَيْدَهُمْ",
+          "meanings": {
+            "en": "their plan",
+            "id": "tipu daya mereka"
+          },
+          "transliteration": "kaydahum"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "go",
+            "id": "dalam"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "تَضْلِيلٍۢ",
+          "meanings": {
+            "en": "astray",
+            "id": "kesesatan/sia-sia"
+          },
+          "transliteration": "taḍlīlin"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "105:3",
+      "text": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+      "translations": {
+        "en": "And He sent against them birds in flocks,",
+        "id": "dan Dia mengirimkan kepada mereka burung yang berbondong-bondong,"
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَرْسَلَ",
+          "meanings": {
+            "en": "And He sent",
+            "id": "dan Dia mengirimkan"
+          },
+          "transliteration": "wa-arsala"
+        },
+        {
+          "text": "عَلَيْهِمْ",
+          "meanings": {
+            "en": "against them",
+            "id": "kepada mereka"
+          },
+          "transliteration": "ʿalayhim"
+        },
+        {
+          "text": "طَيْرًا",
+          "meanings": {
+            "en": "birds",
+            "id": "burung"
+          },
+          "transliteration": "ṭayran"
+        },
+        {
+          "text": "أَبَابِيلَ",
+          "meanings": {
+            "en": "(in) flocks",
+            "id": "yang berbondong-bondong"
+          },
+          "transliteration": "abābīla"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "105:4",
+      "text": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+      "translations": {
+        "en": "Striking them with stones of hard clay,",
+        "id": "yang melempari mereka dengan batu dari tanah liat yang dibakar,"
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "تَرْمِيهِم",
+          "meanings": {
+            "en": "Striking them",
+            "id": "yang melempari mereka"
+          },
+          "transliteration": "tarmīhim"
+        },
+        {
+          "text": "بِحِجَارَةٍۢ",
+          "meanings": {
+            "en": "with stones",
+            "id": "dengan batu-batu"
+          },
+          "transliteration": "biḥijāratin"
+        },
+        {
+          "text": "مِّن",
+          "meanings": {
+            "en": "of",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "سِجِّيلٍۢ",
+          "meanings": {
+            "en": "baked clay",
+            "id": "tanah keras/terbakar"
+          },
+          "transliteration": "sijjīlin"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "105:5",
+      "text": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
+      "translations": {
+        "en": "And He made them like eaten straw.",
+        "id": "sehingga mereka dijadikan-Nya seperti daun-daun yang dimakan (ulat)."
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَجَعَلَهُمْ",
+          "meanings": {
+            "en": "Then He made them",
+            "id": "lalu Dia menjadikan mereka"
+          },
+          "transliteration": "fajaʿalahum"
+        },
+        {
+          "text": "كَعَصْفٍۢ",
+          "meanings": {
+            "en": "like straw",
+            "id": "seperti daun"
+          },
+          "transliteration": "kaʿaṣfin"
+        },
+        {
+          "text": "مَّأْكُولٍۭ",
+          "meanings": {
+            "en": "eaten up",
+            "id": "dimakan"
+          },
+          "transliteration": "makūlin"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "id": 109,
+  "nameSimple": "Al-Kafirun",
+  "nameArabic": "الكافرون",
+  "meaning": "The Disbelievers",
+  "revelationPlace": "makkah",
+  "versesCount": 6,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "109:1",
+      "text": " قُلْ يَـٰٓأَيُّهَا ٱلْكَـٰفِرُونَ",
+      "translations": {
+        "en": "Say, \"O disbelievers,",
+        "id": "Katakanlah (Muhammad), \"Wahai orang-orang kafir!"
+      },
+      "page": 603,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "قُلْ",
+          "meanings": {
+            "en": "Say",
+            "id": "katakanlah"
+          },
+          "transliteration": "qul"
+        },
+        {
+          "text": "يَـٰٓأَيُّهَا",
+          "meanings": {
+            "en": "O",
+            "id": "wahai"
+          },
+          "transliteration": "yāayyuhā"
+        },
+        {
+          "text": "ٱلْكَـٰفِرُونَ",
+          "meanings": {
+            "en": "disbelievers",
+            "id": "orang-orang kafir"
+          },
+          "transliteration": "l-kāfirūna"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "109:2",
+      "text": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
+      "translations": {
+        "en": "I do not worship what you worship.",
+        "id": "aku tidak akan menyembah apa yang kamu sembah,"
+      },
+      "page": 603,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "لَآ",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak"
+          },
+          "transliteration": "lā"
+        },
+        {
+          "text": "أَعْبُدُ",
+          "meanings": {
+            "en": "I worship",
+            "id": "aku menyembah"
+          },
+          "transliteration": "aʿbudu"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "تَعْبُدُونَ",
+          "meanings": {
+            "en": "you worship",
+            "id": "kamu sembah"
+          },
+          "transliteration": "taʿbudūna"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "109:3",
+      "text": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
+      "translations": {
+        "en": "Nor are you worshippers of what I worship.",
+        "id": "dan kamu bukan penyembah apa yang aku sembah,"
+      },
+      "page": 603,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَلَآ",
+          "meanings": {
+            "en": "And not",
+            "id": "dan tidak"
+          },
+          "transliteration": "walā"
+        },
+        {
+          "text": "أَنتُمْ",
+          "meanings": {
+            "en": "you",
+            "id": "kamu"
+          },
+          "transliteration": "antum"
+        },
+        {
+          "text": "عَـٰبِدُونَ",
+          "meanings": {
+            "en": "(are) worshippers",
+            "id": "menyembah"
+          },
+          "transliteration": "ʿābidūna"
+        },
+        {
+          "text": "مَآ",
+          "meanings": {
+            "en": "(of) what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "أَعْبُدُ",
+          "meanings": {
+            "en": "I worship",
+            "id": "aku sembah"
+          },
+          "transliteration": "aʿbudu"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "109:4",
+      "text": "وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ",
+      "translations": {
+        "en": "Nor will I be a worshipper of what you worship.",
+        "id": "dan aku tidak pernah menjadi penyembah apa yang kamu sembah,"
+      },
+      "page": 603,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَلَآ",
+          "meanings": {
+            "en": "And not",
+            "id": "dan bukanlah"
+          },
+          "transliteration": "walā"
+        },
+        {
+          "text": "أَنَا۠",
+          "meanings": {
+            "en": "I am",
+            "id": "aku"
+          },
+          "transliteration": "anā"
+        },
+        {
+          "text": "عَابِدٌۭ",
+          "meanings": {
+            "en": "a worshipper",
+            "id": "menjadi penyembah"
+          },
+          "transliteration": "ʿābidun"
+        },
+        {
+          "text": "مَّا",
+          "meanings": {
+            "en": "(of) what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "عَبَدتُّمْ",
+          "meanings": {
+            "en": "you worship",
+            "id": "kamu sembah"
+          },
+          "transliteration": "ʿabadttum"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "109:5",
+      "text": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
+      "translations": {
+        "en": "Nor will you be worshippers of what I worship.",
+        "id": "dan kamu tidak pernah (pula) menjadi penyembah apa yang aku sembah."
+      },
+      "page": 603,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَلَآ",
+          "meanings": {
+            "en": "And not",
+            "id": "dan bukanlah"
+          },
+          "transliteration": "walā"
+        },
+        {
+          "text": "أَنتُمْ",
+          "meanings": {
+            "en": "you",
+            "id": "kamu"
+          },
+          "transliteration": "antum"
+        },
+        {
+          "text": "عَـٰبِدُونَ",
+          "meanings": {
+            "en": "(are) worshippers",
+            "id": "menyembah"
+          },
+          "transliteration": "ʿābidūna"
+        },
+        {
+          "text": "مَآ",
+          "meanings": {
+            "en": "(of) what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "أَعْبُدُ",
+          "meanings": {
+            "en": "I worship",
+            "id": "aku sembah"
+          },
+          "transliteration": "aʿbudu"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "109:6",
+      "text": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
+      "translations": {
+        "en": "For you is your religion, and for me is my religion.\"",
+        "id": "Untukmu agamamu, dan untukku agamaku.\""
+      },
+      "page": 603,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "لَكُمْ",
+          "meanings": {
+            "en": "For you",
+            "id": "bagi kalian"
+          },
+          "transliteration": "lakum"
+        },
+        {
+          "text": "دِينُكُمْ",
+          "meanings": {
+            "en": "(is) your religion",
+            "id": "agamamu"
+          },
+          "transliteration": "dīnukum"
+        },
+        {
+          "text": "وَلِىَ",
+          "meanings": {
+            "en": "and for me",
+            "id": "bagiku"
+          },
+          "transliteration": "waliya"
+        },
+        {
+          "text": "دِينِ",
+          "meanings": {
+            "en": "(is) my religion",
+            "id": "agamaku"
+          },
+          "transliteration": "dīni"
+        }
+      ]
+    }
+  ]
+}

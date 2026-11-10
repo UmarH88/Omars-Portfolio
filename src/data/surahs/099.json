@@ -1,0 +1,424 @@
+{
+  "id": 99,
+  "nameSimple": "Az-Zalzalah",
+  "nameArabic": "الزلزلة",
+  "meaning": "The Earthquake",
+  "revelationPlace": "madinah",
+  "versesCount": 8,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "99:1",
+      "text": " إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+      "translations": {
+        "en": "When the earth is shaken with its [final] earthquake",
+        "id": "Apabila bumi diguncangkan dengan guncangan yang dahsyat,"
+      },
+      "page": 599,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "When",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "زُلْزِلَتِ",
+          "meanings": {
+            "en": "is shaken",
+            "id": "digoncangkan"
+          },
+          "transliteration": "zul'zilati"
+        },
+        {
+          "text": "ٱلْأَرْضُ",
+          "meanings": {
+            "en": "the earth",
+            "id": "bumi"
+          },
+          "transliteration": "l-arḍu"
+        },
+        {
+          "text": "زِلْزَالَهَا",
+          "meanings": {
+            "en": "(with) its earthquake",
+            "id": "goncangan"
+          },
+          "transliteration": "zil'zālahā"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "99:2",
+      "text": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+      "translations": {
+        "en": "And the earth discharges its burdens",
+        "id": "dan bumi telah mengeluarkan beban-beban berat (yang dikandung)nya,"
+      },
+      "page": 599,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَخْرَجَتِ",
+          "meanings": {
+            "en": "And brings forth",
+            "id": "dan mengeluarkan"
+          },
+          "transliteration": "wa-akhrajati"
+        },
+        {
+          "text": "ٱلْأَرْضُ",
+          "meanings": {
+            "en": "the earth",
+            "id": "bumi"
+          },
+          "transliteration": "l-arḍu"
+        },
+        {
+          "text": "أَثْقَالَهَا",
+          "meanings": {
+            "en": "its burdens",
+            "id": "beban beratnya"
+          },
+          "transliteration": "athqālahā"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "99:3",
+      "text": "وَقَالَ ٱلْإِنسَـٰنُ مَا لَهَا",
+      "translations": {
+        "en": "And man says, \"What is [wrong] with it?\" -",
+        "id": "dan manusia bertanya, \"Apa yang terjadi pada bumi ini?\""
+      },
+      "page": 599,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَقَالَ",
+          "meanings": {
+            "en": "And says",
+            "id": "dan berkata"
+          },
+          "transliteration": "waqāla"
+        },
+        {
+          "text": "ٱلْإِنسَـٰنُ",
+          "meanings": {
+            "en": "man",
+            "id": "manusia"
+          },
+          "transliteration": "l-insānu"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "What",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "لَهَا",
+          "meanings": {
+            "en": "(is) with it",
+            "id": "ia"
+          },
+          "transliteration": "lahā"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "99:4",
+      "text": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
+      "translations": {
+        "en": "That Day, it will report its news",
+        "id": "Pada hari itu bumi menyampaikan beritanya,"
+      },
+      "page": 599,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يَوْمَئِذٍۢ",
+          "meanings": {
+            "en": "That Day",
+            "id": "pada hari itu"
+          },
+          "transliteration": "yawma-idhin"
+        },
+        {
+          "text": "تُحَدِّثُ",
+          "meanings": {
+            "en": "it will report",
+            "id": "ia menceritakan"
+          },
+          "transliteration": "tuḥaddithu"
+        },
+        {
+          "text": "أَخْبَارَهَا",
+          "meanings": {
+            "en": "its news",
+            "id": "beritanya"
+          },
+          "transliteration": "akhbārahā"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "99:5",
+      "text": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+      "translations": {
+        "en": "Because your Lord has inspired [i.e., commanded] it.",
+        "id": "karena sesungguhnya Tuhanmu telah memerintahkan (yang sedemikian itu) padanya."
+      },
+      "page": 599,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "بِأَنَّ",
+          "meanings": {
+            "en": "Because",
+            "id": "karena sesungguhnya"
+          },
+          "transliteration": "bi-anna"
+        },
+        {
+          "text": "رَبَّكَ",
+          "meanings": {
+            "en": "your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbaka"
+        },
+        {
+          "text": "أَوْحَىٰ",
+          "meanings": {
+            "en": "inspired",
+            "id": "talah mewahyukan/memerintahkan"
+          },
+          "transliteration": "awḥā"
+        },
+        {
+          "text": "لَهَا",
+          "meanings": {
+            "en": "[to] it",
+            "id": "padanya"
+          },
+          "transliteration": "lahā"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "99:6",
+      "text": "يَوْمَئِذٍ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا۟ أَعْمَـٰلَهُمْ",
+      "translations": {
+        "en": "That Day, the people will depart separated [into categories] to be shown [the result of] their deeds.",
+        "id": "Pada hari itu manusia keluar dari kuburnya dalam keadaan berkelompok-kelompok, untuk diperlihatkan kepada mereka (balasan) semua amal perbuatannya."
+      },
+      "page": 599,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يَوْمَئِذٍۢ",
+          "meanings": {
+            "en": "That Day",
+            "id": "pada hari itu"
+          },
+          "transliteration": "yawma-idhin"
+        },
+        {
+          "text": "يَصْدُرُ",
+          "meanings": {
+            "en": "will proceed",
+            "id": "keluar"
+          },
+          "transliteration": "yaṣduru"
+        },
+        {
+          "text": "ٱلنَّاسُ",
+          "meanings": {
+            "en": "the mankind",
+            "id": "manusia"
+          },
+          "transliteration": "l-nāsu"
+        },
+        {
+          "text": "أَشْتَاتًۭا",
+          "meanings": {
+            "en": "(in) scattered groups",
+            "id": "bermacam-macam"
+          },
+          "transliteration": "ashtātan"
+        },
+        {
+          "text": "لِّيُرَوْا۟",
+          "meanings": {
+            "en": "to be shown",
+            "id": "untuk mereka lihat"
+          },
+          "transliteration": "liyuraw"
+        },
+        {
+          "text": "أَعْمَـٰلَهُمْ",
+          "meanings": {
+            "en": "their deeds",
+            "id": "amal-amal mereka"
+          },
+          "transliteration": "aʿmālahum"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "99:7",
+      "text": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ",
+      "translations": {
+        "en": "So whoever does an atom's weight of good will see it,",
+        "id": "Maka barangsiapa mengerjakan kebaikan seberat zarah, niscaya dia akan melihat (balasan)nya."
+      },
+      "page": 599,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَمَن",
+          "meanings": {
+            "en": "So whoever",
+            "id": "maka barang siapa"
+          },
+          "transliteration": "faman"
+        },
+        {
+          "text": "يَعْمَلْ",
+          "meanings": {
+            "en": "does",
+            "id": "dia mengerjakan/beramal"
+          },
+          "transliteration": "yaʿmal"
+        },
+        {
+          "text": "مِثْقَالَ",
+          "meanings": {
+            "en": "(equal to the) weight",
+            "id": "seberat"
+          },
+          "transliteration": "mith'qāla"
+        },
+        {
+          "text": "ذَرَّةٍ",
+          "meanings": {
+            "en": "(of) an atom",
+            "id": "zarrah/atom"
+          },
+          "transliteration": "dharratin"
+        },
+        {
+          "text": "خَيْرًۭا",
+          "meanings": {
+            "en": "good",
+            "id": "kebaikan"
+          },
+          "transliteration": "khayran"
+        },
+        {
+          "text": "يَرَهُۥ",
+          "meanings": {
+            "en": "will see it",
+            "id": "dia melihatnya"
+          },
+          "transliteration": "yarahu"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "99:8",
+      "text": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُۥ",
+      "translations": {
+        "en": "And whoever does an atom's weight of evil will see it.",
+        "id": "Dan barangsiapa mengerjakan kejahatan seberat zarah, niscaya dia akan melihat (balasan)nya."
+      },
+      "page": 599,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمَن",
+          "meanings": {
+            "en": "And whoever",
+            "id": "dan barang siapa"
+          },
+          "transliteration": "waman"
+        },
+        {
+          "text": "يَعْمَلْ",
+          "meanings": {
+            "en": "does",
+            "id": "dia mengerjakan/beramal"
+          },
+          "transliteration": "yaʿmal"
+        },
+        {
+          "text": "مِثْقَالَ",
+          "meanings": {
+            "en": "(equal to the) weight",
+            "id": "seberat"
+          },
+          "transliteration": "mith'qāla"
+        },
+        {
+          "text": "ذَرَّةٍۢ",
+          "meanings": {
+            "en": "(of) an atom",
+            "id": "zarrah/atom"
+          },
+          "transliteration": "dharratin"
+        },
+        {
+          "text": "شَرًّۭا",
+          "meanings": {
+            "en": "evil",
+            "id": "kejahatan"
+          },
+          "transliteration": "sharran"
+        },
+        {
+          "text": "يَرَهُۥ",
+          "meanings": {
+            "en": "will see it",
+            "id": "dia melihatnya"
+          },
+          "transliteration": "yarahu"
+        }
+      ]
+    }
+  ]
+}

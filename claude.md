@@ -96,6 +96,10 @@ scripts/fetch-quran.mjs        downloads Quran data once
 - Max 50 verses per request, so paginate (Al-Baqarah has 286).
 - Handle failures: retries, clear errors, never write a half-empty file.
 - Show the translation's name and attribution on the site.
+- Bismillah: always on its own line, never numbered. Al-Fatihah is numbered 1–7 WITHOUT the Bismillah
+  (Omar's choice): `fatihahForMushaf()` in `src/lib/quran.ts` regroups the API's own words
+  (API verse 7 split after "عَلَيْهِمْ"). Data stays in the API's Hafs numbering; only display changes.
+  Study mode must use the same numbering for Al-Fatihah.
 - Tafseer text also comes ONLY from the API (a published tafsir, e.g. Ibn Kathir abridged), with its name
   and source shown. Never write or "summarise" tafseer or hadith from memory.
 
@@ -118,15 +122,15 @@ scripts/fetch-quran.mjs        downloads Quran data once
 - [x] Astro project at repo root, pushed to GitHub
 - [x] Connect Cloudflare Pages
 - [x] API keys + `.env` (pre-live keys: surahs 1–2 only; request production access later)
-- [ ] Fetch script
+- [x] Fetch script (all 114 surahs: verses, word meanings, translation)
 - [x] Base layout, fonts, colours
-- [ ] Intro page (text, ticker, buttons done; person postponed, plan: option A "2.5D" layered SVG
-      with moving rim light, in its own `Person.astro` so Three.js can replace it later)
-- [ ] 3D library
+- [x] Intro page: `IntroScene.astro` (CSS 3D orbit, tilt) + `Person.astro` (option A "2.5D" layered SVG,
+      moving rim light; Three.js can replace just this component later). Needs a visual check vs. design.
+- [ ] 3D library (then point the intro's "Enter the library" button back to `/library`; it goes to `/quran` for now)
 - [ ] Quran book animation
-- [ ] Quran index
-- [ ] Mushaf mode
-- [ ] Study mode (word-by-word, translation)
+- [x] Quran index
+- [x] Mushaf mode
+- [x] Study mode (word-by-word, translation; translation-language toggle still to do)
 - [ ] Study mode: tafseer tab
 - [ ] Study mode: quiz tab
 - [ ] Samples page

@@ -1,0 +1,264 @@
+---
+/*
+  IntroScene: the person with six interest badges orbiting on a tilted ring.
+  Real 3D (CSS preserve-3d): badges on the far side pass BEHIND the person.
+  The scene tilts with the mouse or the phone's tilt, and moves the rim light.
+
+  How the orbit works:
+    .orbit is a flat plane tipped back 72deg (like a table seen from the side).
+    Each badge sits on a circle in that plane at angle (--spin + its slot).
+    --spin animates 0 -> 360deg, so all badges travel round together.
+    Each badge then "un-tips" itself so it always faces you.
+*/
+import InterestIcon, { type InterestIconName } from './InterestIcon.astro';
+import Person from './Person.astro';
+
+interface Interest {
+  name: string;
+  icon: InterestIconName;
+  href?: string; // where a tap can lead, if that page exists yet
+}
+
+const interests: Interest[] = [
+  { name: 'Aerospace', icon: 'plane' },
+  { name: 'Quran & Islamic Studies', icon: 'quran', href: '/quran' },
+  { name: 'Physics', icon: 'atom' },
+  { name: 'Computer Science', icon: 'code' },
+  { name: 'Languages', icon: 'languages' },
+  { name: 'Space', icon: 'planet' },
+];
+---
+
+<section class="scene" id="intro-scene" aria-label="My interests, orbiting around me">
+  <div class="stage">
+    <div class="orbit">
+      <div class="ring" aria-hidden="true"></div>
+      {
+        interests.map((interest, i) => (
+          <div class="slot" style={`--slot: ${i * (360 / interests.length)}deg`}>
+            <button
+              type="button"
+              class:list={['badge', { gold: interest.icon === 'quran' }]}
+              data-name={interest.name}
+              data-href={interest.href}
+              aria-label={interest.name}
+            >
+              <InterestIcon name={interest.icon} />
+            </button>
+          </div>
+        ))
+      }
+    </div>
+    <Person class="figure" />
+  </div>
+
+  <p class="hint">Tap a planet of interest</p>
+  <!-- aria-live: screen readers announce the caption when it changes -->
+  <p class="caption" aria-live="polite"></p>
+</section>
+
+<script>
+  const scene = document.getElementById('intro-scene')!;
+  const caption = scene.querySelector('.caption')!;
+  const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // ---- Tap a badge: show its name (and a link if its page exists) ----
+  scene.querySelectorAll<HTMLButtonElement>('.badge').forEach((badge) => {
+    badge.addEventListener('click', () => {
+      caption.replaceChildren(badge.dataset.name ?? '');
+      if (badge.dataset.href) {
+        const link = document.createElement('a');
+        link.href = badge.dataset.href;
+        link.textContent = 'Open →';
+        caption.append(' · ', link);
+      }
+    });
+  });
+
+  // ---- Tilt: x and y go from -1 to 1 ----
+  function tilt(x: number, y: number) {
+    const clamp = (n: number) => Math.max(-1, Math.min(1, n));
+    x = clamp(x);
+    y = clamp(y);
+    scene.style.setProperty('--ry', `${x * 12}deg`); // turn left/right
+    scene.style.setProperty('--rx', `${-y * 8}deg`); // lean forward/back
+    scene.style.setProperty('--lx', String(x)); // rim light side
+  }
+
+  if (!reduceMotion) {
+    // Mouse: position relative to the middle of the window
+    window.addEventListener('pointermove', (e) => {
+      if (e.pointerType === 'mouse') {
+        tilt((e.clientX / innerWidth - 0.5) * 2, (e.clientY / innerHeight - 0.5) * 2);
+      }
+    });
+
+    // Phone: gamma = tilt left/right, beta = tilt forward/back (about 45deg when held)
+    const onOrientation = (e: DeviceOrientationEvent) => {
+      if (e.gamma !== null && e.beta !== null) tilt(e.gamma / 30, (e.beta - 45) / 30);
+    };
+
+    // iPhones ask permission first, and only after a tap
+    const Orientation = window.DeviceOrientationEvent as unknown as {
+      requestPermission?: () => Promise<'granted' | 'denied'>;
+    };
+    if (typeof Orientation?.requestPermission === 'function') {
+      scene.addEventListener(
+        'click',
+        () => {
+          Orientation.requestPermission!()
+            .then((answer) => answer === 'granted' && addEventListener('deviceorientation', onOrientation))
+            .catch(() => {}); // no permission = the scene just doesn't tilt
+        },
+        { once: true },
+      );
+    } else {
+      addEventListener('deviceorientation', onOrientation);
+    }
+  }
+</script>
+
+<style>
+  /* --spin must be a registered <angle> so the browser can animate it smoothly */
+  @property --spin {
+    syntax: '<angle>';
+    inherits: true;
+    initial-value: 0deg;
+  }
+
+  .scene {
+    --size: min(24rem, 92vw); /* stage width */
+    --radius: calc(var(--size) * 0.44); /* orbit radius */
+    --tip: 72deg; /* how far the orbit plane is tipped back */
+    display: grid;
+    justify-items: center;
+    perspective: 900px; /* how strong the 3D depth looks */
+    position: relative;
+  }
+
+  /* Soft purple glow behind everything, top right like the design */
+  .scene::before {
+    content: '';
+    position: absolute;
+    inset: -20% -30% 10% 20%;
+    background: radial-gradient(circle, color-mix(in srgb, var(--glow-purple) 90%, transparent), transparent 65%);
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .stage {
+    position: relative;
+    width: var(--size);
+    aspect-ratio: 1 / 1.05;
+    transform-style: preserve-3d;
+    transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+    transition: transform 0.4s ease-out; /* smooth out jittery mouse/phone input */
+  }
+
+  .figure {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 88%;
+    transform: translateX(-50%) translateZ(0); /* stands in the 3D space, at the centre */
+  }
+
+  /* ---- The orbit plane ---- */
+  .orbit {
+    position: absolute;
+    left: 50%;
+    top: 44%; /* around the chest */
+    width: 0;
+    height: 0;
+    transform-style: preserve-3d;
+    transform: rotateX(var(--tip));
+    animation: spin 40s linear infinite;
+  }
+
+  @keyframes spin {
+    to {
+      --spin: 360deg;
+    }
+  }
+
+  /* Pause while you hover a badge, so it's easy to tap */
+  .orbit:has(.badge:hover) {
+    animation-play-state: paused;
+  }
+
+  .ring {
+    position: absolute;
+    width: calc(var(--radius) * 2);
+    height: calc(var(--radius) * 2);
+    translate: -50% -50%;
+    border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+    border-radius: 50%;
+    box-shadow: 0 0 24px color-mix(in srgb, var(--accent) 20%, transparent);
+  }
+
+  /* Each slot: turn to its angle, step out to the ring, turn back, then un-tip to face you */
+  .slot {
+    position: absolute;
+    transform-style: preserve-3d;
+    --angle: calc(var(--spin) + var(--slot));
+    transform: rotateZ(var(--angle)) translateX(var(--radius)) rotateZ(calc(-1 * var(--angle)))
+      rotateX(calc(-1 * var(--tip)));
+  }
+
+  /* Glassy round badge */
+  .badge {
+    display: grid;
+    place-items: center;
+    width: 3.4rem;
+    height: 3.4rem;
+    translate: -50% -50%;
+    border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, rgb(255 255 255 / 0.14), rgb(255 255 255 / 0.03) 70%);
+    backdrop-filter: blur(6px);
+    box-shadow: inset 0 0 12px color-mix(in srgb, var(--accent) 25%, transparent),
+      0 0 18px color-mix(in srgb, var(--accent) 15%, transparent);
+    color: var(--accent);
+    cursor: pointer;
+    transition: scale 0.2s ease, border-color 0.2s ease;
+  }
+
+  .badge:hover,
+  .badge:focus-visible {
+    scale: 1.12;
+    border-color: var(--accent);
+  }
+
+  .badge.gold {
+    border-color: color-mix(in srgb, var(--highlight) 55%, transparent);
+    box-shadow: inset 0 0 12px color-mix(in srgb, var(--highlight) 25%, transparent),
+      0 0 18px color-mix(in srgb, var(--highlight) 20%, transparent);
+    color: var(--highlight);
+  }
+
+  /* ---- Text under the scene ---- */
+  .hint {
+    margin: 0.75rem 0 0;
+    color: var(--accent);
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+
+  .caption {
+    min-height: 1.5em; /* reserve space so the page doesn't jump */
+    margin: 0.25rem 0 0;
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .caption :global(a) {
+    color: var(--accent);
+  }
+
+  /* Reduced motion: badges stay still (tilt is switched off in the script) */
+  @media (prefers-reduced-motion: reduce) {
+    .orbit {
+      animation: none;
+    }
+  }
+</style>

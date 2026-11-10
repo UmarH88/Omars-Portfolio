@@ -1,0 +1,3924 @@
+{
+  "id": 55,
+  "nameSimple": "Ar-Rahman",
+  "nameArabic": "الرحمن",
+  "meaning": "The Beneficent",
+  "revelationPlace": "madinah",
+  "versesCount": 78,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "55:1",
+      "text": " ٱلرَّحْمَـٰنُ",
+      "translations": {
+        "en": "The Most Merciful",
+        "id": "(Allah) Yang Maha Pengasih,"
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱلرَّحْمَـٰنُ",
+          "meanings": {
+            "en": "The Most Gracious",
+            "id": "Yang Maha Pengasih"
+          },
+          "transliteration": "al-raḥmānu"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "55:2",
+      "text": "عَلَّمَ ٱلْقُرْءَانَ",
+      "translations": {
+        "en": "Taught the Qur’ān,",
+        "id": "Yang telah mengajarkan Alquran."
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "عَلَّمَ",
+          "meanings": {
+            "en": "He taught",
+            "id": "Dia telah mengajarkan"
+          },
+          "transliteration": "ʿallama"
+        },
+        {
+          "text": "ٱلْقُرْءَانَ",
+          "meanings": {
+            "en": "the Quran",
+            "id": "Al Quran"
+          },
+          "transliteration": "l-qur'āna"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "55:3",
+      "text": "خَلَقَ ٱلْإِنسَـٰنَ",
+      "translations": {
+        "en": "Created man,",
+        "id": "Dia menciptakan manusia,"
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "خَلَقَ",
+          "meanings": {
+            "en": "He created",
+            "id": "Dia telah menciptakan"
+          },
+          "transliteration": "khalaqa"
+        },
+        {
+          "text": "ٱلْإِنسَـٰنَ",
+          "meanings": {
+            "en": "[the] man",
+            "id": "manusia"
+          },
+          "transliteration": "l-insāna"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "55:4",
+      "text": "عَلَّمَهُ ٱلْبَيَانَ",
+      "translations": {
+        "en": "[And] taught him eloquence.",
+        "id": "mengajarnya pandai berbicara."
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "عَلَّمَهُ",
+          "meanings": {
+            "en": "He taught him",
+            "id": "Dia mengajarkannya"
+          },
+          "transliteration": "ʿallamahu"
+        },
+        {
+          "text": "ٱلْبَيَانَ",
+          "meanings": {
+            "en": "[the] speech",
+            "id": "jelas/terang"
+          },
+          "transliteration": "l-bayāna"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "55:5",
+      "text": "ٱلشَّمْسُ وَٱلْقَمَرُ بِحُسْبَانٍ",
+      "translations": {
+        "en": "The sun and the moon [move] by precise calculation,",
+        "id": "Matahari dan bulan beredar menurut perhitungan,"
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱلشَّمْسُ",
+          "meanings": {
+            "en": "The sun",
+            "id": "matahari"
+          },
+          "transliteration": "al-shamsu"
+        },
+        {
+          "text": "وَٱلْقَمَرُ",
+          "meanings": {
+            "en": "and the moon",
+            "id": "dan bulan"
+          },
+          "transliteration": "wal-qamaru"
+        },
+        {
+          "text": "بِحُسْبَانٍۢ",
+          "meanings": {
+            "en": "by (precise) calculation",
+            "id": "dengan/menurut perhitungan"
+          },
+          "transliteration": "biḥus'bānin"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "55:6",
+      "text": "وَٱلنَّجْمُ وَٱلشَّجَرُ يَسْجُدَانِ",
+      "translations": {
+        "en": "And the stars and trees prostrate.",
+        "id": "Bintang dan pepohonan, keduanya tunduk (kepada-Nya)."
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلنَّجْمُ",
+          "meanings": {
+            "en": "And the stars",
+            "id": "dan bintang/tumbuh-tumbuhan"
+          },
+          "transliteration": "wal-najmu"
+        },
+        {
+          "text": "وَٱلشَّجَرُ",
+          "meanings": {
+            "en": "and the trees",
+            "id": "dan pohon-pohonan"
+          },
+          "transliteration": "wal-shajaru"
+        },
+        {
+          "text": "يَسْجُدَانِ",
+          "meanings": {
+            "en": "both prostrate",
+            "id": "keduanya tunduk/sujud"
+          },
+          "transliteration": "yasjudāni"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "55:7",
+      "text": "وَٱلسَّمَآءَ رَفَعَهَا وَوَضَعَ ٱلْمِيزَانَ",
+      "translations": {
+        "en": "And the heaven He raised and imposed the balance",
+        "id": "Dan langit telah ditinggikan-Nya dan Dia ciptakan keseimbangan,"
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلسَّمَآءَ",
+          "meanings": {
+            "en": "And the heaven",
+            "id": "dan langit"
+          },
+          "transliteration": "wal-samāa"
+        },
+        {
+          "text": "رَفَعَهَا",
+          "meanings": {
+            "en": "He raised it",
+            "id": "Dia tinggikannya"
+          },
+          "transliteration": "rafaʿahā"
+        },
+        {
+          "text": "وَوَضَعَ",
+          "meanings": {
+            "en": "and He has set up",
+            "id": "dan Dia letakkan"
+          },
+          "transliteration": "wawaḍaʿa"
+        },
+        {
+          "text": "ٱلْمِيزَانَ",
+          "meanings": {
+            "en": "the balance",
+            "id": "timbangan"
+          },
+          "transliteration": "l-mīzāna"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "55:8",
+      "text": "أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ",
+      "translations": {
+        "en": "That you not transgress within the balance.",
+        "id": "agar kamu jangan merusak keseimbangan itu."
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَلَّا",
+          "meanings": {
+            "en": "That not",
+            "id": "supaya jangan"
+          },
+          "transliteration": "allā"
+        },
+        {
+          "text": "تَطْغَوْا۟",
+          "meanings": {
+            "en": "you may transgress",
+            "id": "kamu melampui batas"
+          },
+          "transliteration": "taṭghaw"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "in",
+            "id": "dalam"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "ٱلْمِيزَانِ",
+          "meanings": {
+            "en": "the balance",
+            "id": "neraca/timbangan"
+          },
+          "transliteration": "l-mīzāni"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "key": "55:9",
+      "text": "وَأَقِيمُوا۟ ٱلْوَزْنَ بِٱلْقِسْطِ وَلَا تُخْسِرُوا۟ ٱلْمِيزَانَ",
+      "translations": {
+        "en": "And establish weight in justice and do not make deficient the balance.",
+        "id": "Dan tegakkanlah keseimbangan itu dengan adil dan janganlah kamu mengurangi keseimbangan itu."
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَقِيمُوا۟",
+          "meanings": {
+            "en": "And establish",
+            "id": "dan dirikanlah"
+          },
+          "transliteration": "wa-aqīmū"
+        },
+        {
+          "text": "ٱلْوَزْنَ",
+          "meanings": {
+            "en": "the weight",
+            "id": "neraca/timbangan"
+          },
+          "transliteration": "l-wazna"
+        },
+        {
+          "text": "بِٱلْقِسْطِ",
+          "meanings": {
+            "en": "in justice",
+            "id": "dengan adil"
+          },
+          "transliteration": "bil-qis'ṭi"
+        },
+        {
+          "text": "وَلَا",
+          "meanings": {
+            "en": "and (do) not",
+            "id": "dan janganlah"
+          },
+          "transliteration": "walā"
+        },
+        {
+          "text": "تُخْسِرُوا۟",
+          "meanings": {
+            "en": "make deficient",
+            "id": "kamu mengurangi"
+          },
+          "transliteration": "tukh'sirū"
+        },
+        {
+          "text": "ٱلْمِيزَانَ",
+          "meanings": {
+            "en": "the balance",
+            "id": "neraca/timbangan"
+          },
+          "transliteration": "l-mīzāna"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "key": "55:10",
+      "text": "وَٱلْأَرْضَ وَضَعَهَا لِلْأَنَامِ",
+      "translations": {
+        "en": "And the earth He laid [out] for the creatures.",
+        "id": "Dan bumi telah dibentangkan-Nya untuk makhluk(-Nya),"
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلْأَرْضَ",
+          "meanings": {
+            "en": "And the earth",
+            "id": "dan bumi"
+          },
+          "transliteration": "wal-arḍa"
+        },
+        {
+          "text": "وَضَعَهَا",
+          "meanings": {
+            "en": "He laid it",
+            "id": "Dia letakkan/hamparkannya"
+          },
+          "transliteration": "waḍaʿahā"
+        },
+        {
+          "text": "لِلْأَنَامِ",
+          "meanings": {
+            "en": "for the creatures",
+            "id": "untuk makhluk"
+          },
+          "transliteration": "lil'anāmi"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "key": "55:11",
+      "text": "فِيهَا فَـٰكِهَةٌ وَٱلنَّخْلُ ذَاتُ ٱلْأَكْمَامِ",
+      "translations": {
+        "en": "Therein is fruit and palm trees having sheaths [of dates]",
+        "id": "di dalamnya ada buah-buahan dan pohon kurma yang mempunyai kelopak mayang,"
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فِيهَا",
+          "meanings": {
+            "en": "Therein",
+            "id": "didalamnya/padanya"
+          },
+          "transliteration": "fīhā"
+        },
+        {
+          "text": "فَـٰكِهَةٌۭ",
+          "meanings": {
+            "en": "(is) fruit",
+            "id": "buah-buahan"
+          },
+          "transliteration": "fākihatun"
+        },
+        {
+          "text": "وَٱلنَّخْلُ",
+          "meanings": {
+            "en": "and date-palms",
+            "id": "dan pohon kurma"
+          },
+          "transliteration": "wal-nakhlu"
+        },
+        {
+          "text": "ذَاتُ",
+          "meanings": {
+            "en": "having",
+            "id": "yang mempunyai"
+          },
+          "transliteration": "dhātu"
+        },
+        {
+          "text": "ٱلْأَكْمَامِ",
+          "meanings": {
+            "en": "sheaths",
+            "id": "kelopak mayang"
+          },
+          "transliteration": "l-akmāmi"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "key": "55:12",
+      "text": "وَٱلْحَبُّ ذُو ٱلْعَصْفِ وَٱلرَّيْحَانُ",
+      "translations": {
+        "en": "And grain having husks and scented plants.",
+        "id": "dan biji-bijian yang berkulit dan bunga-bunga yang harum baunya."
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلْحَبُّ",
+          "meanings": {
+            "en": "And the grain",
+            "id": "dan biji-bijian"
+          },
+          "transliteration": "wal-ḥabu"
+        },
+        {
+          "text": "ذُو",
+          "meanings": {
+            "en": "having",
+            "id": "mempunyai"
+          },
+          "transliteration": "dhū"
+        },
+        {
+          "text": "ٱلْعَصْفِ",
+          "meanings": {
+            "en": "husk",
+            "id": "kulit"
+          },
+          "transliteration": "l-ʿaṣfi"
+        },
+        {
+          "text": "وَٱلرَّيْحَانُ",
+          "meanings": {
+            "en": "and scented plants",
+            "id": "dan harum baunya"
+          },
+          "transliteration": "wal-rayḥānu"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "key": "55:13",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "key": "55:14",
+      "text": "خَلَقَ ٱلْإِنسَـٰنَ مِن صَلْصَـٰلٍ كَٱلْفَخَّارِ",
+      "translations": {
+        "en": "He created man from clay like [that of] pottery.",
+        "id": "Dia menciptakan manusia dari tanah kering seperti tembikar,"
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "خَلَقَ",
+          "meanings": {
+            "en": "He created",
+            "id": "Dia menciptakan"
+          },
+          "transliteration": "khalaqa"
+        },
+        {
+          "text": "ٱلْإِنسَـٰنَ",
+          "meanings": {
+            "en": "the man",
+            "id": "manusia"
+          },
+          "transliteration": "l-insāna"
+        },
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "صَلْصَـٰلٍۢ",
+          "meanings": {
+            "en": "clay",
+            "id": "tanah liat"
+          },
+          "transliteration": "ṣalṣālin"
+        },
+        {
+          "text": "كَٱلْفَخَّارِ",
+          "meanings": {
+            "en": "like the pottery",
+            "id": "seperti tembikar"
+          },
+          "transliteration": "kal-fakhāri"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "key": "55:15",
+      "text": "وَخَلَقَ ٱلْجَآنَّ مِن مَّارِجٍ مِّن نَّارٍ",
+      "translations": {
+        "en": "And He created the jinn from a smokeless flame of fire.",
+        "id": "dan Dia menciptakan jin dari nyala api tanpa asap."
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَخَلَقَ",
+          "meanings": {
+            "en": "And He created",
+            "id": "dan Dia menciptakan"
+          },
+          "transliteration": "wakhalaqa"
+        },
+        {
+          "text": "ٱلْجَآنَّ",
+          "meanings": {
+            "en": "the jinn",
+            "id": "jin"
+          },
+          "transliteration": "l-jāna"
+        },
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "مَّارِجٍۢ",
+          "meanings": {
+            "en": "a smokeless flame",
+            "id": "nyala api"
+          },
+          "transliteration": "mārijin"
+        },
+        {
+          "text": "مِّن",
+          "meanings": {
+            "en": "of",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "نَّارٍۢ",
+          "meanings": {
+            "en": "fire",
+            "id": "api"
+          },
+          "transliteration": "nārin"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "key": "55:16",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhan kamu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "key": "55:17",
+      "text": "رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ",
+      "translations": {
+        "en": "[He is] Lord of the two sunrises and Lord of the two sunsets.",
+        "id": "Tuhan (yang memelihara) dua Timur dan Tuhan (yang memelihara) dua Barat."
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "رَبُّ",
+          "meanings": {
+            "en": "Lord",
+            "id": "Tuhan/Pemelihara"
+          },
+          "transliteration": "rabbu"
+        },
+        {
+          "text": "ٱلْمَشْرِقَيْنِ",
+          "meanings": {
+            "en": "(of) the two Easts",
+            "id": "dua timur/dua tempat terbit matahari"
+          },
+          "transliteration": "l-mashriqayni"
+        },
+        {
+          "text": "وَرَبُّ",
+          "meanings": {
+            "en": "and Lord",
+            "id": "dan Tuhan/Pemelihara"
+          },
+          "transliteration": "warabbu"
+        },
+        {
+          "text": "ٱلْمَغْرِبَيْنِ",
+          "meanings": {
+            "en": "(of) the two Wests",
+            "id": "dua barat/dua tempat terbenamnya matahari"
+          },
+          "transliteration": "l-maghribayni"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "key": "55:18",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 531,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "key": "55:19",
+      "text": "مَرَجَ ٱلْبَحْرَيْنِ يَلْتَقِيَانِ",
+      "translations": {
+        "en": "He released the two seas, meeting [one another];",
+        "id": "Dia membiarkan dua laut mengalir yang (kemudian) keduanya bertemu,"
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "مَرَجَ",
+          "meanings": {
+            "en": "He released",
+            "id": "Dia alirkan"
+          },
+          "transliteration": "maraja"
+        },
+        {
+          "text": "ٱلْبَحْرَيْنِ",
+          "meanings": {
+            "en": "the two seas",
+            "id": "dua lautan"
+          },
+          "transliteration": "l-baḥrayni"
+        },
+        {
+          "text": "يَلْتَقِيَانِ",
+          "meanings": {
+            "en": "meeting",
+            "id": "keduanya bertemu"
+          },
+          "transliteration": "yaltaqiyāni"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "key": "55:20",
+      "text": "بَيْنَهُمَا بَرْزَخٌ لَّا يَبْغِيَانِ",
+      "translations": {
+        "en": "Between them is a barrier so neither of them transgresses.",
+        "id": "di antara keduanya ada batas yang tidak dilampaui oleh masing-masing."
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "بَيْنَهُمَا",
+          "meanings": {
+            "en": "Between both of them",
+            "id": "diantara keduanya"
+          },
+          "transliteration": "baynahumā"
+        },
+        {
+          "text": "بَرْزَخٌۭ",
+          "meanings": {
+            "en": "(is) a barrier",
+            "id": "batas"
+          },
+          "transliteration": "barzakhun"
+        },
+        {
+          "text": "لَّا",
+          "meanings": {
+            "en": "not",
+            "id": "tidak"
+          },
+          "transliteration": "lā"
+        },
+        {
+          "text": "يَبْغِيَانِ",
+          "meanings": {
+            "en": "they transgress",
+            "id": "keduanya melampui"
+          },
+          "transliteration": "yabghiyāni"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "key": "55:21",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "nikmat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "key": "55:22",
+      "text": "يَخْرُجُ مِنْهُمَا ٱللُّؤْلُؤُ وَٱلْمَرْجَانُ",
+      "translations": {
+        "en": "From both of them emerge pearl and coral.",
+        "id": "Dari keduanya keluar mutiara dan marjan."
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يَخْرُجُ",
+          "meanings": {
+            "en": "Come forth",
+            "id": "keluar"
+          },
+          "transliteration": "yakhruju"
+        },
+        {
+          "text": "مِنْهُمَا",
+          "meanings": {
+            "en": "from both of them",
+            "id": "dari keduanya"
+          },
+          "transliteration": "min'humā"
+        },
+        {
+          "text": "ٱللُّؤْلُؤُ",
+          "meanings": {
+            "en": "the pearl",
+            "id": "mutiara"
+          },
+          "transliteration": "l-lu'lu-u"
+        },
+        {
+          "text": "وَٱلْمَرْجَانُ",
+          "meanings": {
+            "en": "and the coral",
+            "id": "dan marjan"
+          },
+          "transliteration": "wal-marjānu"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "key": "55:23",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua mendustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "key": "55:24",
+      "text": "وَلَهُ ٱلْجَوَارِ ٱلْمُنشَـَٔاتُ فِى ٱلْبَحْرِ كَٱلْأَعْلَـٰمِ",
+      "translations": {
+        "en": "And to Him belong the ships [with sails] elevated in the sea like mountains.",
+        "id": "Milik-Nyalah kapal-kapal yang berlayar di lautan bagaikan gunung-gunung."
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَلَهُ",
+          "meanings": {
+            "en": "And for Him",
+            "id": "dan bagi-Nya"
+          },
+          "transliteration": "walahu"
+        },
+        {
+          "text": "ٱلْجَوَارِ",
+          "meanings": {
+            "en": "(are) the ships",
+            "id": "kapal-kapal"
+          },
+          "transliteration": "l-jawāri"
+        },
+        {
+          "text": "ٱلْمُنشَـَٔاتُ",
+          "meanings": {
+            "en": "elevated",
+            "id": "yang timbul/tinggi"
+          },
+          "transliteration": "l-munshaātu"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "in",
+            "id": "pada"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "ٱلْبَحْرِ",
+          "meanings": {
+            "en": "the sea",
+            "id": "lautan"
+          },
+          "transliteration": "l-baḥri"
+        },
+        {
+          "text": "كَٱلْأَعْلَـٰمِ",
+          "meanings": {
+            "en": "like mountains",
+            "id": "laksana gunung-gunung"
+          },
+          "transliteration": "kal-aʿlāmi"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "key": "55:25",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "key": "55:26",
+      "text": "كُلُّ مَنْ عَلَيْهَا فَانٍ",
+      "translations": {
+        "en": "Everyone upon it [i.e., the earth] will perish,",
+        "id": "Semua yang ada di bumi itu akan binasa,"
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "كُلُّ",
+          "meanings": {
+            "en": "Everyone",
+            "id": "tiap-tiap/segala"
+          },
+          "transliteration": "kullu"
+        },
+        {
+          "text": "مَنْ",
+          "meanings": {
+            "en": "who",
+            "id": "siapa/apa"
+          },
+          "transliteration": "man"
+        },
+        {
+          "text": "عَلَيْهَا",
+          "meanings": {
+            "en": "(is) on it",
+            "id": "atasnya"
+          },
+          "transliteration": "ʿalayhā"
+        },
+        {
+          "text": "فَانٍۢ",
+          "meanings": {
+            "en": "(will) perish",
+            "id": "binasa"
+          },
+          "transliteration": "fānin"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "key": "55:27",
+      "text": "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو ٱلْجَلَـٰلِ وَٱلْإِكْرَامِ",
+      "translations": {
+        "en": "And there will remain the Face of your Lord, Owner of Majesty and Honor.",
+        "id": "tetapi wajah Tuhanmu yang memiliki kebesaran dan kemuliaan tetap kekal."
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَيَبْقَىٰ",
+          "meanings": {
+            "en": "But will remain",
+            "id": "dan tetap/kekal"
+          },
+          "transliteration": "wayabqā"
+        },
+        {
+          "text": "وَجْهُ",
+          "meanings": {
+            "en": "(the) Face",
+            "id": "wajah/zat"
+          },
+          "transliteration": "wajhu"
+        },
+        {
+          "text": "رَبِّكَ",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbika"
+        },
+        {
+          "text": "ذُو",
+          "meanings": {
+            "en": "(the) Owner",
+            "id": "mempunyai"
+          },
+          "transliteration": "dhū"
+        },
+        {
+          "text": "ٱلْجَلَـٰلِ",
+          "meanings": {
+            "en": "(of) Majesty",
+            "id": "kebesaran"
+          },
+          "transliteration": "l-jalāli"
+        },
+        {
+          "text": "وَٱلْإِكْرَامِ",
+          "meanings": {
+            "en": "and Honor",
+            "id": "dan kemuliaan"
+          },
+          "transliteration": "wal-ik'rāmi"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "key": "55:28",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "key": "55:29",
+      "text": "يَسْـَٔلُهُۥ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ كُلَّ يَوْمٍ هُوَ فِى شَأْنٍ",
+      "translations": {
+        "en": "Whoever is within the heavens and earth asks Him; every day He is in [i.e., bringing about] a matter.",
+        "id": "Apa yang di langit dan di bumi selalu meminta kepada-Nya. Setiap waktu Dia dalam kesibukan."
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يَسْـَٔلُهُۥ",
+          "meanings": {
+            "en": "Asks Him",
+            "id": "akan meminta kepada-Nya"
+          },
+          "transliteration": "yasaluhu"
+        },
+        {
+          "text": "مَن",
+          "meanings": {
+            "en": "whoever",
+            "id": "orang/makhluk"
+          },
+          "transliteration": "man"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "(is) in",
+            "id": "pada"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "ٱلسَّمَـٰوَٰتِ",
+          "meanings": {
+            "en": "the heavens",
+            "id": "langit(jamak)"
+          },
+          "transliteration": "l-samāwāti"
+        },
+        {
+          "text": "وَٱلْأَرْضِ ۚ",
+          "meanings": {
+            "en": "and the earth",
+            "id": "dan bumi"
+          },
+          "transliteration": "wal-arḍi"
+        },
+        {
+          "text": "كُلَّ",
+          "meanings": {
+            "en": "Every",
+            "id": "setiap"
+          },
+          "transliteration": "kulla"
+        },
+        {
+          "text": "يَوْمٍ",
+          "meanings": {
+            "en": "day",
+            "id": "hari"
+          },
+          "transliteration": "yawmin"
+        },
+        {
+          "text": "هُوَ",
+          "meanings": {
+            "en": "He",
+            "id": "Dia"
+          },
+          "transliteration": "huwa"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "(is) in",
+            "id": "pada"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "شَأْنٍۢ",
+          "meanings": {
+            "en": "a matter",
+            "id": "kesibukan/urusan"
+          },
+          "transliteration": "shanin"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "key": "55:30",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "key": "55:31",
+      "text": "سَنَفْرُغُ لَكُمْ أَيُّهَ ٱلثَّقَلَانِ",
+      "translations": {
+        "en": "We will attend to you, O prominent beings.",
+        "id": "Kami akan memberi perhatian sepenuhnya kepadamu wahai (golongan) manusia dan jin!"
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "سَنَفْرُغُ",
+          "meanings": {
+            "en": "Soon We will attend",
+            "id": "Kami akan berurusan/bertindak"
+          },
+          "transliteration": "sanafrughu"
+        },
+        {
+          "text": "لَكُمْ",
+          "meanings": {
+            "en": "to you",
+            "id": "bagi kalian"
+          },
+          "transliteration": "lakum"
+        },
+        {
+          "text": "أَيُّهَ",
+          "meanings": {
+            "en": "O you",
+            "id": "wahai"
+          },
+          "transliteration": "ayyuha"
+        },
+        {
+          "text": "ٱلثَّقَلَانِ",
+          "meanings": {
+            "en": "two classes",
+            "id": "manusia dan jin"
+          },
+          "transliteration": "l-thaqalāni"
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "key": "55:32",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "nikmat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "key": "55:33",
+      "text": "يَـٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ إِنِ ٱسْتَطَعْتُمْ أَن تَنفُذُوا۟ مِنْ أَقْطَارِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ فَٱنفُذُوا۟ ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَـٰنٍ",
+      "translations": {
+        "en": "O company of jinn and mankind, if you are able to pass beyond the regions of the heavens and the earth, then pass. You will not pass except by authority [from Allāh].",
+        "id": "Wahai golongan jin dan manusia! Jika kamu sanggup menembus (melintasi) penjuru langit dan bumi, maka tembuslah. Kamu tidak akan mampu menembusnya kecuali dengan kekuatan (dari Allah)."
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يَـٰمَعْشَرَ",
+          "meanings": {
+            "en": "O assembly",
+            "id": "hai jama'ah"
+          },
+          "transliteration": "yāmaʿshara"
+        },
+        {
+          "text": "ٱلْجِنِّ",
+          "meanings": {
+            "en": "(of) the jinn",
+            "id": "jin"
+          },
+          "transliteration": "l-jini"
+        },
+        {
+          "text": "وَٱلْإِنسِ",
+          "meanings": {
+            "en": "and the men",
+            "id": "dan manusia"
+          },
+          "transliteration": "wal-insi"
+        },
+        {
+          "text": "إِنِ",
+          "meanings": {
+            "en": "If",
+            "id": "jika"
+          },
+          "transliteration": "ini"
+        },
+        {
+          "text": "ٱسْتَطَعْتُمْ",
+          "meanings": {
+            "en": "you are able",
+            "id": "kamu mampu/sanggup"
+          },
+          "transliteration": "is'taṭaʿtum"
+        },
+        {
+          "text": "أَن",
+          "meanings": {
+            "en": "to",
+            "id": "bahwa"
+          },
+          "transliteration": "an"
+        },
+        {
+          "text": "تَنفُذُوا۟",
+          "meanings": {
+            "en": "pass beyond",
+            "id": "kamu menembus/melintasi"
+          },
+          "transliteration": "tanfudhū"
+        },
+        {
+          "text": "مِنْ",
+          "meanings": {
+            "en": "[of]",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "أَقْطَارِ",
+          "meanings": {
+            "en": "(the) regions",
+            "id": "penjuru"
+          },
+          "transliteration": "aqṭāri"
+        },
+        {
+          "text": "ٱلسَّمَـٰوَٰتِ",
+          "meanings": {
+            "en": "(of) the heavens",
+            "id": "langit(jamak)"
+          },
+          "transliteration": "l-samāwāti"
+        },
+        {
+          "text": "وَٱلْأَرْضِ",
+          "meanings": {
+            "en": "and the earth",
+            "id": "dan bumi"
+          },
+          "transliteration": "wal-arḍi"
+        },
+        {
+          "text": "فَٱنفُذُوا۟ ۚ",
+          "meanings": {
+            "en": "then pass",
+            "id": "maka tembuslah/lintasilah"
+          },
+          "transliteration": "fa-unfudhū"
+        },
+        {
+          "text": "لَا",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak"
+          },
+          "transliteration": "lā"
+        },
+        {
+          "text": "تَنفُذُونَ",
+          "meanings": {
+            "en": "you (can) pass",
+            "id": "kamu menembusnya"
+          },
+          "transliteration": "tanfudhūna"
+        },
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "بِسُلْطَـٰنٍۢ",
+          "meanings": {
+            "en": "by authority",
+            "id": "dengan kekuasaan/kekuatan"
+          },
+          "transliteration": "bisul'ṭānin"
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "key": "55:34",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "key": "55:35",
+      "text": "يُرْسَلُ عَلَيْكُمَا شُوَاظٌ مِّن نَّارٍ وَنُحَاسٌ فَلَا تَنتَصِرَانِ",
+      "translations": {
+        "en": "There will be sent upon you a flame of fire and smoke, and you will not defend yourselves.",
+        "id": "Kepada kamu (jin dan manusia), akan dikirim nyala api dan cairan tembaga (panas) sehingga kamu tidak dapat menyelamatkan diri (darinya)."
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يُرْسَلُ",
+          "meanings": {
+            "en": "Will be sent",
+            "id": "akan dikirimkan"
+          },
+          "transliteration": "yur'salu"
+        },
+        {
+          "text": "عَلَيْكُمَا",
+          "meanings": {
+            "en": "against both of you",
+            "id": "atas kamu berdua"
+          },
+          "transliteration": "ʿalaykumā"
+        },
+        {
+          "text": "شُوَاظٌۭ",
+          "meanings": {
+            "en": "a flame",
+            "id": "nyala"
+          },
+          "transliteration": "shuwāẓun"
+        },
+        {
+          "text": "مِّن",
+          "meanings": {
+            "en": "of",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "نَّارٍۢ",
+          "meanings": {
+            "en": "fire",
+            "id": "api"
+          },
+          "transliteration": "nārin"
+        },
+        {
+          "text": "وَنُحَاسٌۭ",
+          "meanings": {
+            "en": "and smoke",
+            "id": "dan cairan tembaga"
+          },
+          "transliteration": "wanuḥāsun"
+        },
+        {
+          "text": "فَلَا",
+          "meanings": {
+            "en": "and not",
+            "id": "maka tidak"
+          },
+          "transliteration": "falā"
+        },
+        {
+          "text": "تَنتَصِرَانِ",
+          "meanings": {
+            "en": "you will (be able to) defend yourselves",
+            "id": "kamu berdua menolong/menyelamatkan diri"
+          },
+          "transliteration": "tantaṣirāni"
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "key": "55:36",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "key": "55:37",
+      "text": "فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتْ وَرْدَةً كَٱلدِّهَانِ",
+      "translations": {
+        "en": "And when the heaven is split open and becomes rose-colored like oil -",
+        "id": "Maka apabila langit telah terbelah dan menjadi merah mawar seperti (kilauan) minyak."
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَإِذَا",
+          "meanings": {
+            "en": "Then when",
+            "id": "maka apabila"
+          },
+          "transliteration": "fa-idhā"
+        },
+        {
+          "text": "ٱنشَقَّتِ",
+          "meanings": {
+            "en": "is split",
+            "id": "terbelah"
+          },
+          "transliteration": "inshaqqati"
+        },
+        {
+          "text": "ٱلسَّمَآءُ",
+          "meanings": {
+            "en": "the heaven",
+            "id": "langit"
+          },
+          "transliteration": "l-samāu"
+        },
+        {
+          "text": "فَكَانَتْ",
+          "meanings": {
+            "en": "and it becomes",
+            "id": "lalu adalah/menjadi ia"
+          },
+          "transliteration": "fakānat"
+        },
+        {
+          "text": "وَرْدَةًۭ",
+          "meanings": {
+            "en": "rose-colored",
+            "id": "mawar merah"
+          },
+          "transliteration": "wardatan"
+        },
+        {
+          "text": "كَٱلدِّهَانِ",
+          "meanings": {
+            "en": "like murky oil",
+            "id": "seperti minyak"
+          },
+          "transliteration": "kal-dihāni"
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "key": "55:38",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny? -",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "key": "55:39",
+      "text": "فَيَوْمَئِذٍ لَّا يُسْـَٔلُ عَن ذَنۢبِهِۦٓ إِنسٌ وَلَا جَآنٌّ",
+      "translations": {
+        "en": "Then on that Day none will be asked about his sin among men or jinn.",
+        "id": "Maka pada hari itu manusia dan jin tidak ditanya tentang dosanya."
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَيَوْمَئِذٍۢ",
+          "meanings": {
+            "en": "Then (on) that Day",
+            "id": "maka pada hari itu"
+          },
+          "transliteration": "fayawma-idhin"
+        },
+        {
+          "text": "لَّا",
+          "meanings": {
+            "en": "not",
+            "id": "tidak"
+          },
+          "transliteration": "lā"
+        },
+        {
+          "text": "يُسْـَٔلُ",
+          "meanings": {
+            "en": "will be asked",
+            "id": "ditanya"
+          },
+          "transliteration": "yus'alu"
+        },
+        {
+          "text": "عَن",
+          "meanings": {
+            "en": "about",
+            "id": "atas"
+          },
+          "transliteration": "ʿan"
+        },
+        {
+          "text": "ذَنۢبِهِۦٓ",
+          "meanings": {
+            "en": "his sin",
+            "id": "dosanya"
+          },
+          "transliteration": "dhanbihi"
+        },
+        {
+          "text": "إِنسٌۭ",
+          "meanings": {
+            "en": "any man",
+            "id": "manusia"
+          },
+          "transliteration": "insun"
+        },
+        {
+          "text": "وَلَا",
+          "meanings": {
+            "en": "and not",
+            "id": "dan tidak"
+          },
+          "transliteration": "walā"
+        },
+        {
+          "text": "جَآنٌّۭ",
+          "meanings": {
+            "en": "any jinn",
+            "id": "jin"
+          },
+          "transliteration": "jānnun"
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "key": "55:40",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "key": "55:41",
+      "text": "يُعْرَفُ ٱلْمُجْرِمُونَ بِسِيمَـٰهُمْ فَيُؤْخَذُ بِٱلنَّوَٰصِى وَٱلْأَقْدَامِ",
+      "translations": {
+        "en": "The criminals will be known by their marks, and they will be seized by the forelocks and the feet.",
+        "id": "Orang-orang yang berdosa itu diketahui dengan tanda-tandanya, lalu direnggut ubun-ubun dan kakinya."
+      },
+      "page": 532,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يُعْرَفُ",
+          "meanings": {
+            "en": "Will be known",
+            "id": "diketahui/dikenal"
+          },
+          "transliteration": "yuʿ'rafu"
+        },
+        {
+          "text": "ٱلْمُجْرِمُونَ",
+          "meanings": {
+            "en": "the criminals",
+            "id": "orang-orang yang berdosa"
+          },
+          "transliteration": "l-muj'rimūna"
+        },
+        {
+          "text": "بِسِيمَـٰهُمْ",
+          "meanings": {
+            "en": "by their marks",
+            "id": "dengan tanda-tanda mereka"
+          },
+          "transliteration": "bisīmāhum"
+        },
+        {
+          "text": "فَيُؤْخَذُ",
+          "meanings": {
+            "en": "and will be seized",
+            "id": "lalu dipegang/diambil"
+          },
+          "transliteration": "fayu'khadhu"
+        },
+        {
+          "text": "بِٱلنَّوَٰصِى",
+          "meanings": {
+            "en": "by the forelocks",
+            "id": "dengan umbun-umbun"
+          },
+          "transliteration": "bil-nawāṣī"
+        },
+        {
+          "text": "وَٱلْأَقْدَامِ",
+          "meanings": {
+            "en": "and the feet",
+            "id": "dan kaki-kaki"
+          },
+          "transliteration": "wal-aqdāmi"
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "key": "55:42",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "key": "55:43",
+      "text": "هَـٰذِهِۦ جَهَنَّمُ ٱلَّتِى يُكَذِّبُ بِهَا ٱلْمُجْرِمُونَ",
+      "translations": {
+        "en": "This is Hell, which the criminals deny.",
+        "id": "Inilah neraka Jahanam yang didustakan oleh orang-orang yang berdosa."
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "هَـٰذِهِۦ",
+          "meanings": {
+            "en": "This",
+            "id": "inilah"
+          },
+          "transliteration": "hādhihi"
+        },
+        {
+          "text": "جَهَنَّمُ",
+          "meanings": {
+            "en": "(is) Hell",
+            "id": "neraka jahanam"
+          },
+          "transliteration": "jahannamu"
+        },
+        {
+          "text": "ٱلَّتِى",
+          "meanings": {
+            "en": "which",
+            "id": "yang"
+          },
+          "transliteration": "allatī"
+        },
+        {
+          "text": "يُكَذِّبُ",
+          "meanings": {
+            "en": "deny",
+            "id": "mendustakan"
+          },
+          "transliteration": "yukadhibu"
+        },
+        {
+          "text": "بِهَا",
+          "meanings": {
+            "en": "[of it]",
+            "id": "dengannya/padanya"
+          },
+          "transliteration": "bihā"
+        },
+        {
+          "text": "ٱلْمُجْرِمُونَ",
+          "meanings": {
+            "en": "the criminals",
+            "id": "orang-orang yang berdosa"
+          },
+          "transliteration": "l-muj'rimūna"
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "key": "55:44",
+      "text": "يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ ءَانٍ",
+      "translations": {
+        "en": "They will circulate between it and scalding water, heated [to the utmost degree].",
+        "id": "Mereka berkeliling di sana dan di antara air yang mendidih."
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يَطُوفُونَ",
+          "meanings": {
+            "en": "They will go around",
+            "id": "mereka berkeliling"
+          },
+          "transliteration": "yaṭūfūna"
+        },
+        {
+          "text": "بَيْنَهَا",
+          "meanings": {
+            "en": "between it",
+            "id": "diantaranya"
+          },
+          "transliteration": "baynahā"
+        },
+        {
+          "text": "وَبَيْنَ",
+          "meanings": {
+            "en": "and between",
+            "id": "dan antara"
+          },
+          "transliteration": "wabayna"
+        },
+        {
+          "text": "حَمِيمٍ",
+          "meanings": {
+            "en": "scalding water",
+            "id": "air mendidih"
+          },
+          "transliteration": "ḥamīmin"
+        },
+        {
+          "text": "ءَانٍۢ",
+          "meanings": {
+            "en": "heated",
+            "id": "sangat panas"
+          },
+          "transliteration": "ānin"
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "key": "55:45",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "key": "55:46",
+      "text": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ",
+      "translations": {
+        "en": "But for he who has feared the position of his Lord are two gardens -",
+        "id": "Dan bagi siapa yang takut akan saat menghadap Tuhannya ada dua surga."
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَلِمَنْ",
+          "meanings": {
+            "en": "But for (him) who",
+            "id": "dan bagi orang"
+          },
+          "transliteration": "waliman"
+        },
+        {
+          "text": "خَافَ",
+          "meanings": {
+            "en": "fears",
+            "id": "ia takut"
+          },
+          "transliteration": "khāfa"
+        },
+        {
+          "text": "مَقَامَ",
+          "meanings": {
+            "en": "(the) standing",
+            "id": "tempat berdiri/menghadap"
+          },
+          "transliteration": "maqāma"
+        },
+        {
+          "text": "رَبِّهِۦ",
+          "meanings": {
+            "en": "(before) his Lord",
+            "id": "Tuhannya"
+          },
+          "transliteration": "rabbihi"
+        },
+        {
+          "text": "جَنَّتَانِ",
+          "meanings": {
+            "en": "(are) two gardens",
+            "id": "dan surga"
+          },
+          "transliteration": "jannatāni"
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "key": "55:47",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny? -",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "key": "55:48",
+      "text": "ذَوَاتَآ أَفْنَانٍ",
+      "translations": {
+        "en": "Having [spreading] branches.",
+        "id": "kedua surga itu mempunyai aneka pepohonan dan buah-buahan."
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ذَوَاتَآ",
+          "meanings": {
+            "en": "Having",
+            "id": "keduanya mempunyai"
+          },
+          "transliteration": "dhawātā"
+        },
+        {
+          "text": "أَفْنَانٍۢ",
+          "meanings": {
+            "en": "branches",
+            "id": "bermacam-macam ragam"
+          },
+          "transliteration": "afnānin"
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "key": "55:49",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "key": "55:50",
+      "text": "فِيهِمَا عَيْنَانِ تَجْرِيَانِ",
+      "translations": {
+        "en": "In both of them are two springs, flowing.",
+        "id": "Di dalam kedua surga itu ada dua buah mata air yang memancar."
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فِيهِمَا",
+          "meanings": {
+            "en": "In both of them",
+            "id": "didalam keduanya"
+          },
+          "transliteration": "fīhimā"
+        },
+        {
+          "text": "عَيْنَانِ",
+          "meanings": {
+            "en": "(are) two springs",
+            "id": "dua mata air"
+          },
+          "transliteration": "ʿaynāni"
+        },
+        {
+          "text": "تَجْرِيَانِ",
+          "meanings": {
+            "en": "flowing",
+            "id": "mengalir keduanya"
+          },
+          "transliteration": "tajriyāni"
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "key": "55:51",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "key": "55:52",
+      "text": "فِيهِمَا مِن كُلِّ فَـٰكِهَةٍ زَوْجَانِ",
+      "translations": {
+        "en": "In both of them are of every fruit, two kinds.",
+        "id": "Di dalam kedua surga itu terdapat aneka buah-buahan yang berpasang-pasangan."
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فِيهِمَا",
+          "meanings": {
+            "en": "In both of them",
+            "id": "di dalam keduanya"
+          },
+          "transliteration": "fīhimā"
+        },
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "[of]",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "كُلِّ",
+          "meanings": {
+            "en": "(are) every",
+            "id": "setiap/segala"
+          },
+          "transliteration": "kulli"
+        },
+        {
+          "text": "فَـٰكِهَةٍۢ",
+          "meanings": {
+            "en": "fruits",
+            "id": "buah-buahan"
+          },
+          "transliteration": "fākihatin"
+        },
+        {
+          "text": "زَوْجَانِ",
+          "meanings": {
+            "en": "(in) pairs",
+            "id": "berpasangan"
+          },
+          "transliteration": "zawjāni"
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "key": "55:53",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "key": "55:54",
+      "text": "مُتَّكِـِٔينَ عَلَىٰ فُرُشٍۭ بَطَآئِنُهَا مِنْ إِسْتَبْرَقٍ ۚ وَجَنَى ٱلْجَنَّتَيْنِ دَانٍ",
+      "translations": {
+        "en": "[They are] reclining on beds whose linings are of silk brocade, and the fruit of the two gardens is hanging low.",
+        "id": "Mereka bersandar di atas permadani yang bagian dalamnya dari sutera tebal. Dan buah-buahan di kedua surga itu dapat (dipetik) dari dekat."
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "مُتَّكِـِٔينَ",
+          "meanings": {
+            "en": "Reclining",
+            "id": "mereka bersandar"
+          },
+          "transliteration": "muttakiīna"
+        },
+        {
+          "text": "عَلَىٰ",
+          "meanings": {
+            "en": "on",
+            "id": "atas"
+          },
+          "transliteration": "ʿalā"
+        },
+        {
+          "text": "فُرُشٍۭ",
+          "meanings": {
+            "en": "couches",
+            "id": "permadani"
+          },
+          "transliteration": "furushin"
+        },
+        {
+          "text": "بَطَآئِنُهَا",
+          "meanings": {
+            "en": "(whose) inner linings",
+            "id": "sebelah dalamnya"
+          },
+          "transliteration": "baṭāinuhā"
+        },
+        {
+          "text": "مِنْ",
+          "meanings": {
+            "en": "(are) of",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "إِسْتَبْرَقٍۢ ۚ",
+          "meanings": {
+            "en": "brocade",
+            "id": "sutera"
+          },
+          "transliteration": "is'tabraqin"
+        },
+        {
+          "text": "وَجَنَى",
+          "meanings": {
+            "en": "and (the) fruit",
+            "id": "dan memetik"
+          },
+          "transliteration": "wajanā"
+        },
+        {
+          "text": "ٱلْجَنَّتَيْنِ",
+          "meanings": {
+            "en": "(of) both the gardens",
+            "id": "dua surga"
+          },
+          "transliteration": "l-janatayni"
+        },
+        {
+          "text": "دَانٍۢ",
+          "meanings": {
+            "en": "(is) near",
+            "id": "dekat"
+          },
+          "transliteration": "dānin"
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "key": "55:55",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "key": "55:56",
+      "text": "فِيهِنَّ قَـٰصِرَٰتُ ٱلطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ",
+      "translations": {
+        "en": "In them are women limiting [their] glances, untouched before them by man or jinnī -",
+        "id": "Di dalam surga itu ada bidadari-bidadari yang membatasi pandangan, yang tidak pernah disentuh oleh manusia maupun jin sebelumnya."
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فِيهِنَّ",
+          "meanings": {
+            "en": "In them",
+            "id": "didalammya mereka (bidadari)"
+          },
+          "transliteration": "fīhinna"
+        },
+        {
+          "text": "قَـٰصِرَٰتُ",
+          "meanings": {
+            "en": "(will be) companions of modest gaze",
+            "id": "pendek/menundukkan"
+          },
+          "transliteration": "qāṣirātu"
+        },
+        {
+          "text": "ٱلطَّرْفِ",
+          "meanings": {
+            "en": "(will be) companions of modest gaze",
+            "id": "pandangan"
+          },
+          "transliteration": "l-ṭarfi"
+        },
+        {
+          "text": "لَمْ",
+          "meanings": {
+            "en": "not",
+            "id": "tidak"
+          },
+          "transliteration": "lam"
+        },
+        {
+          "text": "يَطْمِثْهُنَّ",
+          "meanings": {
+            "en": "has touched them",
+            "id": "menyetentuh mereka"
+          },
+          "transliteration": "yaṭmith'hunna"
+        },
+        {
+          "text": "إِنسٌۭ",
+          "meanings": {
+            "en": "any man",
+            "id": "manusia"
+          },
+          "transliteration": "insun"
+        },
+        {
+          "text": "قَبْلَهُمْ",
+          "meanings": {
+            "en": "before them",
+            "id": "sebelum mereka"
+          },
+          "transliteration": "qablahum"
+        },
+        {
+          "text": "وَلَا",
+          "meanings": {
+            "en": "and not",
+            "id": "dan tidak"
+          },
+          "transliteration": "walā"
+        },
+        {
+          "text": "جَآنٌّۭ",
+          "meanings": {
+            "en": "any jinn",
+            "id": "jin"
+          },
+          "transliteration": "jānnun"
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "key": "55:57",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny? -",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "key": "55:58",
+      "text": "كَأَنَّهُنَّ ٱلْيَاقُوتُ وَٱلْمَرْجَانُ",
+      "translations": {
+        "en": "As if they were rubies and coral.",
+        "id": "Seakan-akan mereka itu permata yakut dan marjan."
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "كَأَنَّهُنَّ",
+          "meanings": {
+            "en": "As if they were",
+            "id": "seakan-akan mereka"
+          },
+          "transliteration": "ka-annahunna"
+        },
+        {
+          "text": "ٱلْيَاقُوتُ",
+          "meanings": {
+            "en": "rubies",
+            "id": "yakut"
+          },
+          "transliteration": "l-yāqūtu"
+        },
+        {
+          "text": "وَٱلْمَرْجَانُ",
+          "meanings": {
+            "en": "and coral",
+            "id": "dan marjan"
+          },
+          "transliteration": "wal-marjānu"
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "key": "55:59",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "key": "55:60",
+      "text": "هَلْ جَزَآءُ ٱلْإِحْسَـٰنِ إِلَّا ٱلْإِحْسَـٰنُ",
+      "translations": {
+        "en": "Is the reward for good [anything] but good?",
+        "id": "Tidak ada balasan untuk kebaikan selain kebaikan (pula)."
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "هَلْ",
+          "meanings": {
+            "en": "Is",
+            "id": "bukankah"
+          },
+          "transliteration": "hal"
+        },
+        {
+          "text": "جَزَآءُ",
+          "meanings": {
+            "en": "(the) reward",
+            "id": "balasan"
+          },
+          "transliteration": "jazāu"
+        },
+        {
+          "text": "ٱلْإِحْسَـٰنِ",
+          "meanings": {
+            "en": "for the good",
+            "id": "kebaikan"
+          },
+          "transliteration": "l-iḥ'sāni"
+        },
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "but",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "ٱلْإِحْسَـٰنُ",
+          "meanings": {
+            "en": "good",
+            "id": "kebaikan"
+          },
+          "transliteration": "l-iḥ'sānu"
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "key": "55:61",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "key": "55:62",
+      "text": "وَمِن دُونِهِمَا جَنَّتَانِ",
+      "translations": {
+        "en": "And below them both [in excellence] are two [other] gardens -",
+        "id": "Dan selain dari dua surga itu ada dua surga lagi."
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمِن",
+          "meanings": {
+            "en": "Besides these two",
+            "id": "dan dari"
+          },
+          "transliteration": "wamin"
+        },
+        {
+          "text": "دُونِهِمَا",
+          "meanings": {
+            "en": "Besides these two",
+            "id": "selain keduanya"
+          },
+          "transliteration": "dūnihimā"
+        },
+        {
+          "text": "جَنَّتَانِ",
+          "meanings": {
+            "en": "(are) two gardens",
+            "id": "dua surga"
+          },
+          "transliteration": "jannatāni"
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "key": "55:63",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny? -",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "key": "55:64",
+      "text": "مُدْهَآمَّتَانِ",
+      "translations": {
+        "en": "Dark green [in color].",
+        "id": "kedua surga itu (kelihatan) hijau tua warnanya."
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "مُدْهَآمَّتَانِ",
+          "meanings": {
+            "en": "Dark green",
+            "id": "keduanya hijau tua"
+          },
+          "transliteration": "mud'hāmmatāni"
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "key": "55:65",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "key": "55:66",
+      "text": "فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ",
+      "translations": {
+        "en": "In both of them are two springs, spouting.",
+        "id": "Di dalam keduanya (surga itu) ada dua mata air yang memancar."
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فِيهِمَا",
+          "meanings": {
+            "en": "In both of them",
+            "id": "di dalam keduanya"
+          },
+          "transliteration": "fīhimā"
+        },
+        {
+          "text": "عَيْنَانِ",
+          "meanings": {
+            "en": "(are) two springs",
+            "id": "dua mata air"
+          },
+          "transliteration": "ʿaynāni"
+        },
+        {
+          "text": "نَضَّاخَتَانِ",
+          "meanings": {
+            "en": "gushing forth",
+            "id": "memancarkan keduanya"
+          },
+          "transliteration": "naḍḍākhatāni"
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "key": "55:67",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "key": "55:68",
+      "text": "فِيهِمَا فَـٰكِهَةٌ وَنَخْلٌ وَرُمَّانٌ",
+      "translations": {
+        "en": "In both of them are fruit and palm trees and pomegranates.",
+        "id": "Di dalam kedua surga itu ada buah-buahan, kurma dan delima."
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فِيهِمَا",
+          "meanings": {
+            "en": "In both of them",
+            "id": "di dalam keduanya"
+          },
+          "transliteration": "fīhimā"
+        },
+        {
+          "text": "فَـٰكِهَةٌۭ",
+          "meanings": {
+            "en": "(are) fruits",
+            "id": "buah-buahan"
+          },
+          "transliteration": "fākihatun"
+        },
+        {
+          "text": "وَنَخْلٌۭ",
+          "meanings": {
+            "en": "and date-palms",
+            "id": "dan kurma"
+          },
+          "transliteration": "wanakhlun"
+        },
+        {
+          "text": "وَرُمَّانٌۭ",
+          "meanings": {
+            "en": "and pomegranates",
+            "id": "dan delima"
+          },
+          "transliteration": "warummānun"
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "key": "55:69",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 533,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "nikmat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "key": "55:70",
+      "text": "فِيهِنَّ خَيْرَٰتٌ حِسَانٌ",
+      "translations": {
+        "en": "In them are good and beautiful women -",
+        "id": "Di dalam surga-surga itu ada bidadari-bidadari yang baik-baik dan jelita."
+      },
+      "page": 534,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فِيهِنَّ",
+          "meanings": {
+            "en": "In them",
+            "id": "di dalamnya mereka"
+          },
+          "transliteration": "fīhinna"
+        },
+        {
+          "text": "خَيْرَٰتٌ",
+          "meanings": {
+            "en": "(are) good",
+            "id": "baik-baik"
+          },
+          "transliteration": "khayrātun"
+        },
+        {
+          "text": "حِسَانٌۭ",
+          "meanings": {
+            "en": "and beautiful ones",
+            "id": "bagus-bagus/cantik-cantik"
+          },
+          "transliteration": "ḥisānun"
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "key": "55:71",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny? -",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 534,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "key": "55:72",
+      "text": "حُورٌ مَّقْصُورَٰتٌ فِى ٱلْخِيَامِ",
+      "translations": {
+        "en": "Fair ones reserved in pavilions -",
+        "id": "Bidadari-bidadari yang dipelihara di dalam kemah-kemah."
+      },
+      "page": 534,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "حُورٌۭ",
+          "meanings": {
+            "en": "Fair ones",
+            "id": "yang putih/jelita"
+          },
+          "transliteration": "ḥūrun"
+        },
+        {
+          "text": "مَّقْصُورَٰتٌۭ",
+          "meanings": {
+            "en": "restrained",
+            "id": "tersimpan/terpingit"
+          },
+          "transliteration": "maqṣūrātun"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "in",
+            "id": "dalam"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "ٱلْخِيَامِ",
+          "meanings": {
+            "en": "the pavilions",
+            "id": "mahligai/rumah"
+          },
+          "transliteration": "l-khiyāmi"
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "key": "55:73",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny? -",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 534,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "nikmat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "key": "55:74",
+      "text": "لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ",
+      "translations": {
+        "en": "Untouched before them by man or jinnī -",
+        "id": "Mereka sebelumnya tidak pernah disentuh oleh manusia maupun oleh jin."
+      },
+      "page": 534,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "لَمْ",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak/belum"
+          },
+          "transliteration": "lam"
+        },
+        {
+          "text": "يَطْمِثْهُنَّ",
+          "meanings": {
+            "en": "has touched them",
+            "id": "menyentuh mereka"
+          },
+          "transliteration": "yaṭmith'hunna"
+        },
+        {
+          "text": "إِنسٌۭ",
+          "meanings": {
+            "en": "any man",
+            "id": "manusia"
+          },
+          "transliteration": "insun"
+        },
+        {
+          "text": "قَبْلَهُمْ",
+          "meanings": {
+            "en": "before them",
+            "id": "sebelum mereka"
+          },
+          "transliteration": "qablahum"
+        },
+        {
+          "text": "وَلَا",
+          "meanings": {
+            "en": "and not",
+            "id": "dan tidak"
+          },
+          "transliteration": "walā"
+        },
+        {
+          "text": "جَآنٌّۭ",
+          "meanings": {
+            "en": "any jinn",
+            "id": "jin"
+          },
+          "transliteration": "jānnun"
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "key": "55:75",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny? -",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 534,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu berdua dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "key": "55:76",
+      "text": "مُتَّكِـِٔينَ عَلَىٰ رَفْرَفٍ خُضْرٍ وَعَبْقَرِىٍّ حِسَانٍ",
+      "translations": {
+        "en": "Reclining on green cushions and beautiful fine carpets.",
+        "id": "Mereka bersandar pada bantal-bantal yang hijau dan permadani-permadani yang indah."
+      },
+      "page": 534,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "مُتَّكِـِٔينَ",
+          "meanings": {
+            "en": "Reclining",
+            "id": "mereka bersandar"
+          },
+          "transliteration": "muttakiīna"
+        },
+        {
+          "text": "عَلَىٰ",
+          "meanings": {
+            "en": "on",
+            "id": "diatas"
+          },
+          "transliteration": "ʿalā"
+        },
+        {
+          "text": "رَفْرَفٍ",
+          "meanings": {
+            "en": "cushions",
+            "id": "bantal-bantal"
+          },
+          "transliteration": "rafrafin"
+        },
+        {
+          "text": "خُضْرٍۢ",
+          "meanings": {
+            "en": "green",
+            "id": "hijau"
+          },
+          "transliteration": "khuḍ'rin"
+        },
+        {
+          "text": "وَعَبْقَرِىٍّ",
+          "meanings": {
+            "en": "and carpets",
+            "id": "dan permandani"
+          },
+          "transliteration": "waʿabqariyyin"
+        },
+        {
+          "text": "حِسَانٍۢ",
+          "meanings": {
+            "en": "beautiful",
+            "id": "bagus indah"
+          },
+          "transliteration": "ḥisānin"
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "key": "55:77",
+      "text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translations": {
+        "en": "So which of the favors of your Lord would you deny?",
+        "id": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+      },
+      "page": 534,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَبِأَىِّ",
+          "meanings": {
+            "en": "So which",
+            "id": "maka yang mana"
+          },
+          "transliteration": "fabi-ayyi"
+        },
+        {
+          "text": "ءَالَآءِ",
+          "meanings": {
+            "en": "(of the) favors",
+            "id": "ni'mat"
+          },
+          "transliteration": "ālāi"
+        },
+        {
+          "text": "رَبِّكُمَا",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu berdua"
+          },
+          "transliteration": "rabbikumā"
+        },
+        {
+          "text": "تُكَذِّبَانِ",
+          "meanings": {
+            "en": "will you both deny",
+            "id": "kamu dustakan"
+          },
+          "transliteration": "tukadhibāni"
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "key": "55:78",
+      "text": "تَبَـٰرَكَ ٱسْمُ رَبِّكَ ذِى ٱلْجَلَـٰلِ وَٱلْإِكْرَامِ",
+      "translations": {
+        "en": "Blessed is the name of your Lord, Owner of Majesty and Honor.",
+        "id": "Mahasuci nama Tuhanmu Pemilik Keagungan dan Kemuliaan."
+      },
+      "page": 534,
+      "juz": 27,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "تَبَـٰرَكَ",
+          "meanings": {
+            "en": "Blessed is",
+            "id": "Maha Tinggi/Agung"
+          },
+          "transliteration": "tabāraka"
+        },
+        {
+          "text": "ٱسْمُ",
+          "meanings": {
+            "en": "(the) name",
+            "id": "nama"
+          },
+          "transliteration": "us'mu"
+        },
+        {
+          "text": "رَبِّكَ",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbika"
+        },
+        {
+          "text": "ذِى",
+          "meanings": {
+            "en": "Owner",
+            "id": "memiliki/mempunyai"
+          },
+          "transliteration": "dhī"
+        },
+        {
+          "text": "ٱلْجَلَـٰلِ",
+          "meanings": {
+            "en": "(of) Majesty",
+            "id": "Kebesaran"
+          },
+          "transliteration": "l-jalāli"
+        },
+        {
+          "text": "وَٱلْإِكْرَامِ",
+          "meanings": {
+            "en": "and Honor",
+            "id": "dan Kemuliaan"
+          },
+          "transliteration": "wal-ik'rāmi"
+        }
+      ]
+    }
+  ]
+}

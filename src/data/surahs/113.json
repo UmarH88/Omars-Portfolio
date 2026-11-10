@@ -1,0 +1,278 @@
+{
+  "id": 113,
+  "nameSimple": "Al-Falaq",
+  "nameArabic": "الفلق",
+  "meaning": "The Daybreak",
+  "revelationPlace": "makkah",
+  "versesCount": 5,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "113:1",
+      "text": " قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+      "translations": {
+        "en": "Say, \"I seek refuge in the Lord of daybreak",
+        "id": "Katakanlah, \"Aku berlindung kepada Tuhan yang menguasai subuh (fajar),"
+      },
+      "page": 604,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "قُلْ",
+          "meanings": {
+            "en": "Say",
+            "id": "katakanlah"
+          },
+          "transliteration": "qul"
+        },
+        {
+          "text": "أَعُوذُ",
+          "meanings": {
+            "en": "I seek refuge",
+            "id": "aku berlindung"
+          },
+          "transliteration": "aʿūdhu"
+        },
+        {
+          "text": "بِرَبِّ",
+          "meanings": {
+            "en": "in (the) Lord",
+            "id": "Tuhan/Pemelihara"
+          },
+          "transliteration": "birabbi"
+        },
+        {
+          "text": "ٱلْفَلَقِ",
+          "meanings": {
+            "en": "(of) the dawn",
+            "id": "subuh"
+          },
+          "transliteration": "l-falaqi"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "113:2",
+      "text": "مِن شَرِّ مَا خَلَقَ",
+      "translations": {
+        "en": "From the evil of that which He created",
+        "id": "dari kejahatan (makhluk yang) Dia ciptakan,"
+      },
+      "page": 604,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "From",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "شَرِّ",
+          "meanings": {
+            "en": "(the) evil",
+            "id": "kejahatan"
+          },
+          "transliteration": "sharri"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "(of) what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "خَلَقَ",
+          "meanings": {
+            "en": "He created",
+            "id": "Dia ciptakan"
+          },
+          "transliteration": "khalaqa"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "113:3",
+      "text": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "translations": {
+        "en": "And from the evil of darkness when it settles",
+        "id": "dan dari kejahatan malam apabila telah gelap gulita,"
+      },
+      "page": 604,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمِن",
+          "meanings": {
+            "en": "And from",
+            "id": "dan dari"
+          },
+          "transliteration": "wamin"
+        },
+        {
+          "text": "شَرِّ",
+          "meanings": {
+            "en": "(the) evil",
+            "id": "kejahatan"
+          },
+          "transliteration": "sharri"
+        },
+        {
+          "text": "غَاسِقٍ",
+          "meanings": {
+            "en": "(of) darkness",
+            "id": "malam yang gelap"
+          },
+          "transliteration": "ghāsiqin"
+        },
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "when",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "وَقَبَ",
+          "meanings": {
+            "en": "it spreads",
+            "id": "telah gelap/kelam"
+          },
+          "transliteration": "waqaba"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "113:4",
+      "text": "وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ",
+      "translations": {
+        "en": "And from the evil of the blowers in knots",
+        "id": "dan dari kejahatan (perempuan-perempuan) penyihir yang meniup pada buhul-buhul (talinya),"
+      },
+      "page": 604,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمِن",
+          "meanings": {
+            "en": "And from",
+            "id": "dan dari"
+          },
+          "transliteration": "wamin"
+        },
+        {
+          "text": "شَرِّ",
+          "meanings": {
+            "en": "(the) evil",
+            "id": "kejahatan"
+          },
+          "transliteration": "sharri"
+        },
+        {
+          "text": "ٱلنَّفَّـٰثَـٰتِ",
+          "meanings": {
+            "en": "(of) the blowers",
+            "id": "orang yang meniup-niup"
+          },
+          "transliteration": "l-nafāthāti"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "in",
+            "id": "dalam"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "ٱلْعُقَدِ",
+          "meanings": {
+            "en": "the knots",
+            "id": "ikatan/simpul"
+          },
+          "transliteration": "l-ʿuqadi"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "113:5",
+      "text": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "translations": {
+        "en": "And from the evil of an envier when he envies.\"",
+        "id": "dan dari kejahatan orang yang dengki apabila dia dengki.\""
+      },
+      "page": 604,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمِن",
+          "meanings": {
+            "en": "And from",
+            "id": "dan dari"
+          },
+          "transliteration": "wamin"
+        },
+        {
+          "text": "شَرِّ",
+          "meanings": {
+            "en": "(the) evil",
+            "id": "kejahatan"
+          },
+          "transliteration": "sharri"
+        },
+        {
+          "text": "حَاسِدٍ",
+          "meanings": {
+            "en": "(of) an envier",
+            "id": "orang yang dengki"
+          },
+          "transliteration": "ḥāsidin"
+        },
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "when",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "حَسَدَ",
+          "meanings": {
+            "en": "he envies",
+            "id": "ia dengki"
+          },
+          "transliteration": "ḥasada"
+        }
+      ]
+    }
+  ]
+}

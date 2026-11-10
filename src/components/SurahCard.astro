@@ -1,0 +1,122 @@
+---
+/*
+  SurahCard: one surah in the index list.
+  Number badge | English name + details | Arabic name, then Mushaf / Study links.
+*/
+import { mushafUrl, placeLabel, studyUrl, type Chapter } from '../lib/quran';
+
+interface Props {
+  chapter: Chapter;
+}
+
+const { chapter } = Astro.props;
+const details = `${chapter.meaning} · ${placeLabel(chapter.revelationPlace)} · ${chapter.versesCount} verses`;
+---
+
+<li class="card">
+  <span class="number" aria-hidden="true">{chapter.id}</span>
+
+  <div class="names">
+    <h2>
+      <span class="sr-only">Surah {chapter.id}:</span>
+      {chapter.nameSimple}
+    </h2>
+    <p class="details">{details}</p>
+  </div>
+
+  <p class="arabic" lang="ar" dir="rtl">{chapter.nameArabic}</p>
+
+  <div class="links">
+    <!-- aria-label adds the surah name, so a screen reader doesn't hear 114 identical "Mushaf" links -->
+    <a href={mushafUrl(chapter.id)} aria-label={`${chapter.nameSimple} in Mushaf mode`}>Mushaf</a>
+    <a href={studyUrl(chapter.id)} aria-label={`${chapter.nameSimple} in Study mode`}>Study</a>
+  </div>
+</li>
+
+<style>
+  /* Grid: badge | names | arabic on top, links across the bottom */
+  .card {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas:
+      'number names arabic'
+      'links  links links';
+    align-items: center;
+    gap: 0.75rem 1rem;
+    padding: 1rem;
+    border: 1px solid color-mix(in srgb, var(--text) 10%, transparent);
+    border-radius: var(--radius-card);
+    background: color-mix(in srgb, var(--surface) 60%, transparent);
+  }
+
+  .number {
+    grid-area: number;
+    display: grid;
+    place-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border: 1px solid var(--highlight);
+    border-radius: 50%;
+    color: var(--highlight);
+    font-family: var(--font-display);
+    font-size: 0.95rem;
+  }
+
+  .names {
+    grid-area: names;
+    min-width: 0; /* lets long text wrap instead of stretching the grid */
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .details {
+    margin: 0.2rem 0 0;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+
+  .arabic {
+    grid-area: arabic;
+    margin: 0;
+    color: var(--highlight);
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+
+  .links {
+    grid-area: links;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .links a {
+    flex: 1;
+    padding: 0.55rem;
+    border: 1px solid color-mix(in srgb, var(--text) 20%, transparent);
+    border-radius: var(--radius-pill);
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: border-color 0.2s ease, color 0.2s ease;
+  }
+
+  .links a:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* Wider screens: put the links on the same row, at the end */
+  @media (min-width: 48rem) {
+    .card {
+      grid-template-columns: auto 1fr auto auto;
+      grid-template-areas: 'number names arabic links';
+    }
+    .links a {
+      padding-inline: 1.1rem;
+    }
+  }
+</style>

@@ -1,0 +1,179 @@
+---
+/*
+  Mushaf mode: /quran/1 ... /quran/114
+  One template; getStaticPaths makes one page per surah at build time.
+  Arabic only, split into the pages of the printed (Madani) mushaf.
+*/
+import Base from '../../layouts/Base.astro';
+import MushafPage from '../../components/MushafPage.astro';
+import VerseWords from '../../components/VerseWords.astro';
+import {
+  chapters,
+  fatihahForMushaf,
+  getSurah,
+  groupByMushafPage,
+  hasSurahData,
+  studyUrl,
+} from '../../lib/quran';
+
+export function getStaticPaths() {
+  // Only surahs whose verses have been downloaded (npm run fetch:quran)
+  return chapters
+    .filter((chapter) => hasSurahData(chapter.id))
+    .map((chapter) => ({ params: { surah: String(chapter.id) } }));
+}
+
+const id = Number(Astro.params.surah);
+const surah = await getSurah(id);
+
+// The Bismillah always sits on its own line, never numbered.
+// - Al-Fatihah: renumbered so the Bismillah isn't a verse (see fatihahForMushaf).
+// - Other surahs (bismillahPre = true): the words of 1:1 from the API, never typed by hand.
+//   At-Tawbah has bismillahPre = false, so it gets none.
+const fatihah = id === 1 ? fatihahForMushaf(surah.verses) : null;
+const bismillah = fatihah?.bismillah ?? (surah.bismillahPre ? (await getSurah(1)).verses[0] : null);
+const pages = groupByMushafPage(fatihah?.verses ?? surah.verses);
+---
+
+<Base
+  title={`${surah.nameSimple} · Mushaf`}
+  description={`Surah ${surah.nameSimple} (${surah.meaning}) in mushaf view. Tap a word to see its meaning.`}
+  theme="mushaf"
+  fonts={['arabic']}
+>
+  <header class="bar">
+    <a class="back" href="/quran" aria-label="Back to all surahs">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M15 6l-6 6 6 6" />
+      </svg>
+    </a>
+    <div>
+      <h1>{surah.nameSimple}</h1>
+      <p>Mushaf view · tap or hover a word</p>
+    </div>
+    <a class="mode" href={studyUrl(id)}>Study</a>
+  </header>
+
+  <main class="pages">
+    {
+      pages.map(({ page, verses }, index) => (
+        <MushafPage page={page}>
+          {/* Surah title and Bismillah only on the first page */}
+          {index === 0 && (
+            <div class="surah-header">
+              <p class="surah-name" lang="ar" dir="rtl">سورة {surah.nameArabic}</p>
+              {bismillah && (
+                <p class="bismillah" lang="ar" dir="rtl">
+                  <VerseWords verse={bismillah} marker={false} />
+                </p>
+              )}
+            </div>
+          )}
+
+          <p class="text" lang="ar" dir="rtl">
+            {verses.map((verse) => <VerseWords verse={verse} />)}
+          </p>
+        </MushafPage>
+      ))
+    }
+  </main>
+</Base>
+
+<style>
+  /* ---- Top bar ---- */
+  .bar {
+    position: sticky; /* stays at the top while you scroll the pages */
+    top: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    padding: 0.8rem var(--gutter);
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(8px);
+  }
+
+  .back {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 2.75rem;
+    height: 2.75rem;
+    border: 1px solid color-mix(in srgb, var(--gold-500) 60%, transparent);
+    border-radius: 50%;
+    color: var(--gold-300);
+  }
+
+  .bar h1 {
+    font-size: 1.1rem;
+  }
+
+  .bar p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+
+  .mode {
+    margin-inline-start: auto; /* push to the right */
+    padding: 0.45rem 1rem;
+    border: 1px solid color-mix(in srgb, var(--gold-500) 60%, transparent);
+    border-radius: var(--radius-pill);
+    color: var(--gold-300);
+    font-size: 0.85rem;
+    text-decoration: none;
+  }
+
+  /* ---- Pages ---- */
+  .pages {
+    display: grid;
+    gap: 1.5rem;
+    max-width: 36rem; /* about the shape of a real mushaf page */
+    margin-inline: auto;
+    padding: 0.5rem 0.75rem 3rem;
+  }
+
+  /* Green pill with the surah name, gold lines on both sides */
+  .surah-header {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .surah-name {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 0;
+    padding-block: 0.35rem;
+    /* The green pill: a solid green strip, 9.5em wide, painted only in the centre */
+    background: linear-gradient(var(--green-700), var(--green-700)) center / 9.5em 100% no-repeat;
+    border-radius: var(--radius-pill);
+    font-size: 1.35rem;
+    color: var(--gold-300);
+  }
+
+  /* The gold lines left and right of the pill */
+  .surah-name::before,
+  .surah-name::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold-500);
+  }
+
+  .bismillah {
+    margin: 0.9rem 0 0;
+    font-size: 1.5rem;
+  }
+
+  /* Mushaf text: justified lines, last line centred, generous spacing */
+  .text {
+    margin: 0;
+    font-size: clamp(1.45rem, 6vw, 1.9rem);
+    line-height: 2.3;
+    text-align: justify;
+    text-align-last: center;
+    word-spacing: 0.1em;
+  }
+</style>

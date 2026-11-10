@@ -1,0 +1,466 @@
+{
+  "id": 101,
+  "nameSimple": "Al-Qari'ah",
+  "nameArabic": "القارعة",
+  "meaning": "The Calamity",
+  "revelationPlace": "makkah",
+  "versesCount": 11,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "101:1",
+      "text": " ٱلْقَارِعَةُ",
+      "translations": {
+        "en": "The Striking Calamity -",
+        "id": "Hari Kiamat,"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱلْقَارِعَةُ",
+          "meanings": {
+            "en": "The Striking Calamity",
+            "id": "hari kiamat"
+          },
+          "transliteration": "al-qāriʿatu"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "101:2",
+      "text": "مَا ٱلْقَارِعَةُ",
+      "translations": {
+        "en": "What is the Striking Calamity?",
+        "id": "Apakah hari Kiamat itu?"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "What",
+            "id": "apakah"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "ٱلْقَارِعَةُ",
+          "meanings": {
+            "en": "(is) the Striking Calamity",
+            "id": "hari kiamat"
+          },
+          "transliteration": "l-qāriʿatu"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "101:3",
+      "text": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
+      "translations": {
+        "en": "And what can make you know what is the Striking Calamity?",
+        "id": "Dan tahukah kamu apakah hari Kiamat itu?"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمَآ",
+          "meanings": {
+            "en": "And what",
+            "id": "dan apakah"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "أَدْرَىٰكَ",
+          "meanings": {
+            "en": "will make you know",
+            "id": "kamu tahu"
+          },
+          "transliteration": "adrāka"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "ٱلْقَارِعَةُ",
+          "meanings": {
+            "en": "(is) the Striking Calamity",
+            "id": "hari kiamat"
+          },
+          "transliteration": "l-qāriʿatu"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "101:4",
+      "text": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
+      "translations": {
+        "en": "It is the Day when people will be like moths, dispersed,",
+        "id": "Pada hari itu manusia seperti laron yang beterbangan,"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يَوْمَ",
+          "meanings": {
+            "en": "(The) Day",
+            "id": "hari"
+          },
+          "transliteration": "yawma"
+        },
+        {
+          "text": "يَكُونُ",
+          "meanings": {
+            "en": "will be",
+            "id": "adalah"
+          },
+          "transliteration": "yakūnu"
+        },
+        {
+          "text": "ٱلنَّاسُ",
+          "meanings": {
+            "en": "the mankind",
+            "id": "manusia"
+          },
+          "transliteration": "l-nāsu"
+        },
+        {
+          "text": "كَٱلْفَرَاشِ",
+          "meanings": {
+            "en": "like moths",
+            "id": "seperti anai-anai"
+          },
+          "transliteration": "kal-farāshi"
+        },
+        {
+          "text": "ٱلْمَبْثُوثِ",
+          "meanings": {
+            "en": "scattered",
+            "id": "bertebaran"
+          },
+          "transliteration": "l-mabthūthi"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "101:5",
+      "text": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
+      "translations": {
+        "en": "And the mountains will be like wool, fluffed up.",
+        "id": "dan gunung-gunung seperti bulu yang dihambur-hamburkan."
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَتَكُونُ",
+          "meanings": {
+            "en": "And will be",
+            "id": "dan adalah"
+          },
+          "transliteration": "watakūnu"
+        },
+        {
+          "text": "ٱلْجِبَالُ",
+          "meanings": {
+            "en": "the mountains",
+            "id": "gunung-gunung"
+          },
+          "transliteration": "l-jibālu"
+        },
+        {
+          "text": "كَٱلْعِهْنِ",
+          "meanings": {
+            "en": "like wool",
+            "id": "seperti bulu"
+          },
+          "transliteration": "kal-ʿih'ni"
+        },
+        {
+          "text": "ٱلْمَنفُوشِ",
+          "meanings": {
+            "en": "fluffed up",
+            "id": "dihambur-hamburkan"
+          },
+          "transliteration": "l-manfūshi"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "101:6",
+      "text": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
+      "translations": {
+        "en": "Then as for one whose scales are heavy [with good deeds],",
+        "id": "Maka adapun orang yang berat timbangan (kebaikan)nya,"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَأَمَّا",
+          "meanings": {
+            "en": "Then as for",
+            "id": "maka adapun"
+          },
+          "transliteration": "fa-ammā"
+        },
+        {
+          "text": "مَن",
+          "meanings": {
+            "en": "(him) whose",
+            "id": "siapa/orang"
+          },
+          "transliteration": "man"
+        },
+        {
+          "text": "ثَقُلَتْ",
+          "meanings": {
+            "en": "(are) heavy",
+            "id": "berat"
+          },
+          "transliteration": "thaqulat"
+        },
+        {
+          "text": "مَوَٰزِينُهُۥ",
+          "meanings": {
+            "en": "his scales",
+            "id": "timbangannya"
+          },
+          "transliteration": "mawāzīnuhu"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "101:7",
+      "text": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ",
+      "translations": {
+        "en": "He will be in a pleasant life.",
+        "id": "maka dia berada dalam kehidupan yang memuaskan (senang)."
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَهُوَ",
+          "meanings": {
+            "en": "Then he",
+            "id": "maka dia"
+          },
+          "transliteration": "fahuwa"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "(will be) in",
+            "id": "dalam"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "عِيشَةٍۢ",
+          "meanings": {
+            "en": "a life",
+            "id": "kehidupan"
+          },
+          "transliteration": "ʿīshatin"
+        },
+        {
+          "text": "رَّاضِيَةٍۢ",
+          "meanings": {
+            "en": "pleasant",
+            "id": "memuaskan"
+          },
+          "transliteration": "rāḍiyatin"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "101:8",
+      "text": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ",
+      "translations": {
+        "en": "But as for one whose scales are light,",
+        "id": "Dan adapun orang yang ringan timbangan (kebaikan)nya,"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَمَّا",
+          "meanings": {
+            "en": "But as for",
+            "id": "dan adapun"
+          },
+          "transliteration": "wa-ammā"
+        },
+        {
+          "text": "مَنْ",
+          "meanings": {
+            "en": "(him) whose",
+            "id": "orang"
+          },
+          "transliteration": "man"
+        },
+        {
+          "text": "خَفَّتْ",
+          "meanings": {
+            "en": "(are) light",
+            "id": "ringan"
+          },
+          "transliteration": "khaffat"
+        },
+        {
+          "text": "مَوَٰزِينُهُۥ",
+          "meanings": {
+            "en": "his scales",
+            "id": "timbangannya"
+          },
+          "transliteration": "mawāzīnuhu"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "key": "101:9",
+      "text": "فَأُمُّهُۥ هَاوِيَةٌ",
+      "translations": {
+        "en": "His refuge will be an abyss.",
+        "id": "maka tempat kembalinya adalah neraka Hāwiyah."
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَأُمُّهُۥ",
+          "meanings": {
+            "en": "His abode",
+            "id": "maka tempat kembalinya"
+          },
+          "transliteration": "fa-ummuhu"
+        },
+        {
+          "text": "هَاوِيَةٌۭ",
+          "meanings": {
+            "en": "(will be the) Pit",
+            "id": "jurang yang dalam/neraka Hawiyah"
+          },
+          "transliteration": "hāwiyatun"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "key": "101:10",
+      "text": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ",
+      "translations": {
+        "en": "And what can make you know what that is?",
+        "id": "Dan tahukah kamu apakah neraka Hāwiyah itu?"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمَآ",
+          "meanings": {
+            "en": "And what",
+            "id": "dan apakah"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "أَدْرَىٰكَ",
+          "meanings": {
+            "en": "will make you know",
+            "id": "kamu tahu"
+          },
+          "transliteration": "adrāka"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "هِيَهْ",
+          "meanings": {
+            "en": "it is",
+            "id": "itu"
+          },
+          "transliteration": "hiyah"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "key": "101:11",
+      "text": "نَارٌ حَامِيَةٌۢ",
+      "translations": {
+        "en": "It is a Fire, intensely hot.",
+        "id": "(Yaitu) api yang sangat panas."
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "نَارٌ",
+          "meanings": {
+            "en": "A Fire",
+            "id": "api"
+          },
+          "transliteration": "nārun"
+        },
+        {
+          "text": "حَامِيَةٌۢ",
+          "meanings": {
+            "en": "intensely hot",
+            "id": "sangat panas"
+          },
+          "transliteration": "ḥāmiyatun"
+        }
+      ]
+    }
+  ]
+}

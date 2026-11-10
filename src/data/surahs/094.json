@@ -1,0 +1,352 @@
+{
+  "id": 94,
+  "nameSimple": "Ash-Sharh",
+  "nameArabic": "الشرح",
+  "meaning": "The Relief",
+  "revelationPlace": "makkah",
+  "versesCount": 8,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "94:1",
+      "text": " أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+      "translations": {
+        "en": "Did We not expand for you, [O Muḥammad], your breast?",
+        "id": "Bukankah kami telah melapangkan dadamu (Muhammad)?"
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَلَمْ",
+          "meanings": {
+            "en": "Have not",
+            "id": "apakah tidak/bukankah"
+          },
+          "transliteration": "alam"
+        },
+        {
+          "text": "نَشْرَحْ",
+          "meanings": {
+            "en": "We expanded",
+            "id": "Kami melapangkan"
+          },
+          "transliteration": "nashraḥ"
+        },
+        {
+          "text": "لَكَ",
+          "meanings": {
+            "en": "for you",
+            "id": "bagimu"
+          },
+          "transliteration": "laka"
+        },
+        {
+          "text": "صَدْرَكَ",
+          "meanings": {
+            "en": "your breast",
+            "id": "dadamu"
+          },
+          "transliteration": "ṣadraka"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "94:2",
+      "text": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+      "translations": {
+        "en": "And We removed from you your burden",
+        "id": "dan kami pun telah menurunkan beban darimu,"
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَوَضَعْنَا",
+          "meanings": {
+            "en": "And We removed",
+            "id": "dan Kami letakkan/turunkan"
+          },
+          "transliteration": "wawaḍaʿnā"
+        },
+        {
+          "text": "عَنكَ",
+          "meanings": {
+            "en": "from you",
+            "id": "dari kamu"
+          },
+          "transliteration": "ʿanka"
+        },
+        {
+          "text": "وِزْرَكَ",
+          "meanings": {
+            "en": "your burden",
+            "id": "bebanmu"
+          },
+          "transliteration": "wiz'raka"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "94:3",
+      "text": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+      "translations": {
+        "en": "Which had weighed upon your back",
+        "id": "yang memberatkan punggungmu,"
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱلَّذِىٓ",
+          "meanings": {
+            "en": "Which",
+            "id": "yang"
+          },
+          "transliteration": "alladhī"
+        },
+        {
+          "text": "أَنقَضَ",
+          "meanings": {
+            "en": "weighed upon",
+            "id": "memberatkan"
+          },
+          "transliteration": "anqaḍa"
+        },
+        {
+          "text": "ظَهْرَكَ",
+          "meanings": {
+            "en": "your back",
+            "id": "punggungmu"
+          },
+          "transliteration": "ẓahraka"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "94:4",
+      "text": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+      "translations": {
+        "en": "And raised high for you your repute.",
+        "id": "dan kami tinggikan sebutan (nama)mu bagimu."
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَرَفَعْنَا",
+          "meanings": {
+            "en": "And We raised high",
+            "id": "dan Kami tinggikan"
+          },
+          "transliteration": "warafaʿnā"
+        },
+        {
+          "text": "لَكَ",
+          "meanings": {
+            "en": "for you",
+            "id": "bagimu"
+          },
+          "transliteration": "laka"
+        },
+        {
+          "text": "ذِكْرَكَ",
+          "meanings": {
+            "en": "your reputation",
+            "id": "sebutanmu"
+          },
+          "transliteration": "dhik'raka"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "94:5",
+      "text": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "translations": {
+        "en": "For indeed, with hardship [will be] ease [i.e., relief].",
+        "id": "Maka sesungguhnya bersama kesulitan ada kemudahan,"
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَإِنَّ",
+          "meanings": {
+            "en": "So indeed",
+            "id": "maka sesungguhnya"
+          },
+          "transliteration": "fa-inna"
+        },
+        {
+          "text": "مَعَ",
+          "meanings": {
+            "en": "with",
+            "id": "beserta"
+          },
+          "transliteration": "maʿa"
+        },
+        {
+          "text": "ٱلْعُسْرِ",
+          "meanings": {
+            "en": "the hardship",
+            "id": "kesulitan"
+          },
+          "transliteration": "l-ʿus'ri"
+        },
+        {
+          "text": "يُسْرًا",
+          "meanings": {
+            "en": "(is) ease",
+            "id": "kemudahan"
+          },
+          "transliteration": "yus'ran"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "94:6",
+      "text": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "translations": {
+        "en": "Indeed, with hardship [will be] ease.",
+        "id": "sesungguhnya bersama kesulitan ada kemudahan."
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "مَعَ",
+          "meanings": {
+            "en": "with",
+            "id": "beserta"
+          },
+          "transliteration": "maʿa"
+        },
+        {
+          "text": "ٱلْعُسْرِ",
+          "meanings": {
+            "en": "the hardship",
+            "id": "kesulitan"
+          },
+          "transliteration": "l-ʿus'ri"
+        },
+        {
+          "text": "يُسْرًۭا",
+          "meanings": {
+            "en": "(is) ease",
+            "id": "kemudahan"
+          },
+          "transliteration": "yus'ran"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "94:7",
+      "text": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
+      "translations": {
+        "en": "So when you have finished [your duties], then stand up [for worship].",
+        "id": "Maka apabila engkau telah selesai (dari suatu urusan), tetaplah bekerja keras (untuk urusan yang lain),"
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَإِذَا",
+          "meanings": {
+            "en": "So when",
+            "id": "maka apabila"
+          },
+          "transliteration": "fa-idhā"
+        },
+        {
+          "text": "فَرَغْتَ",
+          "meanings": {
+            "en": "you have finished",
+            "id": "kamu telah selesai"
+          },
+          "transliteration": "faraghta"
+        },
+        {
+          "text": "فَٱنصَبْ",
+          "meanings": {
+            "en": "then labor hard",
+            "id": "maka kerja keraslah kamu"
+          },
+          "transliteration": "fa-inṣab"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "94:8",
+      "text": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+      "translations": {
+        "en": "And to your Lord direct [your] longing.",
+        "id": "dan hanya kepada Tuhanmulah engkau berharap."
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَإِلَىٰ",
+          "meanings": {
+            "en": "And to",
+            "id": "dan hanya"
+          },
+          "transliteration": "wa-ilā"
+        },
+        {
+          "text": "رَبِّكَ",
+          "meanings": {
+            "en": "your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbika"
+        },
+        {
+          "text": "فَٱرْغَب",
+          "meanings": {
+            "en": "turn your attention",
+            "id": "maka kamu berharap"
+          },
+          "transliteration": "fa-ir'ghab"
+        }
+      ]
+    }
+  ]
+}

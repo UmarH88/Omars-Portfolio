@@ -1,0 +1,146 @@
+{
+  "id": 108,
+  "nameSimple": "Al-Kawthar",
+  "nameArabic": "الكوثر",
+  "meaning": "The Abundance",
+  "revelationPlace": "makkah",
+  "versesCount": 3,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "108:1",
+      "text": " إِنَّآ أَعْطَيْنَـٰكَ ٱلْكَوْثَرَ",
+      "translations": {
+        "en": "Indeed, We have granted you, [O Muḥammad], al-Kawthar.",
+        "id": "Sungguh, Kami telah memberimu (Muhammad) nikmat yang banyak."
+      },
+      "page": 602,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّآ",
+          "meanings": {
+            "en": "Indeed, We",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "innā"
+        },
+        {
+          "text": "أَعْطَيْنَـٰكَ",
+          "meanings": {
+            "en": "We have given you",
+            "id": "Aku telah memberikan"
+          },
+          "transliteration": "aʿṭaynāka"
+        },
+        {
+          "text": "ٱلْكَوْثَرَ",
+          "meanings": {
+            "en": "Al-Kauthar",
+            "id": "nikmat yang banyak"
+          },
+          "transliteration": "l-kawthara"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "108:2",
+      "text": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+      "translations": {
+        "en": "So pray to your Lord and offer sacrifice [to Him alone].",
+        "id": "Maka laksanakanlah salat karena Tuhanmu, dan berkurbanlah (sebagai ibadah dan mendekatkan diri kepada Allah)."
+      },
+      "page": 602,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَصَلِّ",
+          "meanings": {
+            "en": "So pray",
+            "id": "maka dirikanlah sholat"
+          },
+          "transliteration": "faṣalli"
+        },
+        {
+          "text": "لِرَبِّكَ",
+          "meanings": {
+            "en": "to your Lord",
+            "id": "karena Tuhanmu"
+          },
+          "transliteration": "lirabbika"
+        },
+        {
+          "text": "وَٱنْحَرْ",
+          "meanings": {
+            "en": "and sacrifice",
+            "id": "dan berkurbanlah"
+          },
+          "transliteration": "wa-in'ḥar"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "108:3",
+      "text": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+      "translations": {
+        "en": "Indeed, your enemy is the one cut off.",
+        "id": "Sungguh, orang-orang yang membencimu dialah yang terputus (dari rahmat Allah)."
+      },
+      "page": 602,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "شَانِئَكَ",
+          "meanings": {
+            "en": "your enemy ",
+            "id": "orang yang membencimu"
+          },
+          "transliteration": "shāni-aka"
+        },
+        {
+          "text": "هُوَ",
+          "meanings": {
+            "en": "he (is)",
+            "id": "dia"
+          },
+          "transliteration": "huwa"
+        },
+        {
+          "text": "ٱلْأَبْتَرُ",
+          "meanings": {
+            "en": "the one cut off",
+            "id": "terputus"
+          },
+          "transliteration": "l-abtaru"
+        }
+      ]
+    }
+  ]
+}

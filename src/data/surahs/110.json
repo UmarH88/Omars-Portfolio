@@ -1,0 +1,218 @@
+{
+  "id": 110,
+  "nameSimple": "An-Nasr",
+  "nameArabic": "النصر",
+  "meaning": "The Divine Support",
+  "revelationPlace": "madinah",
+  "versesCount": 3,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "110:1",
+      "text": " إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+      "translations": {
+        "en": "When the victory of Allāh has come and the conquest,",
+        "id": "Apabila telah datang pertolongan Allah dan kemenangan,"
+      },
+      "page": 603,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "When",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "جَآءَ",
+          "meanings": {
+            "en": "comes",
+            "id": "datang"
+          },
+          "transliteration": "jāa"
+        },
+        {
+          "text": "نَصْرُ",
+          "meanings": {
+            "en": "(the) Help",
+            "id": "pertolongan"
+          },
+          "transliteration": "naṣru"
+        },
+        {
+          "text": "ٱللَّهِ",
+          "meanings": {
+            "en": "(of) Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahi"
+        },
+        {
+          "text": "وَٱلْفَتْحُ",
+          "meanings": {
+            "en": "and the Victory",
+            "id": "dan kemenangan"
+          },
+          "transliteration": "wal-fatḥu"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "110:2",
+      "text": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا",
+      "translations": {
+        "en": "And you see the people entering into the religion of Allāh in multitudes,",
+        "id": "dan engkau melihat manusia berbondong-bondong masuk agama Allah."
+      },
+      "page": 603,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَرَأَيْتَ",
+          "meanings": {
+            "en": "And you see",
+            "id": "dan kamu lihat"
+          },
+          "transliteration": "wara-ayta"
+        },
+        {
+          "text": "ٱلنَّاسَ",
+          "meanings": {
+            "en": "the people",
+            "id": "manusia"
+          },
+          "transliteration": "l-nāsa"
+        },
+        {
+          "text": "يَدْخُلُونَ",
+          "meanings": {
+            "en": "entering",
+            "id": "masuk"
+          },
+          "transliteration": "yadkhulūna"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "into",
+            "id": "kedalam"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "دِينِ",
+          "meanings": {
+            "en": "(the) religion",
+            "id": "agama"
+          },
+          "transliteration": "dīni"
+        },
+        {
+          "text": "ٱللَّهِ",
+          "meanings": {
+            "en": "(of) Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahi"
+        },
+        {
+          "text": "أَفْوَاجًۭا",
+          "meanings": {
+            "en": "(in) multitudes",
+            "id": "berbondong-bondong"
+          },
+          "transliteration": "afwājan"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "110:3",
+      "text": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
+      "translations": {
+        "en": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of Repentance.",
+        "id": "maka bertasbihlah dengan memuji Tuhanmu dan mohonlah ampunan kepada-Nya. Sungguh, Dia Maha Penerima tobat."
+      },
+      "page": 603,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَسَبِّحْ",
+          "meanings": {
+            "en": "Then glorify",
+            "id": "maka bertasbihlah"
+          },
+          "transliteration": "fasabbiḥ"
+        },
+        {
+          "text": "بِحَمْدِ",
+          "meanings": {
+            "en": "with (the) praises",
+            "id": "dengan memuji"
+          },
+          "transliteration": "biḥamdi"
+        },
+        {
+          "text": "رَبِّكَ",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbika"
+        },
+        {
+          "text": "وَٱسْتَغْفِرْهُ ۚ",
+          "meanings": {
+            "en": "and ask His forgiveness",
+            "id": "dan mohonlah ampun"
+          },
+          "transliteration": "wa-is'taghfir'hu"
+        },
+        {
+          "text": "إِنَّهُۥ",
+          "meanings": {
+            "en": "Indeed, He",
+            "id": "sesungguhnya Dia"
+          },
+          "transliteration": "innahu"
+        },
+        {
+          "text": "كَانَ",
+          "meanings": {
+            "en": "is",
+            "id": "adalah Dia"
+          },
+          "transliteration": "kāna"
+        },
+        {
+          "text": "تَوَّابًۢا",
+          "meanings": {
+            "en": "Oft-Returning",
+            "id": "Maha Penerima Taubat"
+          },
+          "transliteration": "tawwāban"
+        }
+      ]
+    }
+  ]
+}

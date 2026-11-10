@@ -1,0 +1,498 @@
+{
+  "id": 100,
+  "nameSimple": "Al-'Adiyat",
+  "nameArabic": "العاديات",
+  "meaning": "The Courser",
+  "revelationPlace": "makkah",
+  "versesCount": 11,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "100:1",
+      "text": " وَٱلْعَـٰدِيَـٰتِ ضَبْحًا",
+      "translations": {
+        "en": "By the racers, panting,",
+        "id": "Demi kuda perang yang berlari kencang terengah-engah,"
+      },
+      "page": 599,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلْعَـٰدِيَـٰتِ",
+          "meanings": {
+            "en": "By the racers",
+            "id": "demi yang berlari kencang"
+          },
+          "transliteration": "wal-ʿādiyāti"
+        },
+        {
+          "text": "ضَبْحًۭا",
+          "meanings": {
+            "en": "panting",
+            "id": "terengah-engah"
+          },
+          "transliteration": "ḍabḥan"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "100:2",
+      "text": "فَٱلْمُورِيَـٰتِ قَدْحًا",
+      "translations": {
+        "en": "And the producers of sparks [when] striking",
+        "id": "dan kuda yang memercikkan bunga api (dengan pukulan kuku kakinya),"
+      },
+      "page": 599,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَٱلْمُورِيَـٰتِ",
+          "meanings": {
+            "en": "And the producers of sparks",
+            "id": "lalu yang memercikkan/terbitkan"
+          },
+          "transliteration": "fal-mūriyāti"
+        },
+        {
+          "text": "قَدْحًۭا",
+          "meanings": {
+            "en": "striking",
+            "id": "api"
+          },
+          "transliteration": "qadḥan"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "100:3",
+      "text": "فَٱلْمُغِيرَٰتِ صُبْحًا",
+      "translations": {
+        "en": "And the chargers at dawn,",
+        "id": "dan kuda yang menyerang (dengan tiba-tiba) pada waktu pagi,"
+      },
+      "page": 599,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَٱلْمُغِيرَٰتِ",
+          "meanings": {
+            "en": "And the chargers",
+            "id": "lalu yang menyerang"
+          },
+          "transliteration": "fal-mughīrāti"
+        },
+        {
+          "text": "صُبْحًۭا",
+          "meanings": {
+            "en": "(at) dawn",
+            "id": "diwaktu subuh/pagi"
+          },
+          "transliteration": "ṣub'ḥan"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "100:4",
+      "text": "فَأَثَرْنَ بِهِۦ نَقْعًا",
+      "translations": {
+        "en": "Stirring up thereby [clouds of] dust,",
+        "id": "sehingga menerbangkan debu,"
+      },
+      "page": 599,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَأَثَرْنَ",
+          "meanings": {
+            "en": "Then raise",
+            "id": "lalu ia menerbangkan"
+          },
+          "transliteration": "fa-atharna"
+        },
+        {
+          "text": "بِهِۦ",
+          "meanings": {
+            "en": "thereby",
+            "id": "dengannya/karenanya"
+          },
+          "transliteration": "bihi"
+        },
+        {
+          "text": "نَقْعًۭا",
+          "meanings": {
+            "en": "dust",
+            "id": "debu"
+          },
+          "transliteration": "naqʿan"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "100:5",
+      "text": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+      "translations": {
+        "en": "Arriving thereby in the center collectively,",
+        "id": "lalu menyerbu ke tengah-tengah kumpulan musuh,"
+      },
+      "page": 599,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَوَسَطْنَ",
+          "meanings": {
+            "en": "Then penetrate (in the) center",
+            "id": "maka ia menyerbu ketengah"
+          },
+          "transliteration": "fawasaṭna"
+        },
+        {
+          "text": "بِهِۦ",
+          "meanings": {
+            "en": "thereby",
+            "id": "dengannya"
+          },
+          "transliteration": "bihi"
+        },
+        {
+          "text": "جَمْعًا",
+          "meanings": {
+            "en": "collectively",
+            "id": "kumpulan"
+          },
+          "transliteration": "jamʿan"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "100:6",
+      "text": "إِنَّ ٱلْإِنسَـٰنَ لِرَبِّهِۦ لَكَنُودٌ",
+      "translations": {
+        "en": "Indeed mankind, to his Lord, is ungrateful.",
+        "id": "sungguh, manusia itu sangat ingkar, (tidak bersyukur) kepada Tuhannya,"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sungguh"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "ٱلْإِنسَـٰنَ",
+          "meanings": {
+            "en": "mankind",
+            "id": "manusia"
+          },
+          "transliteration": "l-insāna"
+        },
+        {
+          "text": "لِرَبِّهِۦ",
+          "meanings": {
+            "en": "to his Lord",
+            "id": "kepada Tuhannya"
+          },
+          "transliteration": "lirabbihi"
+        },
+        {
+          "text": "لَكَنُودٌۭ",
+          "meanings": {
+            "en": "(is) surely ungrateful",
+            "id": "sangat ingkar/tidak berterima kasih"
+          },
+          "transliteration": "lakanūdun"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "100:7",
+      "text": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌ",
+      "translations": {
+        "en": "And indeed, he is to that a witness.",
+        "id": "dan sesungguhnya dia (manusia) menyaksikan (mengakui) keingkarannya,"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَإِنَّهُۥ",
+          "meanings": {
+            "en": "And indeed, he",
+            "id": "dan sesungguhnya ia"
+          },
+          "transliteration": "wa-innahu"
+        },
+        {
+          "text": "عَلَىٰ",
+          "meanings": {
+            "en": "on",
+            "id": "atas"
+          },
+          "transliteration": "ʿalā"
+        },
+        {
+          "text": "ذَٰلِكَ",
+          "meanings": {
+            "en": "that",
+            "id": "yang demikian/itu"
+          },
+          "transliteration": "dhālika"
+        },
+        {
+          "text": "لَشَهِيدٌۭ",
+          "meanings": {
+            "en": "surely (is) a witness",
+            "id": "benar-benar menyaksikan"
+          },
+          "transliteration": "lashahīdun"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "100:8",
+      "text": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+      "translations": {
+        "en": "And indeed he is, in love of wealth, intense.",
+        "id": "dan sesungguhnya cintanya kepada harta benar-benar berlebihan."
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَإِنَّهُۥ",
+          "meanings": {
+            "en": "And indeed he",
+            "id": "dan sesungguhnya dia"
+          },
+          "transliteration": "wa-innahu"
+        },
+        {
+          "text": "لِحُبِّ",
+          "meanings": {
+            "en": "in (the) love",
+            "id": "benar-benar cinta"
+          },
+          "transliteration": "liḥubbi"
+        },
+        {
+          "text": "ٱلْخَيْرِ",
+          "meanings": {
+            "en": "(of) wealth",
+            "id": "kebaikan (harta)"
+          },
+          "transliteration": "l-khayri"
+        },
+        {
+          "text": "لَشَدِيدٌ",
+          "meanings": {
+            "en": "(is) surely intense",
+            "id": "sungguh sangat"
+          },
+          "transliteration": "lashadīdun"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "key": "100:9",
+      "text": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+      "translations": {
+        "en": "But does he not know that when the contents of the graves are scattered",
+        "id": "Maka tidakkah dia mengetahui apabila apa yang di dalam kubur dikeluarkan,"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "۞ أَفَلَا",
+          "meanings": {
+            "en": "But does not",
+            "id": "maka apakah tidak"
+          },
+          "transliteration": "afalā"
+        },
+        {
+          "text": "يَعْلَمُ",
+          "meanings": {
+            "en": "he know",
+            "id": "dia mengetahui"
+          },
+          "transliteration": "yaʿlamu"
+        },
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "when",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "بُعْثِرَ",
+          "meanings": {
+            "en": "will be scattered",
+            "id": "dibangkitkan"
+          },
+          "transliteration": "buʿ'thira"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "(is) in",
+            "id": "dalam"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "ٱلْقُبُورِ",
+          "meanings": {
+            "en": "the graves",
+            "id": "kubur"
+          },
+          "transliteration": "l-qubūri"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "key": "100:10",
+      "text": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
+      "translations": {
+        "en": "And that within the breasts is obtained,",
+        "id": "dan apa yang tersimpan di dalam dada dikeluarkan?"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَحُصِّلَ",
+          "meanings": {
+            "en": "And is made apparent",
+            "id": "dan dilahirkan"
+          },
+          "transliteration": "waḥuṣṣila"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "(is) in",
+            "id": "dalam"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "ٱلصُّدُورِ",
+          "meanings": {
+            "en": "the breasts",
+            "id": "dada"
+          },
+          "transliteration": "l-ṣudūri"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "key": "100:11",
+      "text": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌۢ",
+      "translations": {
+        "en": "Indeed, their Lord with them, that Day, is [fully] Aware.",
+        "id": "sungguh, Tuhan mereka pada hari itu Mahateliti terhadap keadaan mereka."
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "رَبَّهُم",
+          "meanings": {
+            "en": "their Lord",
+            "id": "Tuhan mereka"
+          },
+          "transliteration": "rabbahum"
+        },
+        {
+          "text": "بِهِمْ",
+          "meanings": {
+            "en": "about them",
+            "id": "pada mereka"
+          },
+          "transliteration": "bihim"
+        },
+        {
+          "text": "يَوْمَئِذٍۢ",
+          "meanings": {
+            "en": "that Day",
+            "id": "pada hari itu"
+          },
+          "transliteration": "yawma-idhin"
+        },
+        {
+          "text": "لَّخَبِيرٌۢ",
+          "meanings": {
+            "en": "(is) surely All-Aware",
+            "id": "benar-benar Maha Mengetahui"
+          },
+          "transliteration": "lakhabīrun"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+  "id": 91,
+  "nameSimple": "Ash-Shams",
+  "nameArabic": "الشمس",
+  "meaning": "The Sun",
+  "revelationPlace": "makkah",
+  "versesCount": 15,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "91:1",
+      "text": " وَٱلشَّمْسِ وَضُحَىٰهَا",
+      "translations": {
+        "en": "By the sun and its brightness",
+        "id": "Demi matahari dan sinarnya pada pagi hari,"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلشَّمْسِ",
+          "meanings": {
+            "en": "By the sun",
+            "id": "demi matahari"
+          },
+          "transliteration": "wal-shamsi"
+        },
+        {
+          "text": "وَضُحَىٰهَا",
+          "meanings": {
+            "en": "and its brightness",
+            "id": "dan cahayanya pagi hari"
+          },
+          "transliteration": "waḍuḥāhā"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "91:2",
+      "text": "وَٱلْقَمَرِ إِذَا تَلَىٰهَا",
+      "translations": {
+        "en": "And [by] the moon when it follows it",
+        "id": "demi bulan apabila mengiringinya,"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلْقَمَرِ",
+          "meanings": {
+            "en": "And the moon",
+            "id": "dan bulan"
+          },
+          "transliteration": "wal-qamari"
+        },
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "when",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "تَلَىٰهَا",
+          "meanings": {
+            "en": "it follows it",
+            "id": "mengiringinya"
+          },
+          "transliteration": "talāhā"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "91:3",
+      "text": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
+      "translations": {
+        "en": "And [by] the day when it displays it",
+        "id": "demi siang apabila menampakkannya,"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلنَّهَارِ",
+          "meanings": {
+            "en": "And the day",
+            "id": "dan siang"
+          },
+          "transliteration": "wal-nahāri"
+        },
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "when",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "جَلَّىٰهَا",
+          "meanings": {
+            "en": "it displays it",
+            "id": "menampakkannya"
+          },
+          "transliteration": "jallāhā"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "91:4",
+      "text": "وَٱلَّيْلِ إِذَا يَغْشَىٰهَا",
+      "translations": {
+        "en": "And [by] the night when it covers [i.e., conceals] it",
+        "id": "demi malam apabila menutupinya (gelap gulita),"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلَّيْلِ",
+          "meanings": {
+            "en": "And the night",
+            "id": "dan malam"
+          },
+          "transliteration": "wa-al-layli"
+        },
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "when",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "يَغْشَىٰهَا",
+          "meanings": {
+            "en": "it covers it",
+            "id": "menutupinya"
+          },
+          "transliteration": "yaghshāhā"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "91:5",
+      "text": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا",
+      "translations": {
+        "en": "And [by] the sky and He who constructed it",
+        "id": "demi langit serta perancangannya (yang menakjubkan),"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلسَّمَآءِ",
+          "meanings": {
+            "en": "And the heaven",
+            "id": "dan langit"
+          },
+          "transliteration": "wal-samāi"
+        },
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "and (He) Who",
+            "id": "dan apa"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "بَنَىٰهَا",
+          "meanings": {
+            "en": "constructed it",
+            "id": "pembinaannya"
+          },
+          "transliteration": "banāhā"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "91:6",
+      "text": "وَٱلْأَرْضِ وَمَا طَحَىٰهَا",
+      "translations": {
+        "en": "And [by] the earth and He who spread it",
+        "id": "demi bumi serta penghamparannya,"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلْأَرْضِ",
+          "meanings": {
+            "en": "And the earth",
+            "id": "dan bumi"
+          },
+          "transliteration": "wal-arḍi"
+        },
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "and by (He) Who",
+            "id": "dan apa"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "طَحَىٰهَا",
+          "meanings": {
+            "en": "spread it",
+            "id": "penghamparannya"
+          },
+          "transliteration": "ṭaḥāhā"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "91:7",
+      "text": "وَنَفْسٍ وَمَا سَوَّىٰهَا",
+      "translations": {
+        "en": "And [by] the soul and He who proportioned it",
+        "id": "demi jiwa serta penyempurnaan (ciptaan)nya,"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَنَفْسٍۢ",
+          "meanings": {
+            "en": "And (the) soul",
+            "id": "dan manusia/jiwa"
+          },
+          "transliteration": "wanafsin"
+        },
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "and (He) Who",
+            "id": "dan apa"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "سَوَّىٰهَا",
+          "meanings": {
+            "en": "proportioned it",
+            "id": "penyempurnaanya"
+          },
+          "transliteration": "sawwāhā"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "91:8",
+      "text": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
+      "translations": {
+        "en": "And inspired it [with discernment of] its wickedness and its righteousness,",
+        "id": "maka Dia mengilhamkan kepadanya (jalan) kejahatan dan ketakwaannya,"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَأَلْهَمَهَا",
+          "meanings": {
+            "en": "And He inspired it",
+            "id": "maka Dia mengilhamkan padanya"
+          },
+          "transliteration": "fa-alhamahā"
+        },
+        {
+          "text": "فُجُورَهَا",
+          "meanings": {
+            "en": "(to distinguish) its wickedness",
+            "id": "kedurhakaanya"
+          },
+          "transliteration": "fujūrahā"
+        },
+        {
+          "text": "وَتَقْوَىٰهَا",
+          "meanings": {
+            "en": "and its righteousness",
+            "id": "dan ketaqwaannya"
+          },
+          "transliteration": "wataqwāhā"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "key": "91:9",
+      "text": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا",
+      "translations": {
+        "en": "He has succeeded who purifies it,",
+        "id": "sungguh beruntung orang yang menyucikannya (jiwa itu),"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "قَدْ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "qad"
+        },
+        {
+          "text": "أَفْلَحَ",
+          "meanings": {
+            "en": "he succeeds",
+            "id": "beruntung"
+          },
+          "transliteration": "aflaḥa"
+        },
+        {
+          "text": "مَن",
+          "meanings": {
+            "en": "who",
+            "id": "siapa/orang"
+          },
+          "transliteration": "man"
+        },
+        {
+          "text": "زَكَّىٰهَا",
+          "meanings": {
+            "en": "purifies it",
+            "id": "mensucikannya"
+          },
+          "transliteration": "zakkāhā"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "key": "91:10",
+      "text": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
+      "translations": {
+        "en": "And he has failed who instills it [with corruption].",
+        "id": "dan sungguh rugi orang yang mengotorinya."
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَقَدْ",
+          "meanings": {
+            "en": "And indeed",
+            "id": "dan sesungguhnya"
+          },
+          "transliteration": "waqad"
+        },
+        {
+          "text": "خَابَ",
+          "meanings": {
+            "en": "he fails",
+            "id": "celaka/rugi"
+          },
+          "transliteration": "khāba"
+        },
+        {
+          "text": "مَن",
+          "meanings": {
+            "en": "who",
+            "id": "orang"
+          },
+          "transliteration": "man"
+        },
+        {
+          "text": "دَسَّىٰهَا",
+          "meanings": {
+            "en": "buries it",
+            "id": "mengotorinya"
+          },
+          "transliteration": "dassāhā"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "key": "91:11",
+      "text": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ",
+      "translations": {
+        "en": "Thamūd denied [their prophet] by reason of their transgression,",
+        "id": "(Kaum) Samud telah mendustakan (rasulnya) karena mereka melampaui batas (zalim),"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "كَذَّبَتْ",
+          "meanings": {
+            "en": "Denied",
+            "id": "telah mendustakan"
+          },
+          "transliteration": "kadhabat"
+        },
+        {
+          "text": "ثَمُودُ",
+          "meanings": {
+            "en": "Thamud",
+            "id": "Samud"
+          },
+          "transliteration": "thamūdu"
+        },
+        {
+          "text": "بِطَغْوَىٰهَآ",
+          "meanings": {
+            "en": "by their transgression",
+            "id": "dan melampui batas"
+          },
+          "transliteration": "biṭaghwāhā"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "key": "91:12",
+      "text": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا",
+      "translations": {
+        "en": "When the most wretched of them was sent forth.",
+        "id": "ketika bangkit orang yang paling celaka di antara mereka,"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِذِ",
+          "meanings": {
+            "en": "When",
+            "id": "ketika"
+          },
+          "transliteration": "idhi"
+        },
+        {
+          "text": "ٱنۢبَعَثَ",
+          "meanings": {
+            "en": "(was) sent forth",
+            "id": "bangkit"
+          },
+          "transliteration": "inbaʿatha"
+        },
+        {
+          "text": "أَشْقَىٰهَا",
+          "meanings": {
+            "en": "(the) most wicked of them",
+            "id": "orang yang lebih celaka diantaranya"
+          },
+          "transliteration": "ashqāhā"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "key": "91:13",
+      "text": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَـٰهَا",
+      "translations": {
+        "en": "And the messenger of Allāh [i.e., Ṣāliḥ] said to them, \"[Do not harm] the she-camel of Allāh or [prevent her from] her drink.\"",
+        "id": "lalu Rasul Allah (Saleh) berkata kepada mereka, \"(Biarkanlah) unta betina dari Allah ini dengan minumannya.\""
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَقَالَ",
+          "meanings": {
+            "en": "But said",
+            "id": "dan berkata"
+          },
+          "transliteration": "faqāla"
+        },
+        {
+          "text": "لَهُمْ",
+          "meanings": {
+            "en": "to them",
+            "id": "kepada mereka"
+          },
+          "transliteration": "lahum"
+        },
+        {
+          "text": "رَسُولُ",
+          "meanings": {
+            "en": "(the) Messenger",
+            "id": "rasul"
+          },
+          "transliteration": "rasūlu"
+        },
+        {
+          "text": "ٱللَّهِ",
+          "meanings": {
+            "en": "(of) Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahi"
+        },
+        {
+          "text": "نَاقَةَ",
+          "meanings": {
+            "en": "(It is the) she-camel",
+            "id": "unta betina"
+          },
+          "transliteration": "nāqata"
+        },
+        {
+          "text": "ٱللَّهِ",
+          "meanings": {
+            "en": "(of) Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahi"
+        },
+        {
+          "text": "وَسُقْيَـٰهَا",
+          "meanings": {
+            "en": "and her drink",
+            "id": "dan minumannya"
+          },
+          "transliteration": "wasuq'yāhā"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "key": "91:14",
+      "text": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا",
+      "translations": {
+        "en": "But they denied him and hamstrung her. So their Lord brought down upon them destruction for their sin and made it equal [upon all of them].",
+        "id": "Namun mereka mendustakannya dan menyembelihnya, karena itu Tuhan membinasakan mereka karena dosanya, lalu diratakan-Nya (dengan tanah)."
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَكَذَّبُوهُ",
+          "meanings": {
+            "en": "But they denied him",
+            "id": "dan mendustakan"
+          },
+          "transliteration": "fakadhabūhu"
+        },
+        {
+          "text": "فَعَقَرُوهَا",
+          "meanings": {
+            "en": "and they hamstrung her",
+            "id": "maka mereka melukai/menyembelih"
+          },
+          "transliteration": "faʿaqarūhā"
+        },
+        {
+          "text": "فَدَمْدَمَ",
+          "meanings": {
+            "en": "So destroyed",
+            "id": "maka menurunkan azab/membinasakan"
+          },
+          "transliteration": "fadamdama"
+        },
+        {
+          "text": "عَلَيْهِمْ",
+          "meanings": {
+            "en": "them",
+            "id": "atas mereka"
+          },
+          "transliteration": "ʿalayhim"
+        },
+        {
+          "text": "رَبُّهُم",
+          "meanings": {
+            "en": "their Lord",
+            "id": "Tuhan mereka"
+          },
+          "transliteration": "rabbuhum"
+        },
+        {
+          "text": "بِذَنۢبِهِمْ",
+          "meanings": {
+            "en": "for their sin",
+            "id": "dengan dosa-dosa mereka"
+          },
+          "transliteration": "bidhanbihim"
+        },
+        {
+          "text": "فَسَوَّىٰهَا",
+          "meanings": {
+            "en": "and leveled them",
+            "id": "dan Dia meratakannya"
+          },
+          "transliteration": "fasawwāhā"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "key": "91:15",
+      "text": "وَلَا يَخَافُ عُقْبَـٰهَا",
+      "translations": {
+        "en": "And He does not fear the consequence thereof.",
+        "id": "Dan Dia tidak takut terhadap akibatnya."
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَلَا",
+          "meanings": {
+            "en": "And not",
+            "id": "dan tidak"
+          },
+          "transliteration": "walā"
+        },
+        {
+          "text": "يَخَافُ",
+          "meanings": {
+            "en": "He fears",
+            "id": "takut"
+          },
+          "transliteration": "yakhāfu"
+        },
+        {
+          "text": "عُقْبَـٰهَا",
+          "meanings": {
+            "en": "its consequences",
+            "id": "akibatnya"
+          },
+          "transliteration": "ʿuq'bāhā"
+        }
+      ]
+    }
+  ]
+}

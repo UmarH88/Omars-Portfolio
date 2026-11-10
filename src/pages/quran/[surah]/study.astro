@@ -1,0 +1,262 @@
+---
+/*
+  Study mode: /quran/1/study ... /quran/114/study
+  One ayah per row: Arabic with tappable words, then the translation.
+  "Words under Arabic" toggle prints each word's meaning beneath it.
+  Coming next: Tafseer and Quiz panel.
+*/
+import Base from '../../../layouts/Base.astro';
+import LanguageSwitch from '../../../components/LanguageSwitch.astro';
+import QuranWord from '../../../components/QuranWord.astro';
+import StudyVerse from '../../../components/StudyVerse.astro';
+import {
+  chapters,
+  getSurah,
+  hasSurahData,
+  mushafUrl,
+  placeLabel,
+  studyRows,
+} from '../../../lib/quran';
+
+export function getStaticPaths() {
+  return chapters
+    .filter((chapter) => hasSurahData(chapter.id))
+    .map((chapter) => ({ params: { surah: String(chapter.id) } }));
+}
+
+const id = Number(Astro.params.surah);
+const surah = await getSurah(id);
+const rows = studyRows(surah);
+const langs = surah.languages.map((l) => l.lang); // ["en", "id"]
+
+// Bismillah above the surah: words of 1:1 from the API (never typed by hand).
+// Al-Fatihah shows it as its first row instead; At-Tawbah has none.
+const bismillah = id !== 1 && surah.bismillahPre ? (await getSurah(1)).verses[0] : null;
+
+const shownVerses = id === 1 ? 7 : surah.versesCount; // Al-Fatihah: 7 without the Bismillah
+const details = `${surah.meaning} · ${placeLabel(surah.revelationPlace)} · ${shownVerses} verses`;
+---
+
+<Base
+  title={`${surah.nameSimple} · Study`}
+  description={`Study Surah ${surah.nameSimple} (${surah.meaning}) verse by verse, with word-by-word meanings and translation.`}
+  theme="space"
+  fonts={['arabic', 'library']}
+>
+  <main class="study">
+    <nav class="top" aria-label="Surah navigation">
+      <a href="/quran">← All surahs</a>
+      <a class="pill" href={mushafUrl(id)}>Mushaf view</a>
+    </nav>
+
+    <header class="head">
+      <span class="badge" aria-hidden="true">{surah.id}</span>
+      <div class="names">
+        <h1><span class="sr-only">Surah {surah.id}: </span>{surah.nameSimple}</h1>
+        <p>{details}</p>
+      </div>
+      <p class="arabic-name" lang="ar" dir="rtl">سورة {surah.nameArabic}</p>
+    </header>
+
+    <div class="controls">
+      <LanguageSwitch />
+      <!-- aria-pressed tells screen readers whether the toggle is on -->
+      <button type="button" class="pill toggle" id="words-toggle" aria-pressed="false">
+        Words under Arabic: <span class="state">Off</span>
+      </button>
+    </div>
+
+    {
+      bismillah && (
+        <p class="bismillah" lang="ar" dir="rtl">
+          {bismillah.words.map((word) => <Fragment><QuranWord word={word} langs={langs} />{' '}</Fragment>)}
+        </p>
+      )
+    }
+
+    <p class="hint">Hover over an Arabic word (or tap it on a phone) to see what it means.</p>
+
+    <div class="verses" id="verses">
+      {rows.map((row) => <StudyVerse row={row} langs={langs} />)}
+    </div>
+
+    <footer>
+      {
+        surah.languages.map(({ lang, name }) => (
+          <p class="credit" data-lang={lang}>Translation: {name}.</p>
+        ))
+      }
+      <p>
+        Arabic text, word meanings and translations from the
+        <a href="https://quran.com">Quran.com</a> / Quran Foundation API.
+      </p>
+    </footer>
+  </main>
+</Base>
+
+<script>
+  // "Words under Arabic" toggle. The choice is remembered between visits.
+  const KEY = 'study-words-under';
+  const toggle = document.getElementById('words-toggle')!;
+  const verses = document.getElementById('verses')!;
+  const state = toggle.querySelector('.state')!;
+
+  function apply(on: boolean) {
+    verses.classList.toggle('words-under', on);
+    toggle.setAttribute('aria-pressed', String(on));
+    state.textContent = on ? 'On' : 'Off';
+  }
+
+  // localStorage can fail (private mode, blocked storage), so the page works without it
+  let saved = false;
+  try {
+    saved = localStorage.getItem(KEY) === 'on';
+  } catch {}
+  apply(saved);
+
+  toggle.addEventListener('click', () => {
+    const on = toggle.getAttribute('aria-pressed') !== 'true';
+    apply(on);
+    try {
+      localStorage.setItem(KEY, on ? 'on' : 'off');
+    } catch {}
+  });
+</script>
+
+<style>
+  .study {
+    max-width: 46rem;
+    margin-inline: auto;
+    padding: 1rem var(--gutter) 3rem;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .top a:first-child {
+    color: var(--muted);
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+
+  /* Small outlined pills, like the screenshot's toggles */
+  .pill {
+    padding: 0.45rem 0.95rem;
+    border: 1px solid color-mix(in srgb, var(--text) 25%, transparent);
+    border-radius: var(--radius-pill);
+    background: none;
+    color: var(--text);
+    font: 500 0.72rem/1 ui-monospace, 'Cascadia Mono', Consolas, monospace;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .toggle[aria-pressed='true'] {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* ---- Header: badge | names | Arabic name ---- */
+  .head {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      'badge names'
+      'arabic arabic';
+    align-items: center;
+    gap: 0.5rem 1rem;
+    margin-top: 1.75rem;
+  }
+
+  .badge {
+    grid-area: badge;
+    display: grid;
+    place-items: center;
+    width: 3.25rem;
+    height: 3.25rem;
+    border: 1px solid var(--highlight);
+    border-radius: 50%;
+    color: var(--highlight);
+    font-family: var(--font-display);
+  }
+
+  .names {
+    grid-area: names;
+  }
+
+  h1 {
+    font-family: var(--font-library);
+    font-size: clamp(2rem, 9vw, 3rem);
+    font-weight: 600;
+  }
+
+  .names p {
+    margin: 0.2rem 0 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  .arabic-name {
+    grid-area: arabic;
+    margin: 0;
+    color: var(--highlight);
+    font-size: clamp(2rem, 9vw, 2.8rem);
+    text-align: right;
+  }
+
+  @media (min-width: 48rem) {
+    .head {
+      grid-template-columns: auto 1fr auto;
+      grid-template-areas: 'badge names arabic';
+    }
+  }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.75rem 1.25rem;
+    margin-top: 1.25rem;
+  }
+
+  /* Credit only the translation that's showing */
+  .credit {
+    display: none;
+  }
+
+  :global(html:not(.lang-id)) .credit[data-lang='en'],
+  :global(html.lang-id) .credit[data-lang='id'] {
+    display: block;
+  }
+
+  footer p {
+    margin: 0.25rem 0;
+  }
+
+  .bismillah {
+    margin: 1.5rem 0 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+    font-size: clamp(1.7rem, 7vw, 2.2rem);
+    text-align: center;
+  }
+
+  .hint {
+    margin: 0.75rem 0 0;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+
+  footer {
+    margin-top: 2.5rem;
+    color: var(--muted);
+    font-size: 0.8rem;
+    text-align: center;
+  }
+</style>

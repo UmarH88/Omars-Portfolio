@@ -1,0 +1,151 @@
+---
+/*
+  QuranWord: one Arabic word that shows its meaning in a tooltip
+  on hover (mouse), focus (keyboard) or tap (phone).
+  It's a real <button>, so keyboards and screen readers can use it.
+  Used by Mushaf mode and Study mode.
+
+  Languages: the meaning is printed once per language in `langs`.
+  CSS shows English by default, or Indonesian when a parent has .lang-id
+  (set by LanguageSwitch). No JavaScript per word, so switching is instant.
+*/
+import { DEFAULT_LANG, type Lang, type Word } from '../lib/quran';
+
+interface Props {
+  word: Word;
+  langs?: Lang[]; // which meanings to include (Mushaf: English only)
+  gloss?: boolean; // also print the meaning under the word (Study mode's "words under Arabic")
+}
+
+const { word, langs = [DEFAULT_LANG], gloss = false } = Astro.props;
+---
+
+<button type="button" class="quran-word">
+  <span lang="ar">{word.text}</span>
+  {
+    langs.map((lang) => (
+      <span class="meaning" data-lang={lang} lang={lang} dir="ltr" role="tooltip">
+        {word.meanings[lang]}
+      </span>
+    ))
+  }
+  {
+    gloss &&
+      langs.map((lang) => (
+        <span class="gloss" data-lang={lang} lang={lang} dir="ltr" aria-hidden="true">
+          {word.meanings[lang]}
+        </span>
+      ))
+  }
+</button>
+
+<script>
+  // Phones have no hover, so a tap toggles the meaning. Only one stays open.
+  // One listener on the whole page (not one per word): fast even for 6,000 words.
+  const OPEN = 'is-open';
+
+  function closeAll(except?: Element) {
+    document.querySelectorAll(`.quran-word.${OPEN}`).forEach((el) => {
+      if (el !== except) el.classList.remove(OPEN);
+    });
+  }
+
+  document.addEventListener('click', (event) => {
+    const word = (event.target as Element).closest('.quran-word');
+    closeAll(word ?? undefined);
+    word?.classList.toggle(OPEN);
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') closeAll();
+  });
+</script>
+
+<style>
+  .quran-word {
+    position: relative; /* the tooltip is positioned against the word */
+    padding: 0 0.05em;
+    border: 0;
+    border-radius: 0.3em;
+    background: none;
+    color: inherit;
+    font: inherit;
+    line-height: inherit;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+  }
+
+  .quran-word:hover,
+  .quran-word.is-open {
+    background: color-mix(in srgb, var(--highlight) 22%, transparent);
+  }
+
+  /* ---- Which language is visible ----
+     Every meaning starts hidden; exactly one language is then shown.
+     <html class="lang-id"> = Indonesian (set by LanguageSwitch), otherwise English. */
+  .meaning,
+  .gloss {
+    display: none;
+  }
+
+  :global(html:not(.lang-id)) .meaning[data-lang='en'],
+  :global(html.lang-id) .meaning[data-lang='id'] {
+    display: block;
+  }
+
+  /* ---- The meaning bubble, hidden until hover / focus / tap ---- */
+  .meaning {
+    position: absolute;
+    bottom: calc(100% + 0.3rem);
+    left: 50%;
+    z-index: 10;
+    width: max-content;
+    max-width: 14rem;
+    padding: 0.4rem 0.7rem;
+    border-radius: 0.5rem;
+    background: var(--navy-900);
+    color: var(--white);
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    line-height: 1.3;
+    text-align: center;
+    white-space: normal;
+    box-shadow: 0 6px 20px rgb(0 0 0 / 0.35);
+    pointer-events: none; /* the bubble never blocks the words around it */
+    opacity: 0;
+    transform: translate(-50%, 4px);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+  }
+
+  .quran-word:hover .meaning,
+  .quran-word:focus-visible .meaning,
+  .quran-word.is-open .meaning {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+
+  /* ---- Meaning printed under the word: only inside .words-under ---- */
+  .gloss {
+    max-width: 7rem;
+    margin-top: 0.2rem;
+    color: var(--muted);
+    font-family: var(--font-ui);
+    font-size: 0.7rem;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  :global(html:not(.lang-id) .words-under) .gloss[data-lang='en'],
+  :global(html.lang-id .words-under) .gloss[data-lang='id'] {
+    display: block;
+  }
+
+  /* Stack the Arabic word and its meaning */
+  :global(.words-under) .quran-word {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: top;
+    margin-bottom: 0.6rem;
+  }
+</style>

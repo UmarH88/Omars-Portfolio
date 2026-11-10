@@ -1,0 +1,278 @@
+{
+  "id": 111,
+  "nameSimple": "Al-Masad",
+  "nameArabic": "المسد",
+  "meaning": "The Palm Fiber",
+  "revelationPlace": "makkah",
+  "versesCount": 5,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "111:1",
+      "text": " تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ",
+      "translations": {
+        "en": "May the hands of Abū Lahab be ruined, and ruined is he.",
+        "id": "Binasalah kedua tangan Abu Lahab dan benar-benar binasa dia!"
+      },
+      "page": 603,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "تَبَّتْ",
+          "meanings": {
+            "en": "Perish",
+            "id": "binasalah"
+          },
+          "transliteration": "tabbat"
+        },
+        {
+          "text": "يَدَآ",
+          "meanings": {
+            "en": "(the) hands",
+            "id": "kedua tangan"
+          },
+          "transliteration": "yadā"
+        },
+        {
+          "text": "أَبِى",
+          "meanings": {
+            "en": "(of) Abu",
+            "id": "Abu"
+          },
+          "transliteration": "abī"
+        },
+        {
+          "text": "لَهَبٍۢ",
+          "meanings": {
+            "en": "Lahab",
+            "id": "Lahab"
+          },
+          "transliteration": "lahabin"
+        },
+        {
+          "text": "وَتَبَّ",
+          "meanings": {
+            "en": "and perish he",
+            "id": "sebenar-benar binasa"
+          },
+          "transliteration": "watabba"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "111:2",
+      "text": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+      "translations": {
+        "en": "His wealth will not avail him or that which he gained.",
+        "id": "Tidaklah berguna baginya hartanya dan apa yang dia usahakan."
+      },
+      "page": 603,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "مَآ",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "أَغْنَىٰ",
+          "meanings": {
+            "en": "(will) avail",
+            "id": "berguna"
+          },
+          "transliteration": "aghnā"
+        },
+        {
+          "text": "عَنْهُ",
+          "meanings": {
+            "en": "him",
+            "id": "dari padanya/kepadanya"
+          },
+          "transliteration": "ʿanhu"
+        },
+        {
+          "text": "مَالُهُۥ",
+          "meanings": {
+            "en": "his wealth",
+            "id": "hartanya"
+          },
+          "transliteration": "māluhu"
+        },
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "and what",
+            "id": "dan apa"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "كَسَبَ",
+          "meanings": {
+            "en": "he earned",
+            "id": "yang ia usahakan"
+          },
+          "transliteration": "kasaba"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "111:3",
+      "text": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+      "translations": {
+        "en": "He will [enter to] burn in a Fire of [blazing] flame",
+        "id": "Kelak dia akan masuk ke dalam api yang bergejolak (neraka)."
+      },
+      "page": 603,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "سَيَصْلَىٰ",
+          "meanings": {
+            "en": "He will be burnt",
+            "id": "kelak ia akan masuk"
+          },
+          "transliteration": "sayaṣlā"
+        },
+        {
+          "text": "نَارًۭا",
+          "meanings": {
+            "en": "(in) a Fire",
+            "id": "api"
+          },
+          "transliteration": "nāran"
+        },
+        {
+          "text": "ذَاتَ",
+          "meanings": {
+            "en": "of",
+            "id": "mempunyai"
+          },
+          "transliteration": "dhāta"
+        },
+        {
+          "text": "لَهَبٍۢ",
+          "meanings": {
+            "en": "Blazing Flames",
+            "id": "begejolak"
+          },
+          "transliteration": "lahabin"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "111:4",
+      "text": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+      "translations": {
+        "en": "And his wife [as well] - the carrier of firewood.",
+        "id": "Dan (begitu pula) istrinya, pembawa kayu bakar (penyebar fitnah)."
+      },
+      "page": 603,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱمْرَأَتُهُۥ",
+          "meanings": {
+            "en": "And his wife",
+            "id": "dan istrinya"
+          },
+          "transliteration": "wa-im'ra-atuhu"
+        },
+        {
+          "text": "حَمَّالَةَ",
+          "meanings": {
+            "en": "(the) carrier",
+            "id": "pembawa"
+          },
+          "transliteration": "ḥammālata"
+        },
+        {
+          "text": "ٱلْحَطَبِ",
+          "meanings": {
+            "en": "(of) firewood",
+            "id": "kayu bakar"
+          },
+          "transliteration": "l-ḥaṭabi"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "111:5",
+      "text": "فِى جِيدِهَا حَبْلٌ مِّن مَّسَدٍۭ",
+      "translations": {
+        "en": "Around her neck is a rope of [twisted] fiber.",
+        "id": "Di lehernya ada tali dari sabut yang dipintal."
+      },
+      "page": 603,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "In",
+            "id": "pada"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "جِيدِهَا",
+          "meanings": {
+            "en": "her neck",
+            "id": "lehernya"
+          },
+          "transliteration": "jīdihā"
+        },
+        {
+          "text": "حَبْلٌۭ",
+          "meanings": {
+            "en": "(will be) a rope",
+            "id": "tali"
+          },
+          "transliteration": "ḥablun"
+        },
+        {
+          "text": "مِّن",
+          "meanings": {
+            "en": "of",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "مَّسَدٍۭ",
+          "meanings": {
+            "en": "palm-fiber",
+            "id": "sabut"
+          },
+          "transliteration": "masadin"
+        }
+      ]
+    }
+  ]
+}

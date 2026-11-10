@@ -1,0 +1,2402 @@
+{
+  "id": 76,
+  "nameSimple": "Al-Insan",
+  "nameArabic": "الانسان",
+  "meaning": "The Man",
+  "revelationPlace": "madinah",
+  "versesCount": 31,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "76:1",
+      "text": " هَلْ أَتَىٰ عَلَى ٱلْإِنسَـٰنِ حِينٌ مِّنَ ٱلدَّهْرِ لَمْ يَكُن شَيْـًٔا مَّذْكُورًا",
+      "translations": {
+        "en": "Has there [not] come upon man a period of time when he was not a thing [even] mentioned?",
+        "id": "Bukankah pernah datang kepada manusia waktu dari masa, yang ketika itu belum merupakan sesuatu yang dapat disebut?"
+      },
+      "page": 578,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "هَلْ",
+          "meanings": {
+            "en": "Has",
+            "id": "apakah/bukankah"
+          },
+          "transliteration": "hal"
+        },
+        {
+          "text": "أَتَىٰ",
+          "meanings": {
+            "en": "(there) come",
+            "id": "telah datang"
+          },
+          "transliteration": "atā"
+        },
+        {
+          "text": "عَلَى",
+          "meanings": {
+            "en": "upon",
+            "id": "atas"
+          },
+          "transliteration": "ʿalā"
+        },
+        {
+          "text": "ٱلْإِنسَـٰنِ",
+          "meanings": {
+            "en": "man",
+            "id": "manusia"
+          },
+          "transliteration": "l-insāni"
+        },
+        {
+          "text": "حِينٌۭ",
+          "meanings": {
+            "en": "a period",
+            "id": "waktu"
+          },
+          "transliteration": "ḥīnun"
+        },
+        {
+          "text": "مِّنَ",
+          "meanings": {
+            "en": "of",
+            "id": "dari"
+          },
+          "transliteration": "mina"
+        },
+        {
+          "text": "ٱلدَّهْرِ",
+          "meanings": {
+            "en": "time",
+            "id": "masa"
+          },
+          "transliteration": "l-dahri"
+        },
+        {
+          "text": "لَمْ",
+          "meanings": {
+            "en": "not",
+            "id": "tidaklah"
+          },
+          "transliteration": "lam"
+        },
+        {
+          "text": "يَكُن",
+          "meanings": {
+            "en": "he was",
+            "id": "dia"
+          },
+          "transliteration": "yakun"
+        },
+        {
+          "text": "شَيْـًۭٔا",
+          "meanings": {
+            "en": "a thing",
+            "id": "sesuatu"
+          },
+          "transliteration": "shayan"
+        },
+        {
+          "text": "مَّذْكُورًا",
+          "meanings": {
+            "en": "mentioned",
+            "id": "yang disebut"
+          },
+          "transliteration": "madhkūran"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "76:2",
+      "text": "إِنَّا خَلَقْنَا ٱلْإِنسَـٰنَ مِن نُّطْفَةٍ أَمْشَاجٍ نَّبْتَلِيهِ فَجَعَلْنَـٰهُ سَمِيعًۢا بَصِيرًا",
+      "translations": {
+        "en": "Indeed, We created man from a sperm-drop mixture that We may try him; and We made him hearing and seeing.",
+        "id": "Sungguh, Kami telah menciptakan manusia dari setetes mani yang bercampur yang Kami hendak mengujinya (dengan perintah dan larangan), karena itu Kami jadikan dia mendengar dan melihat."
+      },
+      "page": 578,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّا",
+          "meanings": {
+            "en": "Indeed, We",
+            "id": "sesungguhnya Kami"
+          },
+          "transliteration": "innā"
+        },
+        {
+          "text": "خَلَقْنَا",
+          "meanings": {
+            "en": "[We] created",
+            "id": "Kami telah menciptakan"
+          },
+          "transliteration": "khalaqnā"
+        },
+        {
+          "text": "ٱلْإِنسَـٰنَ",
+          "meanings": {
+            "en": "man",
+            "id": "manusia"
+          },
+          "transliteration": "l-insāna"
+        },
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "نُّطْفَةٍ",
+          "meanings": {
+            "en": "a semen-drop",
+            "id": "setetes mani"
+          },
+          "transliteration": "nuṭ'fatin"
+        },
+        {
+          "text": "أَمْشَاجٍۢ",
+          "meanings": {
+            "en": "a mixture",
+            "id": "bercampur"
+          },
+          "transliteration": "amshājin"
+        },
+        {
+          "text": "نَّبْتَلِيهِ",
+          "meanings": {
+            "en": "(that) We test him",
+            "id": "Kami mengujinya"
+          },
+          "transliteration": "nabtalīhi"
+        },
+        {
+          "text": "فَجَعَلْنَـٰهُ",
+          "meanings": {
+            "en": "so We made (for) him",
+            "id": "maka Kami jadikan ia"
+          },
+          "transliteration": "fajaʿalnāhu"
+        },
+        {
+          "text": "سَمِيعًۢا",
+          "meanings": {
+            "en": "hearing",
+            "id": "mendengar"
+          },
+          "transliteration": "samīʿan"
+        },
+        {
+          "text": "بَصِيرًا",
+          "meanings": {
+            "en": "and sight",
+            "id": "melihat"
+          },
+          "transliteration": "baṣīran"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "76:3",
+      "text": "إِنَّا هَدَيْنَـٰهُ ٱلسَّبِيلَ إِمَّا شَاكِرًا وَإِمَّا كَفُورًا",
+      "translations": {
+        "en": "Indeed, We guided him to the way, be he grateful or be he ungrateful.",
+        "id": "Sungguh, Kami telah menunjukkan kepadanya jalan yang lurus; ada yang bersyukur dan ada pula yang kufur."
+      },
+      "page": 578,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّا",
+          "meanings": {
+            "en": "Indeed, We",
+            "id": "sesungguhnya Kami"
+          },
+          "transliteration": "innā"
+        },
+        {
+          "text": "هَدَيْنَـٰهُ",
+          "meanings": {
+            "en": "guided him",
+            "id": "Kami beri petunjuk padanya"
+          },
+          "transliteration": "hadaynāhu"
+        },
+        {
+          "text": "ٱلسَّبِيلَ",
+          "meanings": {
+            "en": "(to) the way",
+            "id": "jalan"
+          },
+          "transliteration": "l-sabīla"
+        },
+        {
+          "text": "إِمَّا",
+          "meanings": {
+            "en": "whether",
+            "id": "terkadang/adakalanya"
+          },
+          "transliteration": "immā"
+        },
+        {
+          "text": "شَاكِرًۭا",
+          "meanings": {
+            "en": "(he) be grateful",
+            "id": "bersyukur"
+          },
+          "transliteration": "shākiran"
+        },
+        {
+          "text": "وَإِمَّا",
+          "meanings": {
+            "en": "and whether",
+            "id": "dan terkadang"
+          },
+          "transliteration": "wa-immā"
+        },
+        {
+          "text": "كَفُورًا",
+          "meanings": {
+            "en": "(he) be ungrateful",
+            "id": "kufur/ingkar"
+          },
+          "transliteration": "kafūran"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "76:4",
+      "text": "إِنَّآ أَعْتَدْنَا لِلْكَـٰفِرِينَ سَلَـٰسِلَا۟ وَأَغْلَـٰلًا وَسَعِيرًا",
+      "translations": {
+        "en": "Indeed, We have prepared for the disbelievers chains and shackles and a blaze.",
+        "id": "Sungguh, Kami telah menyediakan bagi orang-orang kafir rantai, belenggu dan neraka yang menyala-nyala."
+      },
+      "page": 578,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّآ",
+          "meanings": {
+            "en": "Indeed, We",
+            "id": "sesungguhnya kami"
+          },
+          "transliteration": "innā"
+        },
+        {
+          "text": "أَعْتَدْنَا",
+          "meanings": {
+            "en": "[We] have prepared",
+            "id": "Kami menyediakan"
+          },
+          "transliteration": "aʿtadnā"
+        },
+        {
+          "text": "لِلْكَـٰفِرِينَ",
+          "meanings": {
+            "en": "for the disbelievers",
+            "id": "bagi orang-orang kafir"
+          },
+          "transliteration": "lil'kāfirīna"
+        },
+        {
+          "text": "سَلَـٰسِلَا۟",
+          "meanings": {
+            "en": "chains",
+            "id": "rantai-rantai"
+          },
+          "transliteration": "salāsilā"
+        },
+        {
+          "text": "وَأَغْلَـٰلًۭا",
+          "meanings": {
+            "en": "and shackles",
+            "id": "dan belenggu-belenggu"
+          },
+          "transliteration": "wa-aghlālan"
+        },
+        {
+          "text": "وَسَعِيرًا",
+          "meanings": {
+            "en": "and a Blazing Fire",
+            "id": "dan neraka yang menyala-nyala"
+          },
+          "transliteration": "wasaʿīran"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "76:5",
+      "text": "إِنَّ ٱلْأَبْرَارَ يَشْرَبُونَ مِن كَأْسٍ كَانَ مِزَاجُهَا كَافُورًا",
+      "translations": {
+        "en": "Indeed, the righteous will drink from a cup [of wine] whose mixture is of Kāfūr,",
+        "id": "Sungguh, orang-orang yang berbuat kebajikan akan minum dari gelas (berisi minuman) yang campurannya adalah air kafur,"
+      },
+      "page": 578,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "ٱلْأَبْرَارَ",
+          "meanings": {
+            "en": "the righteous",
+            "id": "yang berbuat baik"
+          },
+          "transliteration": "l-abrāra"
+        },
+        {
+          "text": "يَشْرَبُونَ",
+          "meanings": {
+            "en": "will drink",
+            "id": "mereka akan minum"
+          },
+          "transliteration": "yashrabūna"
+        },
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "كَأْسٍۢ",
+          "meanings": {
+            "en": "a cup",
+            "id": "piala/gelas"
+          },
+          "transliteration": "kasin"
+        },
+        {
+          "text": "كَانَ",
+          "meanings": {
+            "en": "is",
+            "id": "adalah ia"
+          },
+          "transliteration": "kāna"
+        },
+        {
+          "text": "مِزَاجُهَا",
+          "meanings": {
+            "en": "its mixture",
+            "id": "campurannya"
+          },
+          "transliteration": "mizājuhā"
+        },
+        {
+          "text": "كَافُورًا",
+          "meanings": {
+            "en": "(of) Kafur",
+            "id": "air kafur"
+          },
+          "transliteration": "kāfūran"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "76:6",
+      "text": "عَيْنًا يَشْرَبُ بِهَا عِبَادُ ٱللَّهِ يُفَجِّرُونَهَا تَفْجِيرًا",
+      "translations": {
+        "en": "A spring of which the [righteous] servants of Allāh will drink; they will make it gush forth in force [and abundance].",
+        "id": "(yaitu) mata air (dalam surga) yang di minum oleh hamba-hamba Allah dan mereka dapat memancarkannya dengan sebaik-baiknya."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "عَيْنًۭا",
+          "meanings": {
+            "en": "A spring ",
+            "id": "mata air"
+          },
+          "transliteration": "ʿaynan"
+        },
+        {
+          "text": "يَشْرَبُ",
+          "meanings": {
+            "en": "will drink",
+            "id": "minuman"
+          },
+          "transliteration": "yashrabu"
+        },
+        {
+          "text": "بِهَا",
+          "meanings": {
+            "en": "from it",
+            "id": "padanya"
+          },
+          "transliteration": "bihā"
+        },
+        {
+          "text": "عِبَادُ",
+          "meanings": {
+            "en": "(the) slaves",
+            "id": "hamba-hamba"
+          },
+          "transliteration": "ʿibādu"
+        },
+        {
+          "text": "ٱللَّهِ",
+          "meanings": {
+            "en": "(of) Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahi"
+        },
+        {
+          "text": "يُفَجِّرُونَهَا",
+          "meanings": {
+            "en": "causing it to gush forth",
+            "id": "mereka memancarkannya/mengalirkannya"
+          },
+          "transliteration": "yufajjirūnahā"
+        },
+        {
+          "text": "تَفْجِيرًۭا",
+          "meanings": {
+            "en": "abundantly",
+            "id": "dengan pancaran/aliran"
+          },
+          "transliteration": "tafjīran"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "76:7",
+      "text": "يُوفُونَ بِٱلنَّذْرِ وَيَخَافُونَ يَوْمًا كَانَ شَرُّهُۥ مُسْتَطِيرًا",
+      "translations": {
+        "en": "They [are those who] fulfill [their] vows and fear a Day whose evil will be widespread.",
+        "id": "Mereka memenuhi nazar dan takut akan suatu hari yang azabnya merata di mana-mana."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يُوفُونَ",
+          "meanings": {
+            "en": "They fulfill",
+            "id": "mereka memenuhi"
+          },
+          "transliteration": "yūfūna"
+        },
+        {
+          "text": "بِٱلنَّذْرِ",
+          "meanings": {
+            "en": "the vows",
+            "id": "dengan nazar"
+          },
+          "transliteration": "bil-nadhri"
+        },
+        {
+          "text": "وَيَخَافُونَ",
+          "meanings": {
+            "en": "and fear",
+            "id": "dan mereka takut"
+          },
+          "transliteration": "wayakhāfūna"
+        },
+        {
+          "text": "يَوْمًۭا",
+          "meanings": {
+            "en": "a Day ",
+            "id": "hari"
+          },
+          "transliteration": "yawman"
+        },
+        {
+          "text": "كَانَ",
+          "meanings": {
+            "en": "(which) is",
+            "id": "adalah ia"
+          },
+          "transliteration": "kāna"
+        },
+        {
+          "text": "شَرُّهُۥ",
+          "meanings": {
+            "en": "its evil",
+            "id": "bahayanya/azabnya"
+          },
+          "transliteration": "sharruhu"
+        },
+        {
+          "text": "مُسْتَطِيرًۭا",
+          "meanings": {
+            "en": "widespread",
+            "id": "merata kemana-mana"
+          },
+          "transliteration": "mus'taṭīran"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "76:8",
+      "text": "وَيُطْعِمُونَ ٱلطَّعَامَ عَلَىٰ حُبِّهِۦ مِسْكِينًا وَيَتِيمًا وَأَسِيرًا",
+      "translations": {
+        "en": "And they give food in spite of love for it to the needy, the orphan, and the captive,",
+        "id": "Dan mereka memberikan makanan yang disukainya kepada orang miskin, anak yatim dan orang yang ditawan,"
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَيُطْعِمُونَ",
+          "meanings": {
+            "en": "And they feed",
+            "id": "dan mereka memberi makan"
+          },
+          "transliteration": "wayuṭ'ʿimūna"
+        },
+        {
+          "text": "ٱلطَّعَامَ",
+          "meanings": {
+            "en": "the food",
+            "id": "makanan"
+          },
+          "transliteration": "l-ṭaʿāma"
+        },
+        {
+          "text": "عَلَىٰ",
+          "meanings": {
+            "en": "in spite of",
+            "id": "atas"
+          },
+          "transliteration": "ʿalā"
+        },
+        {
+          "text": "حُبِّهِۦ",
+          "meanings": {
+            "en": "love (for) it",
+            "id": "yang disukainya"
+          },
+          "transliteration": "ḥubbihi"
+        },
+        {
+          "text": "مِسْكِينًۭا",
+          "meanings": {
+            "en": "(to the) needy",
+            "id": "orang miskin"
+          },
+          "transliteration": "mis'kīnan"
+        },
+        {
+          "text": "وَيَتِيمًۭا",
+          "meanings": {
+            "en": "and (the) orphan",
+            "id": "dan anak yatim"
+          },
+          "transliteration": "wayatīman"
+        },
+        {
+          "text": "وَأَسِيرًا",
+          "meanings": {
+            "en": "and (the) captive",
+            "id": "dan tawanan"
+          },
+          "transliteration": "wa-asīran"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "key": "76:9",
+      "text": "إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ ٱللَّهِ لَا نُرِيدُ مِنكُمْ جَزَآءً وَلَا شُكُورًا",
+      "translations": {
+        "en": "[Saying], \"We feed you only for the face [i.e., approval] of Allāh. We wish not from you reward or gratitude.",
+        "id": "(sambil berkata), \"Sesungguhnya kami memberi makanan kepadamu hanyalah karena mengharapkan keridaan Allah, kami tidak mengharap balasan dan terima kasih dari kamu."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّمَا",
+          "meanings": {
+            "en": "Only",
+            "id": "sesungguhnya hanyalah"
+          },
+          "transliteration": "innamā"
+        },
+        {
+          "text": "نُطْعِمُكُمْ",
+          "meanings": {
+            "en": "we feed you",
+            "id": "kami memberi makan kepadamu"
+          },
+          "transliteration": "nuṭ'ʿimukum"
+        },
+        {
+          "text": "لِوَجْهِ",
+          "meanings": {
+            "en": "for (the) Countenance",
+            "id": "karena mengharap keridhaan"
+          },
+          "transliteration": "liwajhi"
+        },
+        {
+          "text": "ٱللَّهِ",
+          "meanings": {
+            "en": "(of) Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahi"
+        },
+        {
+          "text": "لَا",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak"
+          },
+          "transliteration": "lā"
+        },
+        {
+          "text": "نُرِيدُ",
+          "meanings": {
+            "en": "we desire",
+            "id": "kami mengharap"
+          },
+          "transliteration": "nurīdu"
+        },
+        {
+          "text": "مِنكُمْ",
+          "meanings": {
+            "en": "from you",
+            "id": "dari kamu"
+          },
+          "transliteration": "minkum"
+        },
+        {
+          "text": "جَزَآءًۭ",
+          "meanings": {
+            "en": "any reward",
+            "id": "balasan"
+          },
+          "transliteration": "jazāan"
+        },
+        {
+          "text": "وَلَا",
+          "meanings": {
+            "en": "and not",
+            "id": "dan tidak"
+          },
+          "transliteration": "walā"
+        },
+        {
+          "text": "شُكُورًا",
+          "meanings": {
+            "en": "thanks",
+            "id": "terima kasih"
+          },
+          "transliteration": "shukūran"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "key": "76:10",
+      "text": "إِنَّا نَخَافُ مِن رَّبِّنَا يَوْمًا عَبُوسًا قَمْطَرِيرًا",
+      "translations": {
+        "en": "Indeed, We fear from our Lord a Day austere and distressful.\"",
+        "id": "Sungguh, kami takut akan (azab) Tuhan pada hari (ketika) orang-orang berwajah masam penuh kesulitan.\""
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّا",
+          "meanings": {
+            "en": "Indeed, we",
+            "id": "sesungguhnya kami"
+          },
+          "transliteration": "innā"
+        },
+        {
+          "text": "نَخَافُ",
+          "meanings": {
+            "en": "fear",
+            "id": "kami takut"
+          },
+          "transliteration": "nakhāfu"
+        },
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "from",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "رَّبِّنَا",
+          "meanings": {
+            "en": "our Lord",
+            "id": "Tuhan kami"
+          },
+          "transliteration": "rabbinā"
+        },
+        {
+          "text": "يَوْمًا",
+          "meanings": {
+            "en": "a Day ",
+            "id": "suatu hari"
+          },
+          "transliteration": "yawman"
+        },
+        {
+          "text": "عَبُوسًۭا",
+          "meanings": {
+            "en": "harsh",
+            "id": "bermuka masam"
+          },
+          "transliteration": "ʿabūsan"
+        },
+        {
+          "text": "قَمْطَرِيرًۭا",
+          "meanings": {
+            "en": "and distressful",
+            "id": "penuh kesulitan"
+          },
+          "transliteration": "qamṭarīran"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "key": "76:11",
+      "text": "فَوَقَىٰهُمُ ٱللَّهُ شَرَّ ذَٰلِكَ ٱلْيَوْمِ وَلَقَّىٰهُمْ نَضْرَةً وَسُرُورًا",
+      "translations": {
+        "en": "So Allāh will protect them from the evil of that Day and give them radiance and happiness",
+        "id": "Maka Allah melindungi mereka dari kesusahan hari itu, dan memberikan kepada mereka keceriaan dan kegembiraan."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَوَقَىٰهُمُ",
+          "meanings": {
+            "en": "But will protect them",
+            "id": "maka memelihara mereka"
+          },
+          "transliteration": "fawaqāhumu"
+        },
+        {
+          "text": "ٱللَّهُ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahu"
+        },
+        {
+          "text": "شَرَّ",
+          "meanings": {
+            "en": "(from the) evil",
+            "id": "kejelekan/kesusahan"
+          },
+          "transliteration": "sharra"
+        },
+        {
+          "text": "ذَٰلِكَ",
+          "meanings": {
+            "en": "(of) that",
+            "id": "demikian/itu"
+          },
+          "transliteration": "dhālika"
+        },
+        {
+          "text": "ٱلْيَوْمِ",
+          "meanings": {
+            "en": "Day",
+            "id": "hari"
+          },
+          "transliteration": "l-yawmi"
+        },
+        {
+          "text": "وَلَقَّىٰهُمْ",
+          "meanings": {
+            "en": "and will cause them to meet",
+            "id": "dan Dia menemukan/memberikan pada mereka"
+          },
+          "transliteration": "walaqqāhum"
+        },
+        {
+          "text": "نَضْرَةًۭ",
+          "meanings": {
+            "en": "radiance",
+            "id": "pandangan/kejernihan"
+          },
+          "transliteration": "naḍratan"
+        },
+        {
+          "text": "وَسُرُورًۭا",
+          "meanings": {
+            "en": "and happiness",
+            "id": "dan kegembiraan"
+          },
+          "transliteration": "wasurūran"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "key": "76:12",
+      "text": "وَجَزَىٰهُم بِمَا صَبَرُوا۟ جَنَّةً وَحَرِيرًا",
+      "translations": {
+        "en": "And will reward them for what they patiently endured [with] a garden [in Paradise] and silk [garments].",
+        "id": "Dan Dia memberi balasan kepada mereka karena kesabarannya (berupa) surga dan (pakaian) sutera."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَجَزَىٰهُم",
+          "meanings": {
+            "en": "And will reward them",
+            "id": "dan Dia memberi balasan pada mereka"
+          },
+          "transliteration": "wajazāhum"
+        },
+        {
+          "text": "بِمَا",
+          "meanings": {
+            "en": "because",
+            "id": "dengan apa/sebab"
+          },
+          "transliteration": "bimā"
+        },
+        {
+          "text": "صَبَرُوا۟",
+          "meanings": {
+            "en": "they were patient",
+            "id": "mereka sabar"
+          },
+          "transliteration": "ṣabarū"
+        },
+        {
+          "text": "جَنَّةًۭ",
+          "meanings": {
+            "en": "(with) a Garden",
+            "id": "sorga"
+          },
+          "transliteration": "jannatan"
+        },
+        {
+          "text": "وَحَرِيرًۭا",
+          "meanings": {
+            "en": "and silk",
+            "id": "dan sutera"
+          },
+          "transliteration": "waḥarīran"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "key": "76:13",
+      "text": "مُّتَّكِـِٔينَ فِيهَا عَلَى ٱلْأَرَآئِكِ ۖ لَا يَرَوْنَ فِيهَا شَمْسًا وَلَا زَمْهَرِيرًا",
+      "translations": {
+        "en": "[They will be] reclining therein on adorned couches. They will not see therein any [burning] sun or [freezing] cold.",
+        "id": "di sana mereka duduk bersandar di atas dipan, di sana mereka tidak melihat (merasakan teriknya) matahari dan tidak pula dingin yang berlebihan."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "مُّتَّكِـِٔينَ",
+          "meanings": {
+            "en": "Reclining",
+            "id": "mereka duduk bersandar"
+          },
+          "transliteration": "muttakiīna"
+        },
+        {
+          "text": "فِيهَا",
+          "meanings": {
+            "en": "therein",
+            "id": "didalamnya"
+          },
+          "transliteration": "fīhā"
+        },
+        {
+          "text": "عَلَى",
+          "meanings": {
+            "en": "on",
+            "id": "atas"
+          },
+          "transliteration": "ʿalā"
+        },
+        {
+          "text": "ٱلْأَرَآئِكِ ۖ",
+          "meanings": {
+            "en": "couches",
+            "id": "pelaminan/dipan"
+          },
+          "transliteration": "l-arāiki"
+        },
+        {
+          "text": "لَا",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak"
+          },
+          "transliteration": "lā"
+        },
+        {
+          "text": "يَرَوْنَ",
+          "meanings": {
+            "en": "they will see",
+            "id": "mereka melihat"
+          },
+          "transliteration": "yarawna"
+        },
+        {
+          "text": "فِيهَا",
+          "meanings": {
+            "en": "therein",
+            "id": "didalamnya"
+          },
+          "transliteration": "fīhā"
+        },
+        {
+          "text": "شَمْسًۭا",
+          "meanings": {
+            "en": "sun",
+            "id": "matahari"
+          },
+          "transliteration": "shamsan"
+        },
+        {
+          "text": "وَلَا",
+          "meanings": {
+            "en": "and not",
+            "id": "dan tidak"
+          },
+          "transliteration": "walā"
+        },
+        {
+          "text": "زَمْهَرِيرًۭا",
+          "meanings": {
+            "en": "freezing cold",
+            "id": "kedinginan yang sangat"
+          },
+          "transliteration": "zamharīran"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "key": "76:14",
+      "text": "وَدَانِيَةً عَلَيْهِمْ ظِلَـٰلُهَا وَذُلِّلَتْ قُطُوفُهَا تَذْلِيلًا",
+      "translations": {
+        "en": "And near above them are its shades, and its [fruit] to be picked will be lowered in compliance.",
+        "id": "Dan naungan (pepohonan)nya dekat di atas mereka dan dimudahkan semudah-mudahnya untuk memetik (buah)nya."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَدَانِيَةً",
+          "meanings": {
+            "en": "And near",
+            "id": "dan dekat"
+          },
+          "transliteration": "wadāniyatan"
+        },
+        {
+          "text": "عَلَيْهِمْ",
+          "meanings": {
+            "en": "above them",
+            "id": "atas mereka"
+          },
+          "transliteration": "ʿalayhim"
+        },
+        {
+          "text": "ظِلَـٰلُهَا",
+          "meanings": {
+            "en": "(are) its shades",
+            "id": "naungannya"
+          },
+          "transliteration": "ẓilāluhā"
+        },
+        {
+          "text": "وَذُلِّلَتْ",
+          "meanings": {
+            "en": "and will hang low",
+            "id": "dan didekatkan/dimudahkan"
+          },
+          "transliteration": "wadhullilat"
+        },
+        {
+          "text": "قُطُوفُهَا",
+          "meanings": {
+            "en": "its cluster of fruits",
+            "id": "buah-buahnya"
+          },
+          "transliteration": "quṭūfuhā"
+        },
+        {
+          "text": "تَذْلِيلًۭا",
+          "meanings": {
+            "en": "dangling low",
+            "id": "sedekat-dekatnya/semudah-mudahnya"
+          },
+          "transliteration": "tadhlīlan"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "key": "76:15",
+      "text": "وَيُطَافُ عَلَيْهِم بِـَٔانِيَةٍ مِّن فِضَّةٍ وَأَكْوَابٍ كَانَتْ قَوَارِيرَا۠",
+      "translations": {
+        "en": "And there will be circulated among them vessels of silver and cups having been [created] clear [as glass],",
+        "id": "Dan kepada mereka diedarkan bejana-bejana dari perak dan piala-piala yang bening laksana kristal,"
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَيُطَافُ",
+          "meanings": {
+            "en": "And will be circulated",
+            "id": "dan diedarkan"
+          },
+          "transliteration": "wayuṭāfu"
+        },
+        {
+          "text": "عَلَيْهِم",
+          "meanings": {
+            "en": "among them",
+            "id": "atas mereka"
+          },
+          "transliteration": "ʿalayhim"
+        },
+        {
+          "text": "بِـَٔانِيَةٍۢ",
+          "meanings": {
+            "en": "vessels",
+            "id": "dengan bejana-bejana"
+          },
+          "transliteration": "biāniyatin"
+        },
+        {
+          "text": "مِّن",
+          "meanings": {
+            "en": "of",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "فِضَّةٍۢ",
+          "meanings": {
+            "en": "silver",
+            "id": "perak"
+          },
+          "transliteration": "fiḍḍatin"
+        },
+        {
+          "text": "وَأَكْوَابٍۢ",
+          "meanings": {
+            "en": "and cups",
+            "id": "dan piala-piala"
+          },
+          "transliteration": "wa-akwābin"
+        },
+        {
+          "text": "كَانَتْ",
+          "meanings": {
+            "en": "(that) are",
+            "id": "adalah ia"
+          },
+          "transliteration": "kānat"
+        },
+        {
+          "text": "قَوَارِيرَا۠",
+          "meanings": {
+            "en": "(of) crystal",
+            "id": "kaca-kaca"
+          },
+          "transliteration": "qawārīrā"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "key": "76:16",
+      "text": "قَوَارِيرَا۟ مِن فِضَّةٍ قَدَّرُوهَا تَقْدِيرًا",
+      "translations": {
+        "en": "Clear glasses [made] from silver of which they have determined the measure.",
+        "id": "kristal yang jernih terbuat dari perak, mereka tentukan ukurannya yang sesuai (dengan kehendak mereka)."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "قَوَارِيرَا۟",
+          "meanings": {
+            "en": "Crystal-clear",
+            "id": "kaca-kaca"
+          },
+          "transliteration": "qawārīrā"
+        },
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "of",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "فِضَّةٍۢ",
+          "meanings": {
+            "en": "silver",
+            "id": "perak"
+          },
+          "transliteration": "fiḍḍatin"
+        },
+        {
+          "text": "قَدَّرُوهَا",
+          "meanings": {
+            "en": "They will determine its",
+            "id": "mereka mengukurnya"
+          },
+          "transliteration": "qaddarūhā"
+        },
+        {
+          "text": "تَقْدِيرًۭا",
+          "meanings": {
+            "en": "measure",
+            "id": "dengan ukuran"
+          },
+          "transliteration": "taqdīran"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "key": "76:17",
+      "text": "وَيُسْقَوْنَ فِيهَا كَأْسًا كَانَ مِزَاجُهَا زَنجَبِيلًا",
+      "translations": {
+        "en": "And they will be given to drink a cup [of wine] whose mixture is of ginger",
+        "id": "Dan di sana mereka diberi segelas minuman bercampur jahe."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَيُسْقَوْنَ",
+          "meanings": {
+            "en": "And they will be given to drink",
+            "id": "dan mereka diberi minum"
+          },
+          "transliteration": "wayus'qawna"
+        },
+        {
+          "text": "فِيهَا",
+          "meanings": {
+            "en": "therein",
+            "id": "didalamnya"
+          },
+          "transliteration": "fīhā"
+        },
+        {
+          "text": "كَأْسًۭا",
+          "meanings": {
+            "en": "a cup ",
+            "id": "piala/gelas"
+          },
+          "transliteration": "kasan"
+        },
+        {
+          "text": "كَانَ",
+          "meanings": {
+            "en": "is",
+            "id": "adalah ia"
+          },
+          "transliteration": "kāna"
+        },
+        {
+          "text": "مِزَاجُهَا",
+          "meanings": {
+            "en": "its mixture",
+            "id": "campurannya"
+          },
+          "transliteration": "mizājuhā"
+        },
+        {
+          "text": "زَنجَبِيلًا",
+          "meanings": {
+            "en": "(of) Zanjabil",
+            "id": "jahe"
+          },
+          "transliteration": "zanjabīlan"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "key": "76:18",
+      "text": "عَيْنًا فِيهَا تُسَمَّىٰ سَلْسَبِيلًا",
+      "translations": {
+        "en": "[From] a fountain within it [i.e., Paradise] named Salsabeel.",
+        "id": "(Yang didatangkan dari) suatu mata air (di surga) yang dinamakan Salsabīl."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "عَيْنًۭا",
+          "meanings": {
+            "en": "A spring",
+            "id": "mata air"
+          },
+          "transliteration": "ʿaynan"
+        },
+        {
+          "text": "فِيهَا",
+          "meanings": {
+            "en": "therein",
+            "id": "di dalamnya (di dalam sorga)"
+          },
+          "transliteration": "fīhā"
+        },
+        {
+          "text": "تُسَمَّىٰ",
+          "meanings": {
+            "en": "named",
+            "id": "dinamakan"
+          },
+          "transliteration": "tusammā"
+        },
+        {
+          "text": "سَلْسَبِيلًۭا",
+          "meanings": {
+            "en": "Salsabil",
+            "id": "salsabil"
+          },
+          "transliteration": "salsabīlan"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "key": "76:19",
+      "text": "۞ وَيَطُوفُ عَلَيْهِمْ وِلْدَٰنٌ مُّخَلَّدُونَ إِذَا رَأَيْتَهُمْ حَسِبْتَهُمْ لُؤْلُؤًا مَّنثُورًا",
+      "translations": {
+        "en": "There will circulate among them young boys made eternal. When you see them, you would think them [as beautiful as] scattered pearls.",
+        "id": "Dan mereka dikelilingi oleh para pemuda-pemuda yang tetap muda. Apabila kamu melihatnya, akan kamu kira mereka, mutiara yang bertaburan."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "۞ وَيَطُوفُ",
+          "meanings": {
+            "en": "And will circulate",
+            "id": "dan mengelilingi"
+          },
+          "transliteration": "wayaṭūfu"
+        },
+        {
+          "text": "عَلَيْهِمْ",
+          "meanings": {
+            "en": "among them",
+            "id": "atas atas mereka"
+          },
+          "transliteration": "ʿalayhim"
+        },
+        {
+          "text": "وِلْدَٰنٌۭ",
+          "meanings": {
+            "en": "young boys",
+            "id": "anak-anak muda"
+          },
+          "transliteration": "wil'dānun"
+        },
+        {
+          "text": "مُّخَلَّدُونَ",
+          "meanings": {
+            "en": "made eternal",
+            "id": "mereka kekal/tetap"
+          },
+          "transliteration": "mukhalladūna"
+        },
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "When",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "رَأَيْتَهُمْ",
+          "meanings": {
+            "en": "you see them",
+            "id": "kamu melihat mereka"
+          },
+          "transliteration": "ra-aytahum"
+        },
+        {
+          "text": "حَسِبْتَهُمْ",
+          "meanings": {
+            "en": "you would think them",
+            "id": "kamu mengira mereka"
+          },
+          "transliteration": "ḥasib'tahum"
+        },
+        {
+          "text": "لُؤْلُؤًۭا",
+          "meanings": {
+            "en": "(to be) pearls",
+            "id": "mutiara"
+          },
+          "transliteration": "lu'lu-an"
+        },
+        {
+          "text": "مَّنثُورًۭا",
+          "meanings": {
+            "en": "scattered",
+            "id": "bertaburan"
+          },
+          "transliteration": "manthūran"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "key": "76:20",
+      "text": "وَإِذَا رَأَيْتَ ثَمَّ رَأَيْتَ نَعِيمًا وَمُلْكًا كَبِيرًا",
+      "translations": {
+        "en": "And when you look there [in Paradise], you will see pleasure and great dominion.",
+        "id": "Dan apabila engkau melihat (keadaan) di sana (surga), niscaya engkau akan melihat berbagai macam kenikmatan dan kerajaan yang besar."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَإِذَا",
+          "meanings": {
+            "en": "And when",
+            "id": "dan apabila"
+          },
+          "transliteration": "wa-idhā"
+        },
+        {
+          "text": "رَأَيْتَ",
+          "meanings": {
+            "en": "you look",
+            "id": "kamu melihat"
+          },
+          "transliteration": "ra-ayta"
+        },
+        {
+          "text": "ثَمَّ",
+          "meanings": {
+            "en": "then",
+            "id": "di sana"
+          },
+          "transliteration": "thamma"
+        },
+        {
+          "text": "رَأَيْتَ",
+          "meanings": {
+            "en": "you will see",
+            "id": "kamu melihat"
+          },
+          "transliteration": "ra-ayta"
+        },
+        {
+          "text": "نَعِيمًۭا",
+          "meanings": {
+            "en": "blessings",
+            "id": "kenikmatan"
+          },
+          "transliteration": "naʿīman"
+        },
+        {
+          "text": "وَمُلْكًۭا",
+          "meanings": {
+            "en": "and a kingdom",
+            "id": "dan kerajaan"
+          },
+          "transliteration": "wamul'kan"
+        },
+        {
+          "text": "كَبِيرًا",
+          "meanings": {
+            "en": "great",
+            "id": "yang besar"
+          },
+          "transliteration": "kabīran"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "key": "76:21",
+      "text": "عَـٰلِيَهُمْ ثِيَابُ سُندُسٍ خُضْرٌ وَإِسْتَبْرَقٌ ۖ وَحُلُّوٓا۟ أَسَاوِرَ مِن فِضَّةٍ وَسَقَىٰهُمْ رَبُّهُمْ شَرَابًا طَهُورًا",
+      "translations": {
+        "en": "Upon them [i.e., the inhabitants] will be green garments of fine silk and brocade. And they will be adorned with bracelets of silver, and their Lord will give them a purifying drink.",
+        "id": "Mereka berpakaian sutera halus yang hijau dan sutera tebal dan memakai gelang terbuat dari perak, dan Tuhan memberikan kepada mereka minuman yang bersih (dan suci)."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "عَـٰلِيَهُمْ",
+          "meanings": {
+            "en": "Upon them",
+            "id": "mereka memakai"
+          },
+          "transliteration": "ʿāliyahum"
+        },
+        {
+          "text": "ثِيَابُ",
+          "meanings": {
+            "en": "(will be) garments",
+            "id": "pakaian"
+          },
+          "transliteration": "thiyābu"
+        },
+        {
+          "text": "سُندُسٍ",
+          "meanings": {
+            "en": "(of) fine silk",
+            "id": "sutera halus"
+          },
+          "transliteration": "sundusin"
+        },
+        {
+          "text": "خُضْرٌۭ",
+          "meanings": {
+            "en": "green",
+            "id": "yang hijau"
+          },
+          "transliteration": "khuḍ'run"
+        },
+        {
+          "text": "وَإِسْتَبْرَقٌۭ ۖ",
+          "meanings": {
+            "en": "and heavy brocade",
+            "id": "dan sutera tebal"
+          },
+          "transliteration": "wa-is'tabraqun"
+        },
+        {
+          "text": "وَحُلُّوٓا۟",
+          "meanings": {
+            "en": "And they will be adorned",
+            "id": "dan mereka diberi perhiasan"
+          },
+          "transliteration": "waḥullū"
+        },
+        {
+          "text": "أَسَاوِرَ",
+          "meanings": {
+            "en": "(with) bracelets",
+            "id": "gelang-gelang"
+          },
+          "transliteration": "asāwira"
+        },
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "of",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "فِضَّةٍۢ",
+          "meanings": {
+            "en": "silver",
+            "id": "perak"
+          },
+          "transliteration": "fiḍḍatin"
+        },
+        {
+          "text": "وَسَقَىٰهُمْ",
+          "meanings": {
+            "en": "and will give them to drink",
+            "id": "dan memberi minum mereka"
+          },
+          "transliteration": "wasaqāhum"
+        },
+        {
+          "text": "رَبُّهُمْ",
+          "meanings": {
+            "en": "their Lord",
+            "id": "Tuhan mereka"
+          },
+          "transliteration": "rabbuhum"
+        },
+        {
+          "text": "شَرَابًۭا",
+          "meanings": {
+            "en": "a drink",
+            "id": "minuman"
+          },
+          "transliteration": "sharāban"
+        },
+        {
+          "text": "طَهُورًا",
+          "meanings": {
+            "en": "pure",
+            "id": "suci/bersih"
+          },
+          "transliteration": "ṭahūran"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "key": "76:22",
+      "text": "إِنَّ هَـٰذَا كَانَ لَكُمْ جَزَآءً وَكَانَ سَعْيُكُم مَّشْكُورًا",
+      "translations": {
+        "en": "[And it will be said], \"Indeed, this is for you a reward, and your effort has been appreciated.\"",
+        "id": "Inilah balasan untukmu, dan segala usahamu diterima dan diakui (Allah)."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "هَـٰذَا",
+          "meanings": {
+            "en": "this",
+            "id": "ini"
+          },
+          "transliteration": "hādhā"
+        },
+        {
+          "text": "كَانَ",
+          "meanings": {
+            "en": "is",
+            "id": "adalah ia"
+          },
+          "transliteration": "kāna"
+        },
+        {
+          "text": "لَكُمْ",
+          "meanings": {
+            "en": "for you",
+            "id": "bagi kalian"
+          },
+          "transliteration": "lakum"
+        },
+        {
+          "text": "جَزَآءًۭ",
+          "meanings": {
+            "en": "a reward",
+            "id": "balasan"
+          },
+          "transliteration": "jazāan"
+        },
+        {
+          "text": "وَكَانَ",
+          "meanings": {
+            "en": "and has been",
+            "id": "dan adalah"
+          },
+          "transliteration": "wakāna"
+        },
+        {
+          "text": "سَعْيُكُم",
+          "meanings": {
+            "en": "your effort",
+            "id": "usahamu"
+          },
+          "transliteration": "saʿyukum"
+        },
+        {
+          "text": "مَّشْكُورًا",
+          "meanings": {
+            "en": "appreciated",
+            "id": "disyukuri"
+          },
+          "transliteration": "mashkūran"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "key": "76:23",
+      "text": "إِنَّا نَحْنُ نَزَّلْنَا عَلَيْكَ ٱلْقُرْءَانَ تَنزِيلًا",
+      "translations": {
+        "en": "Indeed, it is We who have sent down to you, [O Muḥammad], the Qur’ān progressively.",
+        "id": "Sesungguhnya Kamilah yang menurunkan Alquran kepadamu (Muhammad) secara berangsur-angsur."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّا",
+          "meanings": {
+            "en": "Indeed, We",
+            "id": "sesungguhnya Kami"
+          },
+          "transliteration": "innā"
+        },
+        {
+          "text": "نَحْنُ",
+          "meanings": {
+            "en": "[We]",
+            "id": "Kami"
+          },
+          "transliteration": "naḥnu"
+        },
+        {
+          "text": "نَزَّلْنَا",
+          "meanings": {
+            "en": "[We] revealed",
+            "id": "Kami telah turunkan"
+          },
+          "transliteration": "nazzalnā"
+        },
+        {
+          "text": "عَلَيْكَ",
+          "meanings": {
+            "en": "to you",
+            "id": "atasmu"
+          },
+          "transliteration": "ʿalayka"
+        },
+        {
+          "text": "ٱلْقُرْءَانَ",
+          "meanings": {
+            "en": "the Quran",
+            "id": "Al Qur'an"
+          },
+          "transliteration": "l-qur'āna"
+        },
+        {
+          "text": "تَنزِيلًۭا",
+          "meanings": {
+            "en": "progressively",
+            "id": "turun"
+          },
+          "transliteration": "tanzīlan"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "key": "76:24",
+      "text": "فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تُطِعْ مِنْهُمْ ءَاثِمًا أَوْ كَفُورًا",
+      "translations": {
+        "en": "So be patient for the decision of your Lord and do not obey from among them a sinner or ungrateful [disbeliever].",
+        "id": "Maka bersabarlah untuk (melaksanakan) ketetapan Tuhanmu, dan janganlah engkau ikuti orang yang berdosa dan orang yang kafir di antara mereka."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَٱصْبِرْ",
+          "meanings": {
+            "en": "So be patient",
+            "id": "maka bersabarlah kamu"
+          },
+          "transliteration": "fa-iṣ'bir"
+        },
+        {
+          "text": "لِحُكْمِ",
+          "meanings": {
+            "en": "for (the) Command",
+            "id": "bagi/untuk hukum"
+          },
+          "transliteration": "liḥuk'mi"
+        },
+        {
+          "text": "رَبِّكَ",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbika"
+        },
+        {
+          "text": "وَلَا",
+          "meanings": {
+            "en": "and (do) not",
+            "id": "dan jangan"
+          },
+          "transliteration": "walā"
+        },
+        {
+          "text": "تُطِعْ",
+          "meanings": {
+            "en": "obey",
+            "id": "kamu ikuti"
+          },
+          "transliteration": "tuṭiʿ"
+        },
+        {
+          "text": "مِنْهُمْ",
+          "meanings": {
+            "en": "from them",
+            "id": "di antara mereka"
+          },
+          "transliteration": "min'hum"
+        },
+        {
+          "text": "ءَاثِمًا",
+          "meanings": {
+            "en": "any sinner",
+            "id": "orang yang berdosa"
+          },
+          "transliteration": "āthiman"
+        },
+        {
+          "text": "أَوْ",
+          "meanings": {
+            "en": "or",
+            "id": "atau"
+          },
+          "transliteration": "aw"
+        },
+        {
+          "text": "كَفُورًۭا",
+          "meanings": {
+            "en": "disbeliever",
+            "id": "orang yang kafir"
+          },
+          "transliteration": "kafūran"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "key": "76:25",
+      "text": "وَٱذْكُرِ ٱسْمَ رَبِّكَ بُكْرَةً وَأَصِيلًا",
+      "translations": {
+        "en": "And mention the name of your Lord [in prayer] morning and evening",
+        "id": "Dan sebutlah nama Tuhanmu pada (waktu) pagi dan petang."
+      },
+      "page": 579,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱذْكُرِ",
+          "meanings": {
+            "en": "And remember",
+            "id": "dan ingatlah/sebutlah"
+          },
+          "transliteration": "wa-udh'kuri"
+        },
+        {
+          "text": "ٱسْمَ",
+          "meanings": {
+            "en": "(the) name",
+            "id": "nama"
+          },
+          "transliteration": "is'ma"
+        },
+        {
+          "text": "رَبِّكَ",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbika"
+        },
+        {
+          "text": "بُكْرَةًۭ",
+          "meanings": {
+            "en": "morning",
+            "id": "di waktu pagi"
+          },
+          "transliteration": "buk'ratan"
+        },
+        {
+          "text": "وَأَصِيلًۭا",
+          "meanings": {
+            "en": "and evening",
+            "id": "dan petang"
+          },
+          "transliteration": "wa-aṣīlan"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "key": "76:26",
+      "text": "وَمِنَ ٱلَّيْلِ فَٱسْجُدْ لَهُۥ وَسَبِّحْهُ لَيْلًا طَوِيلًا",
+      "translations": {
+        "en": "And during the night prostrate to Him and exalt [i.e., praise] Him a long [part of the] night.",
+        "id": "Dan pada sebagian dari malam, maka bersujudlah kepada-Nya dan bertasbihlah kepada-Nya pada bagian yang panjang di malam hari."
+      },
+      "page": 580,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمِنَ",
+          "meanings": {
+            "en": "And of",
+            "id": "dan dari"
+          },
+          "transliteration": "wamina"
+        },
+        {
+          "text": "ٱلَّيْلِ",
+          "meanings": {
+            "en": "the night",
+            "id": "sebagian malam"
+          },
+          "transliteration": "al-layli"
+        },
+        {
+          "text": "فَٱسْجُدْ",
+          "meanings": {
+            "en": "prostrate",
+            "id": "maka bersujudlah"
+          },
+          "transliteration": "fa-us'jud"
+        },
+        {
+          "text": "لَهُۥ",
+          "meanings": {
+            "en": "to Him",
+            "id": "kepada-Nya"
+          },
+          "transliteration": "lahu"
+        },
+        {
+          "text": "وَسَبِّحْهُ",
+          "meanings": {
+            "en": "and glorify Him",
+            "id": "dan bertasbihlah kepada-Nya"
+          },
+          "transliteration": "wasabbiḥ'hu"
+        },
+        {
+          "text": "لَيْلًۭا",
+          "meanings": {
+            "en": "a night",
+            "id": "malam"
+          },
+          "transliteration": "laylan"
+        },
+        {
+          "text": "طَوِيلًا",
+          "meanings": {
+            "en": "long",
+            "id": "panjang"
+          },
+          "transliteration": "ṭawīlan"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "key": "76:27",
+      "text": "إِنَّ هَـٰٓؤُلَآءِ يُحِبُّونَ ٱلْعَاجِلَةَ وَيَذَرُونَ وَرَآءَهُمْ يَوْمًا ثَقِيلًا",
+      "translations": {
+        "en": "Indeed, these [disbelievers] love the immediate and leave behind them a grave Day.",
+        "id": "Sesungguhnya mereka (orang kafir) itu mencintai kehidupan (dunia) dan meningggalkan hari yang berat (hari akhirat) di belakangnya."
+      },
+      "page": 580,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "هَـٰٓؤُلَآءِ",
+          "meanings": {
+            "en": "these",
+            "id": "mereka itu"
+          },
+          "transliteration": "hāulāi"
+        },
+        {
+          "text": "يُحِبُّونَ",
+          "meanings": {
+            "en": "love",
+            "id": "mereka mencintai"
+          },
+          "transliteration": "yuḥibbūna"
+        },
+        {
+          "text": "ٱلْعَاجِلَةَ",
+          "meanings": {
+            "en": "the immediate",
+            "id": "cepat-cepat/kehidupan"
+          },
+          "transliteration": "l-ʿājilata"
+        },
+        {
+          "text": "وَيَذَرُونَ",
+          "meanings": {
+            "en": "and leave",
+            "id": "dan mereka meninggalkan"
+          },
+          "transliteration": "wayadharūna"
+        },
+        {
+          "text": "وَرَآءَهُمْ",
+          "meanings": {
+            "en": "behind them",
+            "id": "di belakang mereka"
+          },
+          "transliteration": "warāahum"
+        },
+        {
+          "text": "يَوْمًۭا",
+          "meanings": {
+            "en": "a Day",
+            "id": "hari"
+          },
+          "transliteration": "yawman"
+        },
+        {
+          "text": "ثَقِيلًۭا",
+          "meanings": {
+            "en": "grave",
+            "id": "yang berat"
+          },
+          "transliteration": "thaqīlan"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "key": "76:28",
+      "text": "نَّحْنُ خَلَقْنَـٰهُمْ وَشَدَدْنَآ أَسْرَهُمْ ۖ وَإِذَا شِئْنَا بَدَّلْنَآ أَمْثَـٰلَهُمْ تَبْدِيلًا",
+      "translations": {
+        "en": "We have created them and strengthened their forms, and when We will, We can change their likenesses with [complete] alteration.",
+        "id": "Kami telah menciptakan mereka dan menguatkan persendian tubuh mereka. Tetapi, jika Kami menghendaki, Kami dapat mengganti dengan yang serupa mereka."
+      },
+      "page": 580,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "نَّحْنُ",
+          "meanings": {
+            "en": "We",
+            "id": "Kami"
+          },
+          "transliteration": "naḥnu"
+        },
+        {
+          "text": "خَلَقْنَـٰهُمْ",
+          "meanings": {
+            "en": "created them",
+            "id": "Kami menciptakan mereka"
+          },
+          "transliteration": "khalaqnāhum"
+        },
+        {
+          "text": "وَشَدَدْنَآ",
+          "meanings": {
+            "en": "and We strengthened",
+            "id": "dan Kami kuatkan"
+          },
+          "transliteration": "washadadnā"
+        },
+        {
+          "text": "أَسْرَهُمْ ۖ",
+          "meanings": {
+            "en": "their forms",
+            "id": "tubuh mereka"
+          },
+          "transliteration": "asrahum"
+        },
+        {
+          "text": "وَإِذَا",
+          "meanings": {
+            "en": "and when",
+            "id": "dan apabila"
+          },
+          "transliteration": "wa-idhā"
+        },
+        {
+          "text": "شِئْنَا",
+          "meanings": {
+            "en": "We will",
+            "id": "Kami menghendaki"
+          },
+          "transliteration": "shi'nā"
+        },
+        {
+          "text": "بَدَّلْنَآ",
+          "meanings": {
+            "en": "We can change",
+            "id": "Kami mengganti"
+          },
+          "transliteration": "baddalnā"
+        },
+        {
+          "text": "أَمْثَـٰلَهُمْ",
+          "meanings": {
+            "en": "their likeness[es]",
+            "id": "serupa mereka"
+          },
+          "transliteration": "amthālahum"
+        },
+        {
+          "text": "تَبْدِيلًا",
+          "meanings": {
+            "en": "(with) a change",
+            "id": "penggantian"
+          },
+          "transliteration": "tabdīlan"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "key": "76:29",
+      "text": "إِنَّ هَـٰذِهِۦ تَذْكِرَةٌ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ سَبِيلًا",
+      "translations": {
+        "en": "Indeed, this is a reminder, so he who wills may take to his Lord a way.",
+        "id": "Sungguh, (ayat-ayat) ini adalah peringatan, maka barang siapa menghendaki (kebaikan bagi dirinya) tentu dia mengambil jalan menuju kepada Tuhannya."
+      },
+      "page": 580,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "هَـٰذِهِۦ",
+          "meanings": {
+            "en": "this",
+            "id": "ini"
+          },
+          "transliteration": "hādhihi"
+        },
+        {
+          "text": "تَذْكِرَةٌۭ ۖ",
+          "meanings": {
+            "en": "(is) a reminder",
+            "id": "peringatan/pengajaran"
+          },
+          "transliteration": "tadhkiratun"
+        },
+        {
+          "text": "فَمَن",
+          "meanings": {
+            "en": "so whoever",
+            "id": "maka barang siapa"
+          },
+          "transliteration": "faman"
+        },
+        {
+          "text": "شَآءَ",
+          "meanings": {
+            "en": "wills",
+            "id": "dia menghendaki"
+          },
+          "transliteration": "shāa"
+        },
+        {
+          "text": "ٱتَّخَذَ",
+          "meanings": {
+            "en": "let him take",
+            "id": "dia mengambil"
+          },
+          "transliteration": "ittakhadha"
+        },
+        {
+          "text": "إِلَىٰ",
+          "meanings": {
+            "en": "to",
+            "id": "kepada"
+          },
+          "transliteration": "ilā"
+        },
+        {
+          "text": "رَبِّهِۦ",
+          "meanings": {
+            "en": "his Lord",
+            "id": "Tuhannya"
+          },
+          "transliteration": "rabbihi"
+        },
+        {
+          "text": "سَبِيلًۭا",
+          "meanings": {
+            "en": "a way",
+            "id": "jalan"
+          },
+          "transliteration": "sabīlan"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "key": "76:30",
+      "text": "وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ إِنَّ ٱللَّهَ كَانَ عَلِيمًا حَكِيمًا",
+      "translations": {
+        "en": "And you do not will except that Allāh wills. Indeed, Allāh is ever Knowing and Wise.",
+        "id": "Tetapi kamu tidak mampu (menempuh jalan itu), kecuali apabila dikehendaki Allah. Sungguh, Allah Maha Mengetahui, Mahabijaksana."
+      },
+      "page": 580,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "And not",
+            "id": "dan tidak"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "تَشَآءُونَ",
+          "meanings": {
+            "en": "you will",
+            "id": "kamu menghendaki"
+          },
+          "transliteration": "tashāūna"
+        },
+        {
+          "text": "إِلَّآ",
+          "meanings": {
+            "en": "except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "أَن",
+          "meanings": {
+            "en": "that",
+            "id": "bahwa"
+          },
+          "transliteration": "an"
+        },
+        {
+          "text": "يَشَآءَ",
+          "meanings": {
+            "en": "wills",
+            "id": "menghendaki"
+          },
+          "transliteration": "yashāa"
+        },
+        {
+          "text": "ٱللَّهُ ۚ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahu"
+        },
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "ٱللَّهَ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-laha"
+        },
+        {
+          "text": "كَانَ",
+          "meanings": {
+            "en": "is",
+            "id": "adalah ia"
+          },
+          "transliteration": "kāna"
+        },
+        {
+          "text": "عَلِيمًا",
+          "meanings": {
+            "en": "All-Knower",
+            "id": "Maha Mengetahui"
+          },
+          "transliteration": "ʿalīman"
+        },
+        {
+          "text": "حَكِيمًۭا",
+          "meanings": {
+            "en": "All-Wise",
+            "id": "Maha Bijaksana"
+          },
+          "transliteration": "ḥakīman"
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "key": "76:31",
+      "text": "يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِۦ ۚ وَٱلظَّـٰلِمِينَ أَعَدَّ لَهُمْ عَذَابًا أَلِيمًۢا",
+      "translations": {
+        "en": "He admits whom He wills into His mercy; but the wrongdoers - He has prepared for them a painful punishment.",
+        "id": "Dia memasukkan siapa pun yang Dia kehendaki ke dalam rahmat-Nya (surga). Adapun bagi orang-orang zalim disediakan-Nya azab yang pedih."
+      },
+      "page": 580,
+      "juz": 29,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يُدْخِلُ",
+          "meanings": {
+            "en": "He admits",
+            "id": "Dia memasukkan"
+          },
+          "transliteration": "yud'khilu"
+        },
+        {
+          "text": "مَن",
+          "meanings": {
+            "en": "whom",
+            "id": "siapa"
+          },
+          "transliteration": "man"
+        },
+        {
+          "text": "يَشَآءُ",
+          "meanings": {
+            "en": "He wills",
+            "id": "Dia kehendaki"
+          },
+          "transliteration": "yashāu"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "into",
+            "id": "dalam"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "رَحْمَتِهِۦ ۚ",
+          "meanings": {
+            "en": "His mercy",
+            "id": "rahmat-Nya"
+          },
+          "transliteration": "raḥmatihi"
+        },
+        {
+          "text": "وَٱلظَّـٰلِمِينَ",
+          "meanings": {
+            "en": "but (for) the wrongdoers",
+            "id": "dan orang-orang zalim"
+          },
+          "transliteration": "wal-ẓālimīna"
+        },
+        {
+          "text": "أَعَدَّ",
+          "meanings": {
+            "en": "He has prepared",
+            "id": "Dia sediakan"
+          },
+          "transliteration": "aʿadda"
+        },
+        {
+          "text": "لَهُمْ",
+          "meanings": {
+            "en": "for them",
+            "id": "bagi mereka"
+          },
+          "transliteration": "lahum"
+        },
+        {
+          "text": "عَذَابًا",
+          "meanings": {
+            "en": "a punishment",
+            "id": "azab"
+          },
+          "transliteration": "ʿadhāban"
+        },
+        {
+          "text": "أَلِيمًۢا",
+          "meanings": {
+            "en": "painful",
+            "id": "pedih"
+          },
+          "transliteration": "alīman"
+        }
+      ]
+    }
+  ]
+}

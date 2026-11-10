@@ -1,0 +1,360 @@
+{
+  "id": 102,
+  "nameSimple": "At-Takathur",
+  "nameArabic": "التكاثر",
+  "meaning": "The Rivalry in world increase",
+  "revelationPlace": "makkah",
+  "versesCount": 8,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "102:1",
+      "text": " أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+      "translations": {
+        "en": "Competition in [worldly] increase diverts you",
+        "id": "Bermegah-megahan telah melalaikan kamu,"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَلْهَىٰكُمُ",
+          "meanings": {
+            "en": "Diverts you",
+            "id": "telah melalaikan kamu"
+          },
+          "transliteration": "alhākumu"
+        },
+        {
+          "text": "ٱلتَّكَاثُرُ",
+          "meanings": {
+            "en": "the competition to increase",
+            "id": "berbanyak-banyak/bermegah-megah"
+          },
+          "transliteration": "l-takāthuru"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "102:2",
+      "text": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
+      "translations": {
+        "en": "Until you visit the graveyards.",
+        "id": "sampai kamu masuk ke dalam kubur."
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "حَتَّىٰ",
+          "meanings": {
+            "en": "Until",
+            "id": "hingga"
+          },
+          "transliteration": "ḥattā"
+        },
+        {
+          "text": "زُرْتُمُ",
+          "meanings": {
+            "en": "you visit",
+            "id": "kamu melewati/masuk"
+          },
+          "transliteration": "zur'tumu"
+        },
+        {
+          "text": "ٱلْمَقَابِرَ",
+          "meanings": {
+            "en": "the graves",
+            "id": "kuburan-kuburan"
+          },
+          "transliteration": "l-maqābira"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "102:3",
+      "text": "كَلَّا سَوْفَ تَعْلَمُونَ",
+      "translations": {
+        "en": "No! You are going to know.",
+        "id": "Sekali-kali tidak! Kelak kamu akan mengetahui (akibat perbuatanmu itu),"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "كَلَّا",
+          "meanings": {
+            "en": "Nay",
+            "id": "sekali-kali tidak"
+          },
+          "transliteration": "kallā"
+        },
+        {
+          "text": "سَوْفَ",
+          "meanings": {
+            "en": "Soon",
+            "id": "kelak"
+          },
+          "transliteration": "sawfa"
+        },
+        {
+          "text": "تَعْلَمُونَ",
+          "meanings": {
+            "en": "you will know",
+            "id": "(kalian) mengetahui"
+          },
+          "transliteration": "taʿlamūna"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "102:4",
+      "text": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+      "translations": {
+        "en": "Then, no! You are going to know.",
+        "id": "kemudian sekali-kali tidak! Kelak kamu akan mengetahui."
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ثُمَّ",
+          "meanings": {
+            "en": "Then",
+            "id": "kemudian"
+          },
+          "transliteration": "thumma"
+        },
+        {
+          "text": "كَلَّا",
+          "meanings": {
+            "en": "nay",
+            "id": "sekali-kali tidak"
+          },
+          "transliteration": "kallā"
+        },
+        {
+          "text": "سَوْفَ",
+          "meanings": {
+            "en": "Soon",
+            "id": "kelak"
+          },
+          "transliteration": "sawfa"
+        },
+        {
+          "text": "تَعْلَمُونَ",
+          "meanings": {
+            "en": "you will know",
+            "id": "(kalian) mengetahui"
+          },
+          "transliteration": "taʿlamūna"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "102:5",
+      "text": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
+      "translations": {
+        "en": "No! If you only knew with knowledge of certainty...",
+        "id": "Sekali-kali tidak! Sekiranya kamu mengetahui dengan pasti,"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "كَلَّا",
+          "meanings": {
+            "en": "Nay",
+            "id": "sekali-kali tidak"
+          },
+          "transliteration": "kallā"
+        },
+        {
+          "text": "لَوْ",
+          "meanings": {
+            "en": "If",
+            "id": "jika"
+          },
+          "transliteration": "law"
+        },
+        {
+          "text": "تَعْلَمُونَ",
+          "meanings": {
+            "en": "you know",
+            "id": "(kalian) mengetahui"
+          },
+          "transliteration": "taʿlamūna"
+        },
+        {
+          "text": "عِلْمَ",
+          "meanings": {
+            "en": "(with) a knowledge",
+            "id": "pengetahuan"
+          },
+          "transliteration": "ʿil'ma"
+        },
+        {
+          "text": "ٱلْيَقِينِ",
+          "meanings": {
+            "en": "(of) certainty",
+            "id": "pasti/yakin"
+          },
+          "transliteration": "l-yaqīni"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "102:6",
+      "text": "لَتَرَوُنَّ ٱلْجَحِيمَ",
+      "translations": {
+        "en": "You will surely see the Hellfire.",
+        "id": "niscaya kamu benar-benar akan melihat neraka Jahim,"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "لَتَرَوُنَّ",
+          "meanings": {
+            "en": "Surely you will see",
+            "id": "sungguh kamu akan melihat"
+          },
+          "transliteration": "latarawunna"
+        },
+        {
+          "text": "ٱلْجَحِيمَ",
+          "meanings": {
+            "en": "the Hellfire",
+            "id": "neraka Jahim"
+          },
+          "transliteration": "l-jaḥīma"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "102:7",
+      "text": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
+      "translations": {
+        "en": "Then you will surely see it with the eye of certainty.",
+        "id": "kemudian kamu benar-benar akan melihatnya dengan mata kepala sendiri,"
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ثُمَّ",
+          "meanings": {
+            "en": "Then",
+            "id": "kemudian"
+          },
+          "transliteration": "thumma"
+        },
+        {
+          "text": "لَتَرَوُنَّهَا",
+          "meanings": {
+            "en": "surely you will see it",
+            "id": "sungguh kamu akan melihatnya"
+          },
+          "transliteration": "latarawunnahā"
+        },
+        {
+          "text": "عَيْنَ",
+          "meanings": {
+            "en": "(with the) eye",
+            "id": "mata/penglihatan"
+          },
+          "transliteration": "ʿayna"
+        },
+        {
+          "text": "ٱلْيَقِينِ",
+          "meanings": {
+            "en": "(of) certainty",
+            "id": "pasti/yakin"
+          },
+          "transliteration": "l-yaqīni"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "102:8",
+      "text": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
+      "translations": {
+        "en": "Then you will surely be asked that Day about pleasure.",
+        "id": "kemudian kamu benar-benar akan ditanya pada hari itu tentang kenikmatan (yang megah di dunia itu)."
+      },
+      "page": 600,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ثُمَّ",
+          "meanings": {
+            "en": "Then",
+            "id": "kemudian"
+          },
+          "transliteration": "thumma"
+        },
+        {
+          "text": "لَتُسْـَٔلُنَّ",
+          "meanings": {
+            "en": "surely you will be asked",
+            "id": "sungguh kamu akan ditanya"
+          },
+          "transliteration": "latus'alunna"
+        },
+        {
+          "text": "يَوْمَئِذٍ",
+          "meanings": {
+            "en": "that Day",
+            "id": "pada hari itu"
+          },
+          "transliteration": "yawma-idhin"
+        },
+        {
+          "text": "عَنِ",
+          "meanings": {
+            "en": "about",
+            "id": "dari/tetang"
+          },
+          "transliteration": "ʿani"
+        },
+        {
+          "text": "ٱلنَّعِيمِ",
+          "meanings": {
+            "en": "the pleasures",
+            "id": "kenikmatan"
+          },
+          "transliteration": "l-naʿīmi"
+        }
+      ]
+    }
+  ]
+}

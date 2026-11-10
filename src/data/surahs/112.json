@@ -1,0 +1,200 @@
+{
+  "id": 112,
+  "nameSimple": "Al-Ikhlas",
+  "nameArabic": "الإخلاص",
+  "meaning": "The Sincerity",
+  "revelationPlace": "makkah",
+  "versesCount": 4,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "112:1",
+      "text": " قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+      "translations": {
+        "en": "Say, \"He is Allāh, [who is] One,",
+        "id": "Katakanlah (Muhammad), \"Dialah Allah, Yang Maha Esa."
+      },
+      "page": 604,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "قُلْ",
+          "meanings": {
+            "en": "Say",
+            "id": "katakanlah"
+          },
+          "transliteration": "qul"
+        },
+        {
+          "text": "هُوَ",
+          "meanings": {
+            "en": "He",
+            "id": "Dia"
+          },
+          "transliteration": "huwa"
+        },
+        {
+          "text": "ٱللَّهُ",
+          "meanings": {
+            "en": "(is) Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahu"
+        },
+        {
+          "text": "أَحَدٌ",
+          "meanings": {
+            "en": "the One",
+            "id": "Esa"
+          },
+          "transliteration": "aḥadun"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "112:2",
+      "text": "ٱللَّهُ ٱلصَّمَدُ",
+      "translations": {
+        "en": "Allāh, the Eternal Refuge.",
+        "id": "Allah tempat meminta segala sesuatu."
+      },
+      "page": 604,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱللَّهُ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "al-lahu"
+        },
+        {
+          "text": "ٱلصَّمَدُ",
+          "meanings": {
+            "en": "the Eternal, the Absolute",
+            "id": "tempat bergantung"
+          },
+          "transliteration": "l-ṣamadu"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "112:3",
+      "text": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "translations": {
+        "en": "He neither begets nor is born,",
+        "id": "(Allah) tidak beranak dan tidak pula diperanakkan."
+      },
+      "page": 604,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "لَمْ",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak"
+          },
+          "transliteration": "lam"
+        },
+        {
+          "text": "يَلِدْ",
+          "meanings": {
+            "en": "He begets",
+            "id": "beranak"
+          },
+          "transliteration": "yalid"
+        },
+        {
+          "text": "وَلَمْ",
+          "meanings": {
+            "en": "and not",
+            "id": "dan tidak"
+          },
+          "transliteration": "walam"
+        },
+        {
+          "text": "يُولَدْ",
+          "meanings": {
+            "en": "He is begotten",
+            "id": "diperanakkan"
+          },
+          "transliteration": "yūlad"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "112:4",
+      "text": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+      "translations": {
+        "en": "Nor is there to Him any equivalent.\"",
+        "id": "Dan tidak ada sesuatu yang setara dengan Dia.\""
+      },
+      "page": 604,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَلَمْ",
+          "meanings": {
+            "en": "And not",
+            "id": "dan tidak"
+          },
+          "transliteration": "walam"
+        },
+        {
+          "text": "يَكُن",
+          "meanings": {
+            "en": "is",
+            "id": "ada"
+          },
+          "transliteration": "yakun"
+        },
+        {
+          "text": "لَّهُۥ",
+          "meanings": {
+            "en": "for Him",
+            "id": "baginya"
+          },
+          "transliteration": "lahu"
+        },
+        {
+          "text": "كُفُوًا",
+          "meanings": {
+            "en": "equivalent",
+            "id": "menyamai/setara"
+          },
+          "transliteration": "kufuwan"
+        },
+        {
+          "text": "أَحَدٌۢ",
+          "meanings": {
+            "en": "any [one]",
+            "id": "seorang"
+          },
+          "transliteration": "aḥadun"
+        }
+      ]
+    }
+  ]
+}

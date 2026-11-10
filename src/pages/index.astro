@@ -1,8 +1,8 @@
 ---
-// Intro page. Done so far: text, interests ticker, buttons.
-// Still to come: the person with orbiting badges, and the tilt effect.
+// Intro page: logo, orbit scene (person + badges + tilt), text, ticker, buttons.
 import Base from '../layouts/Base.astro';
 import InterestTicker from '../components/InterestTicker.astro';
+import IntroScene from '../components/IntroScene.astro';
 
 const interests = [
   'Quran',
@@ -20,6 +20,10 @@ const githubUrl = 'https://github.com/UmarH88';
 
 <Base title="Omar's Library" theme="space">
   <main class="intro">
+    <a class="logo" href="/" aria-label="Omar's Library, home">O</a>
+
+    <IntroScene />
+
     <section class="text">
       <h1>Hi, I’m Omar.</h1>
       <p>
@@ -31,7 +35,8 @@ const githubUrl = 'https://github.com/UmarH88';
     <InterestTicker items={interests} />
 
     <nav class="actions" aria-label="Main">
-      <a class="btn-primary" href="/library">
+      <!-- TEMPORARY: goes to /quran until the 3D library (/library) is built -->
+      <a class="btn-primary" href="/quran">
         Enter the library
         <span class="arrow" aria-hidden="true">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
@@ -56,14 +61,33 @@ const githubUrl = 'https://github.com/UmarH88';
 <style>
   /* Phone-first: one column filling the screen, buttons at the bottom */
   .intro {
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* push content down; the scene will fill the top later */
-    gap: 1.75rem;
+    justify-content: flex-end; /* scene on top, buttons at the bottom of the screen */
+    gap: 1.5rem;
     min-height: 100dvh;
     max-width: 40rem;
     margin-inline: auto;
-    padding-block: 2rem;
+    padding-block: 4.5rem 2rem; /* room for the logo at the top */
+    overflow-x: clip; /* the purple glow may spill sideways; never cause sideways scrolling */
+  }
+
+  /* Round "O" logo, top left */
+  .logo {
+    position: absolute;
+    top: 1.25rem;
+    left: var(--gutter);
+    z-index: 5;
+    display: grid;
+    place-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border: 1px solid color-mix(in srgb, var(--text) 30%, transparent);
+    border-radius: 50%;
+    font-family: var(--font-display);
+    font-weight: 700;
+    text-decoration: none;
   }
 
   .text,

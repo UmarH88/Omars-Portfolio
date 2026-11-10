@@ -1,0 +1,414 @@
+{
+  "id": 104,
+  "nameSimple": "Al-Humazah",
+  "nameArabic": "الهمزة",
+  "meaning": "The Traducer",
+  "revelationPlace": "makkah",
+  "versesCount": 9,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "104:1",
+      "text": " وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ",
+      "translations": {
+        "en": "Woe to every scorner and mocker",
+        "id": "Celakalah bagi setiap pengumpat dan pencela,"
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَيْلٌۭ",
+          "meanings": {
+            "en": "Woe",
+            "id": "kecelakaan"
+          },
+          "transliteration": "waylun"
+        },
+        {
+          "text": "لِّكُلِّ",
+          "meanings": {
+            "en": "to every",
+            "id": "bagi setiap"
+          },
+          "transliteration": "likulli"
+        },
+        {
+          "text": "هُمَزَةٍۢ",
+          "meanings": {
+            "en": "slanderer",
+            "id": "pengumpat"
+          },
+          "transliteration": "humazatin"
+        },
+        {
+          "text": "لُّمَزَةٍ",
+          "meanings": {
+            "en": "backbiter",
+            "id": "pencela"
+          },
+          "transliteration": "lumazatin"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "104:2",
+      "text": "ٱلَّذِى جَمَعَ مَالًا وَعَدَّدَهُۥ",
+      "translations": {
+        "en": "Who collects wealth and [continuously] counts it.",
+        "id": "yang mengumpulkan harta dan menghitung-hitungnya,"
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱلَّذِى",
+          "meanings": {
+            "en": "The one who",
+            "id": "yang"
+          },
+          "transliteration": "alladhī"
+        },
+        {
+          "text": "جَمَعَ",
+          "meanings": {
+            "en": "collects",
+            "id": "mengumpulkan"
+          },
+          "transliteration": "jamaʿa"
+        },
+        {
+          "text": "مَالًۭا",
+          "meanings": {
+            "en": "wealth",
+            "id": "harta"
+          },
+          "transliteration": "mālan"
+        },
+        {
+          "text": "وَعَدَّدَهُۥ",
+          "meanings": {
+            "en": "and counts it",
+            "id": "dan dia menghitungnya"
+          },
+          "transliteration": "waʿaddadahu"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "104:3",
+      "text": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
+      "translations": {
+        "en": "He thinks that his wealth will make him immortal.",
+        "id": "dia (manusia) mengira bahwa hartanya itu dapat mengekalkannya."
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "يَحْسَبُ",
+          "meanings": {
+            "en": "Thinking",
+            "id": "dia mengira"
+          },
+          "transliteration": "yaḥsabu"
+        },
+        {
+          "text": "أَنَّ",
+          "meanings": {
+            "en": "that",
+            "id": "bahwasanya"
+          },
+          "transliteration": "anna"
+        },
+        {
+          "text": "مَالَهُۥٓ",
+          "meanings": {
+            "en": "his wealth",
+            "id": "hartanya"
+          },
+          "transliteration": "mālahu"
+        },
+        {
+          "text": "أَخْلَدَهُۥ",
+          "meanings": {
+            "en": "will make him immortal",
+            "id": "mengekalkannya"
+          },
+          "transliteration": "akhladahu"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "104:4",
+      "text": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+      "translations": {
+        "en": "No! He will surely be thrown into the Crusher.",
+        "id": "Sekali-kali tidak! Pasti dia akan dilemparkan ke dalam (neraka) Ḥuṭamah."
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "كَلَّا ۖ",
+          "meanings": {
+            "en": "Nay",
+            "id": "sekali-kali tidak"
+          },
+          "transliteration": "kallā"
+        },
+        {
+          "text": "لَيُنۢبَذَنَّ",
+          "meanings": {
+            "en": "Surely he will be thrown",
+            "id": "sungguh dia akan dilemparkan"
+          },
+          "transliteration": "layunbadhanna"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "in",
+            "id": "dalam"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "ٱلْحُطَمَةِ",
+          "meanings": {
+            "en": "the Crusher",
+            "id": "Hutamah"
+          },
+          "transliteration": "l-ḥuṭamati"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "104:5",
+      "text": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
+      "translations": {
+        "en": "And what can make you know what is the Crusher?",
+        "id": "Dan tahukah kamu apakah (neraka) Ḥuṭamah itu?"
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمَآ",
+          "meanings": {
+            "en": "And what",
+            "id": "dan apakah"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "أَدْرَىٰكَ",
+          "meanings": {
+            "en": "will make you know",
+            "id": "kamu tahu"
+          },
+          "transliteration": "adrāka"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "ٱلْحُطَمَةُ",
+          "meanings": {
+            "en": "the Crusher (is)",
+            "id": "Hutamah"
+          },
+          "transliteration": "l-ḥuṭamatu"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "104:6",
+      "text": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
+      "translations": {
+        "en": "It is the fire of Allāh, [eternally] fueled,",
+        "id": "(Yaitu) api (azab) Allah yang dinyalakan,"
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "نَارُ",
+          "meanings": {
+            "en": "A Fire",
+            "id": "api"
+          },
+          "transliteration": "nāru"
+        },
+        {
+          "text": "ٱللَّهِ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahi"
+        },
+        {
+          "text": "ٱلْمُوقَدَةُ",
+          "meanings": {
+            "en": "kindled",
+            "id": "dinyalakan"
+          },
+          "transliteration": "l-mūqadatu"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "104:7",
+      "text": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+      "translations": {
+        "en": "Which mounts directed at the hearts.",
+        "id": "yang (membakar) sampai ke hati."
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱلَّتِى",
+          "meanings": {
+            "en": "Which",
+            "id": "yang"
+          },
+          "transliteration": "allatī"
+        },
+        {
+          "text": "تَطَّلِعُ",
+          "meanings": {
+            "en": "mounts up",
+            "id": "naik"
+          },
+          "transliteration": "taṭṭaliʿu"
+        },
+        {
+          "text": "عَلَى",
+          "meanings": {
+            "en": "to",
+            "id": "ke atas/sampai"
+          },
+          "transliteration": "ʿalā"
+        },
+        {
+          "text": "ٱلْأَفْـِٔدَةِ",
+          "meanings": {
+            "en": "the hearts",
+            "id": "hati"
+          },
+          "transliteration": "l-afidati"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "104:8",
+      "text": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ",
+      "translations": {
+        "en": "Indeed, it [i.e., Hellfire] will be closed down upon them",
+        "id": "Sungguh, api itu ditutup rapat atas (diri) mereka,"
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّهَا",
+          "meanings": {
+            "en": "Indeed, it",
+            "id": "sesungguhnya ia (api)"
+          },
+          "transliteration": "innahā"
+        },
+        {
+          "text": "عَلَيْهِم",
+          "meanings": {
+            "en": "(will be) upon them",
+            "id": "atas mereka"
+          },
+          "transliteration": "ʿalayhim"
+        },
+        {
+          "text": "مُّؤْصَدَةٌۭ",
+          "meanings": {
+            "en": "closed over",
+            "id": "terikat/ditutup rapat"
+          },
+          "transliteration": "mu'ṣadatun"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "key": "104:9",
+      "text": "فِى عَمَدٍ مُّمَدَّدَةٍۭ",
+      "translations": {
+        "en": "In extended columns.",
+        "id": "(sedang mereka itu) diikat pada tiang-tiang yang panjang."
+      },
+      "page": 601,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "In",
+            "id": "dalam/pada"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "عَمَدٍۢ",
+          "meanings": {
+            "en": "columns",
+            "id": "tiang"
+          },
+          "transliteration": "ʿamadin"
+        },
+        {
+          "text": "مُّمَدَّدَةٍۭ",
+          "meanings": {
+            "en": "extended",
+            "id": "panjang"
+          },
+          "transliteration": "mumaddadatin"
+        }
+      ]
+    }
+  ]
+}

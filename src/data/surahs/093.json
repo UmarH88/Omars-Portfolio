@@ -1,0 +1,498 @@
+{
+  "id": 93,
+  "nameSimple": "Ad-Duhaa",
+  "nameArabic": "الضحى",
+  "meaning": "The Morning Hours",
+  "revelationPlace": "makkah",
+  "versesCount": 11,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "93:1",
+      "text": " وَٱلضُّحَىٰ",
+      "translations": {
+        "en": "By the morning brightness",
+        "id": "Demi waktu duha (ketika matahari naik sepenggalan),"
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلضُّحَىٰ",
+          "meanings": {
+            "en": "By the morning brightness",
+            "id": "demi matahari naik"
+          },
+          "transliteration": "wal-ḍuḥā"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "93:2",
+      "text": "وَٱلَّيْلِ إِذَا سَجَىٰ",
+      "translations": {
+        "en": "And [by] the night when it covers with darkness,",
+        "id": "dan demi malam apabila telah sunyi,"
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلَّيْلِ",
+          "meanings": {
+            "en": "And the night",
+            "id": "dan malam"
+          },
+          "transliteration": "wa-al-layli"
+        },
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "when",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "سَجَىٰ",
+          "meanings": {
+            "en": "it covers with darkness",
+            "id": "telah sunyi"
+          },
+          "transliteration": "sajā"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "93:3",
+      "text": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "translations": {
+        "en": "Your Lord has not taken leave of you, [O Muḥammad], nor has He detested [you].",
+        "id": "Tuhanmu tidak meninggalkan engkau (Muhammad) dan tidak (pula) membencimu,"
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "وَدَّعَكَ",
+          "meanings": {
+            "en": "has forsaken you",
+            "id": "meninggalkan kamu"
+          },
+          "transliteration": "waddaʿaka"
+        },
+        {
+          "text": "رَبُّكَ",
+          "meanings": {
+            "en": "your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbuka"
+        },
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "and not",
+            "id": "dan tidak"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "قَلَىٰ",
+          "meanings": {
+            "en": "He is displeased",
+            "id": "marah/benci"
+          },
+          "transliteration": "qalā"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "93:4",
+      "text": "وَلَلْـَٔاخِرَةُ خَيْرٌ لَّكَ مِنَ ٱلْأُولَىٰ",
+      "translations": {
+        "en": "And the Hereafter is better for you than the first [life].",
+        "id": "dan sungguh, yang kemudian itu lebih baik bagimu daripada yang permulaan."
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَلَلْـَٔاخِرَةُ",
+          "meanings": {
+            "en": "And surely the Hereafter",
+            "id": "dan sungguh kesudahan/akhirat"
+          },
+          "transliteration": "walalākhiratu"
+        },
+        {
+          "text": "خَيْرٌۭ",
+          "meanings": {
+            "en": "(is) better",
+            "id": "lebih baik"
+          },
+          "transliteration": "khayrun"
+        },
+        {
+          "text": "لَّكَ",
+          "meanings": {
+            "en": "for you",
+            "id": "bagimu"
+          },
+          "transliteration": "laka"
+        },
+        {
+          "text": "مِنَ",
+          "meanings": {
+            "en": "than",
+            "id": "dari pada"
+          },
+          "transliteration": "mina"
+        },
+        {
+          "text": "ٱلْأُولَىٰ",
+          "meanings": {
+            "en": "the first",
+            "id": "permulaan/dunia"
+          },
+          "transliteration": "l-ūlā"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "93:5",
+      "text": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+      "translations": {
+        "en": "And your Lord is going to give you, and you will be satisfied.",
+        "id": "Dan sungguh, kelak Tuhanmu pasti memberikan karunia-Nya kepadamu, sehingga engkau menjadi puas."
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَلَسَوْفَ",
+          "meanings": {
+            "en": "And soon",
+            "id": "dan sungguh kelak"
+          },
+          "transliteration": "walasawfa"
+        },
+        {
+          "text": "يُعْطِيكَ",
+          "meanings": {
+            "en": "will give you",
+            "id": "memberikan kepadamu"
+          },
+          "transliteration": "yuʿ'ṭīka"
+        },
+        {
+          "text": "رَبُّكَ",
+          "meanings": {
+            "en": "your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbuka"
+        },
+        {
+          "text": "فَتَرْضَىٰٓ",
+          "meanings": {
+            "en": "then you will be satisfied",
+            "id": "maka kamu jadi puas"
+          },
+          "transliteration": "fatarḍā"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "93:6",
+      "text": "أَلَمْ يَجِدْكَ يَتِيمًا فَـَٔاوَىٰ",
+      "translations": {
+        "en": "Did He not find you an orphan and give [you] refuge?",
+        "id": "Bukankah Dia mendapatimu sebagai seorang yatim, lalu Dia melindungi(mu)."
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَلَمْ",
+          "meanings": {
+            "en": "Did not",
+            "id": "apakah tidak/bukanlah"
+          },
+          "transliteration": "alam"
+        },
+        {
+          "text": "يَجِدْكَ",
+          "meanings": {
+            "en": "He find you",
+            "id": "Dia mendapatimu"
+          },
+          "transliteration": "yajid'ka"
+        },
+        {
+          "text": "يَتِيمًۭا",
+          "meanings": {
+            "en": "an orphan",
+            "id": "seorang yatim"
+          },
+          "transliteration": "yatīman"
+        },
+        {
+          "text": "فَـَٔاوَىٰ",
+          "meanings": {
+            "en": "and give shelter",
+            "id": "lalu Dia melindungi"
+          },
+          "transliteration": "faāwā"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "93:7",
+      "text": "وَوَجَدَكَ ضَآلًّا فَهَدَىٰ",
+      "translations": {
+        "en": "And He found you lost and guided [you],",
+        "id": "Dan Dia mendapatimu sebagai seorang yang bingung, lalu Dia memberikan petunjuk."
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَوَجَدَكَ",
+          "meanings": {
+            "en": "And He found you",
+            "id": "dan Dia mendapatimu"
+          },
+          "transliteration": "wawajadaka"
+        },
+        {
+          "text": "ضَآلًّۭا",
+          "meanings": {
+            "en": "lost",
+            "id": "sesat/bingung"
+          },
+          "transliteration": "ḍāllan"
+        },
+        {
+          "text": "فَهَدَىٰ",
+          "meanings": {
+            "en": "so He guided",
+            "id": "lalu Dia memberi petunjuk"
+          },
+          "transliteration": "fahadā"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "93:8",
+      "text": "وَوَجَدَكَ عَآئِلًا فَأَغْنَىٰ",
+      "translations": {
+        "en": "And He found you poor and made [you] self-sufficient.",
+        "id": "Dan Dia mendapatimu sebagai seorang yang kekurangan, lalu Dia memberikan kecukupan."
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَوَجَدَكَ",
+          "meanings": {
+            "en": "And He found you",
+            "id": "dan Dia mendapatimu"
+          },
+          "transliteration": "wawajadaka"
+        },
+        {
+          "text": "عَآئِلًۭا",
+          "meanings": {
+            "en": "in need",
+            "id": "miskin/kekurangan"
+          },
+          "transliteration": "ʿāilan"
+        },
+        {
+          "text": "فَأَغْنَىٰ",
+          "meanings": {
+            "en": "so He made self-sufficient",
+            "id": "lalu Dia memberi kecukupan"
+          },
+          "transliteration": "fa-aghnā"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "key": "93:9",
+      "text": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+      "translations": {
+        "en": "So as for the orphan, do not oppress [him].",
+        "id": "Maka terhadap anak yatim janganlah engkau berlaku sewenang-wenang."
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَأَمَّا",
+          "meanings": {
+            "en": "So as for",
+            "id": "maka adapun"
+          },
+          "transliteration": "fa-ammā"
+        },
+        {
+          "text": "ٱلْيَتِيمَ",
+          "meanings": {
+            "en": "the orphan",
+            "id": "anak yatim"
+          },
+          "transliteration": "l-yatīma"
+        },
+        {
+          "text": "فَلَا",
+          "meanings": {
+            "en": "then (do) not",
+            "id": "maka jangan"
+          },
+          "transliteration": "falā"
+        },
+        {
+          "text": "تَقْهَرْ",
+          "meanings": {
+            "en": "oppress",
+            "id": "kamu paksa/bersikap bengis"
+          },
+          "transliteration": "taqhar"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "key": "93:10",
+      "text": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+      "translations": {
+        "en": "And as for the petitioner, do not repel [him].",
+        "id": "Dan terhadap orang yang meminta-minta, janganlah engkau menghardik(nya)."
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَمَّا",
+          "meanings": {
+            "en": "And as for",
+            "id": "dan adapun"
+          },
+          "transliteration": "wa-ammā"
+        },
+        {
+          "text": "ٱلسَّآئِلَ",
+          "meanings": {
+            "en": "one who asks",
+            "id": "orang minta-minta"
+          },
+          "transliteration": "l-sāila"
+        },
+        {
+          "text": "فَلَا",
+          "meanings": {
+            "en": "then (do) not",
+            "id": "maka jangan"
+          },
+          "transliteration": "falā"
+        },
+        {
+          "text": "تَنْهَرْ",
+          "meanings": {
+            "en": "repel",
+            "id": "kamu menghardik"
+          },
+          "transliteration": "tanhar"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "key": "93:11",
+      "text": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+      "translations": {
+        "en": "But as for the favor of your Lord, report [it].",
+        "id": "Dan terhadap nikmat Tuhanmu, hendaklah engkau nyatakan (dengan bersyukur)."
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَمَّا",
+          "meanings": {
+            "en": "But as for",
+            "id": "dan adapun"
+          },
+          "transliteration": "wa-ammā"
+        },
+        {
+          "text": "بِنِعْمَةِ",
+          "meanings": {
+            "en": "(the) Favor",
+            "id": "dengan/terhadap nikmat"
+          },
+          "transliteration": "biniʿ'mati"
+        },
+        {
+          "text": "رَبِّكَ",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbika"
+        },
+        {
+          "text": "فَحَدِّثْ",
+          "meanings": {
+            "en": "narrate",
+            "id": "maka hendaklah kamu ceritakan"
+          },
+          "transliteration": "faḥaddith"
+        }
+      ]
+    }
+  ]
+}

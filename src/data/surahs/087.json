@@ -1,0 +1,866 @@
+{
+  "id": 87,
+  "nameSimple": "Al-A'la",
+  "nameArabic": "الأعلى",
+  "meaning": "The Most High",
+  "revelationPlace": "makkah",
+  "versesCount": 19,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "87:1",
+      "text": " سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
+      "translations": {
+        "en": "Exalt the name of your Lord, the Most High,",
+        "id": "Sucikanlah nama Tuhanmu Yang Mahatinggi,"
+      },
+      "page": 591,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "سَبِّحِ",
+          "meanings": {
+            "en": "Glorify",
+            "id": "sucikanlah"
+          },
+          "transliteration": "sabbiḥi"
+        },
+        {
+          "text": "ٱسْمَ",
+          "meanings": {
+            "en": "(the) name",
+            "id": "nama"
+          },
+          "transliteration": "is'ma"
+        },
+        {
+          "text": "رَبِّكَ",
+          "meanings": {
+            "en": "(of) your Lord",
+            "id": "Tuhanmu"
+          },
+          "transliteration": "rabbika"
+        },
+        {
+          "text": "ٱلْأَعْلَى",
+          "meanings": {
+            "en": "the Most High",
+            "id": "Maha Tinggi"
+          },
+          "transliteration": "l-aʿlā"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "87:2",
+      "text": "ٱلَّذِى خَلَقَ فَسَوَّىٰ",
+      "translations": {
+        "en": "Who created and proportioned",
+        "id": "yang menciptakan, lalu menyempurnakan (penciptaan-Nya),"
+      },
+      "page": 591,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱلَّذِى",
+          "meanings": {
+            "en": "The One Who",
+            "id": "yang"
+          },
+          "transliteration": "alladhī"
+        },
+        {
+          "text": "خَلَقَ",
+          "meanings": {
+            "en": "created",
+            "id": "Dia menciptakan"
+          },
+          "transliteration": "khalaqa"
+        },
+        {
+          "text": "فَسَوَّىٰ",
+          "meanings": {
+            "en": "then proportioned",
+            "id": "lalu Dia menyempurnakan"
+          },
+          "transliteration": "fasawwā"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "87:3",
+      "text": "وَٱلَّذِى قَدَّرَ فَهَدَىٰ",
+      "translations": {
+        "en": "And who destined and [then] guided",
+        "id": "yang menentukan kadar (masing-masing) dan memberi petunjuk,"
+      },
+      "page": 591,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلَّذِى",
+          "meanings": {
+            "en": "And the One Who",
+            "id": "dan yang"
+          },
+          "transliteration": "wa-alladhī"
+        },
+        {
+          "text": "قَدَّرَ",
+          "meanings": {
+            "en": "measured",
+            "id": "Dia menentukan"
+          },
+          "transliteration": "qaddara"
+        },
+        {
+          "text": "فَهَدَىٰ",
+          "meanings": {
+            "en": "then guided",
+            "id": "lalu Dia memberi petunjuk"
+          },
+          "transliteration": "fahadā"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "87:4",
+      "text": "وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ",
+      "translations": {
+        "en": "And who brings out the pasture",
+        "id": "dan Yang menumbuhkan rerumputan,"
+      },
+      "page": 591,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلَّذِىٓ",
+          "meanings": {
+            "en": "And the One Who",
+            "id": "dan yang"
+          },
+          "transliteration": "wa-alladhī"
+        },
+        {
+          "text": "أَخْرَجَ",
+          "meanings": {
+            "en": "brings forth",
+            "id": "Dia keluarkan"
+          },
+          "transliteration": "akhraja"
+        },
+        {
+          "text": "ٱلْمَرْعَىٰ",
+          "meanings": {
+            "en": "the pasture",
+            "id": "rumput-rumputan"
+          },
+          "transliteration": "l-marʿā"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "87:5",
+      "text": "فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ",
+      "translations": {
+        "en": "And [then] makes it black stubble.",
+        "id": "lalu dijadikan-Nya (rumput-rumput) itu kering kehitam-hitaman."
+      },
+      "page": 591,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَجَعَلَهُۥ",
+          "meanings": {
+            "en": "And then makes it",
+            "id": "lalu Dia jadikannya"
+          },
+          "transliteration": "fajaʿalahu"
+        },
+        {
+          "text": "غُثَآءً",
+          "meanings": {
+            "en": "stubble",
+            "id": "kering"
+          },
+          "transliteration": "ghuthāan"
+        },
+        {
+          "text": "أَحْوَىٰ",
+          "meanings": {
+            "en": "dark",
+            "id": "kehitam-hitaman"
+          },
+          "transliteration": "aḥwā"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "87:6",
+      "text": "سَنُقْرِئُكَ فَلَا تَنسَىٰٓ",
+      "translations": {
+        "en": "We will make you recite, [O Muḥammad], and you will not forget,",
+        "id": "Kami akan membacakan (Alquran) kepadamu (Muhammad) sehingga engkau tidak akan lupa,"
+      },
+      "page": 591,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "سَنُقْرِئُكَ",
+          "meanings": {
+            "en": "We will make you recite",
+            "id": "Kami bacakan kepadamu"
+          },
+          "transliteration": "sanuq'ri-uka"
+        },
+        {
+          "text": "فَلَا",
+          "meanings": {
+            "en": "so not",
+            "id": "maka tidak"
+          },
+          "transliteration": "falā"
+        },
+        {
+          "text": "تَنسَىٰٓ",
+          "meanings": {
+            "en": "you will forget",
+            "id": "kamu lupa"
+          },
+          "transliteration": "tansā"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "87:7",
+      "text": "إِلَّا مَا شَآءَ ٱللَّهُ ۚ إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
+      "translations": {
+        "en": "Except what Allāh should will. Indeed, He knows what is declared and what is hidden.",
+        "id": "kecuali jika Allah menghendaki. Sungguh, Dia mengetahui yang terang dan yang tersembunyi."
+      },
+      "page": 591,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "Except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "شَآءَ",
+          "meanings": {
+            "en": "wills",
+            "id": "dikehendaki"
+          },
+          "transliteration": "shāa"
+        },
+        {
+          "text": "ٱللَّهُ ۚ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahu"
+        },
+        {
+          "text": "إِنَّهُۥ",
+          "meanings": {
+            "en": "Indeed, He",
+            "id": "sesungguhnya Dia"
+          },
+          "transliteration": "innahu"
+        },
+        {
+          "text": "يَعْلَمُ",
+          "meanings": {
+            "en": "knows",
+            "id": "mengetahui"
+          },
+          "transliteration": "yaʿlamu"
+        },
+        {
+          "text": "ٱلْجَهْرَ",
+          "meanings": {
+            "en": "the manifest",
+            "id": "terang"
+          },
+          "transliteration": "l-jahra"
+        },
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "and what",
+            "id": "dan apa"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "يَخْفَىٰ",
+          "meanings": {
+            "en": "is hidden",
+            "id": "tersembunyi"
+          },
+          "transliteration": "yakhfā"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "87:8",
+      "text": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
+      "translations": {
+        "en": "And We will ease you toward ease.",
+        "id": "Dan Kami akan memudahkan bagimu ke jalan kemudahan (mencapai kebahagian dunia dan akhirat),"
+      },
+      "page": 591,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَنُيَسِّرُكَ",
+          "meanings": {
+            "en": "And We will ease you",
+            "id": "dan Kami memudahkan"
+          },
+          "transliteration": "wanuyassiruka"
+        },
+        {
+          "text": "لِلْيُسْرَىٰ",
+          "meanings": {
+            "en": "to the ease",
+            "id": "untuk kemudahan"
+          },
+          "transliteration": "lil'yus'rā"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "key": "87:9",
+      "text": "فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ",
+      "translations": {
+        "en": "So remind, if the reminder should benefit;",
+        "id": "oleh sebab itu berikanlah peringatan, karena peringatan itu bermanfaat,"
+      },
+      "page": 591,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَذَكِّرْ",
+          "meanings": {
+            "en": "So remind",
+            "id": "maka berilah peringatan"
+          },
+          "transliteration": "fadhakkir"
+        },
+        {
+          "text": "إِن",
+          "meanings": {
+            "en": "if",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "in"
+        },
+        {
+          "text": "نَّفَعَتِ",
+          "meanings": {
+            "en": "benefits",
+            "id": "berguna"
+          },
+          "transliteration": "nafaʿati"
+        },
+        {
+          "text": "ٱلذِّكْرَىٰ",
+          "meanings": {
+            "en": "the reminder",
+            "id": "peringatan"
+          },
+          "transliteration": "l-dhik'rā"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "key": "87:10",
+      "text": "سَيَذَّكَّرُ مَن يَخْشَىٰ",
+      "translations": {
+        "en": "He who fears [Allāh] will be reminded.",
+        "id": "orang yang takut (kepada Allah) akan mendapat pelajaran,"
+      },
+      "page": 591,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "سَيَذَّكَّرُ",
+          "meanings": {
+            "en": "He will pay heed ",
+            "id": "akan menerima peringatan"
+          },
+          "transliteration": "sayadhakkaru"
+        },
+        {
+          "text": "مَن",
+          "meanings": {
+            "en": "(one) who",
+            "id": "orang yang"
+          },
+          "transliteration": "man"
+        },
+        {
+          "text": "يَخْشَىٰ",
+          "meanings": {
+            "en": "fears (Allah)",
+            "id": "ia takut"
+          },
+          "transliteration": "yakhshā"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "key": "87:11",
+      "text": "وَيَتَجَنَّبُهَا ٱلْأَشْقَى",
+      "translations": {
+        "en": "But the wretched one will avoid it",
+        "id": "dan orang yang celaka (kafir) akan menjauhinya,"
+      },
+      "page": 592,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَيَتَجَنَّبُهَا",
+          "meanings": {
+            "en": "And will avoid it",
+            "id": "dan akan menjauhi"
+          },
+          "transliteration": "wayatajannabuhā"
+        },
+        {
+          "text": "ٱلْأَشْقَى",
+          "meanings": {
+            "en": "the wretched one",
+            "id": "orang yang celaka"
+          },
+          "transliteration": "l-ashqā"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "key": "87:12",
+      "text": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ",
+      "translations": {
+        "en": "[He] who will [enter and] burn in the greatest Fire,",
+        "id": "(yaitu) orang yang akan memasuki api yang besar (neraka),"
+      },
+      "page": 592,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱلَّذِى",
+          "meanings": {
+            "en": "The one who",
+            "id": "yang"
+          },
+          "transliteration": "alladhī"
+        },
+        {
+          "text": "يَصْلَى",
+          "meanings": {
+            "en": "will burn",
+            "id": "ia akan masuk"
+          },
+          "transliteration": "yaṣlā"
+        },
+        {
+          "text": "ٱلنَّارَ",
+          "meanings": {
+            "en": "(in) the Fire",
+            "id": "api/neraka"
+          },
+          "transliteration": "l-nāra"
+        },
+        {
+          "text": "ٱلْكُبْرَىٰ",
+          "meanings": {
+            "en": "[the] great",
+            "id": "yang besar"
+          },
+          "transliteration": "l-kub'rā"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "key": "87:13",
+      "text": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
+      "translations": {
+        "en": "Neither dying therein nor living.",
+        "id": "selanjutnya dia di sana tidak mati dan tidak (pula) hidup."
+      },
+      "page": 592,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ثُمَّ",
+          "meanings": {
+            "en": "Then",
+            "id": "kemudian"
+          },
+          "transliteration": "thumma"
+        },
+        {
+          "text": "لَا",
+          "meanings": {
+            "en": "not",
+            "id": "tidak"
+          },
+          "transliteration": "lā"
+        },
+        {
+          "text": "يَمُوتُ",
+          "meanings": {
+            "en": "he will die",
+            "id": "ia mati"
+          },
+          "transliteration": "yamūtu"
+        },
+        {
+          "text": "فِيهَا",
+          "meanings": {
+            "en": "therein",
+            "id": "di dalamnya"
+          },
+          "transliteration": "fīhā"
+        },
+        {
+          "text": "وَلَا",
+          "meanings": {
+            "en": "and not",
+            "id": "dan tidak"
+          },
+          "transliteration": "walā"
+        },
+        {
+          "text": "يَحْيَىٰ",
+          "meanings": {
+            "en": "will live",
+            "id": "ia hidup"
+          },
+          "transliteration": "yaḥyā"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "key": "87:14",
+      "text": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
+      "translations": {
+        "en": "He has certainly succeeded who purifies himself",
+        "id": "Sungguh beruntung orang yang menyucikan diri (dengan beriman),"
+      },
+      "page": 592,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "قَدْ",
+          "meanings": {
+            "en": "Certainly",
+            "id": "sungguh"
+          },
+          "transliteration": "qad"
+        },
+        {
+          "text": "أَفْلَحَ",
+          "meanings": {
+            "en": "has succeeded",
+            "id": "beruntung"
+          },
+          "transliteration": "aflaḥa"
+        },
+        {
+          "text": "مَن",
+          "meanings": {
+            "en": "(one) who",
+            "id": "siapa/orang"
+          },
+          "transliteration": "man"
+        },
+        {
+          "text": "تَزَكَّىٰ",
+          "meanings": {
+            "en": "purifies (himself)",
+            "id": "dia membersihkan diri"
+          },
+          "transliteration": "tazakkā"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "key": "87:15",
+      "text": "وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ",
+      "translations": {
+        "en": "And mentions the name of his Lord and prays.",
+        "id": "dan mengingat nama Tuhannya, lalu dia salat."
+      },
+      "page": 592,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَذَكَرَ",
+          "meanings": {
+            "en": "And remembers",
+            "id": "dan dia mengingat"
+          },
+          "transliteration": "wadhakara"
+        },
+        {
+          "text": "ٱسْمَ",
+          "meanings": {
+            "en": "(the) name",
+            "id": "nama"
+          },
+          "transliteration": "is'ma"
+        },
+        {
+          "text": "رَبِّهِۦ",
+          "meanings": {
+            "en": "(of) his Lord",
+            "id": "Tuhannya"
+          },
+          "transliteration": "rabbihi"
+        },
+        {
+          "text": "فَصَلَّىٰ",
+          "meanings": {
+            "en": "and prays",
+            "id": "dan dia mendirikan sholat"
+          },
+          "transliteration": "faṣallā"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "key": "87:16",
+      "text": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+      "translations": {
+        "en": "But you prefer the worldly life,",
+        "id": "Sedangkan kamu (orang-orang kafir) memilih kehidupan dunia,"
+      },
+      "page": 592,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "بَلْ",
+          "meanings": {
+            "en": "Nay",
+            "id": "bahkan/tetapi"
+          },
+          "transliteration": "bal"
+        },
+        {
+          "text": "تُؤْثِرُونَ",
+          "meanings": {
+            "en": "You prefer",
+            "id": "kamu memilih"
+          },
+          "transliteration": "tu'thirūna"
+        },
+        {
+          "text": "ٱلْحَيَوٰةَ",
+          "meanings": {
+            "en": "the life",
+            "id": "kehidupan"
+          },
+          "transliteration": "l-ḥayata"
+        },
+        {
+          "text": "ٱلدُّنْيَا",
+          "meanings": {
+            "en": "(of) the world",
+            "id": "dunia"
+          },
+          "transliteration": "l-dun'yā"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "key": "87:17",
+      "text": "وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰٓ",
+      "translations": {
+        "en": "While the Hereafter is better and more enduring.",
+        "id": "padahal kehidupan akhirat itu lebih baik dan lebih kekal."
+      },
+      "page": 592,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلْـَٔاخِرَةُ",
+          "meanings": {
+            "en": "While the Hereafter",
+            "id": "dan akherat"
+          },
+          "transliteration": "wal-ākhiratu"
+        },
+        {
+          "text": "خَيْرٌۭ",
+          "meanings": {
+            "en": "(is) better",
+            "id": "lebih baik"
+          },
+          "transliteration": "khayrun"
+        },
+        {
+          "text": "وَأَبْقَىٰٓ",
+          "meanings": {
+            "en": "and everlasting",
+            "id": "dan lebih kekal"
+          },
+          "transliteration": "wa-abqā"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "key": "87:18",
+      "text": "إِنَّ هَـٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ",
+      "translations": {
+        "en": "Indeed, this is in the former scriptures,",
+        "id": "Sesungguhnya ini terdapat dalam kitab-kitab yang dahulu,"
+      },
+      "page": 592,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sungguh"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "هَـٰذَا",
+          "meanings": {
+            "en": "this",
+            "id": "ini"
+          },
+          "transliteration": "hādhā"
+        },
+        {
+          "text": "لَفِى",
+          "meanings": {
+            "en": "surely (is) in",
+            "id": "benar-benar dalam"
+          },
+          "transliteration": "lafī"
+        },
+        {
+          "text": "ٱلصُّحُفِ",
+          "meanings": {
+            "en": "the Scriptures",
+            "id": "kitab-kitab"
+          },
+          "transliteration": "l-ṣuḥufi"
+        },
+        {
+          "text": "ٱلْأُولَىٰ",
+          "meanings": {
+            "en": "[the] former",
+            "id": "terdahulu"
+          },
+          "transliteration": "l-ūlā"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "key": "87:19",
+      "text": "صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ",
+      "translations": {
+        "en": "The scriptures of Abraham and Moses.",
+        "id": "(yaitu) kitab-kitab Ibrahim dan Musa."
+      },
+      "page": 592,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "صُحُفِ",
+          "meanings": {
+            "en": "(The) Scriptures",
+            "id": "kitab"
+          },
+          "transliteration": "ṣuḥufi"
+        },
+        {
+          "text": "إِبْرَٰهِيمَ",
+          "meanings": {
+            "en": "(of) Ibrahim",
+            "id": "Ibrahim"
+          },
+          "transliteration": "ib'rāhīma"
+        },
+        {
+          "text": "وَمُوسَىٰ",
+          "meanings": {
+            "en": "and Musa",
+            "id": "dan Musa"
+          },
+          "transliteration": "wamūsā"
+        }
+      ]
+    }
+  ]
+}

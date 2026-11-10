@@ -1,0 +1,334 @@
+{
+  "id": 97,
+  "nameSimple": "Al-Qadr",
+  "nameArabic": "القدر",
+  "meaning": "The Power",
+  "revelationPlace": "makkah",
+  "versesCount": 5,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "97:1",
+      "text": "إِنَّآ أَنزَلْنَـٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
+      "translations": {
+        "en": "Indeed, We sent it [i.e., the Qur’ān] down during the Night of Decree.",
+        "id": "Sesungguhnya Kami telah menurunkannya (Alquran) pada malam qadar."
+      },
+      "page": 598,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّآ",
+          "meanings": {
+            "en": "Indeed, We",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "innā"
+        },
+        {
+          "text": "أَنزَلْنَـٰهُ",
+          "meanings": {
+            "en": "revealed it",
+            "id": "Kami telah menurunkannya"
+          },
+          "transliteration": "anzalnāhu"
+        },
+        {
+          "text": "فِى",
+          "meanings": {
+            "en": "in",
+            "id": "pada"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "لَيْلَةِ",
+          "meanings": {
+            "en": "(the) Night",
+            "id": "malam"
+          },
+          "transliteration": "laylati"
+        },
+        {
+          "text": "ٱلْقَدْرِ",
+          "meanings": {
+            "en": "(of) Power",
+            "id": "kemuliaan"
+          },
+          "transliteration": "l-qadri"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "97:2",
+      "text": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
+      "translations": {
+        "en": "And what can make you know what is the Night of Decree?",
+        "id": "Dan tahukah kamu apakah malam kemuliaan itu?"
+      },
+      "page": 598,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمَآ",
+          "meanings": {
+            "en": "And what",
+            "id": "dan apakah"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "أَدْرَىٰكَ",
+          "meanings": {
+            "en": "can make you know",
+            "id": "kamu tahu"
+          },
+          "transliteration": "adrāka"
+        },
+        {
+          "text": "مَا",
+          "meanings": {
+            "en": "what",
+            "id": "apa"
+          },
+          "transliteration": "mā"
+        },
+        {
+          "text": "لَيْلَةُ",
+          "meanings": {
+            "en": "(the) Night",
+            "id": "malam"
+          },
+          "transliteration": "laylatu"
+        },
+        {
+          "text": "ٱلْقَدْرِ",
+          "meanings": {
+            "en": "(of) Power (is)",
+            "id": "kemuliaan"
+          },
+          "transliteration": "l-qadri"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "97:3",
+      "text": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ",
+      "translations": {
+        "en": "The Night of Decree is better than a thousand months.",
+        "id": "Malam kemuliaan itu lebih baik daripada seribu bulan."
+      },
+      "page": 598,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "لَيْلَةُ",
+          "meanings": {
+            "en": "(The) Night",
+            "id": "malam"
+          },
+          "transliteration": "laylatu"
+        },
+        {
+          "text": "ٱلْقَدْرِ",
+          "meanings": {
+            "en": "(of) Power",
+            "id": "kemuliaan"
+          },
+          "transliteration": "l-qadri"
+        },
+        {
+          "text": "خَيْرٌۭ",
+          "meanings": {
+            "en": "(is) better",
+            "id": "lebih baik"
+          },
+          "transliteration": "khayrun"
+        },
+        {
+          "text": "مِّنْ",
+          "meanings": {
+            "en": "than",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "أَلْفِ",
+          "meanings": {
+            "en": "a thousand",
+            "id": "seribu"
+          },
+          "transliteration": "alfi"
+        },
+        {
+          "text": "شَهْرٍۢ",
+          "meanings": {
+            "en": "month(s)",
+            "id": "bulan"
+          },
+          "transliteration": "shahrin"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "97:4",
+      "text": "تَنَزَّلُ ٱلْمَلَـٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ",
+      "translations": {
+        "en": "The angels and the Spirit [i.e., Gabriel] descend therein by permission of their Lord for every matter.",
+        "id": "Pada malam itu turun para malaikat dan Ruh (Jibril) dengan izin Tuhannya untuk mengatur semua urusan."
+      },
+      "page": 598,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "تَنَزَّلُ",
+          "meanings": {
+            "en": "Descend",
+            "id": "turun"
+          },
+          "transliteration": "tanazzalu"
+        },
+        {
+          "text": "ٱلْمَلَـٰٓئِكَةُ",
+          "meanings": {
+            "en": "the Angels",
+            "id": "para malaikat"
+          },
+          "transliteration": "l-malāikatu"
+        },
+        {
+          "text": "وَٱلرُّوحُ",
+          "meanings": {
+            "en": "and the Spirit",
+            "id": "dan Roh/Jibril"
+          },
+          "transliteration": "wal-rūḥu"
+        },
+        {
+          "text": "فِيهَا",
+          "meanings": {
+            "en": "therein",
+            "id": "padanya/pada malam"
+          },
+          "transliteration": "fīhā"
+        },
+        {
+          "text": "بِإِذْنِ",
+          "meanings": {
+            "en": "by (the) permission",
+            "id": "dengan izin"
+          },
+          "transliteration": "bi-idh'ni"
+        },
+        {
+          "text": "رَبِّهِم",
+          "meanings": {
+            "en": "(of) their Lord",
+            "id": "Tuhannya"
+          },
+          "transliteration": "rabbihim"
+        },
+        {
+          "text": "مِّن",
+          "meanings": {
+            "en": "for",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "كُلِّ",
+          "meanings": {
+            "en": "every",
+            "id": "segala"
+          },
+          "transliteration": "kulli"
+        },
+        {
+          "text": "أَمْرٍۢ",
+          "meanings": {
+            "en": "affair",
+            "id": "urusan"
+          },
+          "transliteration": "amrin"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "97:5",
+      "text": "سَلَـٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
+      "translations": {
+        "en": "Peace it is until the emergence of dawn.",
+        "id": "Sejahteralah (malam itu) sampai terbit fajar."
+      },
+      "page": 598,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "سَلَـٰمٌ",
+          "meanings": {
+            "en": "Peace",
+            "id": "sejahtera"
+          },
+          "transliteration": "salāmun"
+        },
+        {
+          "text": "هِىَ",
+          "meanings": {
+            "en": "it (is)",
+            "id": "ia/malam itu"
+          },
+          "transliteration": "hiya"
+        },
+        {
+          "text": "حَتَّىٰ",
+          "meanings": {
+            "en": "until",
+            "id": "hingga"
+          },
+          "transliteration": "ḥattā"
+        },
+        {
+          "text": "مَطْلَعِ",
+          "meanings": {
+            "en": "(the) emergence",
+            "id": "terbit"
+          },
+          "transliteration": "maṭlaʿi"
+        },
+        {
+          "text": "ٱلْفَجْرِ",
+          "meanings": {
+            "en": "(of) the dawn",
+            "id": "fajar"
+          },
+          "transliteration": "l-fajri"
+        }
+      ]
+    }
+  ]
+}

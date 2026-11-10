@@ -1,0 +1,87 @@
+---
+// Quran index: all 114 surahs, each linking to Mushaf and Study mode.
+import Base from '../../layouts/Base.astro';
+import SurahCard from '../../components/SurahCard.astro';
+import { chapters } from '../../lib/quran';
+---
+
+<Base
+  title="The Quran"
+  description="All 114 surahs of the Quran, to read in mushaf mode or study word by word."
+  theme="space"
+  fonts={['arabic']}
+>
+  <main class="index">
+    <header>
+      <a class="back" href="/">← Home</a>
+      <p class="eyebrow">Omar’s Library</p>
+      <h1>The Quran</h1>
+      <p class="intro">
+        Pick a surah. <strong>Mushaf</strong> shows the Arabic page. <strong>Study</strong> shows one
+        verse at a time with word-by-word meanings, a translation, tafseer and a quiz.
+      </p>
+    </header>
+
+    <ol class="list">
+      {chapters.map((chapter) => <SurahCard chapter={chapter} />)}
+    </ol>
+
+    <footer>
+      Arabic text, word meanings and translation (Saheeh International) from the
+      <a href="https://quran.com">Quran.com</a> / Quran Foundation API.
+    </footer>
+  </main>
+</Base>
+
+<style>
+  .index {
+    max-width: 56rem;
+    margin-inline: auto;
+    padding: 1.5rem var(--gutter) 3rem;
+  }
+
+  .back {
+    color: var(--muted);
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+
+  .eyebrow {
+    margin: 1.5rem 0 0.4rem;
+    color: var(--highlight);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-size: clamp(2.2rem, 9vw, 3.5rem);
+  }
+
+  .intro {
+    max-width: 38rem;
+    margin: 0.75rem 0 0;
+    color: var(--muted);
+  }
+
+  .intro strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .list {
+    display: grid;
+    gap: 0.75rem;
+    margin: 2rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  footer {
+    margin-top: 2.5rem;
+    color: var(--muted);
+    font-size: 0.8rem;
+    text-align: center;
+  }
+</style>

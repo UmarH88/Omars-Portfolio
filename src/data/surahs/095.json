@@ -1,0 +1,408 @@
+{
+  "id": 95,
+  "nameSimple": "At-Tin",
+  "nameArabic": "التين",
+  "meaning": "The Fig",
+  "revelationPlace": "makkah",
+  "versesCount": 8,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "95:1",
+      "text": "وَٱلتِّينِ وَٱلزَّيْتُونِ",
+      "translations": {
+        "en": "By the fig and the olive",
+        "id": "Demi (buah) Tin dan (buah) Zaitun,"
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلتِّينِ",
+          "meanings": {
+            "en": "By the fig",
+            "id": "demi tin"
+          },
+          "transliteration": "wal-tīni"
+        },
+        {
+          "text": "وَٱلزَّيْتُونِ",
+          "meanings": {
+            "en": "and the olive",
+            "id": "dan zaitun"
+          },
+          "transliteration": "wal-zaytūni"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "95:2",
+      "text": "وَطُورِ سِينِينَ",
+      "translations": {
+        "en": "And [by] Mount Sinai",
+        "id": "demi gunung Sinai,"
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَطُورِ",
+          "meanings": {
+            "en": "And (the) Mount",
+            "id": "dan bukit"
+          },
+          "transliteration": "waṭūri"
+        },
+        {
+          "text": "سِينِينَ",
+          "meanings": {
+            "en": "Sinai",
+            "id": "Sinai"
+          },
+          "transliteration": "sīnīna"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "95:3",
+      "text": "وَهَـٰذَا ٱلْبَلَدِ ٱلْأَمِينِ",
+      "translations": {
+        "en": "And [by] this secure city [i.e., Makkah],",
+        "id": "dan demi negeri (Mekkah) yang aman ini."
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَهَـٰذَا",
+          "meanings": {
+            "en": "And this",
+            "id": "dan ini"
+          },
+          "transliteration": "wahādhā"
+        },
+        {
+          "text": "ٱلْبَلَدِ",
+          "meanings": {
+            "en": "[the] city",
+            "id": "negri"
+          },
+          "transliteration": "l-baladi"
+        },
+        {
+          "text": "ٱلْأَمِينِ",
+          "meanings": {
+            "en": "[the] secure",
+            "id": "aman"
+          },
+          "transliteration": "l-amīni"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "95:4",
+      "text": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ",
+      "translations": {
+        "en": "We have certainly created man in the best of stature;",
+        "id": "Sungguh, Kami telah menciptakan manusia dalam bentuk yang sebaik-baiknya,"
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "لَقَدْ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "laqad"
+        },
+        {
+          "text": "خَلَقْنَا",
+          "meanings": {
+            "en": "We created",
+            "id": "Kami telah menciptakan"
+          },
+          "transliteration": "khalaqnā"
+        },
+        {
+          "text": "ٱلْإِنسَـٰنَ",
+          "meanings": {
+            "en": "man",
+            "id": "manusia"
+          },
+          "transliteration": "l-insāna"
+        },
+        {
+          "text": "فِىٓ",
+          "meanings": {
+            "en": "in",
+            "id": "dalam"
+          },
+          "transliteration": "fī"
+        },
+        {
+          "text": "أَحْسَنِ",
+          "meanings": {
+            "en": "(the) best",
+            "id": "sebaik-baik"
+          },
+          "transliteration": "aḥsani"
+        },
+        {
+          "text": "تَقْوِيمٍۢ",
+          "meanings": {
+            "en": "mould",
+            "id": "bentuk"
+          },
+          "transliteration": "taqwīmin"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "95:5",
+      "text": "ثُمَّ رَدَدْنَـٰهُ أَسْفَلَ سَـٰفِلِينَ",
+      "translations": {
+        "en": "Then We return him to the lowest of the low,",
+        "id": "kemudian Kami kembalikan dia ke tempat yang serendah-rendahnya,"
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ثُمَّ",
+          "meanings": {
+            "en": "Then",
+            "id": "kemudian"
+          },
+          "transliteration": "thumma"
+        },
+        {
+          "text": "رَدَدْنَـٰهُ",
+          "meanings": {
+            "en": "We returned him",
+            "id": "Kami kembalikan"
+          },
+          "transliteration": "radadnāhu"
+        },
+        {
+          "text": "أَسْفَلَ",
+          "meanings": {
+            "en": "(to the) lowest",
+            "id": "lebih rendah/paling rendah"
+          },
+          "transliteration": "asfala"
+        },
+        {
+          "text": "سَـٰفِلِينَ",
+          "meanings": {
+            "en": "(of the) low",
+            "id": "tempat yang rendah"
+          },
+          "transliteration": "sāfilīna"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "95:6",
+      "text": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+      "translations": {
+        "en": "Except for those who believe and do righteous deeds, for they will have a reward uninterrupted.",
+        "id": "kecuali orang-orang yang beriman dan mengerjakan kebajikan; maka mereka akan mendapat pahala yang tidak ada putus-putusnya."
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "Except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "ٱلَّذِينَ",
+          "meanings": {
+            "en": "those who",
+            "id": "orang-orang yang"
+          },
+          "transliteration": "alladhīna"
+        },
+        {
+          "text": "ءَامَنُوا۟",
+          "meanings": {
+            "en": "believe",
+            "id": "beriman"
+          },
+          "transliteration": "āmanū"
+        },
+        {
+          "text": "وَعَمِلُوا۟",
+          "meanings": {
+            "en": "and do",
+            "id": "dan mereka berbuat/beramal"
+          },
+          "transliteration": "waʿamilū"
+        },
+        {
+          "text": "ٱلصَّـٰلِحَـٰتِ",
+          "meanings": {
+            "en": "righteous deeds",
+            "id": "kebajikan/saleh"
+          },
+          "transliteration": "l-ṣāliḥāti"
+        },
+        {
+          "text": "فَلَهُمْ",
+          "meanings": {
+            "en": "then for them",
+            "id": "maka bagi mereka"
+          },
+          "transliteration": "falahum"
+        },
+        {
+          "text": "أَجْرٌ",
+          "meanings": {
+            "en": "(is a) reward",
+            "id": "pahala"
+          },
+          "transliteration": "ajrun"
+        },
+        {
+          "text": "غَيْرُ",
+          "meanings": {
+            "en": "never",
+            "id": "bukan/tidak"
+          },
+          "transliteration": "ghayru"
+        },
+        {
+          "text": "مَمْنُونٍۢ",
+          "meanings": {
+            "en": "ending",
+            "id": "terputus"
+          },
+          "transliteration": "mamnūnin"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "95:7",
+      "text": "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ",
+      "translations": {
+        "en": "So what yet causes you to deny the Recompense?",
+        "id": "Maka apa yang menyebabkan (mereka) mendustakanmu (tentang) hari pembalasan setelah (adanya keterangan-keterangan) itu?"
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَمَا",
+          "meanings": {
+            "en": "Then what",
+            "id": "maka apakah"
+          },
+          "transliteration": "famā"
+        },
+        {
+          "text": "يُكَذِّبُكَ",
+          "meanings": {
+            "en": "causes you to deny",
+            "id": "mendustakanmu"
+          },
+          "transliteration": "yukadhibuka"
+        },
+        {
+          "text": "بَعْدُ",
+          "meanings": {
+            "en": "after (this)",
+            "id": "sesudah"
+          },
+          "transliteration": "baʿdu"
+        },
+        {
+          "text": "بِٱلدِّينِ",
+          "meanings": {
+            "en": "the judgment",
+            "id": "hari pembalasan/agama"
+          },
+          "transliteration": "bil-dīni"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "95:8",
+      "text": "أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَـٰكِمِينَ",
+      "translations": {
+        "en": "Is not Allāh the most just of judges?",
+        "id": "Bukankah Allah Hakim yang paling adil?"
+      },
+      "page": 597,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "أَلَيْسَ",
+          "meanings": {
+            "en": "Is not",
+            "id": "bukankah"
+          },
+          "transliteration": "alaysa"
+        },
+        {
+          "text": "ٱللَّهُ",
+          "meanings": {
+            "en": "Allah",
+            "id": "Allah"
+          },
+          "transliteration": "l-lahu"
+        },
+        {
+          "text": "بِأَحْكَمِ",
+          "meanings": {
+            "en": "(the) Most Just",
+            "id": "lebih bijaksana/seadil-adilnya"
+          },
+          "transliteration": "bi-aḥkami"
+        },
+        {
+          "text": "ٱلْحَـٰكِمِينَ",
+          "meanings": {
+            "en": "(of) the Judges",
+            "id": "para hakim"
+          },
+          "transliteration": "l-ḥākimīna"
+        }
+      ]
+    }
+  ]
+}

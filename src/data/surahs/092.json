@@ -1,0 +1,886 @@
+{
+  "id": 92,
+  "nameSimple": "Al-Layl",
+  "nameArabic": "الليل",
+  "meaning": "The Night",
+  "revelationPlace": "makkah",
+  "versesCount": 21,
+  "bismillahPre": true,
+  "languages": [
+    {
+      "lang": "en",
+      "translationId": 20,
+      "name": "Saheeh International"
+    },
+    {
+      "lang": "id",
+      "translationId": 33,
+      "name": "Kementerian Agama RI (Indonesian Ministry of Religious Affairs)"
+    }
+  ],
+  "source": "Quran.com / Quran Foundation API v4",
+  "verses": [
+    {
+      "number": 1,
+      "key": "92:1",
+      "text": " وَٱلَّيْلِ إِذَا يَغْشَىٰ",
+      "translations": {
+        "en": "By the night when it covers",
+        "id": "Demi malam apabila menutupi (cahaya siang),"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلَّيْلِ",
+          "meanings": {
+            "en": "By the night",
+            "id": "demi malam"
+          },
+          "transliteration": "wa-al-layli"
+        },
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "when",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "يَغْشَىٰ",
+          "meanings": {
+            "en": "it covers",
+            "id": "ia menutup"
+          },
+          "transliteration": "yaghshā"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "92:2",
+      "text": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ",
+      "translations": {
+        "en": "And [by] the day when it appears",
+        "id": "demi siang bila terang benderang,"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَٱلنَّهَارِ",
+          "meanings": {
+            "en": "And the day",
+            "id": "dan siang"
+          },
+          "transliteration": "wal-nahāri"
+        },
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "when",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "تَجَلَّىٰ",
+          "meanings": {
+            "en": "it shines in brightness",
+            "id": "terang benderang"
+          },
+          "transliteration": "tajallā"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "key": "92:3",
+      "text": "وَمَا خَلَقَ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ",
+      "translations": {
+        "en": "And [by] He who created the male and female,",
+        "id": "demi penciptaan laki-laki dan perempuan,"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "And He Who",
+            "id": "dan apa"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "خَلَقَ",
+          "meanings": {
+            "en": "created",
+            "id": "ciptakan"
+          },
+          "transliteration": "khalaqa"
+        },
+        {
+          "text": "ٱلذَّكَرَ",
+          "meanings": {
+            "en": "the male",
+            "id": "laki-laki"
+          },
+          "transliteration": "l-dhakara"
+        },
+        {
+          "text": "وَٱلْأُنثَىٰٓ",
+          "meanings": {
+            "en": "and the female",
+            "id": "dan perempuan"
+          },
+          "transliteration": "wal-unthā"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "92:4",
+      "text": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
+      "translations": {
+        "en": "Indeed, your efforts are diverse.",
+        "id": "sungguh, usahamu memang beraneka macam."
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "سَعْيَكُمْ",
+          "meanings": {
+            "en": "your efforts",
+            "id": "usahamu"
+          },
+          "transliteration": "saʿyakum"
+        },
+        {
+          "text": "لَشَتَّىٰ",
+          "meanings": {
+            "en": "(are) surely diverse",
+            "id": "sungguh berbeda-beda"
+          },
+          "transliteration": "lashattā"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "92:5",
+      "text": "فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ",
+      "translations": {
+        "en": "As for he who gives and fears Allāh",
+        "id": "Maka barangsiapa memberikan (hartanya di jalan Allah) dan bertakwa,"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَأَمَّا",
+          "meanings": {
+            "en": "Then as for",
+            "id": "maka adapun"
+          },
+          "transliteration": "fa-ammā"
+        },
+        {
+          "text": "مَنْ",
+          "meanings": {
+            "en": "(him) who",
+            "id": "orang"
+          },
+          "transliteration": "man"
+        },
+        {
+          "text": "أَعْطَىٰ",
+          "meanings": {
+            "en": "gives",
+            "id": "ia memberikan"
+          },
+          "transliteration": "aʿṭā"
+        },
+        {
+          "text": "وَٱتَّقَىٰ",
+          "meanings": {
+            "en": "and fears",
+            "id": "dan bertaqwa"
+          },
+          "transliteration": "wa-ittaqā"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "key": "92:6",
+      "text": "وَصَدَّقَ بِٱلْحُسْنَىٰ",
+      "translations": {
+        "en": "And believes in the best [reward],",
+        "id": "dan membenarkan (adanya pahala) yang terbaik (surga),"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَصَدَّقَ",
+          "meanings": {
+            "en": "And believes",
+            "id": "dan ia membenarkan/akui"
+          },
+          "transliteration": "waṣaddaqa"
+        },
+        {
+          "text": "بِٱلْحُسْنَىٰ",
+          "meanings": {
+            "en": "in the best",
+            "id": "dengan kebaikan"
+          },
+          "transliteration": "bil-ḥus'nā"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "92:7",
+      "text": "فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ",
+      "translations": {
+        "en": "We will ease him toward ease.",
+        "id": "maka akan Kami mudahkan baginya jalan menuju kemudahan (kebahagiaan)."
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَسَنُيَسِّرُهُۥ",
+          "meanings": {
+            "en": "Then We will ease him",
+            "id": "maka Kami akan memudahkannya"
+          },
+          "transliteration": "fasanuyassiruhu"
+        },
+        {
+          "text": "لِلْيُسْرَىٰ",
+          "meanings": {
+            "en": "towards [the] ease",
+            "id": "pada yang mudah"
+          },
+          "transliteration": "lil'yus'rā"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "92:8",
+      "text": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ",
+      "translations": {
+        "en": "But as for he who withholds and considers himself free of need",
+        "id": "Dan adapun orang yang kikir dan merasa dirinya cukup (tidak perlu pertolongan Allah),"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَأَمَّا",
+          "meanings": {
+            "en": "But as for",
+            "id": "dan adapun"
+          },
+          "transliteration": "wa-ammā"
+        },
+        {
+          "text": "مَنۢ",
+          "meanings": {
+            "en": "(him) who",
+            "id": "orang"
+          },
+          "transliteration": "man"
+        },
+        {
+          "text": "بَخِلَ",
+          "meanings": {
+            "en": "withholds",
+            "id": "ia kikir"
+          },
+          "transliteration": "bakhila"
+        },
+        {
+          "text": "وَٱسْتَغْنَىٰ",
+          "meanings": {
+            "en": "and considers himself free from need",
+            "id": "dan ia merasa cukup"
+          },
+          "transliteration": "wa-is'taghnā"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "key": "92:9",
+      "text": "وَكَذَّبَ بِٱلْحُسْنَىٰ",
+      "translations": {
+        "en": "And denies the best [reward],",
+        "id": "serta mendustakan (pahala) yang terbaik,"
+      },
+      "page": 595,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَكَذَّبَ",
+          "meanings": {
+            "en": "And denies",
+            "id": "dan ia mendustakan"
+          },
+          "transliteration": "wakadhaba"
+        },
+        {
+          "text": "بِٱلْحُسْنَىٰ",
+          "meanings": {
+            "en": "the best",
+            "id": "dengan kebaikan"
+          },
+          "transliteration": "bil-ḥus'nā"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "key": "92:10",
+      "text": "فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ",
+      "translations": {
+        "en": "We will ease him toward difficulty.",
+        "id": "maka akan Kami mudahkan baginya jalan menuju kesukaran (kesengsaraan)."
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَسَنُيَسِّرُهُۥ",
+          "meanings": {
+            "en": "Then We will ease him",
+            "id": "maka Kami akan memudahkan"
+          },
+          "transliteration": "fasanuyassiruhu"
+        },
+        {
+          "text": "لِلْعُسْرَىٰ",
+          "meanings": {
+            "en": "towards [the] difficulty",
+            "id": "pada yang sukar"
+          },
+          "transliteration": "lil'ʿus'rā"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "key": "92:11",
+      "text": "وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ",
+      "translations": {
+        "en": "And what will his wealth avail him when he falls?",
+        "id": "Dan hartanya tidak bermanfaat baginya apabila dia telah binasa."
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "And not",
+            "id": "dan tidak"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "يُغْنِى",
+          "meanings": {
+            "en": "will avail",
+            "id": "mencukupi/berguna"
+          },
+          "transliteration": "yugh'nī"
+        },
+        {
+          "text": "عَنْهُ",
+          "meanings": {
+            "en": "him",
+            "id": "dari padanya/baginya"
+          },
+          "transliteration": "ʿanhu"
+        },
+        {
+          "text": "مَالُهُۥٓ",
+          "meanings": {
+            "en": "his wealth",
+            "id": "hartanya"
+          },
+          "transliteration": "māluhu"
+        },
+        {
+          "text": "إِذَا",
+          "meanings": {
+            "en": "when",
+            "id": "apabila"
+          },
+          "transliteration": "idhā"
+        },
+        {
+          "text": "تَرَدَّىٰٓ",
+          "meanings": {
+            "en": "he falls",
+            "id": "ia telah binasa"
+          },
+          "transliteration": "taraddā"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "key": "92:12",
+      "text": "إِنَّ عَلَيْنَا لَلْهُدَىٰ",
+      "translations": {
+        "en": "Indeed, [incumbent] upon Us is guidance.",
+        "id": "Sesungguhnya Kami lah yang memberi petunjuk,"
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِنَّ",
+          "meanings": {
+            "en": "Indeed",
+            "id": "sesungguhnya"
+          },
+          "transliteration": "inna"
+        },
+        {
+          "text": "عَلَيْنَا",
+          "meanings": {
+            "en": "upon Us",
+            "id": "bagi Kami"
+          },
+          "transliteration": "ʿalaynā"
+        },
+        {
+          "text": "لَلْهُدَىٰ",
+          "meanings": {
+            "en": "(is) the guidance",
+            "id": "kesudahan/akherat"
+          },
+          "transliteration": "lalhudā"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "key": "92:13",
+      "text": "وَإِنَّ لَنَا لَلْـَٔاخِرَةَ وَٱلْأُولَىٰ",
+      "translations": {
+        "en": "And indeed, to us belongs the Hereafter and the first [life].",
+        "id": "dan sesungguhnya milik Kami lah akhirat dan dunia."
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَإِنَّ",
+          "meanings": {
+            "en": "And indeed",
+            "id": "dan sesungguhnya"
+          },
+          "transliteration": "wa-inna"
+        },
+        {
+          "text": "لَنَا",
+          "meanings": {
+            "en": "for Us",
+            "id": "milik Kamilah"
+          },
+          "transliteration": "lanā"
+        },
+        {
+          "text": "لَلْـَٔاخِرَةَ",
+          "meanings": {
+            "en": "(is) the Hereafter",
+            "id": "akhirat"
+          },
+          "transliteration": "lalākhirata"
+        },
+        {
+          "text": "وَٱلْأُولَىٰ",
+          "meanings": {
+            "en": "and the first (life)",
+            "id": "dan dunia itu"
+          },
+          "transliteration": "wal-ūlā"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "key": "92:14",
+      "text": "فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ",
+      "translations": {
+        "en": "So I have warned you of a Fire which is blazing.",
+        "id": "Maka aku memperingatkan kamu dengan neraka yang menyala-nyala,"
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "فَأَنذَرْتُكُمْ",
+          "meanings": {
+            "en": "So I warn you",
+            "id": "maka peringatkanlah"
+          },
+          "transliteration": "fa-andhartukum"
+        },
+        {
+          "text": "نَارًۭا",
+          "meanings": {
+            "en": "(of) a Fire",
+            "id": "api neraka"
+          },
+          "transliteration": "nāran"
+        },
+        {
+          "text": "تَلَظَّىٰ",
+          "meanings": {
+            "en": "blazing",
+            "id": "menyala-nyala"
+          },
+          "transliteration": "talaẓẓā"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "key": "92:15",
+      "text": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى",
+      "translations": {
+        "en": "None will [enter to] burn therein except the most wretched one",
+        "id": "yang hanya dimasuki oleh orang yang paling celaka,"
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "لَا",
+          "meanings": {
+            "en": "Not",
+            "id": "tidak"
+          },
+          "transliteration": "lā"
+        },
+        {
+          "text": "يَصْلَىٰهَآ",
+          "meanings": {
+            "en": "will burn (in) it",
+            "id": "masuk kedalamnya"
+          },
+          "transliteration": "yaṣlāhā"
+        },
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "ٱلْأَشْقَى",
+          "meanings": {
+            "en": "the most wretched",
+            "id": "paling celaka"
+          },
+          "transliteration": "l-ashqā"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "key": "92:16",
+      "text": "ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ",
+      "translations": {
+        "en": "Who had denied and turned away.",
+        "id": "yang mendustakan (kebenaran) dan berpaling (dari iman)."
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱلَّذِى",
+          "meanings": {
+            "en": "The one who",
+            "id": "orang-orang yang"
+          },
+          "transliteration": "alladhī"
+        },
+        {
+          "text": "كَذَّبَ",
+          "meanings": {
+            "en": "denied",
+            "id": "mendustakan"
+          },
+          "transliteration": "kadhaba"
+        },
+        {
+          "text": "وَتَوَلَّىٰ",
+          "meanings": {
+            "en": "and turned away",
+            "id": "dan berpaling"
+          },
+          "transliteration": "watawallā"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "key": "92:17",
+      "text": "وَسَيُجَنَّبُهَا ٱلْأَتْقَى",
+      "translations": {
+        "en": "But the righteous one will avoid it",
+        "id": "Dan akan dijauhkan darinya (neraka) orang yang paling bertakwa,"
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَسَيُجَنَّبُهَا",
+          "meanings": {
+            "en": "But will be removed from it",
+            "id": "dan akan dijauhkan-dia"
+          },
+          "transliteration": "wasayujannabuhā"
+        },
+        {
+          "text": "ٱلْأَتْقَى",
+          "meanings": {
+            "en": "the righteous",
+            "id": "berbakti"
+          },
+          "transliteration": "l-atqā"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "key": "92:18",
+      "text": "ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ",
+      "translations": {
+        "en": "[He] who gives [from] his wealth to purify himself",
+        "id": "yang menginfakkan hartanya (di jalan Allah) untuk membersihkan (dirinya),"
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "ٱلَّذِى",
+          "meanings": {
+            "en": "The one who",
+            "id": "orang-orang yang"
+          },
+          "transliteration": "alladhī"
+        },
+        {
+          "text": "يُؤْتِى",
+          "meanings": {
+            "en": "gives",
+            "id": "mendermakan"
+          },
+          "transliteration": "yu'tī"
+        },
+        {
+          "text": "مَالَهُۥ",
+          "meanings": {
+            "en": "his wealth",
+            "id": "apa yang dia miliki (hartanya)"
+          },
+          "transliteration": "mālahu"
+        },
+        {
+          "text": "يَتَزَكَّىٰ",
+          "meanings": {
+            "en": "(to) purify himself",
+            "id": "mensucikan"
+          },
+          "transliteration": "yatazakkā"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "key": "92:19",
+      "text": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍ تُجْزَىٰٓ",
+      "translations": {
+        "en": "And not [giving] for anyone who has [done him] a favor to be rewarded",
+        "id": "dan tidak ada seorang pun memberikan suatu nikmat padanya yang harus dibalasnya,"
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَمَا",
+          "meanings": {
+            "en": "And not",
+            "id": "dan tidak"
+          },
+          "transliteration": "wamā"
+        },
+        {
+          "text": "لِأَحَدٍ",
+          "meanings": {
+            "en": "for anyone",
+            "id": "satupun"
+          },
+          "transliteration": "li-aḥadin"
+        },
+        {
+          "text": "عِندَهُۥ",
+          "meanings": {
+            "en": "with him",
+            "id": "pada sisinya"
+          },
+          "transliteration": "ʿindahu"
+        },
+        {
+          "text": "مِن",
+          "meanings": {
+            "en": "any",
+            "id": "dari"
+          },
+          "transliteration": "min"
+        },
+        {
+          "text": "نِّعْمَةٍۢ",
+          "meanings": {
+            "en": "favor",
+            "id": "nikmat"
+          },
+          "transliteration": "niʿ'matin"
+        },
+        {
+          "text": "تُجْزَىٰٓ",
+          "meanings": {
+            "en": "to be recompensed",
+            "id": "patut dibalas"
+          },
+          "transliteration": "tuj'zā"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "key": "92:20",
+      "text": "إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ",
+      "translations": {
+        "en": "But only seeking the face [i.e., acceptance] of his Lord, Most High.",
+        "id": "tetapi (dia memberikan itu semata-mata) karena mencari keridaan Tuhannya Yang Mahatinggi."
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "إِلَّا",
+          "meanings": {
+            "en": "Except",
+            "id": "kecuali"
+          },
+          "transliteration": "illā"
+        },
+        {
+          "text": "ٱبْتِغَآءَ",
+          "meanings": {
+            "en": "seeking",
+            "id": "mencari"
+          },
+          "transliteration": "ib'tighāa"
+        },
+        {
+          "text": "وَجْهِ",
+          "meanings": {
+            "en": "(the) Countenance",
+            "id": "keridhaan"
+          },
+          "transliteration": "wajhi"
+        },
+        {
+          "text": "رَبِّهِ",
+          "meanings": {
+            "en": "(of) his Lord",
+            "id": "Tuhannya"
+          },
+          "transliteration": "rabbihi"
+        },
+        {
+          "text": "ٱلْأَعْلَىٰ",
+          "meanings": {
+            "en": "the Most High",
+            "id": "yang Maha Tinggi"
+          },
+          "transliteration": "l-aʿlā"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "key": "92:21",
+      "text": "وَلَسَوْفَ يَرْضَىٰ",
+      "translations": {
+        "en": "And he is going to be satisfied.",
+        "id": "Dan niscaya kelak dia akan mendapat kesenangan (yang sempurna)."
+      },
+      "page": 596,
+      "juz": 30,
+      "sajdah": false,
+      "words": [
+        {
+          "text": "وَلَسَوْفَ",
+          "meanings": {
+            "en": "And soon, surely",
+            "id": "dan kelak"
+          },
+          "transliteration": "walasawfa"
+        },
+        {
+          "text": "يَرْضَىٰ",
+          "meanings": {
+            "en": "he will be pleased",
+            "id": "ridha"
+          },
+          "transliteration": "yarḍā"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+---
+/*
+  MushafPage: one framed cream page with its page number at the bottom.
+  The page content (header, verses) goes in the slot.
+*/
+import { arabicNumber } from '../lib/quran';
+
+interface Props {
+  page: number; // page number in the printed mushaf
+}
+
+const { page } = Astro.props;
+---
+
+<section class="mushaf-page" aria-label={`Mushaf page ${page}`}>
+  <div class="frame">
+    <slot />
+    <p class="page-number" aria-hidden="true">{arabicNumber(page)}</p>
+  </div>
+</section>
+
+<style>
+  .mushaf-page {
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    background: var(--paper);
+    /* soft light in the middle of the paper, darker towards the edges */
+    background-image: radial-gradient(ellipse at center, #fffaf0 0%, var(--paper) 70%);
+    color: var(--ink);
+    box-shadow: 0 12px 40px rgb(0 0 0 / 0.45);
+  }
+
+  /* Green double frame with a thin gold line inside */
+  .frame {
+    display: flex;
+    flex-direction: column;
+    min-height: 70dvh;
+    padding: 1.25rem 1rem 0.75rem;
+    border: 3px double var(--green-700);
+    border-radius: 0.3rem;
+    box-shadow: inset 0 0 0 4px var(--paper), inset 0 0 0 5px var(--gold-500);
+  }
+
+  .page-number {
+    margin: auto 0 0; /* always at the bottom of the frame */
+    padding-top: 1rem;
+    color: var(--green-700);
+    font-family: var(--font-arabic);
+    text-align: center;
+  }
+</style>
