@@ -1,0 +1,11 @@
+// Cloudflare Workers config: serve the built Astro site (static files in dist/).
+// "name" must match the Worker's name in the Cloudflare dashboard.
+{
+  "name": "omars-portfolio",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    // Unknown addresses show our own 404 page (src/pages/404.astro)
+    "not_found_handling": "404-page"
+  }
+}
