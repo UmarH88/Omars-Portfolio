@@ -1,9 +1,16 @@
 ---
 /*
-  Person: a gender-neutral figure seen from behind (hood up), drawn as layered SVG.
-  "2.5D": the layers react to CSS variables set by the scene's tilt script:
-    --lx  -1 (light from the left) ... 1 (light from the right)
-  so the rim light moves and the floor shadow shifts the opposite way.
+  Person: a gender-neutral figure seen from behind, hood up, in an oversized hoodie,
+  straight jeans and chunky white sneakers. Drawn as layered SVG.
+
+  How it looks realistic without a 3D model:
+    1. Proportions: about 7.5 heads tall, sleeves covering the hands.
+    2. Volume: blurred shadows and highlights clipped inside each piece of clothing
+       (side shadows, shoulder blades, spine, folds, creases).
+    3. Texture: a fine noise "grain" filter so fabric doesn't look like plastic.
+
+  "2.5D" light: the scene's tilt script sets --lx (-1 = light from the left, 1 = right).
+  The rim light, a coloured glow wash and the floor shadow all follow it.
   Kept in its own component so a Three.js model can replace it later.
 */
 interface Props {
@@ -12,85 +19,216 @@ interface Props {
 const { class: className } = Astro.props;
 ---
 
-<svg class:list={['person', className]} viewBox="0 0 200 400" role="img"
-  aria-label="A person in a hoodie, seen from behind">
+<svg class:list={['person', className]} viewBox="0 0 240 480" role="img"
+  aria-label="A person in a hooded sweatshirt, seen from behind">
   <defs>
-    <linearGradient id="p-hoodie" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#353944" />
-      <stop offset="1" stop-color="#22252d" />
+    <!-- ===== Shapes, defined once and reused (for drawing AND for clipping) ===== -->
+    <path id="p-hood-shape"
+      d="M84 130 C76 106 74 72 90 52 C100 41 111 37 120 37 C129 37 140 41 150 52 C166 72 164 106 156 130 C146 144 133 150 120 150 C107 150 94 144 84 130 Z" />
+    <path id="p-torso-shape"
+      d="M86 126 C73 130 63 137 59 151 C55 164 57 178 61 192 L64 289 C96 298 144 298 176 289 L179 192 C183 178 185 164 181 151 C177 137 167 130 154 126 C145 137 133 142 120 142 C107 142 95 137 86 126 Z" />
+    <path id="p-arm-left-shape"
+      d="M59 151 C49 178 45 214 46 246 C47 264 48 280 50 302 L73 302 C71 276 70 250 70 228 C70 208 69 190 67 174 Z" />
+    <path id="p-arm-right-shape"
+      d="M181 151 C191 178 195 214 194 246 C193 264 192 280 190 302 L167 302 C169 276 170 250 170 228 C170 208 171 190 173 174 Z" />
+    <path id="p-leg-left-shape"
+      d="M67 286 C65 330 69 380 73 420 L76 455 L113 455 L115 420 C117 380 118 336 119 296 Z" />
+    <path id="p-leg-right-shape"
+      d="M173 286 C175 330 171 380 167 420 L164 455 L127 455 L125 420 C123 380 122 336 121 296 Z" />
+    <path id="p-shoe-left-shape"
+      d="M74 446 C71 456 71 466 74 473 L115 473 C118 466 118 456 115 446 Z" />
+    <path id="p-shoe-right-shape"
+      d="M125 446 C122 456 122 466 125 473 L166 473 C169 466 169 456 166 446 Z" />
+
+    <clipPath id="p-clip-hood"><use href="#p-hood-shape" /></clipPath>
+    <clipPath id="p-clip-torso"><use href="#p-torso-shape" /></clipPath>
+    <clipPath id="p-clip-arms"><use href="#p-arm-left-shape" /><use href="#p-arm-right-shape" /></clipPath>
+    <clipPath id="p-clip-legs"><use href="#p-leg-left-shape" /><use href="#p-leg-right-shape" /></clipPath>
+    <clipPath id="p-clip-body">
+      <use href="#p-hood-shape" /><use href="#p-torso-shape" />
+      <use href="#p-arm-left-shape" /><use href="#p-arm-right-shape" />
+      <use href="#p-leg-left-shape" /><use href="#p-leg-right-shape" />
+    </clipPath>
+
+    <!-- ===== Colours ===== -->
+    <!-- Hoodie: charcoal, lighter at the top where light falls -->
+    <linearGradient id="p-cotton" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#454a57" />
+      <stop offset="0.45" stop-color="#30333c" />
+      <stop offset="1" stop-color="#23252c" />
     </linearGradient>
-    <linearGradient id="p-hood" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3a3e4a" />
-      <stop offset="1" stop-color="#262932" />
+    <linearGradient id="p-denim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3b62" />
+      <stop offset="1" stop-color="#1a2440" />
     </linearGradient>
-    <linearGradient id="p-jeans" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#25324f" />
-      <stop offset="1" stop-color="#18203a" />
+    <linearGradient id="p-rubber" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="1" stop-color="#d4d7df" />
     </linearGradient>
-    <!-- Soft shading across the back: darker at the sides, like a rounded body -->
-    <linearGradient id="p-shade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#000" stop-opacity="0.35" />
-      <stop offset="0.5" stop-color="#000" stop-opacity="0" />
-      <stop offset="1" stop-color="#000" stop-opacity="0.35" />
+    <!-- Round bodies are darker at the edges: a sideways shadow for every piece -->
+    <linearGradient id="p-round" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55" />
+      <stop offset="0.28" stop-color="#000" stop-opacity="0" />
+      <stop offset="0.72" stop-color="#000" stop-opacity="0" />
+      <stop offset="1" stop-color="#000" stop-opacity="0.55" />
     </linearGradient>
-    <!-- Rim light colours: purple glow (top right of the page) into cyan -->
     <linearGradient id="p-rim" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#b9a4ff" />
+      <stop offset="0" stop-color="#c7b6ff" />
       <stop offset="1" stop-color="#7fd8ec" />
     </linearGradient>
+    <!-- Coloured light washing over one side of the body -->
+    <linearGradient id="p-wash-left" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9a4ff" stop-opacity="0.5" />
+      <stop offset="0.4" stop-color="#b9a4ff" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="p-wash-right" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#7fd8ec" stop-opacity="0.5" />
+      <stop offset="0.4" stop-color="#7fd8ec" stop-opacity="0" />
+    </linearGradient>
     <radialGradient id="p-floor">
-      <stop offset="0" stop-color="#7fd8ec" stop-opacity="0.45" />
+      <stop offset="0" stop-color="#7fd8ec" stop-opacity="0.5" />
       <stop offset="1" stop-color="#7fd8ec" stop-opacity="0" />
     </radialGradient>
+
+    <!-- ===== Filters ===== -->
+    <!-- Soft: blurs shadow and highlight shapes so they look like real light -->
+    <filter id="p-soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" />
+    </filter>
+    <filter id="p-soft-small" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.6" />
+    </filter>
+    <!-- Grain: random noise, kept only where there is fabric, laid over it -->
+    <filter id="p-grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="noise" />
+      <feColorMatrix in="noise" type="matrix"
+        values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -0.9 0.55" result="grain" />
+      <feComposite in="grain" in2="SourceAlpha" operator="in" result="grain-on-fabric" />
+      <feMerge><feMergeNode in="SourceGraphic" /><feMergeNode in="grain-on-fabric" /></feMerge>
+    </filter>
   </defs>
 
-  <!-- 1. Floor glow + shadow (moves opposite to the light) -->
+  <!-- 1. Floor: cyan glow and a contact shadow (slides away from the light) -->
   <g class="floor">
-    <ellipse cx="100" cy="384" rx="78" ry="12" fill="url(#p-floor)" />
-    <ellipse cx="100" cy="382" rx="44" ry="5" fill="#000" opacity="0.55" />
+    <ellipse cx="120" cy="472" rx="92" ry="14" fill="url(#p-floor)" />
+    <ellipse cx="120" cy="474" rx="54" ry="6" fill="#000" opacity="0.6" filter="url(#p-soft-small)" />
   </g>
 
-  <!-- 2. Legs and shoes -->
-  <g class="legs">
-    <path d="M71 248 L98 250 L97 366 L74 366 Z" fill="url(#p-jeans)" />
-    <path d="M102 250 L129 248 L126 366 L103 366 Z" fill="url(#p-jeans)" />
-    <!-- a darker seam down each leg -->
-    <path d="M85 256 L85.5 364 M115 256 L114.5 364" stroke="#0f1528" stroke-width="1.5" opacity="0.6" />
-    <!-- white soles / heels -->
-    <rect x="71" y="364" width="29" height="15" rx="5" fill="#e9ebf1" />
-    <rect x="100" y="364" width="29" height="15" rx="5" fill="#e9ebf1" />
-    <rect x="71" y="364" width="29" height="6" rx="3" fill="#c9ccd6" />
-    <rect x="100" y="364" width="29" height="6" rx="3" fill="#c9ccd6" />
-  </g>
-
-  <!-- 3. Upper body: breathes (very slow, tiny rise of the shoulders) -->
-  <g class="upper">
-    <!-- arms hanging at the sides -->
-    <path d="M50 142 Q36 196 41 248 L57 250 Q57 200 64 154 Z" fill="url(#p-hoodie)" />
-    <path d="M150 142 Q164 196 159 248 L143 250 Q143 200 136 154 Z" fill="url(#p-hoodie)" />
-    <!-- body -->
-    <path d="M50 142 Q54 110 100 104 Q146 110 150 142 L156 252 Q100 264 44 252 Z" fill="url(#p-hoodie)" />
-    <path d="M50 142 Q54 110 100 104 Q146 110 150 142 L156 252 Q100 264 44 252 Z" fill="url(#p-shade)" />
-    <!-- waistband and cuffs -->
-    <path d="M44 240 Q100 252 156 240 L156 252 Q100 264 44 252 Z" fill="#1d2027" />
-    <path d="M41 240 L57 242 L57 250 L41 248 Z M143 242 L159 240 L159 248 L143 250 Z" fill="#1d2027" />
-
-    <!-- hood -->
-    <path d="M67 116 Q60 62 100 52 Q140 62 133 116 Q100 128 67 116 Z" fill="url(#p-hood)" />
-    <path d="M67 116 Q60 62 100 52 Q140 62 133 116 Q100 128 67 116 Z" fill="url(#p-shade)" />
-    <!-- centre seam of the hood -->
-    <path d="M100 54 Q103 86 100 122" stroke="#4a4f5d" stroke-width="1.2" fill="none" opacity="0.7" />
-
-    <!-- 4. Rim light: brighter on the side the light comes from -->
-    <g class="rim rim-left" fill="none" stroke="url(#p-rim)" stroke-width="2" stroke-linecap="round">
-      <path d="M68 114 Q60 64 98 53" />
-      <path d="M50 142 Q53 116 78 107" />
-      <path d="M50 146 Q37 196 41 246" />
+  <!-- 2. Legs (jeans) -->
+  <g class="legs" filter="url(#p-grain)">
+    <use href="#p-leg-left-shape" fill="url(#p-denim)" />
+    <use href="#p-leg-right-shape" fill="url(#p-denim)" />
+    <g clip-path="url(#p-clip-legs)">
+      <!-- dark gap between the legs, shadow under the hoodie -->
+      <rect x="60" y="284" width="120" height="22" fill="#000" opacity="0.5" filter="url(#p-soft)" />
+      <rect x="112" y="290" width="16" height="170" fill="#000" opacity="0.45" filter="url(#p-soft)" />
+      <!-- rounded shading per leg -->
+      <rect x="64" y="286" width="56" height="170" fill="url(#p-round)" />
+      <rect x="120" y="286" width="56" height="170" fill="url(#p-round)" />
+      <!-- creases behind the knees -->
+      <g fill="none" stroke-linecap="round" filter="url(#p-soft-small)">
+        <path d="M80 376 Q94 370 108 378 M82 388 Q96 383 110 390" stroke="#0d1428" stroke-width="2.4" opacity="0.8" />
+        <path d="M81 373 Q95 367 108 374" stroke="#4a5d8c" stroke-width="1.4" opacity="0.7" />
+        <path d="M132 378 Q146 370 160 376 M130 390 Q144 383 158 388" stroke="#0d1428" stroke-width="2.4" opacity="0.8" />
+        <path d="M132 374 Q145 367 159 373" stroke="#4a5d8c" stroke-width="1.4" opacity="0.7" />
+        <!-- denim bunching at the ankles -->
+        <path d="M77 432 Q95 426 113 434 M76 444 Q95 438 114 446" stroke="#0d1428" stroke-width="2" opacity="0.7" />
+        <path d="M127 434 Q145 426 163 432 M126 446 Q145 438 164 444" stroke="#0d1428" stroke-width="2" opacity="0.7" />
+      </g>
+      <!-- outer side seams -->
+      <path d="M70 300 C69 340 72 390 76 452 M170 300 C171 340 168 390 164 452" stroke="#c9a24a" stroke-width="0.7" opacity="0.35" fill="none" />
     </g>
-    <g class="rim rim-right" fill="none" stroke="url(#p-rim)" stroke-width="2" stroke-linecap="round">
-      <path d="M132 114 Q140 64 102 53" />
-      <path d="M150 142 Q147 116 122 107" />
-      <path d="M150 146 Q163 196 159 246" />
+  </g>
+
+  <!-- 3. Sneakers seen from the heel -->
+  <g class="shoes">
+    <use href="#p-shoe-left-shape" fill="url(#p-rubber)" />
+    <use href="#p-shoe-right-shape" fill="url(#p-rubber)" />
+    <!-- padded collar around the ankle (darker inside) -->
+    <path d="M77 448 Q95 442 112 448 L112 452 Q95 447 77 452 Z M128 448 Q145 442 163 448 L163 452 Q145 447 128 452 Z" fill="#8c919e" />
+    <!-- heel tabs -->
+    <rect x="91" y="447" width="8" height="12" rx="2" fill="#dfe2e8" stroke="#b5b9c3" stroke-width="0.6" />
+    <rect x="141" y="447" width="8" height="12" rx="2" fill="#dfe2e8" stroke="#b5b9c3" stroke-width="0.6" />
+    <!-- sole line and chunky sole -->
+    <path d="M73 464 H116 M124 464 H167" stroke="#a3a8b4" stroke-width="1" />
+    <path d="M73 467 H116 V472 Q95 476 73 472 Z M124 467 H167 V472 Q145 476 124 472 Z" fill="#c4c8d1" />
+  </g>
+
+  <!-- 4. Upper body: breathes (a very slow, tiny rise of the shoulders) -->
+  <g class="upper">
+    <g filter="url(#p-grain)">
+      <!-- arms -->
+      <use href="#p-arm-left-shape" fill="url(#p-cotton)" />
+      <use href="#p-arm-right-shape" fill="url(#p-cotton)" />
+      <g clip-path="url(#p-clip-arms)">
+        <rect x="44" y="150" width="30" height="155" fill="url(#p-round)" />
+        <rect x="166" y="150" width="30" height="155" fill="url(#p-round)" />
+        <!-- elbow creases and sleeve folds -->
+        <g fill="none" stroke-linecap="round" filter="url(#p-soft-small)">
+          <path d="M49 226 Q58 232 69 228 M48 240 Q58 246 70 242" stroke="#15171c" stroke-width="2.4" opacity="0.8" />
+          <path d="M191 226 Q182 232 171 228 M192 240 Q182 246 170 242" stroke="#15171c" stroke-width="2.4" opacity="0.8" />
+          <path d="M49 222 Q58 228 68 224 M191 222 Q182 228 172 224" stroke="#5a5f6d" stroke-width="1.3" opacity="0.7" />
+        </g>
+        <!-- ribbed cuffs covering the hands -->
+        <rect x="46" y="286" width="30" height="18" fill="#1d1f25" />
+        <rect x="164" y="286" width="30" height="18" fill="#1d1f25" />
+        <path d="M52 288 V302 M57 288 V302 M62 288 V302 M67 288 V302 M178 288 V302 M183 288 V302 M188 288 V302 M173 288 V302"
+          stroke="#2c2f37" stroke-width="1" />
+      </g>
+
+      <!-- torso -->
+      <use href="#p-torso-shape" fill="url(#p-cotton)" />
+      <g clip-path="url(#p-clip-torso)">
+        <rect x="55" y="120" width="130" height="180" fill="url(#p-round)" />
+        <!-- shoulder blades catch the light -->
+        <ellipse cx="96" cy="182" rx="22" ry="28" fill="#6a7080" opacity="0.28" filter="url(#p-soft)" />
+        <ellipse cx="144" cy="182" rx="22" ry="28" fill="#6a7080" opacity="0.28" filter="url(#p-soft)" />
+        <!-- shallow groove along the spine -->
+        <path d="M120 150 V272" stroke="#0f1014" stroke-width="5" opacity="0.4" filter="url(#p-soft)" />
+        <!-- shadow cast by the hood onto the upper back -->
+        <ellipse cx="120" cy="146" rx="46" ry="14" fill="#000" opacity="0.55" filter="url(#p-soft)" />
+        <!-- where the arms meet the body -->
+        <path d="M66 176 Q72 200 70 232 M174 176 Q168 200 170 232" stroke="#000" stroke-width="5" opacity="0.4" fill="none" filter="url(#p-soft)" />
+        <!-- loose fabric folds above the waistband: dark crease + light ridge -->
+        <g fill="none" stroke-linecap="round" filter="url(#p-soft-small)">
+          <path d="M72 250 Q96 242 116 256 M126 254 Q146 240 168 250 M88 266 Q110 258 132 268" stroke="#121318" stroke-width="2.6" opacity="0.75" />
+          <path d="M72 246 Q96 238 116 252 M126 250 Q146 236 168 246" stroke="#5c6170" stroke-width="1.4" opacity="0.6" />
+        </g>
+        <!-- ribbed waistband -->
+        <path d="M60 276 Q120 288 180 276 L180 296 Q120 306 60 296 Z" fill="#1d1f25" />
+        <path d="M60 278 Q120 290 180 278" stroke="#3a3e48" stroke-width="1" fill="none" />
+      </g>
+
+      <!-- hood -->
+      <use href="#p-hood-shape" fill="url(#p-cotton)" />
+      <g clip-path="url(#p-clip-hood)">
+        <rect x="72" y="36" width="96" height="116" fill="url(#p-round)" />
+        <!-- light falling on the top of the hood -->
+        <ellipse cx="112" cy="68" rx="24" ry="20" fill="#7b8192" opacity="0.32" filter="url(#p-soft)" />
+        <!-- the hood's bottom edge folds over itself -->
+        <path d="M86 124 C96 140 110 146 120 146 C130 146 144 140 154 124" stroke="#101115" stroke-width="5" opacity="0.55" fill="none" filter="url(#p-soft)" />
+        <!-- centre seam, with a thin highlight beside it -->
+        <path d="M120 38 C122 70 122 104 120 148" stroke="#16181d" stroke-width="1.6" fill="none" />
+        <path d="M122.5 40 C124.5 72 124.5 104 122.5 146" stroke="#5d6271" stroke-width="0.8" opacity="0.6" fill="none" />
+      </g>
+    </g>
+
+    <!-- 5. Coloured light washing over the side that faces the light -->
+    <g clip-path="url(#p-clip-body)">
+      <rect class="wash wash-left" x="40" y="30" width="160" height="440" fill="url(#p-wash-left)" />
+      <rect class="wash wash-right" x="40" y="30" width="160" height="440" fill="url(#p-wash-right)" />
+    </g>
+
+    <!-- 6. Rim light: a thin bright edge, stronger on the lit side -->
+    <g class="rim rim-left" fill="none" stroke="url(#p-rim)" stroke-width="1.8" stroke-linecap="round">
+      <path d="M85 128 C77 106 75 72 91 52 C101 41 111 38 118 38" />
+      <path d="M59 152 C49 178 45 214 46 246 C47 264 48 280 50 300" />
+      <path d="M60 150 C63 138 72 131 84 127" />
+    </g>
+    <g class="rim rim-right" fill="none" stroke="url(#p-rim)" stroke-width="1.8" stroke-linecap="round">
+      <path d="M155 128 C163 106 165 72 149 52 C139 41 129 38 122 38" />
+      <path d="M181 152 C191 178 195 214 194 246 C193 264 192 280 190 300" />
+      <path d="M180 150 C177 138 168 131 156 127" />
     </g>
   </g>
 </svg>
@@ -100,35 +238,41 @@ const { class: className } = Astro.props;
     overflow: visible;
   }
 
+  /* Shadow slides away from the light */
   .floor {
-    /* shadow slides away from the light */
-    transform: translateX(calc(var(--lx, 0) * -8px));
+    transform: translateX(calc(var(--lx, 0) * -10px));
     transition: transform 0.4s ease-out;
   }
 
   .upper {
     transform-box: fill-box;
     transform-origin: 50% 100%; /* breathe from the waist */
-    animation: breathe 5s ease-in-out infinite;
+    animation: breathe 5.5s ease-in-out infinite;
   }
 
   @keyframes breathe {
     50% {
-      transform: scaleY(1.012);
+      transform: scaleY(1.01);
     }
   }
 
-  /* Light from the left (--lx = -1): left rim bright, right rim faint, and the other way round */
-  .rim {
+  /* --lx = -1: light from the left (left side bright), 1: from the right */
+  .rim,
+  .wash {
     transition: opacity 0.4s ease-out;
-    filter: drop-shadow(0 0 3px #b9a4ff);
   }
 
-  .rim-left {
-    opacity: calc(0.45 - var(--lx, 0) * 0.45);
+  .rim {
+    filter: drop-shadow(0 0 2.5px #b9a4ff);
   }
 
-  .rim-right {
-    opacity: calc(0.45 + var(--lx, 0) * 0.45);
+  .rim-left,
+  .wash-left {
+    opacity: calc(0.4 - var(--lx, 0) * 0.4);
+  }
+
+  .rim-right,
+  .wash-right {
+    opacity: calc(0.4 + var(--lx, 0) * 0.4);
   }
 </style>
