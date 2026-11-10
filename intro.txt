@@ -1,1 +1,20 @@
-Bismillah
+Bismillah. I am omar and this is step by step on how i built my portfolio
+
+step 1: check your tools
+
+Astro runs on Node.js, and it needs version 22.23.4 or newer. Astro also only supports even-numbered Node versions, so something like v23 won’t work. (Astro docs)
+
+Open a terminal and run these one at a time:
+
+bash
+node -v
+
+This shows your Node version. You want v22.x (at least 22.23.4) or v24.x.
+
+bash
+npm -v
+
+npm comes with Node. It’s what installs Astro and other packages. Any number here is fine.
+
+bash
+git --version
