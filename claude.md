@@ -29,13 +29,30 @@ Pages, in build order:
    Astro & Dimensions, Space. Two looks: Library (walnut and gold) and Orbit (holographic cyan).
 3. **Quran book**: first book on the main shelf (green, gold band, glow). It flies forward; tapping it opens the
    cover on a right-side hinge like a real mushaf, showing Al-Fatihah, then "Read it in the mushaf".
-4. **Mushaf** (`/quran/[surah]`, 114 pages, one template via `getStaticPaths`): traditional framed page,
+4. **Quran index** (`/quran`): list of all 114 surahs (number, English + Arabic name, meaning, place, verse count).
+   Each surah links to Mushaf mode and Study mode.
+5. **Mushaf mode** (`/quran/[surah]`, one template via `getStaticPaths`): traditional framed cream page,
    green and gold surah header, Arabic only, round verse markers. Hover or tap a word → its English meaning in a
    tooltip above it. No translation on the page.
-5. **Samples** (`/samples`): a tab per wing with a short lesson, a key fact or formula, and one quick question.
-6. **Quiz** (`/quiz/[surah]`): 8–12 questions per surah, generated from the real data
-   (word meaning, which verse matches a translation, fill in the missing word). No hand-written answers.
-7. **Later:** upgrade the library to Three.js. Keep the library code structured so that swap is easy.
+6. **Study mode** (`/quran/[surah]/study`): dark navy page. Header: surah number badge, English name, meaning,
+   place, verse count, Arabic name in gold. Bismillah, then ONE ayah per row: Arabic, then its translation.
+   Toggles: translation language, "words under Arabic" (word-by-word meaning under each word).
+   Hover/tap a word → meaning. Side panel (below on phones) with two tabs:
+   - **Tafseer:** "About this surah" + pick a verse number to read its explanation. Source and attribution shown.
+   - **Quiz:** 8–12 questions generated from the real data (word meaning, which verse matches a
+     translation, fill in the missing word). No hand-written answers.
+7. **Samples** (`/samples`): a tab per wing with a short lesson, a key fact or formula, and one quick question.
+8. **Later:** upgrade the library to Three.js. Keep the library code structured so that swap is easy.
+
+## Design notes (from Omar's screenshots)
+- **Intro:** near-black navy, soft purple glow top right, cyan accents ("Tap a planet of interest"),
+  glassy round badges on a tilted orbit ring, big bold white heading, pill buttons (light "Enter the library"
+  with dark arrow circle, outlined round GitHub button), "O" logo circle top left.
+- **Library:** dark walnut and gold, Cormorant Garamond headings, small gold uppercase labels
+  ("OMAR'S LIBRARY", "THE MAIN WING"), bottom card with ‹ › arrows and gold "Walk to this shelf" button.
+- **Quran book:** green cover, gold border and glowing gold circle with the title; opens to cream pages.
+- **Mushaf:** cream paper, green double frame, gold lines, green pill surah header, page number at bottom.
+- **Study:** dark navy, gold verse markers, light Arabic, muted blue-grey translation, cyan active tab.
 
 Omar will attach screenshots of the designs. Match them.
 
@@ -49,8 +66,9 @@ Omar will attach screenshots of the designs. Match them.
 src/pages/index.astro          intro
 src/pages/library.astro        3D library
 src/pages/samples.astro        wing samples
-src/pages/quran/[surah].astro  mushaf pages
-src/pages/quiz/[surah].astro   quizzes
+src/pages/quran/index.astro            surah index
+src/pages/quran/[surah].astro          mushaf mode
+src/pages/quran/[surah]/study.astro    study mode (tafseer + quiz tabs)
 src/components/                shelf, Quran book, word tooltip, etc.
 src/layouts/Base.astro         shared head, fonts, frame
 src/data/surahs/               001.json … 114.json (generated)
@@ -73,6 +91,8 @@ scripts/fetch-quran.mjs        downloads Quran data once
 - Max 50 verses per request, so paginate (Al-Baqarah has 286).
 - Handle failures: retries, clear errors, never write a half-empty file.
 - Show the translation's name and attribution on the site.
+- Tafseer text also comes ONLY from the API (a published tafsir, e.g. Ibn Kathir abridged), with its name
+  and source shown. Never write or "summarise" tafseer or hadith from memory.
 
 ## Secrets
 - Keys live in `.env` as `QF_CLIENT_ID` and `QF_CLIENT_SECRET`, and the same names in
@@ -92,15 +112,18 @@ scripts/fetch-quran.mjs        downloads Quran data once
 - [x] Tools checked
 - [x] Astro project at repo root, pushed to GitHub
 - [x] Connect Cloudflare Pages
-- [ ] API keys + `.env`
+- [x] API keys + `.env` (pre-live keys: surahs 1–2 only; request production access later)
 - [ ] Fetch script
 - [ ] Base layout, fonts, colours
 - [ ] Intro page
 - [ ] 3D library
 - [ ] Quran book animation
-- [ ] Mushaf pages
+- [ ] Quran index
+- [ ] Mushaf mode
+- [ ] Study mode (word-by-word, translation)
+- [ ] Study mode: tafseer tab
+- [ ] Study mode: quiz tab
 - [ ] Samples page
-- [ ] Quiz pages
 - [ ] Three.js upgrade
 
 Update this list as steps are finished.
