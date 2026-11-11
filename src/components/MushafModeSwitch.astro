@@ -1,0 +1,44 @@
+---
+/*
+  MushafModeSwitch: two links, "Surah" (one surah on its own) and "Page" (the real
+  mushaf, page by page). They're links, not buttons, because each mode is its own page.
+*/
+import T from './T.astro';
+
+interface Props {
+  mode: 'surah' | 'page';
+  surahHref: string;
+  pageHref: string;
+}
+
+const { mode, surahHref, pageHref } = Astro.props;
+---
+
+<nav class="mode-switch" aria-label="How to read">
+  <a href={surahHref} aria-current={mode === 'surah' ? 'page' : undefined}>Surah</a>
+  <a href={pageHref} aria-current={mode === 'page' ? 'page' : undefined}><T en="Page" id="Halaman" /></a>
+</nav>
+
+<style>
+  /* Two-part pill; the active part is filled gold */
+  .mode-switch {
+    display: inline-flex;
+    padding: 3px;
+    border: 1px solid color-mix(in srgb, var(--gold-500) 60%, transparent);
+    border-radius: var(--radius-pill);
+  }
+
+  a {
+    padding: 0.35rem 0.85rem;
+    border-radius: var(--radius-pill);
+    color: var(--gold-300);
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  a[aria-current='page'] {
+    background: var(--gold-300);
+    color: var(--navy-950);
+  }
+</style>

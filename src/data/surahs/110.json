@@ -6,6 +6,11 @@
   "revelationPlace": "madinah",
   "versesCount": 3,
   "bismillahPre": true,
+  "pages": [
+    603,
+    603
+  ],
+  "formatVersion": 4,
   "languages": [
     {
       "lang": "en",
@@ -38,7 +43,9 @@
             "en": "When",
             "id": "apabila"
           },
-          "transliteration": "idhā"
+          "transliteration": "idhā",
+          "page": 603,
+          "line": 8
         },
         {
           "text": "جَآءَ",
@@ -46,7 +53,9 @@
             "en": "comes",
             "id": "datang"
           },
-          "transliteration": "jāa"
+          "transliteration": "jāa",
+          "page": 603,
+          "line": 8
         },
         {
           "text": "نَصْرُ",
@@ -54,7 +63,9 @@
             "en": "(the) Help",
             "id": "pertolongan"
           },
-          "transliteration": "naṣru"
+          "transliteration": "naṣru",
+          "page": 603,
+          "line": 8
         },
         {
           "text": "ٱللَّهِ",
@@ -62,7 +73,9 @@
             "en": "(of) Allah",
             "id": "Allah"
           },
-          "transliteration": "l-lahi"
+          "transliteration": "l-lahi",
+          "page": 603,
+          "line": 8
         },
         {
           "text": "وَٱلْفَتْحُ",
@@ -70,7 +83,9 @@
             "en": "and the Victory",
             "id": "dan kemenangan"
           },
-          "transliteration": "wal-fatḥu"
+          "transliteration": "wal-fatḥu",
+          "page": 603,
+          "line": 8
         }
       ]
     },
@@ -92,7 +107,9 @@
             "en": "And you see",
             "id": "dan kamu lihat"
           },
-          "transliteration": "wara-ayta"
+          "transliteration": "wara-ayta",
+          "page": 603,
+          "line": 8
         },
         {
           "text": "ٱلنَّاسَ",
@@ -100,7 +117,9 @@
             "en": "the people",
             "id": "manusia"
           },
-          "transliteration": "l-nāsa"
+          "transliteration": "l-nāsa",
+          "page": 603,
+          "line": 8
         },
         {
           "text": "يَدْخُلُونَ",
@@ -108,7 +127,9 @@
             "en": "entering",
             "id": "masuk"
           },
-          "transliteration": "yadkhulūna"
+          "transliteration": "yadkhulūna",
+          "page": 603,
+          "line": 9
         },
         {
           "text": "فِى",
@@ -116,7 +137,9 @@
             "en": "into",
             "id": "kedalam"
           },
-          "transliteration": "fī"
+          "transliteration": "fī",
+          "page": 603,
+          "line": 9
         },
         {
           "text": "دِينِ",
@@ -124,7 +147,9 @@
             "en": "(the) religion",
             "id": "agama"
           },
-          "transliteration": "dīni"
+          "transliteration": "dīni",
+          "page": 603,
+          "line": 9
         },
         {
           "text": "ٱللَّهِ",
@@ -132,7 +157,9 @@
             "en": "(of) Allah",
             "id": "Allah"
           },
-          "transliteration": "l-lahi"
+          "transliteration": "l-lahi",
+          "page": 603,
+          "line": 9
         },
         {
           "text": "أَفْوَاجًۭا",
@@ -140,7 +167,9 @@
             "en": "(in) multitudes",
             "id": "berbondong-bondong"
           },
-          "transliteration": "afwājan"
+          "transliteration": "afwājan",
+          "page": 603,
+          "line": 9
         }
       ]
     },
@@ -162,7 +191,9 @@
             "en": "Then glorify",
             "id": "maka bertasbihlah"
           },
-          "transliteration": "fasabbiḥ"
+          "transliteration": "fasabbiḥ",
+          "page": 603,
+          "line": 9
         },
         {
           "text": "بِحَمْدِ",
@@ -170,7 +201,9 @@
             "en": "with (the) praises",
             "id": "dengan memuji"
           },
-          "transliteration": "biḥamdi"
+          "transliteration": "biḥamdi",
+          "page": 603,
+          "line": 9
         },
         {
           "text": "رَبِّكَ",
@@ -178,7 +211,9 @@
             "en": "(of) your Lord",
             "id": "Tuhanmu"
           },
-          "transliteration": "rabbika"
+          "transliteration": "rabbika",
+          "page": 603,
+          "line": 9
         },
         {
           "text": "وَٱسْتَغْفِرْهُ ۚ",
@@ -186,7 +221,9 @@
             "en": "and ask His forgiveness",
             "id": "dan mohonlah ampun"
           },
-          "transliteration": "wa-is'taghfir'hu"
+          "transliteration": "wa-is'taghfir'hu",
+          "page": 603,
+          "line": 10
         },
         {
           "text": "إِنَّهُۥ",
@@ -194,7 +231,9 @@
             "en": "Indeed, He",
             "id": "sesungguhnya Dia"
           },
-          "transliteration": "innahu"
+          "transliteration": "innahu",
+          "page": 603,
+          "line": 10
         },
         {
           "text": "كَانَ",
@@ -202,7 +241,9 @@
             "en": "is",
             "id": "adalah Dia"
           },
-          "transliteration": "kāna"
+          "transliteration": "kāna",
+          "page": 603,
+          "line": 10
         },
         {
           "text": "تَوَّابًۢا",
@@ -210,7 +251,9 @@
             "en": "Oft-Returning",
             "id": "Maha Penerima Taubat"
           },
-          "transliteration": "tawwāban"
+          "transliteration": "tawwāban",
+          "page": 603,
+          "line": 10
         }
       ]
     }

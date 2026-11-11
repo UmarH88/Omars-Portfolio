@@ -11,9 +11,18 @@ export interface Chapter {
   nameSimple: string; // "Al-Fatihah"
   nameArabic: string; // "الفاتحة"
   meaning: string; // "The Opener"
+  translatedNames: { en: string; id: string }; // the meaning in each site language
   revelationPlace: 'makkah' | 'madinah';
   versesCount: number;
   bismillahPre: boolean;
+  pages: [number, number]; // first page (with its title) and last page in the Madani mushaf
+  titleAt: MushafSpot; // where the surah's title bar is printed
+  bismillahAt: MushafSpot | null; // where its Bismillah line is (null: Al-Fatihah, At-Tawbah)
+}
+
+export interface MushafSpot {
+  page: number;
+  line: number;
 }
 
 // Languages on the site. Must match LANGUAGES in scripts/fetch-quran.mjs.
@@ -25,6 +34,8 @@ export interface Word {
   text: string;
   meanings: Record<Lang, string>; // { en: "the Most Gracious", id: "Maha Pengasih" }
   transliteration: string | null;
+  page: number; // page in the 15-line Madani mushaf
+  line: number; // line on that page (1-15)
 }
 
 export interface Verse {
@@ -51,7 +62,7 @@ export function getChapter(id: number): Chapter | undefined {
   return chapters.find((c) => c.id === id);
 }
 
-// "makkah" -> "Makkah"
+// "makkah" -> "Makkah" (the same in English and Indonesian)
 export function placeLabel(place: Chapter['revelationPlace']): string {
   return place === 'makkah' ? 'Makkah' : 'Madinah';
 }
@@ -78,10 +89,62 @@ export async function getSurah(id: number): Promise<Surah> {
   return (await load()).default;
 }
 
+// ---------- Tafsir (surah introductions + verse explanations) ----------
+// Saved by scripts/fetch-tafsir.mjs. HTML is already cleaned to simple safe tags.
+export interface TafsirFile {
+  surah: number;
+  about: {
+    source: string; // "Sayyid Abul Ala Maududi - Tafhim al-Qur'an ..."
+    summary: string;
+    sections: { title: string | null; html: string }[]; // "Name", "Period of Revelation", ...
+  };
+  tafsir: {
+    id: number;
+    name: string; // "Ibn Kathir (Abridged)"
+    author: string;
+    passages: { from: number; to: number; html: string }[]; // one passage can explain several verses
+  };
+  source: string;
+}
+
+const tafsirFiles = import.meta.glob<{ default: TafsirFile }>('../data/tafsir/*.json');
+const tafsirPath = (id: number) => `../data/tafsir/${String(id).padStart(3, '0')}.json`;
+
+export function hasTafsir(id: number): boolean {
+  return tafsirPath(id) in tafsirFiles;
+}
+
+export async function getTafsir(id: number): Promise<TafsirFile | null> {
+  const load = tafsirFiles[tafsirPath(id)];
+  return load ? (await load()).default : null;
+}
+
+/*
+  Easy tafsir: short, plain-language versions in English and Indonesian, written by
+  simplifying ONLY the saved source texts above (Omar's decision, 2026-11-11).
+  Plain text only (no HTML). The full original stays available on the page.
+*/
+export interface SimpleTafsirText {
+  sections: { title: string; paragraphs: string[] }[];
+  verses: { from: number; to: number; paragraphs: string[] }[];
+}
+
+export interface SimpleTafsirFile extends Record<Lang, SimpleTafsirText> {
+  surah: number;
+  basedOn: string[];
+}
+
+const simpleTafsirFiles = import.meta.glob<{ default: SimpleTafsirFile }>('../data/tafsir-simple/*.json');
+
+export async function getSimpleTafsir(id: number): Promise<SimpleTafsirFile | null> {
+  const load = simpleTafsirFiles[`../data/tafsir-simple/${String(id).padStart(3, '0')}.json`];
+  return load ? (await load()).default : null;
+}
+
 // ---------- Mushaf display ----------
 
 // What Mushaf mode needs to draw a verse: its number, words and mushaf page.
-export type MushafVerse = Pick<Verse, 'number' | 'page' | 'words'>;
+export type MushafVerse = Pick<Verse, 'number' | 'page' | 'juz' | 'words'>;
 
 /*
   Al-Fatihah numbering (Omar's choice): the Bismillah is NOT counted as a verse.
@@ -104,8 +167,8 @@ export function fatihahForMushaf(verses: Verse[]): { bismillah: Verse; verses: M
 
   const renumbered: MushafVerse[] = rest.slice(0, -1).map((v) => ({ ...v, number: v.number - 1 }));
   renumbered.push(
-    { number: 6, page: last.page, words: last.words.slice(0, FATIHAH_SPLIT_AFTER_WORD) },
-    { number: 7, page: last.page, words: last.words.slice(FATIHAH_SPLIT_AFTER_WORD) },
+    { number: 6, page: last.page, juz: last.juz, words: last.words.slice(0, FATIHAH_SPLIT_AFTER_WORD) },
+    { number: 7, page: last.page, juz: last.juz, words: last.words.slice(FATIHAH_SPLIT_AFTER_WORD) },
   );
   return { bismillah, verses: renumbered };
 }
@@ -162,12 +225,15 @@ export function studyRows(surah: Surah): StudyRow[] {
 // ---------- Helpers ----------
 
 // Group verses by their page in the printed (Madani) mushaf, in order.
-export function groupByMushafPage<T extends { page: number }>(verses: T[]): { page: number; verses: T[] }[] {
-  const pages: { page: number; verses: T[] }[] = [];
+// Each page also gets the juz (one of the Quran's 30 parts) of its first verse, as printed mushafs show.
+export function groupByMushafPage<T extends { page: number; juz: number }>(
+  verses: T[],
+): { page: number; juz: number; verses: T[] }[] {
+  const pages: { page: number; juz: number; verses: T[] }[] = [];
   for (const verse of verses) {
     const current = pages.at(-1);
     if (current?.page === verse.page) current.verses.push(verse);
-    else pages.push({ page: verse.page, verses: [verse] });
+    else pages.push({ page: verse.page, juz: verse.juz, verses: [verse] });
   }
   return pages;
 }
@@ -175,6 +241,90 @@ export function groupByMushafPage<T extends { page: number }>(verses: T[]): { pa
 // 255 -> "٢٥٥" (Arabic-Indic digits, as printed in a mushaf)
 export const arabicNumber = (n: number) => n.toLocaleString('ar-EG');
 
+// ---------- Mushaf pages (the whole Quran, page by page) ----------
+
+export const MUSHAF_PAGES = 604;
+export const LINES_PER_PAGE = 15;
+
+/*
+  One line of a mushaf page is one of:
+    - words: Arabic words (and verse markers) printed on that line
+    - title: the bar with a surah's name, where a new surah starts
+    - bismillah: the Bismillah line under a surah title
+    - empty: nothing printed (pages 1-2 have short, centred layouts)
+*/
+export type LineItem = { kind: 'word'; word: Word } | { kind: 'marker'; number: number };
+// Every printed line belongs to one surah (`surah`), so Surah mode can show just that surah's lines
+export type MushafLine =
+  | { kind: 'words'; surah: number; items: LineItem[] }
+  | { kind: 'title'; surah: number; chapter: Chapter }
+  | { kind: 'bismillah'; surah: number; words: Word[] }
+  | { kind: 'empty' };
+
+export interface MushafPageData {
+  page: number;
+  juz: number;
+  chapters: Chapter[]; // surahs that appear on this page
+  lines: MushafLine[]; // always 15
+}
+
+/*
+  Builds one page from the word positions in the data (each word knows its page and line).
+  Lines with no words are where a surah title and Bismillah go, exactly like the printed mushaf.
+*/
+export async function getMushafPage(page: number): Promise<MushafPageData> {
+  const onPage = chapters.filter((c) => c.pages[0] <= page && page <= c.pages[1]);
+  const lines: MushafLine[] = Array.from({ length: LINES_PER_PAGE }, () => ({ kind: 'empty' }));
+  const bismillahWords = (await getSurah(1)).verses[0].words; // the API's own words of 1:1
+  let juz = 0;
+
+  const addItem = (line: number, surah: number, item: LineItem) => {
+    const slot = lines[line - 1];
+    if (slot.kind === 'words') slot.items.push(item);
+    else lines[line - 1] = { kind: 'words', surah, items: [item] };
+  };
+
+  for (const chapter of onPage) {
+    const surah = await getSurah(chapter.id);
+    // Al-Fatihah uses Omar's numbering (Bismillah not counted, see fatihahForMushaf)
+    const fatihah = chapter.id === 1 ? fatihahForMushaf(surah.verses) : null;
+    const segments: { number: number | null; words: Word[]; juz: number }[] = fatihah
+      ? [{ number: null, words: fatihah.bismillah.words, juz: fatihah.bismillah.juz }, ...fatihah.verses]
+      : surah.verses;
+
+    for (const segment of segments) {
+      const here = segment.words.filter((w) => w.page === page);
+      if (here.length === 0) continue;
+      juz ||= segment.juz;
+      for (const word of here) addItem(word.line, chapter.id, { kind: 'word', word });
+      // The verse marker goes after the verse's last word, if that word is on this page
+      const last = segment.words.at(-1)!;
+      if (segment.number !== null && last.page === page) {
+        addItem(last.line, chapter.id, { kind: 'marker', number: segment.number });
+      }
+    }
+
+    // Title and Bismillah: their exact spots were worked out by the fetch script
+    // (they can be on the page BEFORE the surah's first words)
+    if (chapter.titleAt.page === page) {
+      lines[chapter.titleAt.line - 1] = { kind: 'title', surah: chapter.id, chapter };
+    }
+    if (chapter.bismillahAt?.page === page) {
+      lines[chapter.bismillahAt.line - 1] = { kind: 'bismillah', surah: chapter.id, words: bismillahWords };
+    }
+  }
+
+  return { page, juz, chapters: onPage, lines };
+}
+
 // ---------- Links ----------
+// Mushaf, Page mode: the real pages, one at a time
+export const mushafPageUrl = (page: number) => `/mushaf/${page}`;
+// The page where a surah starts, scrolled to its title
+export const surahPageUrl = (id: number) => {
+  const chapter = getChapter(id);
+  return chapter ? `${mushafPageUrl(chapter.pages[0])}#surah-${id}` : mushafPageUrl(1);
+};
+// Mushaf, Surah mode: one surah on its own (still on the real mushaf lines)
 export const mushafUrl = (id: number) => `/quran/${id}`;
 export const studyUrl = (id: number) => `/quran/${id}/study`;

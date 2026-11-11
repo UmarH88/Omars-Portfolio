@@ -6,6 +6,11 @@
   "revelationPlace": "makkah",
   "versesCount": 6,
   "bismillahPre": true,
+  "pages": [
+    603,
+    603
+  ],
+  "formatVersion": 4,
   "languages": [
     {
       "lang": "en",
@@ -38,7 +43,9 @@
             "en": "Say",
             "id": "katakanlah"
           },
-          "transliteration": "qul"
+          "transliteration": "qul",
+          "page": 603,
+          "line": 3
         },
         {
           "text": "يَـٰٓأَيُّهَا",
@@ -46,7 +53,9 @@
             "en": "O",
             "id": "wahai"
           },
-          "transliteration": "yāayyuhā"
+          "transliteration": "yāayyuhā",
+          "page": 603,
+          "line": 3
         },
         {
           "text": "ٱلْكَـٰفِرُونَ",
@@ -54,7 +63,9 @@
             "en": "disbelievers",
             "id": "orang-orang kafir"
           },
-          "transliteration": "l-kāfirūna"
+          "transliteration": "l-kāfirūna",
+          "page": 603,
+          "line": 3
         }
       ]
     },
@@ -76,7 +87,9 @@
             "en": "Not",
             "id": "tidak"
           },
-          "transliteration": "lā"
+          "transliteration": "lā",
+          "page": 603,
+          "line": 3
         },
         {
           "text": "أَعْبُدُ",
@@ -84,7 +97,9 @@
             "en": "I worship",
             "id": "aku menyembah"
           },
-          "transliteration": "aʿbudu"
+          "transliteration": "aʿbudu",
+          "page": 603,
+          "line": 3
         },
         {
           "text": "مَا",
@@ -92,7 +107,9 @@
             "en": "what",
             "id": "apa"
           },
-          "transliteration": "mā"
+          "transliteration": "mā",
+          "page": 603,
+          "line": 3
         },
         {
           "text": "تَعْبُدُونَ",
@@ -100,7 +117,9 @@
             "en": "you worship",
             "id": "kamu sembah"
           },
-          "transliteration": "taʿbudūna"
+          "transliteration": "taʿbudūna",
+          "page": 603,
+          "line": 3
         }
       ]
     },
@@ -122,7 +141,9 @@
             "en": "And not",
             "id": "dan tidak"
           },
-          "transliteration": "walā"
+          "transliteration": "walā",
+          "page": 603,
+          "line": 4
         },
         {
           "text": "أَنتُمْ",
@@ -130,7 +151,9 @@
             "en": "you",
             "id": "kamu"
           },
-          "transliteration": "antum"
+          "transliteration": "antum",
+          "page": 603,
+          "line": 4
         },
         {
           "text": "عَـٰبِدُونَ",
@@ -138,7 +161,9 @@
             "en": "(are) worshippers",
             "id": "menyembah"
           },
-          "transliteration": "ʿābidūna"
+          "transliteration": "ʿābidūna",
+          "page": 603,
+          "line": 4
         },
         {
           "text": "مَآ",
@@ -146,7 +171,9 @@
             "en": "(of) what",
             "id": "apa"
           },
-          "transliteration": "mā"
+          "transliteration": "mā",
+          "page": 603,
+          "line": 4
         },
         {
           "text": "أَعْبُدُ",
@@ -154,7 +181,9 @@
             "en": "I worship",
             "id": "aku sembah"
           },
-          "transliteration": "aʿbudu"
+          "transliteration": "aʿbudu",
+          "page": 603,
+          "line": 4
         }
       ]
     },
@@ -176,7 +205,9 @@
             "en": "And not",
             "id": "dan bukanlah"
           },
-          "transliteration": "walā"
+          "transliteration": "walā",
+          "page": 603,
+          "line": 4
         },
         {
           "text": "أَنَا۠",
@@ -184,7 +215,9 @@
             "en": "I am",
             "id": "aku"
           },
-          "transliteration": "anā"
+          "transliteration": "anā",
+          "page": 603,
+          "line": 4
         },
         {
           "text": "عَابِدٌۭ",
@@ -192,7 +225,9 @@
             "en": "a worshipper",
             "id": "menjadi penyembah"
           },
-          "transliteration": "ʿābidun"
+          "transliteration": "ʿābidun",
+          "page": 603,
+          "line": 4
         },
         {
           "text": "مَّا",
@@ -200,7 +235,9 @@
             "en": "(of) what",
             "id": "apa"
           },
-          "transliteration": "mā"
+          "transliteration": "mā",
+          "page": 603,
+          "line": 4
         },
         {
           "text": "عَبَدتُّمْ",
@@ -208,7 +245,9 @@
             "en": "you worship",
             "id": "kamu sembah"
           },
-          "transliteration": "ʿabadttum"
+          "transliteration": "ʿabadttum",
+          "page": 603,
+          "line": 4
         }
       ]
     },
@@ -230,7 +269,9 @@
             "en": "And not",
             "id": "dan bukanlah"
           },
-          "transliteration": "walā"
+          "transliteration": "walā",
+          "page": 603,
+          "line": 5
         },
         {
           "text": "أَنتُمْ",
@@ -238,7 +279,9 @@
             "en": "you",
             "id": "kamu"
           },
-          "transliteration": "antum"
+          "transliteration": "antum",
+          "page": 603,
+          "line": 5
         },
         {
           "text": "عَـٰبِدُونَ",
@@ -246,7 +289,9 @@
             "en": "(are) worshippers",
             "id": "menyembah"
           },
-          "transliteration": "ʿābidūna"
+          "transliteration": "ʿābidūna",
+          "page": 603,
+          "line": 5
         },
         {
           "text": "مَآ",
@@ -254,7 +299,9 @@
             "en": "(of) what",
             "id": "apa"
           },
-          "transliteration": "mā"
+          "transliteration": "mā",
+          "page": 603,
+          "line": 5
         },
         {
           "text": "أَعْبُدُ",
@@ -262,7 +309,9 @@
             "en": "I worship",
             "id": "aku sembah"
           },
-          "transliteration": "aʿbudu"
+          "transliteration": "aʿbudu",
+          "page": 603,
+          "line": 5
         }
       ]
     },
@@ -284,7 +333,9 @@
             "en": "For you",
             "id": "bagi kalian"
           },
-          "transliteration": "lakum"
+          "transliteration": "lakum",
+          "page": 603,
+          "line": 5
         },
         {
           "text": "دِينُكُمْ",
@@ -292,7 +343,9 @@
             "en": "(is) your religion",
             "id": "agamamu"
           },
-          "transliteration": "dīnukum"
+          "transliteration": "dīnukum",
+          "page": 603,
+          "line": 5
         },
         {
           "text": "وَلِىَ",
@@ -300,7 +353,9 @@
             "en": "and for me",
             "id": "bagiku"
           },
-          "transliteration": "waliya"
+          "transliteration": "waliya",
+          "page": 603,
+          "line": 5
         },
         {
           "text": "دِينِ",
@@ -308,7 +363,9 @@
             "en": "(is) my religion",
             "id": "agamaku"
           },
-          "transliteration": "dīni"
+          "transliteration": "dīni",
+          "page": 603,
+          "line": 5
         }
       ]
     }

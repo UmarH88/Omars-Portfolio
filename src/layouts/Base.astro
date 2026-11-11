@@ -48,6 +48,19 @@ const pageTitle = title === "Omar's Library" ? title : `${title} · Omar's Libra
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
 
+    <!--
+      Apply the saved language BEFORE the page is drawn, so Indonesian readers never
+      see English flash first. is:inline = run exactly here, as written.
+    -->
+    <script is:inline>
+      try {
+        if (localStorage.getItem('quran-language') === 'id') {
+          document.documentElement.classList.add('lang-id');
+          document.documentElement.lang = 'id';
+        }
+      } catch (e) {}
+    </script>
+
     <!-- preconnect = open the connection to Google Fonts early, so text appears sooner -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

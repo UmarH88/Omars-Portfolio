@@ -1,0 +1,357 @@
+---
+/*
+  LibraryRoom: a curved wall of 14 bookcases around the person (CSS 3D).
+
+  Geometry:
+    - 14 bookcases on a circle, each turned by STEP = 360/14 degrees.
+    - Radius R = (width / 2) / tan(STEP / 2) ≈ 2.19 × width, so neighbours touch.
+    - Each bookcase: rotateY(its angle) then translateZ(-R): pushed out to the wall,
+      facing the middle of the room, where we stand.
+    - To face bookcase n, the whole ring turns by -n × STEP.
+  Turning: ‹ › buttons, ← → keys, swipe, or tap a bookcase.
+  "Walk to this shelf": the camera moves forward and the person walks, then the wing opens.
+  Kept as one component so a Three.js version can replace it later.
+*/
+import Bookcase from './Bookcase.astro';
+import Person from './Person.astro';
+import T from './T.astro';
+import { wings } from '../data/wings';
+
+const COUNT = wings.length * 2; // a wing, then a plain bookcase, all the way round
+const STEP = 360 / COUNT;
+const slots = Array.from({ length: COUNT }, (_, i) => ({
+  index: i,
+  angle: i * STEP,
+  wing: i % 2 === 0 ? wings[i / 2] : null,
+}));
+---
+
+<section class="library" id="library" style={`--step: ${STEP}deg`} aria-label="Library room">
+  <div class="room" id="room">
+    <div class="floor" aria-hidden="true"></div>
+
+    <div class="ring" id="ring">
+      {
+        slots.map((slot) => (
+          <button
+            type="button"
+            class="slot"
+            style={`--angle: ${slot.angle}deg`}
+            data-index={slot.index}
+            tabindex="-1"
+            aria-label={slot.wing ? slot.wing.title.en : 'Bookcase'}
+          >
+            <Bookcase seed={slot.index * 97 + 13} label={slot.wing?.title} quran={slot.index === 0} />
+          </button>
+        ))
+      }
+    </div>
+
+    <!-- The same person as on the intro page, standing in the middle of the room -->
+    <div class="walker" aria-hidden="true"><Person /></div>
+  </div>
+
+  <!-- One card per wing; the script shows the one in front -->
+  <div class="cards" aria-live="polite">
+    {
+      wings.map((wing, i) => (
+        <article class="card" data-wing={i} hidden={i !== 0}>
+          <p class="eyebrow">
+            {i === 0 ? <T en="The main wing" id="Bagian utama" /> : <T en={`Wing ${i + 1}`} id={`Bagian ${i + 1}`} />}
+          </p>
+          <h2><T en={wing.title.en} id={wing.title.id} /></h2>
+          <p class="blurb"><T en={wing.blurb.en} id={wing.blurb.id} /></p>
+          {!wing.href && (
+            <p class="soon" hidden>
+              <T en="This wing is still being built. Come back soon!" id="Bagian ini masih dibangun. Kembali lagi nanti!" />
+            </p>
+          )}
+        </article>
+      ))
+    }
+
+    <div class="controls">
+      <button type="button" class="round" id="prev" aria-label="Previous wing">‹</button>
+      <button type="button" class="walk" id="walk"><T en="Walk to this shelf" id="Jalan ke rak ini" /></button>
+      <button type="button" class="round" id="next" aria-label="Next wing">›</button>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { wings } from '../data/wings';
+
+  const COUNT = wings.length * 2;
+  const library = document.getElementById('library')!;
+  const room = document.getElementById('room')!;
+  const ring = document.getElementById('ring')!;
+  const slots = [...ring.querySelectorAll<HTMLElement>('.slot')];
+  const cards = [...library.querySelectorAll<HTMLElement>('.card')];
+  const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // `position` counts turns without wrapping (…, -1, 0, 1, …), so the room always
+  // turns the short way round; `current` is the bookcase in front (0-13).
+  let position = 0;
+  const mod = (n: number) => ((n % COUNT) + COUNT) % COUNT;
+  const current = () => mod(position);
+  // Shortest way from bookcase a to b: a number from -7 to 7
+  const delta = (a: number, b: number) => {
+    const d = mod(b - a);
+    return d > COUNT / 2 ? d - COUNT : d;
+  };
+
+  function render() {
+    ring.style.setProperty('--turn', `${-position * (360 / COUNT)}deg`);
+    // Hide bookcases far round the circle (behind us)
+    slots.forEach((slot, i) => slot.toggleAttribute('data-far', Math.abs(delta(current(), i)) > 3));
+    // The wing in front (or the nearest one, if a plain bookcase is in front)
+    const wingIndex = Math.floor(current() / 2);
+    cards.forEach((card, i) => {
+      card.hidden = i !== wingIndex;
+      card.querySelector<HTMLElement>('.soon')?.setAttribute('hidden', '');
+    });
+  }
+
+  function turnTo(target: number) {
+    position += delta(current(), target);
+    render();
+  }
+
+  // Arrows go wing to wing (2 bookcases at a time)
+  const step = (direction: 1 | -1) => turnTo(mod(current() - (current() % 2) + direction * 2));
+  document.getElementById('next')!.addEventListener('click', () => step(1));
+  document.getElementById('prev')!.addEventListener('click', () => step(-1));
+
+  addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') step(1);
+    if (e.key === 'ArrowLeft') step(-1);
+  });
+
+  // Tap a bookcase: turn to it (a plain one turns to the next wing in that direction)
+  let swiped = false;
+  slots.forEach((slot, i) =>
+    slot.addEventListener('click', () => {
+      if (swiped) return;
+      const d = delta(current(), i);
+      turnTo(i % 2 === 0 ? i : mod(i + Math.sign(d)));
+    }),
+  );
+
+  // Swipe left/right on the room
+  let startX: number | null = null;
+  room.addEventListener('pointerdown', (e) => {
+    startX = e.clientX;
+    swiped = false;
+  });
+  room.addEventListener('pointerup', (e) => {
+    if (startX === null) return;
+    const dx = e.clientX - startX;
+    startX = null;
+    if (Math.abs(dx) > 40) {
+      swiped = true; // so the tap handler doesn't also fire
+      step(dx < 0 ? 1 : -1);
+    }
+  });
+
+  // Walk to the shelf in front: animate, then open the wing (or say it's not ready yet)
+  document.getElementById('walk')!.addEventListener('click', () => {
+    const wingIndex = Math.floor(current() / 2);
+    const wing = wings[wingIndex];
+    library.classList.add('walking');
+    const duration = reduceMotion ? 0 : 1400;
+
+    setTimeout(() => {
+      if (wing.href) {
+        location.href = wing.href;
+        return;
+      }
+      cards[wingIndex].querySelector<HTMLElement>('.soon')?.removeAttribute('hidden');
+      library.classList.remove('walking'); // walk back
+    }, duration);
+  });
+
+  render();
+</script>
+
+<style>
+  .library {
+    --w: min(13rem, 40vw); /* bookcase width */
+    --h: calc(var(--w) * 1.8); /* bookcase height */
+    --R: calc(var(--w) * 2.19); /* radius of the circle */
+    display: grid;
+    gap: 1rem;
+  }
+
+  /* ---- The room ---- */
+  .room {
+    position: relative;
+    height: calc(var(--h) * 1.3);
+    overflow: hidden;
+    perspective: calc(var(--w) * 3.2); /* how strong the 3D depth looks */
+    perspective-origin: 50% 40%;
+    touch-action: pan-y; /* we handle sideways swipes; vertical scrolling still works */
+    user-select: none;
+  }
+
+  /* Warm wooden floor with planks, lit in the middle */
+  .floor {
+    position: absolute;
+    inset: auto 0 0;
+    height: 36%;
+    background:
+      radial-gradient(ellipse at 50% 30%, rgb(232 196 124 / 0.18), transparent 60%),
+      repeating-linear-gradient(90deg, transparent 0 3.2rem, rgb(0 0 0 / 0.25) 3.2rem calc(3.2rem + 1px)),
+      linear-gradient(#3a2716, #1c120a);
+  }
+
+  .ring {
+    position: absolute;
+    left: 50%;
+    top: 4%;
+    width: var(--w);
+    height: var(--h);
+    margin-left: calc(var(--w) / -2);
+    transform-style: preserve-3d;
+    /* step into the circle a little, then turn the room */
+    transform: translateZ(calc(var(--R) * 0.7)) rotateY(var(--turn, 0deg));
+    transition: transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+
+  /* Each bookcase: turn to its angle, then move out to the wall (facing us) */
+  .slot {
+    position: absolute;
+    inset: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    transform: rotateY(var(--angle)) translateZ(calc(var(--R) * -1));
+    backface-visibility: hidden;
+    transition: opacity 0.4s ease;
+  }
+
+  .slot[data-far] {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  /* ---- The person ---- */
+  .walker {
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+    height: 44%;
+    display: flex;
+    justify-content: center;
+    transform: translateX(-50%);
+    transform-origin: 50% 100%;
+    transition: transform 1.4s ease-in-out;
+    pointer-events: none;
+  }
+
+  /* ---- Walking: camera moves in, person walks forward (smaller = further away) ---- */
+  .walking .ring {
+    transform: translateZ(calc(var(--R) * 1.1)) rotateY(var(--turn, 0deg));
+    transition-duration: 1.4s;
+  }
+
+  .walking .walker {
+    transform: translateX(-50%) translateY(-22%) scale(0.7);
+  }
+
+  .walking .walker :global(.person) {
+    animation: step 0.35s ease-in-out infinite; /* a small bob with every step */
+  }
+
+  @keyframes step {
+    50% {
+      transform: translateY(-2%);
+    }
+  }
+
+  /* ---- Bottom card ---- */
+  .cards {
+    margin-inline: var(--gutter);
+    padding: 1.1rem 1.1rem 1rem;
+    border: 1px solid color-mix(in srgb, var(--gold-300) 25%, transparent);
+    border-radius: var(--radius-card);
+    background: color-mix(in srgb, var(--walnut-900) 92%, transparent);
+  }
+
+  .eyebrow {
+    margin: 0;
+    color: var(--gold-300);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin-top: 0.35rem;
+    font-family: var(--font-library);
+    font-size: clamp(1.6rem, 6vw, 2rem);
+    font-weight: 600;
+  }
+
+  .blurb,
+  .soon {
+    margin: 0.4rem 0 0;
+    color: var(--muted);
+  }
+
+  .soon {
+    color: var(--gold-300);
+    font-weight: 600;
+  }
+
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+
+  .round {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid color-mix(in srgb, var(--gold-300) 50%, transparent);
+    border-radius: 50%;
+    background: none;
+    color: var(--gold-300);
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .walk {
+    flex: 1;
+    min-height: 3rem;
+    border: 0;
+    border-radius: var(--radius-pill);
+    background: var(--gold-300);
+    color: var(--walnut-950);
+    font: 600 1rem var(--font-ui);
+    cursor: pointer;
+  }
+
+  .walk:hover {
+    filter: brightness(1.08);
+  }
+
+  /* Wide screens: bigger bookcases */
+  @media (min-width: 48rem) {
+    .library {
+      --w: 15rem;
+    }
+
+    .cards {
+      width: min(36rem, 100% - 2 * var(--gutter));
+      margin-inline: auto;
+    }
+  }
+</style>

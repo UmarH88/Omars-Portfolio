@@ -6,6 +6,11 @@
   "revelationPlace": "makkah",
   "versesCount": 3,
   "bismillahPre": true,
+  "pages": [
+    602,
+    602
+  ],
+  "formatVersion": 4,
   "languages": [
     {
       "lang": "en",
@@ -38,7 +43,9 @@
             "en": "Indeed, We",
             "id": "sesungguhnya"
           },
-          "transliteration": "innā"
+          "transliteration": "innā",
+          "page": 602,
+          "line": 14
         },
         {
           "text": "أَعْطَيْنَـٰكَ",
@@ -46,7 +53,9 @@
             "en": "We have given you",
             "id": "Aku telah memberikan"
           },
-          "transliteration": "aʿṭaynāka"
+          "transliteration": "aʿṭaynāka",
+          "page": 602,
+          "line": 14
         },
         {
           "text": "ٱلْكَوْثَرَ",
@@ -54,7 +63,9 @@
             "en": "Al-Kauthar",
             "id": "nikmat yang banyak"
           },
-          "transliteration": "l-kawthara"
+          "transliteration": "l-kawthara",
+          "page": 602,
+          "line": 14
         }
       ]
     },
@@ -76,7 +87,9 @@
             "en": "So pray",
             "id": "maka dirikanlah sholat"
           },
-          "transliteration": "faṣalli"
+          "transliteration": "faṣalli",
+          "page": 602,
+          "line": 14
         },
         {
           "text": "لِرَبِّكَ",
@@ -84,7 +97,9 @@
             "en": "to your Lord",
             "id": "karena Tuhanmu"
           },
-          "transliteration": "lirabbika"
+          "transliteration": "lirabbika",
+          "page": 602,
+          "line": 14
         },
         {
           "text": "وَٱنْحَرْ",
@@ -92,7 +107,9 @@
             "en": "and sacrifice",
             "id": "dan berkurbanlah"
           },
-          "transliteration": "wa-in'ḥar"
+          "transliteration": "wa-in'ḥar",
+          "page": 602,
+          "line": 14
         }
       ]
     },
@@ -114,7 +131,9 @@
             "en": "Indeed",
             "id": "sesungguhnya"
           },
-          "transliteration": "inna"
+          "transliteration": "inna",
+          "page": 602,
+          "line": 15
         },
         {
           "text": "شَانِئَكَ",
@@ -122,7 +141,9 @@
             "en": "your enemy ",
             "id": "orang yang membencimu"
           },
-          "transliteration": "shāni-aka"
+          "transliteration": "shāni-aka",
+          "page": 602,
+          "line": 15
         },
         {
           "text": "هُوَ",
@@ -130,7 +151,9 @@
             "en": "he (is)",
             "id": "dia"
           },
-          "transliteration": "huwa"
+          "transliteration": "huwa",
+          "page": 602,
+          "line": 15
         },
         {
           "text": "ٱلْأَبْتَرُ",
@@ -138,7 +161,9 @@
             "en": "the one cut off",
             "id": "terputus"
           },
-          "transliteration": "l-abtaru"
+          "transliteration": "l-abtaru",
+          "page": 602,
+          "line": 15
         }
       ]
     }

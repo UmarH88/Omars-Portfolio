@@ -6,6 +6,11 @@
   "revelationPlace": "makkah",
   "versesCount": 8,
   "bismillahPre": true,
+  "pages": [
+    600,
+    600
+  ],
+  "formatVersion": 4,
   "languages": [
     {
       "lang": "en",
@@ -38,7 +43,9 @@
             "en": "Diverts you",
             "id": "telah melalaikan kamu"
           },
-          "transliteration": "alhākumu"
+          "transliteration": "alhākumu",
+          "page": 600,
+          "line": 12
         },
         {
           "text": "ٱلتَّكَاثُرُ",
@@ -46,7 +53,9 @@
             "en": "the competition to increase",
             "id": "berbanyak-banyak/bermegah-megah"
           },
-          "transliteration": "l-takāthuru"
+          "transliteration": "l-takāthuru",
+          "page": 600,
+          "line": 12
         }
       ]
     },
@@ -68,7 +77,9 @@
             "en": "Until",
             "id": "hingga"
           },
-          "transliteration": "ḥattā"
+          "transliteration": "ḥattā",
+          "page": 600,
+          "line": 12
         },
         {
           "text": "زُرْتُمُ",
@@ -76,7 +87,9 @@
             "en": "you visit",
             "id": "kamu melewati/masuk"
           },
-          "transliteration": "zur'tumu"
+          "transliteration": "zur'tumu",
+          "page": 600,
+          "line": 12
         },
         {
           "text": "ٱلْمَقَابِرَ",
@@ -84,7 +97,9 @@
             "en": "the graves",
             "id": "kuburan-kuburan"
           },
-          "transliteration": "l-maqābira"
+          "transliteration": "l-maqābira",
+          "page": 600,
+          "line": 12
         }
       ]
     },
@@ -106,7 +121,9 @@
             "en": "Nay",
             "id": "sekali-kali tidak"
           },
-          "transliteration": "kallā"
+          "transliteration": "kallā",
+          "page": 600,
+          "line": 12
         },
         {
           "text": "سَوْفَ",
@@ -114,7 +131,9 @@
             "en": "Soon",
             "id": "kelak"
           },
-          "transliteration": "sawfa"
+          "transliteration": "sawfa",
+          "page": 600,
+          "line": 12
         },
         {
           "text": "تَعْلَمُونَ",
@@ -122,7 +141,9 @@
             "en": "you will know",
             "id": "(kalian) mengetahui"
           },
-          "transliteration": "taʿlamūna"
+          "transliteration": "taʿlamūna",
+          "page": 600,
+          "line": 13
         }
       ]
     },
@@ -144,7 +165,9 @@
             "en": "Then",
             "id": "kemudian"
           },
-          "transliteration": "thumma"
+          "transliteration": "thumma",
+          "page": 600,
+          "line": 13
         },
         {
           "text": "كَلَّا",
@@ -152,7 +175,9 @@
             "en": "nay",
             "id": "sekali-kali tidak"
           },
-          "transliteration": "kallā"
+          "transliteration": "kallā",
+          "page": 600,
+          "line": 13
         },
         {
           "text": "سَوْفَ",
@@ -160,7 +185,9 @@
             "en": "Soon",
             "id": "kelak"
           },
-          "transliteration": "sawfa"
+          "transliteration": "sawfa",
+          "page": 600,
+          "line": 13
         },
         {
           "text": "تَعْلَمُونَ",
@@ -168,7 +195,9 @@
             "en": "you will know",
             "id": "(kalian) mengetahui"
           },
-          "transliteration": "taʿlamūna"
+          "transliteration": "taʿlamūna",
+          "page": 600,
+          "line": 13
         }
       ]
     },
@@ -190,7 +219,9 @@
             "en": "Nay",
             "id": "sekali-kali tidak"
           },
-          "transliteration": "kallā"
+          "transliteration": "kallā",
+          "page": 600,
+          "line": 13
         },
         {
           "text": "لَوْ",
@@ -198,7 +229,9 @@
             "en": "If",
             "id": "jika"
           },
-          "transliteration": "law"
+          "transliteration": "law",
+          "page": 600,
+          "line": 13
         },
         {
           "text": "تَعْلَمُونَ",
@@ -206,7 +239,9 @@
             "en": "you know",
             "id": "(kalian) mengetahui"
           },
-          "transliteration": "taʿlamūna"
+          "transliteration": "taʿlamūna",
+          "page": 600,
+          "line": 13
         },
         {
           "text": "عِلْمَ",
@@ -214,7 +249,9 @@
             "en": "(with) a knowledge",
             "id": "pengetahuan"
           },
-          "transliteration": "ʿil'ma"
+          "transliteration": "ʿil'ma",
+          "page": 600,
+          "line": 14
         },
         {
           "text": "ٱلْيَقِينِ",
@@ -222,7 +259,9 @@
             "en": "(of) certainty",
             "id": "pasti/yakin"
           },
-          "transliteration": "l-yaqīni"
+          "transliteration": "l-yaqīni",
+          "page": 600,
+          "line": 14
         }
       ]
     },
@@ -244,7 +283,9 @@
             "en": "Surely you will see",
             "id": "sungguh kamu akan melihat"
           },
-          "transliteration": "latarawunna"
+          "transliteration": "latarawunna",
+          "page": 600,
+          "line": 14
         },
         {
           "text": "ٱلْجَحِيمَ",
@@ -252,7 +293,9 @@
             "en": "the Hellfire",
             "id": "neraka Jahim"
           },
-          "transliteration": "l-jaḥīma"
+          "transliteration": "l-jaḥīma",
+          "page": 600,
+          "line": 14
         }
       ]
     },
@@ -274,7 +317,9 @@
             "en": "Then",
             "id": "kemudian"
           },
-          "transliteration": "thumma"
+          "transliteration": "thumma",
+          "page": 600,
+          "line": 14
         },
         {
           "text": "لَتَرَوُنَّهَا",
@@ -282,7 +327,9 @@
             "en": "surely you will see it",
             "id": "sungguh kamu akan melihatnya"
           },
-          "transliteration": "latarawunnahā"
+          "transliteration": "latarawunnahā",
+          "page": 600,
+          "line": 14
         },
         {
           "text": "عَيْنَ",
@@ -290,7 +337,9 @@
             "en": "(with the) eye",
             "id": "mata/penglihatan"
           },
-          "transliteration": "ʿayna"
+          "transliteration": "ʿayna",
+          "page": 600,
+          "line": 15
         },
         {
           "text": "ٱلْيَقِينِ",
@@ -298,7 +347,9 @@
             "en": "(of) certainty",
             "id": "pasti/yakin"
           },
-          "transliteration": "l-yaqīni"
+          "transliteration": "l-yaqīni",
+          "page": 600,
+          "line": 15
         }
       ]
     },
@@ -320,7 +371,9 @@
             "en": "Then",
             "id": "kemudian"
           },
-          "transliteration": "thumma"
+          "transliteration": "thumma",
+          "page": 600,
+          "line": 15
         },
         {
           "text": "لَتُسْـَٔلُنَّ",
@@ -328,7 +381,9 @@
             "en": "surely you will be asked",
             "id": "sungguh kamu akan ditanya"
           },
-          "transliteration": "latus'alunna"
+          "transliteration": "latus'alunna",
+          "page": 600,
+          "line": 15
         },
         {
           "text": "يَوْمَئِذٍ",
@@ -336,7 +391,9 @@
             "en": "that Day",
             "id": "pada hari itu"
           },
-          "transliteration": "yawma-idhin"
+          "transliteration": "yawma-idhin",
+          "page": 600,
+          "line": 15
         },
         {
           "text": "عَنِ",
@@ -344,7 +401,9 @@
             "en": "about",
             "id": "dari/tetang"
           },
-          "transliteration": "ʿani"
+          "transliteration": "ʿani",
+          "page": 600,
+          "line": 15
         },
         {
           "text": "ٱلنَّعِيمِ",
@@ -352,7 +411,9 @@
             "en": "the pleasures",
             "id": "kenikmatan"
           },
-          "transliteration": "l-naʿīmi"
+          "transliteration": "l-naʿīmi",
+          "page": 600,
+          "line": 15
         }
       ]
     }

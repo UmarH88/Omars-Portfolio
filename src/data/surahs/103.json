@@ -6,6 +6,11 @@
   "revelationPlace": "makkah",
   "versesCount": 3,
   "bismillahPre": true,
+  "pages": [
+    601,
+    601
+  ],
+  "formatVersion": 4,
   "languages": [
     {
       "lang": "en",
@@ -38,7 +43,9 @@
             "en": "By the time",
             "id": "demi waktu"
           },
-          "transliteration": "wal-ʿaṣri"
+          "transliteration": "wal-ʿaṣri",
+          "page": 601,
+          "line": 3
         }
       ]
     },
@@ -60,7 +67,9 @@
             "en": "Indeed",
             "id": "sesungguhnya"
           },
-          "transliteration": "inna"
+          "transliteration": "inna",
+          "page": 601,
+          "line": 3
         },
         {
           "text": "ٱلْإِنسَـٰنَ",
@@ -68,7 +77,9 @@
             "en": "mankind",
             "id": "manusia"
           },
-          "transliteration": "l-insāna"
+          "transliteration": "l-insāna",
+          "page": 601,
+          "line": 3
         },
         {
           "text": "لَفِى",
@@ -76,7 +87,9 @@
             "en": "(is) surely, in",
             "id": "benar-benar dalam"
           },
-          "transliteration": "lafī"
+          "transliteration": "lafī",
+          "page": 601,
+          "line": 3
         },
         {
           "text": "خُسْرٍ",
@@ -84,7 +97,9 @@
             "en": "loss",
             "id": "kerugian"
           },
-          "transliteration": "khus'rin"
+          "transliteration": "khus'rin",
+          "page": 601,
+          "line": 3
         }
       ]
     },
@@ -106,7 +121,9 @@
             "en": "Except",
             "id": "kecuali"
           },
-          "transliteration": "illā"
+          "transliteration": "illā",
+          "page": 601,
+          "line": 3
         },
         {
           "text": "ٱلَّذِينَ",
@@ -114,7 +131,9 @@
             "en": "those who",
             "id": "orang-orang yang"
           },
-          "transliteration": "alladhīna"
+          "transliteration": "alladhīna",
+          "page": 601,
+          "line": 3
         },
         {
           "text": "ءَامَنُوا۟",
@@ -122,7 +141,9 @@
             "en": "believe",
             "id": "beriman"
           },
-          "transliteration": "āmanū"
+          "transliteration": "āmanū",
+          "page": 601,
+          "line": 3
         },
         {
           "text": "وَعَمِلُوا۟",
@@ -130,7 +151,9 @@
             "en": "and do",
             "id": "dan mereka berbuat/beramal"
           },
-          "transliteration": "waʿamilū"
+          "transliteration": "waʿamilū",
+          "page": 601,
+          "line": 4
         },
         {
           "text": "ٱلصَّـٰلِحَـٰتِ",
@@ -138,7 +161,9 @@
             "en": "righteous deeds",
             "id": "kebajikan/sholeh"
           },
-          "transliteration": "l-ṣāliḥāti"
+          "transliteration": "l-ṣāliḥāti",
+          "page": 601,
+          "line": 4
         },
         {
           "text": "وَتَوَاصَوْا۟",
@@ -146,7 +171,9 @@
             "en": "and enjoin (each other)",
             "id": "dan mereka saling berwasiat/menasehati"
           },
-          "transliteration": "watawāṣaw"
+          "transliteration": "watawāṣaw",
+          "page": 601,
+          "line": 4
         },
         {
           "text": "بِٱلْحَقِّ",
@@ -154,7 +181,9 @@
             "en": "to the truth",
             "id": "dengan kebenaran"
           },
-          "transliteration": "bil-ḥaqi"
+          "transliteration": "bil-ḥaqi",
+          "page": 601,
+          "line": 4
         },
         {
           "text": "وَتَوَاصَوْا۟",
@@ -162,7 +191,9 @@
             "en": "and enjoin (each other)",
             "id": "dan mereka saling berwasiat/menasehati"
           },
-          "transliteration": "watawāṣaw"
+          "transliteration": "watawāṣaw",
+          "page": 601,
+          "line": 4
         },
         {
           "text": "بِٱلصَّبْرِ",
@@ -170,7 +201,9 @@
             "en": "to [the] patience",
             "id": "dengan kesabaran"
           },
-          "transliteration": "bil-ṣabri"
+          "transliteration": "bil-ṣabri",
+          "page": 601,
+          "line": 4
         }
       ]
     }

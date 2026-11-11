@@ -31,6 +31,13 @@ const SURAHS_DIR = 'src/data/surahs';
 const SURAH_COUNT = 114;
 const VERSES_PER_REQUEST = 50; // the API's maximum
 
+// Bump this when the saved format changes, so old files get downloaded again.
+// 2 = words have their mushaf page and line
+// 3 = page/line from mushaf layout 1 (the API's default layout puts a few verses one page too late, e.g. 80:41)
+// 4 = positions from a separate request without word_fields (see addPositions)
+const FORMAT_VERSION = 4;
+const MUSHAF_LAYOUT = 1; // the 15-line Madani mushaf, 604 pages
+
 /*
   Languages on the site: a translation + word-by-word meanings for each.
   Ids and names checked against /resources/translations.
@@ -58,6 +65,7 @@ function toChapter(raw) {
     revelationPlace: raw.revelation_place, // "makkah" | "madinah"
     versesCount: raw.verses_count,
     bismillahPre: raw.bismillah_pre, // does the surah start with the Bismillah?
+    pages: raw.pages, // [first, last] page in the Madani mushaf, e.g. [2, 49]
   };
 
   const problems = [];
@@ -67,6 +75,10 @@ function toChapter(raw) {
   }
   if (!Number.isInteger(chapter.versesCount) || chapter.versesCount < 1) problems.push('versesCount');
   if (typeof chapter.bismillahPre !== 'boolean') problems.push('bismillahPre');
+  const [first, last] = chapter.pages ?? [];
+  if (!(Number.isInteger(first) && Number.isInteger(last) && first >= 1 && last >= first && last <= 604)) {
+    problems.push('pages');
+  }
 
   if (problems.length) {
     throw new Error(`Chapter ${raw.id ?? '?'} has missing/invalid: ${problems.join(', ')}`);
@@ -82,6 +94,19 @@ async function fetchChapters() {
     throw new Error('Unexpected response: no "chapters" list.');
   }
   const chapters = data.chapters.map(toChapter).sort((a, b) => a.id - b.id);
+
+  // The meaning of each surah's name in every site language: { en: "The Cow", id: "Sapi Betina" }
+  for (const chapter of chapters) chapter.translatedNames = { [MAIN_LANGUAGE.lang]: chapter.meaning };
+  for (const { lang } of OTHER_LANGUAGES) {
+    const other = await apiGet('/chapters', { language: lang });
+    for (const raw of other.chapters ?? []) {
+      const chapter = chapters.find((c) => c.id === raw.id);
+      const name = raw.translated_name?.name;
+      if (chapter && name) chapter.translatedNames[lang] = name;
+    }
+    const missing = chapters.filter((c) => !c.translatedNames[lang]).map((c) => c.id);
+    if (missing.length) throw new Error(`No "${lang}" surah meaning for: ${missing.join(', ')}. Nothing saved.`);
+  }
 
   // Every id must be a real surah number (1-114) and appear only once
   const ids = chapters.map((c) => c.id);
@@ -127,7 +152,13 @@ function toWord(raw, verseKey) {
     text: raw.text_uthmani,
     meanings: { [MAIN_LANGUAGE.lang]: raw.translation?.text },
     transliteration: raw.transliteration?.text ?? null,
+    // Mushaf page and line (1-15). Replaced by addPositions() with the reliable values.
+    page: raw.page_number,
+    line: raw.line_number,
   };
+  if (!Number.isInteger(word.page) || !Number.isInteger(word.line) || word.line < 1 || word.line > 15) {
+    throw new Error(`Word ${raw.position} in ${verseKey} has no valid mushaf page/line.`);
+  }
   if (!word.text || !word.meanings[MAIN_LANGUAGE.lang]) {
     throw new Error(`Word ${raw.position} in ${verseKey} is missing its text or meaning.`);
   }
@@ -186,6 +217,7 @@ async function fetchVerses(chapterId) {
     word_fields: 'text_uthmani',
     fields: 'text_uthmani',
     translations: LANGUAGES.map((l) => l.translationId).join(','),
+    mushaf: MUSHAF_LAYOUT, // which printed layout the word page/line numbers refer to
   });
   const verses = raw.map(toVerse);
 
@@ -206,7 +238,34 @@ async function fetchVerses(chapterId) {
       });
     });
   }
+
+  await addPositions(chapterId, verses);
   return verses;
+}
+
+/*
+  Word positions (page + line) come from their OWN request, with no word_fields.
+  Why: asking for word_fields=text_uthmani makes the API report some words one page off
+  (e.g. 68:16 shows as 564:1 instead of 565:1). Without word_fields the positions are right.
+*/
+async function addPositions(chapterId, verses) {
+  const raw = await fetchAllPages(chapterId, { words: 'true', mushaf: MUSHAF_LAYOUT });
+  if (raw.length !== verses.length) throw new Error(`Positions: verse count differs in surah ${chapterId}.`);
+  raw.forEach((rawVerse, i) => setPositions(verses[i], onlyWords(rawVerse)));
+}
+
+// Copy page/line onto a saved verse's words (same number of words, same order)
+function setPositions(verse, rawWords) {
+  if (rawWords.length !== verse.words.length) {
+    throw new Error(`Positions for ${verse.key}: ${rawWords.length} words, expected ${verse.words.length}.`);
+  }
+  rawWords.forEach((w, i) => {
+    if (!Number.isInteger(w.page_number) || !Number.isInteger(w.line_number)) {
+      throw new Error(`Word ${i + 1} in ${verse.key} has no page/line.`);
+    }
+    verse.words[i].page = w.page_number;
+    verse.words[i].line = w.line_number;
+  });
 }
 
 // A saved file only counts if it has exactly the current languages (an old format gets refetched)
@@ -214,7 +273,7 @@ async function isUpToDate(file) {
   if (!existsSync(file)) return false;
   try {
     const saved = JSON.parse(await readFile(file, 'utf8'));
-    return JSON.stringify(saved.languages) === JSON.stringify(LANGUAGES);
+    return saved.formatVersion === FORMAT_VERSION && JSON.stringify(saved.languages) === JSON.stringify(LANGUAGES);
   } catch {
     return false; // unreadable = fetch again
   }
@@ -237,11 +296,126 @@ async function fetchSurah(chapter, { force }) {
 
   await writeJsonSafely(file, {
     ...chapter,
+    formatVersion: FORMAT_VERSION,
     languages: LANGUAGES,
     source: 'Quran.com / Quran Foundation API v4',
     verses,
   });
   return 'saved';
+}
+
+// ---------- Mushaf layout of each surah ----------
+
+const LINES_PER_PAGE = 15;
+
+// The line just above (page, line); line 1 wraps to line 15 of the previous page
+const lineAbove = ({ page, line }) => (line > 1 ? { page, line: line - 1 } : { page: page - 1, line: LINES_PER_PAGE });
+
+/*
+  Works out, from the saved word positions, where each surah sits in the mushaf:
+    titleAt / bismillahAt: the empty lines above the first word (they can be on the
+    PREVIOUS page, e.g. An-Nisa's title is on line 15 of page 76)
+    pages: [page of the title, page of the last word]
+  We don't use the API's own chapter page ranges: a few are wrong (e.g. 'Abasa ends on 586, not 585).
+*/
+/*
+  Works out the layout, checks it, and repairs what the API got wrong:
+  the whole-surah request sometimes reports a word one page off (e.g. 68:16, 80:41),
+  while asking for that single verse gives the right position. So we re-download
+  just the suspicious verses one by one and check again (up to 3 rounds).
+*/
+async function addMushafLayout(chapters) {
+  const MAX_ROUNDS = 3;
+  for (let round = 1; round <= MAX_ROUNDS; round++) {
+    const allWords = await computeLayout(chapters);
+    const problems = findLayoutProblems(chapters, allWords);
+    if (problems.length === 0) {
+      await writeJsonSafely(CHAPTERS_FILE, { source: 'Quran.com / Quran Foundation API v4', chapters });
+      return;
+    }
+    const messages = [...new Set(problems.map((p) => p.message))];
+    if (round === MAX_ROUNDS) {
+      throw new Error(`Mushaf layout problems remain:\n  ${messages.slice(0, 10).join('\n  ')}`);
+    }
+    const keys = [...new Set(problems.flatMap((p) => p.keys))];
+    console.log(`  Layout check found ${messages.length} problem(s); re-checking ${keys.length} verse(s) one by one...`);
+    await repairVersePositions(keys);
+  }
+}
+
+// Fills in titleAt / bismillahAt / pages; returns every word of the Quran in reading order
+async function computeLayout(chapters) {
+  const allWords = [];
+  for (const chapter of chapters) {
+    const file = `${SURAHS_DIR}/${String(chapter.id).padStart(3, '0')}.json`;
+    if (!existsSync(file)) continue;
+    const { verses } = JSON.parse(await readFile(file, 'utf8'));
+    const first = verses[0].words[0];
+    const last = verses.at(-1).words.at(-1);
+
+    // Al-Fatihah's Bismillah is verse 1 (in the text), At-Tawbah has none: both only need a title line
+    const bismillahAt = chapter.bismillahPre ? lineAbove(first) : null;
+    const titleAt = lineAbove(bismillahAt ?? first);
+
+    chapter.titleAt = titleAt;
+    chapter.bismillahAt = bismillahAt;
+    chapter.pages = [titleAt.page, last.page];
+    for (const v of verses) for (const w of v.words) allWords.push({ key: v.key, page: w.page, line: w.line });
+  }
+  return allWords;
+}
+
+/*
+  Safety checks on the layout:
+    1. Reading order: each word is on the same line as the previous one, or later.
+    2. No word on a line reserved for a surah title or Bismillah.
+  Returns [{ message, keys }]: keys = the verses to re-check.
+*/
+function findLayoutProblems(chapters, allWords) {
+  const problems = [];
+  const position = (w) => w.page * 100 + w.line; // page 586 line 15 -> 58615
+  allWords.forEach((w, i) => {
+    const before = allWords[i - 1];
+    if (before && position(w) < position(before)) {
+      problems.push({ message: `${w.key} (${w.page}:${w.line}) comes before ${before.key}`, keys: [w.key, before.key] });
+    }
+  });
+
+  const reserved = new Map();
+  for (const c of chapters) {
+    if (c.titleAt) reserved.set(position(c.titleAt), c);
+    if (c.bismillahAt) reserved.set(position(c.bismillahAt), c);
+  }
+  for (const w of allWords) {
+    const owner = reserved.get(position(w));
+    if (owner) {
+      // either this word is misplaced, or the next surah's first verse is (which decides the title spot)
+      problems.push({ message: `${w.key} sits on surah ${owner.id}'s title/Bismillah line (${w.page}:${w.line})`, keys: [w.key, `${owner.id}:1`] });
+    }
+  }
+  return problems;
+}
+
+// Re-download single verses (reliable positions) and correct their words' page/line in the saved files
+async function repairVersePositions(keys) {
+  const bySurah = new Map();
+  for (const key of keys) {
+    const surah = Number(key.split(':')[0]);
+    bySurah.set(surah, [...(bySurah.get(surah) ?? []), key]);
+  }
+
+  for (const [surahId, surahKeys] of bySurah) {
+    const file = `${SURAHS_DIR}/${String(surahId).padStart(3, '0')}.json`;
+    const saved = JSON.parse(await readFile(file, 'utf8'));
+    for (const key of surahKeys) {
+      // No word_fields here, on purpose: see addPositions()
+      const { verse } = await apiGet(`/verses/by_key/${key}`, { words: 'true', mushaf: MUSHAF_LAYOUT });
+      const target = saved.verses.find((v) => v.key === key);
+      if (!target) throw new Error(`Couldn't re-check ${key}: not in the saved surah.`);
+      setPositions(target, onlyWords(verse));
+    }
+    await writeJsonSafely(file, saved);
+  }
 }
 
 // ---------- Run ----------
@@ -267,6 +441,9 @@ try {
     const result = await fetchSurah(chapter, options);
     console.log(`  ${String(chapter.id).padStart(3)} ${chapter.nameSimple}: ${result}`);
   }
+
+  await addMushafLayout(chapters);
+  console.log(`  Saved mushaf layout (title lines, page ranges) to ${CHAPTERS_FILE}`);
   console.log('Done.');
 } catch (err) {
   console.error(`\nFailed: ${err.message}`);

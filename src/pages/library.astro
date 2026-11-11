@@ -1,0 +1,87 @@
+---
+/*
+  The library: /library
+  A curved wall of bookcases around the person; turn to a wing and walk to it.
+  The room itself is components/LibraryRoom.astro (so it can be swapped for Three.js later).
+*/
+import Base from '../layouts/Base.astro';
+import LanguageSwitch from '../components/LanguageSwitch.astro';
+import LibraryRoom from '../components/LibraryRoom.astro';
+import T from '../components/T.astro';
+---
+
+<Base
+  title="The library"
+  description="Omar's Library: turn to a wing and walk to a shelf. Quran & Islamic Studies, Aerospace, Computer Science and more."
+  theme="library"
+  fonts={['library']}
+>
+  <main class="page">
+    <header class="head">
+      <div>
+        <p class="eyebrow"><T en="Omar's Library" id="Perpustakaan Omar" /></p>
+        <h1><T en="Turn to a wing" id="Pilih sebuah bagian" /></h1>
+      </div>
+      <p class="hint"><T en="Swipe or tap a shelf" id="Geser atau ketuk rak" /></p>
+    </header>
+
+    <LibraryRoom />
+
+    <nav class="foot" aria-label="More">
+      <a href="/">← <T en="Home" id="Beranda" /></a>
+      <LanguageSwitch />
+    </nav>
+  </main>
+</Base>
+
+<style>
+  .page {
+    max-width: 64rem;
+    margin-inline: auto;
+    padding-bottom: 2rem;
+    /* warm glow from above, like a lamp in the library */
+    background: radial-gradient(ellipse at 50% 0%, rgb(232 196 124 / 0.12), transparent 55%);
+  }
+
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1rem;
+    padding: 1.5rem var(--gutter) 0.5rem;
+  }
+
+  .eyebrow {
+    margin: 0 0 0.3rem;
+    color: var(--gold-300);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-family: var(--font-library);
+    font-size: clamp(1.9rem, 8vw, 2.6rem);
+    font-weight: 600;
+  }
+
+  .hint {
+    margin: 0 0 0.3rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+    text-align: right;
+  }
+
+  .foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem var(--gutter) 0;
+  }
+
+  .foot a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+</style>

@@ -14,18 +14,19 @@ import InterestIcon, { type InterestIconName } from './InterestIcon.astro';
 import Person from './Person.astro';
 
 interface Interest {
-  name: string;
+  name: string; // full name (caption and screen readers)
+  label: string; // short name shown under the badge
   icon: InterestIconName;
   href?: string; // where a tap can lead, if that page exists yet
 }
 
 const interests: Interest[] = [
-  { name: 'Aerospace', icon: 'plane' },
-  { name: 'Quran & Islamic Studies', icon: 'quran', href: '/quran' },
-  { name: 'Physics', icon: 'atom' },
-  { name: 'Computer Science', icon: 'code' },
-  { name: 'Languages', icon: 'languages' },
-  { name: 'Space', icon: 'planet' },
+  { name: 'Aerospace', label: 'Aerospace', icon: 'plane' },
+  { name: 'Quran & Islamic Studies', label: 'Quran', icon: 'quran', href: '/quran' },
+  { name: 'Physics', label: 'Physics', icon: 'atom' },
+  { name: 'Computer Science', label: 'Computer Science', icon: 'code' },
+  { name: 'Languages', label: 'Languages', icon: 'languages' },
+  { name: 'Space', label: 'Space', icon: 'planet' },
 ];
 ---
 
@@ -44,12 +45,15 @@ const interests: Interest[] = [
               aria-label={interest.name}
             >
               <InterestIcon name={interest.icon} />
+              {/* the button already has aria-label, so screen readers skip this copy */}
+              <span class="badge-name" aria-hidden="true">{interest.label}</span>
             </button>
           </div>
         ))
       }
     </div>
-    <Person class="figure" />
+    <!-- Wrapper owned by this component, so its (scoped) styles really apply -->
+    <div class="figure"><Person /></div>
   </div>
 
   <p class="hint">Tap a planet of interest</p>
@@ -155,12 +159,15 @@ const interests: Interest[] = [
     transition: transform 0.4s ease-out; /* smooth out jittery mouse/phone input */
   }
 
+  /* A full-width strip along the bottom; flexbox centres the person inside it */
   .figure {
     position: absolute;
-    left: 50%;
+    inset-inline: 0;
     bottom: 0;
     height: 88%;
-    transform: translateX(-50%) translateZ(0); /* stands in the 3D space, at the centre */
+    display: flex;
+    justify-content: center;
+    transform: translateZ(0); /* stands in the 3D space, at the centre of the orbit */
   }
 
   /* ---- The orbit plane ---- */
@@ -221,6 +228,29 @@ const interests: Interest[] = [
     color: var(--accent);
     cursor: pointer;
     transition: scale 0.2s ease, border-color 0.2s ease;
+  }
+
+  /* Badges need position: relative so the name can sit just below the circle */
+  .badge {
+    position: relative;
+  }
+
+  .badge-name {
+    position: absolute;
+    top: calc(100% + 0.3rem);
+    left: 50%;
+    translate: -50% 0;
+    color: var(--text);
+    font-family: var(--font-display);
+    font-size: 0.7rem;
+    font-weight: 600;
+    white-space: nowrap;
+    text-shadow: 0 1px 6px var(--bg); /* stays readable over the ring and the person */
+    pointer-events: none;
+  }
+
+  .badge.gold .badge-name {
+    color: var(--highlight);
   }
 
   .badge:hover,

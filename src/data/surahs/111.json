@@ -6,6 +6,11 @@
   "revelationPlace": "makkah",
   "versesCount": 5,
   "bismillahPre": true,
+  "pages": [
+    603,
+    603
+  ],
+  "formatVersion": 4,
   "languages": [
     {
       "lang": "en",
@@ -38,7 +43,9 @@
             "en": "Perish",
             "id": "binasalah"
           },
-          "transliteration": "tabbat"
+          "transliteration": "tabbat",
+          "page": 603,
+          "line": 13
         },
         {
           "text": "يَدَآ",
@@ -46,7 +53,9 @@
             "en": "(the) hands",
             "id": "kedua tangan"
           },
-          "transliteration": "yadā"
+          "transliteration": "yadā",
+          "page": 603,
+          "line": 13
         },
         {
           "text": "أَبِى",
@@ -54,7 +63,9 @@
             "en": "(of) Abu",
             "id": "Abu"
           },
-          "transliteration": "abī"
+          "transliteration": "abī",
+          "page": 603,
+          "line": 13
         },
         {
           "text": "لَهَبٍۢ",
@@ -62,7 +73,9 @@
             "en": "Lahab",
             "id": "Lahab"
           },
-          "transliteration": "lahabin"
+          "transliteration": "lahabin",
+          "page": 603,
+          "line": 13
         },
         {
           "text": "وَتَبَّ",
@@ -70,7 +83,9 @@
             "en": "and perish he",
             "id": "sebenar-benar binasa"
           },
-          "transliteration": "watabba"
+          "transliteration": "watabba",
+          "page": 603,
+          "line": 13
         }
       ]
     },
@@ -92,7 +107,9 @@
             "en": "Not",
             "id": "tidak"
           },
-          "transliteration": "mā"
+          "transliteration": "mā",
+          "page": 603,
+          "line": 13
         },
         {
           "text": "أَغْنَىٰ",
@@ -100,7 +117,9 @@
             "en": "(will) avail",
             "id": "berguna"
           },
-          "transliteration": "aghnā"
+          "transliteration": "aghnā",
+          "page": 603,
+          "line": 13
         },
         {
           "text": "عَنْهُ",
@@ -108,7 +127,9 @@
             "en": "him",
             "id": "dari padanya/kepadanya"
           },
-          "transliteration": "ʿanhu"
+          "transliteration": "ʿanhu",
+          "page": 603,
+          "line": 13
         },
         {
           "text": "مَالُهُۥ",
@@ -116,7 +137,9 @@
             "en": "his wealth",
             "id": "hartanya"
           },
-          "transliteration": "māluhu"
+          "transliteration": "māluhu",
+          "page": 603,
+          "line": 13
         },
         {
           "text": "وَمَا",
@@ -124,7 +147,9 @@
             "en": "and what",
             "id": "dan apa"
           },
-          "transliteration": "wamā"
+          "transliteration": "wamā",
+          "page": 603,
+          "line": 13
         },
         {
           "text": "كَسَبَ",
@@ -132,7 +157,9 @@
             "en": "he earned",
             "id": "yang ia usahakan"
           },
-          "transliteration": "kasaba"
+          "transliteration": "kasaba",
+          "page": 603,
+          "line": 14
         }
       ]
     },
@@ -154,7 +181,9 @@
             "en": "He will be burnt",
             "id": "kelak ia akan masuk"
           },
-          "transliteration": "sayaṣlā"
+          "transliteration": "sayaṣlā",
+          "page": 603,
+          "line": 14
         },
         {
           "text": "نَارًۭا",
@@ -162,7 +191,9 @@
             "en": "(in) a Fire",
             "id": "api"
           },
-          "transliteration": "nāran"
+          "transliteration": "nāran",
+          "page": 603,
+          "line": 14
         },
         {
           "text": "ذَاتَ",
@@ -170,7 +201,9 @@
             "en": "of",
             "id": "mempunyai"
           },
-          "transliteration": "dhāta"
+          "transliteration": "dhāta",
+          "page": 603,
+          "line": 14
         },
         {
           "text": "لَهَبٍۢ",
@@ -178,7 +211,9 @@
             "en": "Blazing Flames",
             "id": "begejolak"
           },
-          "transliteration": "lahabin"
+          "transliteration": "lahabin",
+          "page": 603,
+          "line": 14
         }
       ]
     },
@@ -200,7 +235,9 @@
             "en": "And his wife",
             "id": "dan istrinya"
           },
-          "transliteration": "wa-im'ra-atuhu"
+          "transliteration": "wa-im'ra-atuhu",
+          "page": 603,
+          "line": 14
         },
         {
           "text": "حَمَّالَةَ",
@@ -208,7 +245,9 @@
             "en": "(the) carrier",
             "id": "pembawa"
           },
-          "transliteration": "ḥammālata"
+          "transliteration": "ḥammālata",
+          "page": 603,
+          "line": 15
         },
         {
           "text": "ٱلْحَطَبِ",
@@ -216,7 +255,9 @@
             "en": "(of) firewood",
             "id": "kayu bakar"
           },
-          "transliteration": "l-ḥaṭabi"
+          "transliteration": "l-ḥaṭabi",
+          "page": 603,
+          "line": 15
         }
       ]
     },
@@ -238,7 +279,9 @@
             "en": "In",
             "id": "pada"
           },
-          "transliteration": "fī"
+          "transliteration": "fī",
+          "page": 603,
+          "line": 15
         },
         {
           "text": "جِيدِهَا",
@@ -246,7 +289,9 @@
             "en": "her neck",
             "id": "lehernya"
           },
-          "transliteration": "jīdihā"
+          "transliteration": "jīdihā",
+          "page": 603,
+          "line": 15
         },
         {
           "text": "حَبْلٌۭ",
@@ -254,7 +299,9 @@
             "en": "(will be) a rope",
             "id": "tali"
           },
-          "transliteration": "ḥablun"
+          "transliteration": "ḥablun",
+          "page": 603,
+          "line": 15
         },
         {
           "text": "مِّن",
@@ -262,7 +309,9 @@
             "en": "of",
             "id": "dari"
           },
-          "transliteration": "min"
+          "transliteration": "min",
+          "page": 603,
+          "line": 15
         },
         {
           "text": "مَّسَدٍۭ",
@@ -270,7 +319,9 @@
             "en": "palm-fiber",
             "id": "sabut"
           },
-          "transliteration": "masadin"
+          "transliteration": "masadin",
+          "page": 603,
+          "line": 15
         }
       ]
     }

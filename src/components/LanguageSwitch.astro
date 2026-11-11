@@ -22,6 +22,7 @@ import { LANGUAGE_LABELS } from '../lib/quran';
 
   function apply(indonesian: boolean) {
     document.documentElement.classList.toggle('lang-id', indonesian);
+    document.documentElement.lang = indonesian ? 'id' : 'en'; // screen readers use the right voice
     button.setAttribute('aria-checked', String(indonesian));
   }
 

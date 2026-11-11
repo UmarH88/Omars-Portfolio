@@ -8,7 +8,20 @@
       "meaning": "The Opener",
       "revelationPlace": "makkah",
       "versesCount": 7,
-      "bismillahPre": false
+      "bismillahPre": false,
+      "pages": [
+        1,
+        1
+      ],
+      "translatedNames": {
+        "en": "The Opener",
+        "id": "Pembukaan"
+      },
+      "titleAt": {
+        "page": 1,
+        "line": 1
+      },
+      "bismillahAt": null
     },
     {
       "id": 2,
@@ -17,7 +30,23 @@
       "meaning": "The Cow",
       "revelationPlace": "madinah",
       "versesCount": 286,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        2,
+        49
+      ],
+      "translatedNames": {
+        "en": "The Cow",
+        "id": "Sapi Betina"
+      },
+      "titleAt": {
+        "page": 2,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 2,
+        "line": 2
+      }
     },
     {
       "id": 3,
@@ -26,7 +55,23 @@
       "meaning": "Family of Imran",
       "revelationPlace": "madinah",
       "versesCount": 200,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        50,
+        76
+      ],
+      "translatedNames": {
+        "en": "Family of Imran",
+        "id": "Keluarga Imran"
+      },
+      "titleAt": {
+        "page": 50,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 50,
+        "line": 2
+      }
     },
     {
       "id": 4,
@@ -35,7 +80,23 @@
       "meaning": "The Women",
       "revelationPlace": "madinah",
       "versesCount": 176,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        76,
+        106
+      ],
+      "translatedNames": {
+        "en": "The Women",
+        "id": "Wanita"
+      },
+      "titleAt": {
+        "page": 76,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 77,
+        "line": 1
+      }
     },
     {
       "id": 5,
@@ -44,7 +105,23 @@
       "meaning": "The Table Spread",
       "revelationPlace": "madinah",
       "versesCount": 120,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        106,
+        127
+      ],
+      "translatedNames": {
+        "en": "The Table Spread",
+        "id": "Jamuan (Hidangan Makanan)"
+      },
+      "titleAt": {
+        "page": 106,
+        "line": 6
+      },
+      "bismillahAt": {
+        "page": 106,
+        "line": 7
+      }
     },
     {
       "id": 6,
@@ -53,7 +130,23 @@
       "meaning": "The Cattle",
       "revelationPlace": "makkah",
       "versesCount": 165,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        128,
+        150
+      ],
+      "translatedNames": {
+        "en": "The Cattle",
+        "id": "Binatang Ternak"
+      },
+      "titleAt": {
+        "page": 128,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 128,
+        "line": 2
+      }
     },
     {
       "id": 7,
@@ -62,7 +155,23 @@
       "meaning": "The Heights",
       "revelationPlace": "makkah",
       "versesCount": 206,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        151,
+        176
+      ],
+      "translatedNames": {
+        "en": "The Heights",
+        "id": "Tempat-tempat Tinggi"
+      },
+      "titleAt": {
+        "page": 151,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 151,
+        "line": 2
+      }
     },
     {
       "id": 8,
@@ -71,7 +180,23 @@
       "meaning": "The Spoils of War",
       "revelationPlace": "madinah",
       "versesCount": 75,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        177,
+        186
+      ],
+      "translatedNames": {
+        "en": "The Spoils of War",
+        "id": "Rampasan Perang"
+      },
+      "titleAt": {
+        "page": 177,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 177,
+        "line": 2
+      }
     },
     {
       "id": 9,
@@ -80,7 +205,20 @@
       "meaning": "The Repentance",
       "revelationPlace": "madinah",
       "versesCount": 129,
-      "bismillahPre": false
+      "bismillahPre": false,
+      "pages": [
+        187,
+        207
+      ],
+      "translatedNames": {
+        "en": "The Repentance",
+        "id": "Pengampunan"
+      },
+      "titleAt": {
+        "page": 187,
+        "line": 1
+      },
+      "bismillahAt": null
     },
     {
       "id": 10,
@@ -89,7 +227,23 @@
       "meaning": "Jonah",
       "revelationPlace": "makkah",
       "versesCount": 109,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        207,
+        221
+      ],
+      "translatedNames": {
+        "en": "Jonah",
+        "id": "Yunus"
+      },
+      "titleAt": {
+        "page": 207,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 208,
+        "line": 1
+      }
     },
     {
       "id": 11,
@@ -98,7 +252,23 @@
       "meaning": "Hud",
       "revelationPlace": "makkah",
       "versesCount": 123,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        221,
+        235
+      ],
+      "translatedNames": {
+        "en": "Hud",
+        "id": "Hud"
+      },
+      "titleAt": {
+        "page": 221,
+        "line": 7
+      },
+      "bismillahAt": {
+        "page": 221,
+        "line": 8
+      }
     },
     {
       "id": 12,
@@ -107,7 +277,23 @@
       "meaning": "Joseph",
       "revelationPlace": "makkah",
       "versesCount": 111,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        235,
+        248
+      ],
+      "translatedNames": {
+        "en": "Joseph",
+        "id": "Yusuf"
+      },
+      "titleAt": {
+        "page": 235,
+        "line": 9
+      },
+      "bismillahAt": {
+        "page": 235,
+        "line": 10
+      }
     },
     {
       "id": 13,
@@ -116,7 +302,23 @@
       "meaning": "The Thunder",
       "revelationPlace": "madinah",
       "versesCount": 43,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        249,
+        255
+      ],
+      "translatedNames": {
+        "en": "The Thunder",
+        "id": "Guruh (Petir)"
+      },
+      "titleAt": {
+        "page": 249,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 249,
+        "line": 2
+      }
     },
     {
       "id": 14,
@@ -125,7 +327,23 @@
       "meaning": "Abraham",
       "revelationPlace": "makkah",
       "versesCount": 52,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        255,
+        261
+      ],
+      "translatedNames": {
+        "en": "Abraham",
+        "id": "Ibrahim"
+      },
+      "titleAt": {
+        "page": 255,
+        "line": 3
+      },
+      "bismillahAt": {
+        "page": 255,
+        "line": 4
+      }
     },
     {
       "id": 15,
@@ -134,7 +352,23 @@
       "meaning": "The Rocky Tract",
       "revelationPlace": "makkah",
       "versesCount": 99,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        262,
+        267
+      ],
+      "translatedNames": {
+        "en": "The Rocky Tract",
+        "id": "Bukit"
+      },
+      "titleAt": {
+        "page": 262,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 262,
+        "line": 2
+      }
     },
     {
       "id": 16,
@@ -143,7 +377,23 @@
       "meaning": "The Bee",
       "revelationPlace": "makkah",
       "versesCount": 128,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        267,
+        281
+      ],
+      "translatedNames": {
+        "en": "The Bee",
+        "id": "Lebah Madu"
+      },
+      "titleAt": {
+        "page": 267,
+        "line": 7
+      },
+      "bismillahAt": {
+        "page": 267,
+        "line": 8
+      }
     },
     {
       "id": 17,
@@ -152,7 +402,23 @@
       "meaning": "The Night Journey",
       "revelationPlace": "makkah",
       "versesCount": 111,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        282,
+        293
+      ],
+      "translatedNames": {
+        "en": "The Night Journey",
+        "id": "Perjalanan Malam"
+      },
+      "titleAt": {
+        "page": 282,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 282,
+        "line": 2
+      }
     },
     {
       "id": 18,
@@ -161,7 +427,23 @@
       "meaning": "The Cave",
       "revelationPlace": "makkah",
       "versesCount": 110,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        293,
+        304
+      ],
+      "translatedNames": {
+        "en": "The Cave",
+        "id": "Para Penghuni Gua"
+      },
+      "titleAt": {
+        "page": 293,
+        "line": 10
+      },
+      "bismillahAt": {
+        "page": 293,
+        "line": 11
+      }
     },
     {
       "id": 19,
@@ -170,7 +452,23 @@
       "meaning": "Mary",
       "revelationPlace": "makkah",
       "versesCount": 98,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        305,
+        312
+      ],
+      "translatedNames": {
+        "en": "Mary",
+        "id": "Maryam"
+      },
+      "titleAt": {
+        "page": 305,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 305,
+        "line": 2
+      }
     },
     {
       "id": 20,
@@ -179,7 +477,23 @@
       "meaning": "Ta-Ha",
       "revelationPlace": "makkah",
       "versesCount": 135,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        312,
+        321
+      ],
+      "translatedNames": {
+        "en": "Ta-Ha",
+        "id": "Tha-Ha"
+      },
+      "titleAt": {
+        "page": 312,
+        "line": 5
+      },
+      "bismillahAt": {
+        "page": 312,
+        "line": 6
+      }
     },
     {
       "id": 21,
@@ -188,7 +502,23 @@
       "meaning": "The Prophets",
       "revelationPlace": "makkah",
       "versesCount": 112,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        322,
+        331
+      ],
+      "translatedNames": {
+        "en": "The Prophets",
+        "id": "Para Nabi"
+      },
+      "titleAt": {
+        "page": 322,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 322,
+        "line": 2
+      }
     },
     {
       "id": 22,
@@ -197,7 +527,23 @@
       "meaning": "The Pilgrimage",
       "revelationPlace": "madinah",
       "versesCount": 78,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        331,
+        341
+      ],
+      "translatedNames": {
+        "en": "The Pilgrimage",
+        "id": "Haji"
+      },
+      "titleAt": {
+        "page": 331,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 332,
+        "line": 1
+      }
     },
     {
       "id": 23,
@@ -206,7 +552,23 @@
       "meaning": "The Believers",
       "revelationPlace": "makkah",
       "versesCount": 118,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        341,
+        349
+      ],
+      "translatedNames": {
+        "en": "The Believers",
+        "id": "Orang-orang Mukmin"
+      },
+      "titleAt": {
+        "page": 341,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 342,
+        "line": 1
+      }
     },
     {
       "id": 24,
@@ -215,7 +577,23 @@
       "meaning": "The Light",
       "revelationPlace": "madinah",
       "versesCount": 64,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        349,
+        359
+      ],
+      "translatedNames": {
+        "en": "The Light",
+        "id": "Cahaya"
+      },
+      "titleAt": {
+        "page": 349,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 350,
+        "line": 1
+      }
     },
     {
       "id": 25,
@@ -224,7 +602,23 @@
       "meaning": "The Criterion",
       "revelationPlace": "makkah",
       "versesCount": 77,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        359,
+        366
+      ],
+      "translatedNames": {
+        "en": "The Criterion",
+        "id": "Pembeda"
+      },
+      "titleAt": {
+        "page": 359,
+        "line": 11
+      },
+      "bismillahAt": {
+        "page": 359,
+        "line": 12
+      }
     },
     {
       "id": 26,
@@ -233,7 +627,23 @@
       "meaning": "The Poets",
       "revelationPlace": "makkah",
       "versesCount": 227,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        366,
+        376
+      ],
+      "translatedNames": {
+        "en": "The Poets",
+        "id": "Penyair"
+      },
+      "titleAt": {
+        "page": 366,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 367,
+        "line": 1
+      }
     },
     {
       "id": 27,
@@ -242,7 +652,23 @@
       "meaning": "The Ant",
       "revelationPlace": "makkah",
       "versesCount": 93,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        376,
+        385
+      ],
+      "translatedNames": {
+        "en": "The Ant",
+        "id": "Semut"
+      },
+      "titleAt": {
+        "page": 376,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 377,
+        "line": 1
+      }
     },
     {
       "id": 28,
@@ -251,7 +677,23 @@
       "meaning": "The Stories",
       "revelationPlace": "makkah",
       "versesCount": 88,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        385,
+        396
+      ],
+      "translatedNames": {
+        "en": "The Stories",
+        "id": "Kisah-kisah"
+      },
+      "titleAt": {
+        "page": 385,
+        "line": 8
+      },
+      "bismillahAt": {
+        "page": 385,
+        "line": 9
+      }
     },
     {
       "id": 29,
@@ -260,7 +702,23 @@
       "meaning": "The Spider",
       "revelationPlace": "makkah",
       "versesCount": 69,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        396,
+        404
+      ],
+      "translatedNames": {
+        "en": "The Spider",
+        "id": "Laba-laba"
+      },
+      "titleAt": {
+        "page": 396,
+        "line": 8
+      },
+      "bismillahAt": {
+        "page": 396,
+        "line": 9
+      }
     },
     {
       "id": 30,
@@ -269,7 +727,23 @@
       "meaning": "The Romans",
       "revelationPlace": "makkah",
       "versesCount": 60,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        404,
+        410
+      ],
+      "translatedNames": {
+        "en": "The Romans",
+        "id": "Bangsa Romawi"
+      },
+      "titleAt": {
+        "page": 404,
+        "line": 10
+      },
+      "bismillahAt": {
+        "page": 404,
+        "line": 11
+      }
     },
     {
       "id": 31,
@@ -278,7 +752,23 @@
       "meaning": "Luqman",
       "revelationPlace": "makkah",
       "versesCount": 34,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        411,
+        414
+      ],
+      "translatedNames": {
+        "en": "Luqman",
+        "id": "Luqman"
+      },
+      "titleAt": {
+        "page": 411,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 411,
+        "line": 2
+      }
     },
     {
       "id": 32,
@@ -287,7 +777,23 @@
       "meaning": "The Prostration",
       "revelationPlace": "makkah",
       "versesCount": 30,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        414,
+        417
+      ],
+      "translatedNames": {
+        "en": "The Prostration",
+        "id": "Sujud"
+      },
+      "titleAt": {
+        "page": 414,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 415,
+        "line": 1
+      }
     },
     {
       "id": 33,
@@ -296,7 +802,23 @@
       "meaning": "The Combined Forces",
       "revelationPlace": "madinah",
       "versesCount": 73,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        417,
+        427
+      ],
+      "translatedNames": {
+        "en": "The Combined Forces",
+        "id": "Golongan yang Bersekutu"
+      },
+      "titleAt": {
+        "page": 417,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 418,
+        "line": 1
+      }
     },
     {
       "id": 34,
@@ -305,7 +827,23 @@
       "meaning": "Sheba",
       "revelationPlace": "makkah",
       "versesCount": 54,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        428,
+        434
+      ],
+      "translatedNames": {
+        "en": "Sheba",
+        "id": "Saba\\'"
+      },
+      "titleAt": {
+        "page": 428,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 428,
+        "line": 2
+      }
     },
     {
       "id": 35,
@@ -314,7 +852,23 @@
       "meaning": "Originator",
       "revelationPlace": "makkah",
       "versesCount": 45,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        434,
+        440
+      ],
+      "translatedNames": {
+        "en": "Originator",
+        "id": "Pencipta"
+      },
+      "titleAt": {
+        "page": 434,
+        "line": 8
+      },
+      "bismillahAt": {
+        "page": 434,
+        "line": 9
+      }
     },
     {
       "id": 36,
@@ -323,7 +877,23 @@
       "meaning": "Ya Sin",
       "revelationPlace": "makkah",
       "versesCount": 83,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        440,
+        445
+      ],
+      "translatedNames": {
+        "en": "Ya Sin",
+        "id": "Yas Sin"
+      },
+      "titleAt": {
+        "page": 440,
+        "line": 4
+      },
+      "bismillahAt": {
+        "page": 440,
+        "line": 5
+      }
     },
     {
       "id": 37,
@@ -332,7 +902,23 @@
       "meaning": "Those who set the Ranks",
       "revelationPlace": "makkah",
       "versesCount": 182,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        445,
+        452
+      ],
+      "translatedNames": {
+        "en": "Those who set the Ranks",
+        "id": "Barisan-barisan"
+      },
+      "titleAt": {
+        "page": 445,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 446,
+        "line": 1
+      }
     },
     {
       "id": 38,
@@ -341,7 +927,23 @@
       "meaning": "The Letter \"Saad\"",
       "revelationPlace": "makkah",
       "versesCount": 88,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        452,
+        458
+      ],
+      "translatedNames": {
+        "en": "The Letter \"Saad\"",
+        "id": "Shad"
+      },
+      "titleAt": {
+        "page": 452,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 453,
+        "line": 1
+      }
     },
     {
       "id": 39,
@@ -350,7 +952,23 @@
       "meaning": "The Troops",
       "revelationPlace": "makkah",
       "versesCount": 75,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        458,
+        467
+      ],
+      "translatedNames": {
+        "en": "The Troops",
+        "id": "Para Rombongan"
+      },
+      "titleAt": {
+        "page": 458,
+        "line": 4
+      },
+      "bismillahAt": {
+        "page": 458,
+        "line": 5
+      }
     },
     {
       "id": 40,
@@ -359,7 +977,23 @@
       "meaning": "The Forgiver",
       "revelationPlace": "makkah",
       "versesCount": 85,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        467,
+        476
+      ],
+      "translatedNames": {
+        "en": "The Forgiver",
+        "id": "Sang Maha Pengampun"
+      },
+      "titleAt": {
+        "page": 467,
+        "line": 3
+      },
+      "bismillahAt": {
+        "page": 467,
+        "line": 4
+      }
     },
     {
       "id": 41,
@@ -368,7 +1002,23 @@
       "meaning": "Explained in Detail",
       "revelationPlace": "makkah",
       "versesCount": 54,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        477,
+        482
+      ],
+      "translatedNames": {
+        "en": "Explained in Detail",
+        "id": "Yang Dijelaskan"
+      },
+      "titleAt": {
+        "page": 477,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 477,
+        "line": 2
+      }
     },
     {
       "id": 42,
@@ -377,7 +1027,23 @@
       "meaning": "The Consultation",
       "revelationPlace": "makkah",
       "versesCount": 53,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        483,
+        489
+      ],
+      "translatedNames": {
+        "en": "The Consultation",
+        "id": "Musyawarah"
+      },
+      "titleAt": {
+        "page": 483,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 483,
+        "line": 2
+      }
     },
     {
       "id": 43,
@@ -386,7 +1052,23 @@
       "meaning": "The Ornaments of Gold",
       "revelationPlace": "makkah",
       "versesCount": 89,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        489,
+        495
+      ],
+      "translatedNames": {
+        "en": "The Ornaments of Gold",
+        "id": "Perhiasan"
+      },
+      "titleAt": {
+        "page": 489,
+        "line": 5
+      },
+      "bismillahAt": {
+        "page": 489,
+        "line": 6
+      }
     },
     {
       "id": 44,
@@ -395,7 +1077,23 @@
       "meaning": "The Smoke",
       "revelationPlace": "makkah",
       "versesCount": 59,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        496,
+        498
+      ],
+      "translatedNames": {
+        "en": "The Smoke",
+        "id": "Kabut"
+      },
+      "titleAt": {
+        "page": 496,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 496,
+        "line": 2
+      }
     },
     {
       "id": 45,
@@ -404,7 +1102,23 @@
       "meaning": "The Crouching",
       "revelationPlace": "makkah",
       "versesCount": 37,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        498,
+        502
+      ],
+      "translatedNames": {
+        "en": "The Crouching",
+        "id": "Yang Bertekuk Lutut"
+      },
+      "titleAt": {
+        "page": 498,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 499,
+        "line": 1
+      }
     },
     {
       "id": 46,
@@ -413,7 +1127,23 @@
       "meaning": "The Wind-Curved Sandhills",
       "revelationPlace": "makkah",
       "versesCount": 35,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        502,
+        506
+      ],
+      "translatedNames": {
+        "en": "The Wind-Curved Sandhills",
+        "id": "Bukit-bukir Pasir"
+      },
+      "titleAt": {
+        "page": 502,
+        "line": 7
+      },
+      "bismillahAt": {
+        "page": 502,
+        "line": 8
+      }
     },
     {
       "id": 47,
@@ -422,7 +1152,23 @@
       "meaning": "Muhammad",
       "revelationPlace": "madinah",
       "versesCount": 38,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        506,
+        510
+      ],
+      "translatedNames": {
+        "en": "Muhammad",
+        "id": "Muhammad"
+      },
+      "titleAt": {
+        "page": 506,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 507,
+        "line": 1
+      }
     },
     {
       "id": 48,
@@ -431,7 +1177,23 @@
       "meaning": "The Victory",
       "revelationPlace": "madinah",
       "versesCount": 29,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        511,
+        515
+      ],
+      "translatedNames": {
+        "en": "The Victory",
+        "id": "Kemenangan"
+      },
+      "titleAt": {
+        "page": 511,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 511,
+        "line": 2
+      }
     },
     {
       "id": 49,
@@ -440,7 +1202,23 @@
       "meaning": "The Rooms",
       "revelationPlace": "madinah",
       "versesCount": 18,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        515,
+        517
+      ],
+      "translatedNames": {
+        "en": "The Rooms",
+        "id": "Kamar-kamar"
+      },
+      "titleAt": {
+        "page": 515,
+        "line": 7
+      },
+      "bismillahAt": {
+        "page": 515,
+        "line": 8
+      }
     },
     {
       "id": 50,
@@ -449,7 +1227,23 @@
       "meaning": "The Letter \"Qaf\"",
       "revelationPlace": "makkah",
       "versesCount": 45,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        518,
+        520
+      ],
+      "translatedNames": {
+        "en": "The Letter \"Qaf\"",
+        "id": "Qaf"
+      },
+      "titleAt": {
+        "page": 518,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 518,
+        "line": 2
+      }
     },
     {
       "id": 51,
@@ -458,7 +1252,23 @@
       "meaning": "The Winnowing Winds",
       "revelationPlace": "makkah",
       "versesCount": 60,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        520,
+        523
+      ],
+      "translatedNames": {
+        "en": "The Winnowing Winds",
+        "id": "Angin yang Menerbangkan"
+      },
+      "titleAt": {
+        "page": 520,
+        "line": 12
+      },
+      "bismillahAt": {
+        "page": 520,
+        "line": 13
+      }
     },
     {
       "id": 52,
@@ -467,7 +1277,23 @@
       "meaning": "The Mount",
       "revelationPlace": "makkah",
       "versesCount": 49,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        523,
+        525
+      ],
+      "translatedNames": {
+        "en": "The Mount",
+        "id": "Bukit"
+      },
+      "titleAt": {
+        "page": 523,
+        "line": 8
+      },
+      "bismillahAt": {
+        "page": 523,
+        "line": 9
+      }
     },
     {
       "id": 53,
@@ -476,7 +1302,23 @@
       "meaning": "The Star",
       "revelationPlace": "makkah",
       "versesCount": 62,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        525,
+        528
+      ],
+      "translatedNames": {
+        "en": "The Star",
+        "id": "Bintang"
+      },
+      "titleAt": {
+        "page": 525,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 526,
+        "line": 1
+      }
     },
     {
       "id": 54,
@@ -485,7 +1327,23 @@
       "meaning": "The Moon",
       "revelationPlace": "makkah",
       "versesCount": 55,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        528,
+        531
+      ],
+      "translatedNames": {
+        "en": "The Moon",
+        "id": "Bulan"
+      },
+      "titleAt": {
+        "page": 528,
+        "line": 9
+      },
+      "bismillahAt": {
+        "page": 528,
+        "line": 10
+      }
     },
     {
       "id": 55,
@@ -494,7 +1352,23 @@
       "meaning": "The Beneficent",
       "revelationPlace": "madinah",
       "versesCount": 78,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        531,
+        534
+      ],
+      "translatedNames": {
+        "en": "The Beneficent",
+        "id": "Yang Maha Pemurah"
+      },
+      "titleAt": {
+        "page": 531,
+        "line": 5
+      },
+      "bismillahAt": {
+        "page": 531,
+        "line": 6
+      }
     },
     {
       "id": 56,
@@ -503,7 +1377,23 @@
       "meaning": "The Inevitable",
       "revelationPlace": "makkah",
       "versesCount": 96,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        534,
+        537
+      ],
+      "translatedNames": {
+        "en": "The Inevitable",
+        "id": "Hari Kiamat"
+      },
+      "titleAt": {
+        "page": 534,
+        "line": 7
+      },
+      "bismillahAt": {
+        "page": 534,
+        "line": 8
+      }
     },
     {
       "id": 57,
@@ -512,7 +1402,23 @@
       "meaning": "The Iron",
       "revelationPlace": "madinah",
       "versesCount": 29,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        537,
+        541
+      ],
+      "translatedNames": {
+        "en": "The Iron",
+        "id": "Besi"
+      },
+      "titleAt": {
+        "page": 537,
+        "line": 11
+      },
+      "bismillahAt": {
+        "page": 537,
+        "line": 12
+      }
     },
     {
       "id": 58,
@@ -521,7 +1427,23 @@
       "meaning": "The Pleading Woman",
       "revelationPlace": "madinah",
       "versesCount": 22,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        542,
+        545
+      ],
+      "translatedNames": {
+        "en": "The Pleading Woman",
+        "id": "Wanita yang Menggugat"
+      },
+      "titleAt": {
+        "page": 542,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 542,
+        "line": 2
+      }
     },
     {
       "id": 59,
@@ -530,7 +1452,23 @@
       "meaning": "The Exile",
       "revelationPlace": "madinah",
       "versesCount": 24,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        545,
+        548
+      ],
+      "translatedNames": {
+        "en": "The Exile",
+        "id": "Pengusiran"
+      },
+      "titleAt": {
+        "page": 545,
+        "line": 7
+      },
+      "bismillahAt": {
+        "page": 545,
+        "line": 8
+      }
     },
     {
       "id": 60,
@@ -539,7 +1477,23 @@
       "meaning": "She that is to be examined",
       "revelationPlace": "madinah",
       "versesCount": 13,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        548,
+        551
+      ],
+      "translatedNames": {
+        "en": "She that is to be examined",
+        "id": "Wanita yang Diuji"
+      },
+      "titleAt": {
+        "page": 548,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 549,
+        "line": 1
+      }
     },
     {
       "id": 61,
@@ -548,7 +1502,23 @@
       "meaning": "The Ranks",
       "revelationPlace": "madinah",
       "versesCount": 14,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        551,
+        552
+      ],
+      "translatedNames": {
+        "en": "The Ranks",
+        "id": "Barisan"
+      },
+      "titleAt": {
+        "page": 551,
+        "line": 7
+      },
+      "bismillahAt": {
+        "page": 551,
+        "line": 8
+      }
     },
     {
       "id": 62,
@@ -557,7 +1527,23 @@
       "meaning": "The Congregation, Friday",
       "revelationPlace": "madinah",
       "versesCount": 11,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        553,
+        554
+      ],
+      "translatedNames": {
+        "en": "The Congregation, Friday",
+        "id": "Hari Jum\\'at"
+      },
+      "titleAt": {
+        "page": 553,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 553,
+        "line": 2
+      }
     },
     {
       "id": 63,
@@ -566,7 +1552,23 @@
       "meaning": "The Hypocrites",
       "revelationPlace": "madinah",
       "versesCount": 11,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        554,
+        555
+      ],
+      "translatedNames": {
+        "en": "The Hypocrites",
+        "id": "Kaum Munafik"
+      },
+      "titleAt": {
+        "page": 554,
+        "line": 7
+      },
+      "bismillahAt": {
+        "page": 554,
+        "line": 8
+      }
     },
     {
       "id": 64,
@@ -575,7 +1577,23 @@
       "meaning": "The Mutual Disillusion",
       "revelationPlace": "madinah",
       "versesCount": 18,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        555,
+        557
+      ],
+      "translatedNames": {
+        "en": "The Mutual Disillusion",
+        "id": "Hari Dinampakkan Kesalahan"
+      },
+      "titleAt": {
+        "page": 555,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 556,
+        "line": 1
+      }
     },
     {
       "id": 65,
@@ -584,7 +1602,23 @@
       "meaning": "The Divorce",
       "revelationPlace": "madinah",
       "versesCount": 12,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        557,
+        559
+      ],
+      "translatedNames": {
+        "en": "The Divorce",
+        "id": "Perceraian"
+      },
+      "titleAt": {
+        "page": 557,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 558,
+        "line": 1
+      }
     },
     {
       "id": 66,
@@ -593,7 +1627,23 @@
       "meaning": "The Prohibition",
       "revelationPlace": "madinah",
       "versesCount": 12,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        560,
+        561
+      ],
+      "translatedNames": {
+        "en": "The Prohibition",
+        "id": "Mengharamkan"
+      },
+      "titleAt": {
+        "page": 560,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 560,
+        "line": 2
+      }
     },
     {
       "id": 67,
@@ -602,7 +1652,23 @@
       "meaning": "The Sovereignty",
       "revelationPlace": "makkah",
       "versesCount": 30,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        562,
+        564
+      ],
+      "translatedNames": {
+        "en": "The Sovereignty",
+        "id": "Kerajaan"
+      },
+      "titleAt": {
+        "page": 562,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 562,
+        "line": 2
+      }
     },
     {
       "id": 68,
@@ -611,7 +1677,23 @@
       "meaning": "The Pen",
       "revelationPlace": "makkah",
       "versesCount": 52,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        564,
+        566
+      ],
+      "translatedNames": {
+        "en": "The Pen",
+        "id": "Pena"
+      },
+      "titleAt": {
+        "page": 564,
+        "line": 6
+      },
+      "bismillahAt": {
+        "page": 564,
+        "line": 7
+      }
     },
     {
       "id": 69,
@@ -620,7 +1702,23 @@
       "meaning": "The Reality",
       "revelationPlace": "makkah",
       "versesCount": 52,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        566,
+        568
+      ],
+      "translatedNames": {
+        "en": "The Reality",
+        "id": "Kenyataan (Hari Kiamat)"
+      },
+      "titleAt": {
+        "page": 566,
+        "line": 9
+      },
+      "bismillahAt": {
+        "page": 566,
+        "line": 10
+      }
     },
     {
       "id": 70,
@@ -629,7 +1727,23 @@
       "meaning": "The Ascending Stairways",
       "revelationPlace": "makkah",
       "versesCount": 44,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        568,
+        570
+      ],
+      "translatedNames": {
+        "en": "The Ascending Stairways",
+        "id": "Tempat yang Naik"
+      },
+      "titleAt": {
+        "page": 568,
+        "line": 9
+      },
+      "bismillahAt": {
+        "page": 568,
+        "line": 10
+      }
     },
     {
       "id": 71,
@@ -638,7 +1752,23 @@
       "meaning": "Noah",
       "revelationPlace": "makkah",
       "versesCount": 28,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        570,
+        571
+      ],
+      "translatedNames": {
+        "en": "Noah",
+        "id": "Nuh"
+      },
+      "titleAt": {
+        "page": 570,
+        "line": 5
+      },
+      "bismillahAt": {
+        "page": 570,
+        "line": 6
+      }
     },
     {
       "id": 72,
@@ -647,7 +1777,23 @@
       "meaning": "The Jinn",
       "revelationPlace": "makkah",
       "versesCount": 28,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        572,
+        573
+      ],
+      "translatedNames": {
+        "en": "The Jinn",
+        "id": "Jin"
+      },
+      "titleAt": {
+        "page": 572,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 572,
+        "line": 2
+      }
     },
     {
       "id": 73,
@@ -656,7 +1802,23 @@
       "meaning": "The Enshrouded One",
       "revelationPlace": "makkah",
       "versesCount": 20,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        574,
+        575
+      ],
+      "translatedNames": {
+        "en": "The Enshrouded One",
+        "id": "Orang yang Berselimut"
+      },
+      "titleAt": {
+        "page": 574,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 574,
+        "line": 2
+      }
     },
     {
       "id": 74,
@@ -665,7 +1827,23 @@
       "meaning": "The Cloaked One",
       "revelationPlace": "makkah",
       "versesCount": 56,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        575,
+        577
+      ],
+      "translatedNames": {
+        "en": "The Cloaked One",
+        "id": "Orang yang Berkemul"
+      },
+      "titleAt": {
+        "page": 575,
+        "line": 8
+      },
+      "bismillahAt": {
+        "page": 575,
+        "line": 9
+      }
     },
     {
       "id": 75,
@@ -674,7 +1852,23 @@
       "meaning": "The Resurrection",
       "revelationPlace": "makkah",
       "versesCount": 40,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        577,
+        578
+      ],
+      "translatedNames": {
+        "en": "The Resurrection",
+        "id": "Hari Berbangkit"
+      },
+      "titleAt": {
+        "page": 577,
+        "line": 6
+      },
+      "bismillahAt": {
+        "page": 577,
+        "line": 7
+      }
     },
     {
       "id": 76,
@@ -683,7 +1877,23 @@
       "meaning": "The Man",
       "revelationPlace": "madinah",
       "versesCount": 31,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        578,
+        580
+      ],
+      "translatedNames": {
+        "en": "The Man",
+        "id": "Manusia"
+      },
+      "titleAt": {
+        "page": 578,
+        "line": 9
+      },
+      "bismillahAt": {
+        "page": 578,
+        "line": 10
+      }
     },
     {
       "id": 77,
@@ -692,7 +1902,23 @@
       "meaning": "The Emissaries",
       "revelationPlace": "makkah",
       "versesCount": 50,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        580,
+        581
+      ],
+      "translatedNames": {
+        "en": "The Emissaries",
+        "id": "Malaikat-malaikan yang Diutus"
+      },
+      "titleAt": {
+        "page": 580,
+        "line": 7
+      },
+      "bismillahAt": {
+        "page": 580,
+        "line": 8
+      }
     },
     {
       "id": 78,
@@ -701,7 +1927,23 @@
       "meaning": "The Tidings",
       "revelationPlace": "makkah",
       "versesCount": 40,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        582,
+        583
+      ],
+      "translatedNames": {
+        "en": "The Tidings",
+        "id": "Berita Besar"
+      },
+      "titleAt": {
+        "page": 582,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 582,
+        "line": 2
+      }
     },
     {
       "id": 79,
@@ -710,7 +1952,23 @@
       "meaning": "Those who drag forth",
       "revelationPlace": "makkah",
       "versesCount": 46,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        583,
+        584
+      ],
+      "translatedNames": {
+        "en": "Those who drag forth",
+        "id": "Malaikat yang Mencabut"
+      },
+      "titleAt": {
+        "page": 583,
+        "line": 8
+      },
+      "bismillahAt": {
+        "page": 583,
+        "line": 9
+      }
     },
     {
       "id": 80,
@@ -719,7 +1977,23 @@
       "meaning": "He Frowned",
       "revelationPlace": "makkah",
       "versesCount": 42,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        584,
+        585
+      ],
+      "translatedNames": {
+        "en": "He Frowned",
+        "id": "Ia Bermuka Masam"
+      },
+      "titleAt": {
+        "page": 584,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 585,
+        "line": 1
+      }
     },
     {
       "id": 81,
@@ -728,7 +2002,23 @@
       "meaning": "The Overthrowing",
       "revelationPlace": "makkah",
       "versesCount": 29,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        586,
+        586
+      ],
+      "translatedNames": {
+        "en": "The Overthrowing",
+        "id": "Menggulung"
+      },
+      "titleAt": {
+        "page": 586,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 586,
+        "line": 2
+      }
     },
     {
       "id": 82,
@@ -737,7 +2027,23 @@
       "meaning": "The Cleaving",
       "revelationPlace": "makkah",
       "versesCount": 19,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        586,
+        587
+      ],
+      "translatedNames": {
+        "en": "The Cleaving",
+        "id": "Terbelah"
+      },
+      "titleAt": {
+        "page": 586,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 587,
+        "line": 1
+      }
     },
     {
       "id": 83,
@@ -746,7 +2052,23 @@
       "meaning": "The Defrauding",
       "revelationPlace": "makkah",
       "versesCount": 36,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        587,
+        589
+      ],
+      "translatedNames": {
+        "en": "The Defrauding",
+        "id": "Orang-orang Curang"
+      },
+      "titleAt": {
+        "page": 587,
+        "line": 11
+      },
+      "bismillahAt": {
+        "page": 587,
+        "line": 12
+      }
     },
     {
       "id": 84,
@@ -755,7 +2077,23 @@
       "meaning": "The Sundering",
       "revelationPlace": "makkah",
       "versesCount": 25,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        589,
+        589
+      ],
+      "translatedNames": {
+        "en": "The Sundering",
+        "id": "Terbelah"
+      },
+      "titleAt": {
+        "page": 589,
+        "line": 2
+      },
+      "bismillahAt": {
+        "page": 589,
+        "line": 3
+      }
     },
     {
       "id": 85,
@@ -764,7 +2102,23 @@
       "meaning": "The Mansions of the Stars",
       "revelationPlace": "makkah",
       "versesCount": 22,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        590,
+        590
+      ],
+      "translatedNames": {
+        "en": "The Mansions of the Stars",
+        "id": "Gugusan Bintang"
+      },
+      "titleAt": {
+        "page": 590,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 590,
+        "line": 2
+      }
     },
     {
       "id": 86,
@@ -773,7 +2127,23 @@
       "meaning": "The Nightcommer",
       "revelationPlace": "makkah",
       "versesCount": 17,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        590,
+        591
+      ],
+      "translatedNames": {
+        "en": "The Nightcommer",
+        "id": "Yang Datang di Malam Hari"
+      },
+      "titleAt": {
+        "page": 590,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 591,
+        "line": 1
+      }
     },
     {
       "id": 87,
@@ -782,7 +2152,23 @@
       "meaning": "The Most High",
       "revelationPlace": "makkah",
       "versesCount": 19,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        591,
+        592
+      ],
+      "translatedNames": {
+        "en": "The Most High",
+        "id": "Yang Paling Tinggi"
+      },
+      "titleAt": {
+        "page": 591,
+        "line": 8
+      },
+      "bismillahAt": {
+        "page": 591,
+        "line": 9
+      }
     },
     {
       "id": 88,
@@ -791,7 +2177,23 @@
       "meaning": "The Overwhelming",
       "revelationPlace": "makkah",
       "versesCount": 26,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        592,
+        592
+      ],
+      "translatedNames": {
+        "en": "The Overwhelming",
+        "id": "Hari Pembalasan"
+      },
+      "titleAt": {
+        "page": 592,
+        "line": 3
+      },
+      "bismillahAt": {
+        "page": 592,
+        "line": 4
+      }
     },
     {
       "id": 89,
@@ -800,7 +2202,23 @@
       "meaning": "The Dawn",
       "revelationPlace": "makkah",
       "versesCount": 30,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        593,
+        594
+      ],
+      "translatedNames": {
+        "en": "The Dawn",
+        "id": "Fajar"
+      },
+      "titleAt": {
+        "page": 593,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 593,
+        "line": 2
+      }
     },
     {
       "id": 90,
@@ -809,7 +2227,23 @@
       "meaning": "The City",
       "revelationPlace": "makkah",
       "versesCount": 20,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        594,
+        594
+      ],
+      "translatedNames": {
+        "en": "The City",
+        "id": "Negeri"
+      },
+      "titleAt": {
+        "page": 594,
+        "line": 4
+      },
+      "bismillahAt": {
+        "page": 594,
+        "line": 5
+      }
     },
     {
       "id": 91,
@@ -818,7 +2252,23 @@
       "meaning": "The Sun",
       "revelationPlace": "makkah",
       "versesCount": 15,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        594,
+        595
+      ],
+      "translatedNames": {
+        "en": "The Sun",
+        "id": "Matahari"
+      },
+      "titleAt": {
+        "page": 594,
+        "line": 15
+      },
+      "bismillahAt": {
+        "page": 595,
+        "line": 1
+      }
     },
     {
       "id": 92,
@@ -827,7 +2277,23 @@
       "meaning": "The Night",
       "revelationPlace": "makkah",
       "versesCount": 21,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        595,
+        596
+      ],
+      "translatedNames": {
+        "en": "The Night",
+        "id": "Malam"
+      },
+      "titleAt": {
+        "page": 595,
+        "line": 9
+      },
+      "bismillahAt": {
+        "page": 595,
+        "line": 10
+      }
     },
     {
       "id": 93,
@@ -836,7 +2302,23 @@
       "meaning": "The Morning Hours",
       "revelationPlace": "makkah",
       "versesCount": 11,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        596,
+        596
+      ],
+      "translatedNames": {
+        "en": "The Morning Hours",
+        "id": "Waktu Dhuha"
+      },
+      "titleAt": {
+        "page": 596,
+        "line": 4
+      },
+      "bismillahAt": {
+        "page": 596,
+        "line": 5
+      }
     },
     {
       "id": 94,
@@ -845,7 +2327,23 @@
       "meaning": "The Relief",
       "revelationPlace": "makkah",
       "versesCount": 8,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        596,
+        596
+      ],
+      "translatedNames": {
+        "en": "The Relief",
+        "id": "Melapangkan"
+      },
+      "titleAt": {
+        "page": 596,
+        "line": 11
+      },
+      "bismillahAt": {
+        "page": 596,
+        "line": 12
+      }
     },
     {
       "id": 95,
@@ -854,7 +2352,23 @@
       "meaning": "The Fig",
       "revelationPlace": "makkah",
       "versesCount": 8,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        597,
+        597
+      ],
+      "translatedNames": {
+        "en": "The Fig",
+        "id": "Buah Tin"
+      },
+      "titleAt": {
+        "page": 597,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 597,
+        "line": 2
+      }
     },
     {
       "id": 96,
@@ -863,7 +2377,23 @@
       "meaning": "The Clot",
       "revelationPlace": "makkah",
       "versesCount": 19,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        597,
+        597
+      ],
+      "translatedNames": {
+        "en": "The Clot",
+        "id": "Segumpal Darah"
+      },
+      "titleAt": {
+        "page": 597,
+        "line": 7
+      },
+      "bismillahAt": {
+        "page": 597,
+        "line": 8
+      }
     },
     {
       "id": 97,
@@ -872,7 +2402,23 @@
       "meaning": "The Power",
       "revelationPlace": "makkah",
       "versesCount": 5,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        598,
+        598
+      ],
+      "translatedNames": {
+        "en": "The Power",
+        "id": "Kemuliaan"
+      },
+      "titleAt": {
+        "page": 598,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 598,
+        "line": 2
+      }
     },
     {
       "id": 98,
@@ -881,7 +2427,23 @@
       "meaning": "The Clear Proof",
       "revelationPlace": "madinah",
       "versesCount": 8,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        598,
+        599
+      ],
+      "translatedNames": {
+        "en": "The Clear Proof",
+        "id": "Pembuktian"
+      },
+      "titleAt": {
+        "page": 598,
+        "line": 6
+      },
+      "bismillahAt": {
+        "page": 598,
+        "line": 7
+      }
     },
     {
       "id": 99,
@@ -890,7 +2452,23 @@
       "meaning": "The Earthquake",
       "revelationPlace": "madinah",
       "versesCount": 8,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        599,
+        599
+      ],
+      "translatedNames": {
+        "en": "The Earthquake",
+        "id": "Kegoncangan"
+      },
+      "titleAt": {
+        "page": 599,
+        "line": 3
+      },
+      "bismillahAt": {
+        "page": 599,
+        "line": 4
+      }
     },
     {
       "id": 100,
@@ -899,7 +2477,23 @@
       "meaning": "The Courser",
       "revelationPlace": "makkah",
       "versesCount": 11,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        599,
+        600
+      ],
+      "translatedNames": {
+        "en": "The Courser",
+        "id": "Berlari Kencang"
+      },
+      "titleAt": {
+        "page": 599,
+        "line": 10
+      },
+      "bismillahAt": {
+        "page": 599,
+        "line": 11
+      }
     },
     {
       "id": 101,
@@ -908,7 +2502,23 @@
       "meaning": "The Calamity",
       "revelationPlace": "makkah",
       "versesCount": 11,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        600,
+        600
+      ],
+      "translatedNames": {
+        "en": "The Calamity",
+        "id": "Hari Kiamat"
+      },
+      "titleAt": {
+        "page": 600,
+        "line": 2
+      },
+      "bismillahAt": {
+        "page": 600,
+        "line": 3
+      }
     },
     {
       "id": 102,
@@ -917,7 +2527,23 @@
       "meaning": "The Rivalry in world increase",
       "revelationPlace": "makkah",
       "versesCount": 8,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        600,
+        600
+      ],
+      "translatedNames": {
+        "en": "The Rivalry in world increase",
+        "id": "Bermegah-megahan"
+      },
+      "titleAt": {
+        "page": 600,
+        "line": 10
+      },
+      "bismillahAt": {
+        "page": 600,
+        "line": 11
+      }
     },
     {
       "id": 103,
@@ -926,7 +2552,23 @@
       "meaning": "The Declining Day",
       "revelationPlace": "makkah",
       "versesCount": 3,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        601,
+        601
+      ],
+      "translatedNames": {
+        "en": "The Declining Day",
+        "id": "Waktu Sore"
+      },
+      "titleAt": {
+        "page": 601,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 601,
+        "line": 2
+      }
     },
     {
       "id": 104,
@@ -935,7 +2577,23 @@
       "meaning": "The Traducer",
       "revelationPlace": "makkah",
       "versesCount": 9,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        601,
+        601
+      ],
+      "translatedNames": {
+        "en": "The Traducer",
+        "id": "Pengumpat"
+      },
+      "titleAt": {
+        "page": 601,
+        "line": 5
+      },
+      "bismillahAt": {
+        "page": 601,
+        "line": 6
+      }
     },
     {
       "id": 105,
@@ -944,7 +2602,23 @@
       "meaning": "The Elephant",
       "revelationPlace": "makkah",
       "versesCount": 5,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        601,
+        601
+      ],
+      "translatedNames": {
+        "en": "The Elephant",
+        "id": "Gajah"
+      },
+      "titleAt": {
+        "page": 601,
+        "line": 11
+      },
+      "bismillahAt": {
+        "page": 601,
+        "line": 12
+      }
     },
     {
       "id": 106,
@@ -953,7 +2627,23 @@
       "meaning": "Quraysh",
       "revelationPlace": "makkah",
       "versesCount": 4,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        602,
+        602
+      ],
+      "translatedNames": {
+        "en": "Quraysh",
+        "id": "Suku Quraisy"
+      },
+      "titleAt": {
+        "page": 602,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 602,
+        "line": 2
+      }
     },
     {
       "id": 107,
@@ -962,7 +2652,23 @@
       "meaning": "The Small kindnesses",
       "revelationPlace": "makkah",
       "versesCount": 7,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        602,
+        602
+      ],
+      "translatedNames": {
+        "en": "The Small kindnesses",
+        "id": "Barang yang Berguna"
+      },
+      "titleAt": {
+        "page": 602,
+        "line": 6
+      },
+      "bismillahAt": {
+        "page": 602,
+        "line": 7
+      }
     },
     {
       "id": 108,
@@ -971,7 +2677,23 @@
       "meaning": "The Abundance",
       "revelationPlace": "makkah",
       "versesCount": 3,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        602,
+        602
+      ],
+      "translatedNames": {
+        "en": "The Abundance",
+        "id": "Nikmat Berlimpah"
+      },
+      "titleAt": {
+        "page": 602,
+        "line": 12
+      },
+      "bismillahAt": {
+        "page": 602,
+        "line": 13
+      }
     },
     {
       "id": 109,
@@ -980,7 +2702,23 @@
       "meaning": "The Disbelievers",
       "revelationPlace": "makkah",
       "versesCount": 6,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        603,
+        603
+      ],
+      "translatedNames": {
+        "en": "The Disbelievers",
+        "id": "Orang-orang Kafir"
+      },
+      "titleAt": {
+        "page": 603,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 603,
+        "line": 2
+      }
     },
     {
       "id": 110,
@@ -989,7 +2727,23 @@
       "meaning": "The Divine Support",
       "revelationPlace": "madinah",
       "versesCount": 3,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        603,
+        603
+      ],
+      "translatedNames": {
+        "en": "The Divine Support",
+        "id": "Pertolongan"
+      },
+      "titleAt": {
+        "page": 603,
+        "line": 6
+      },
+      "bismillahAt": {
+        "page": 603,
+        "line": 7
+      }
     },
     {
       "id": 111,
@@ -998,7 +2752,23 @@
       "meaning": "The Palm Fiber",
       "revelationPlace": "makkah",
       "versesCount": 5,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        603,
+        603
+      ],
+      "translatedNames": {
+        "en": "The Palm Fiber",
+        "id": "Gejolak Api (Sabut)"
+      },
+      "titleAt": {
+        "page": 603,
+        "line": 11
+      },
+      "bismillahAt": {
+        "page": 603,
+        "line": 12
+      }
     },
     {
       "id": 112,
@@ -1007,7 +2777,23 @@
       "meaning": "The Sincerity",
       "revelationPlace": "makkah",
       "versesCount": 4,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        604,
+        604
+      ],
+      "translatedNames": {
+        "en": "The Sincerity",
+        "id": "Ikhlash"
+      },
+      "titleAt": {
+        "page": 604,
+        "line": 1
+      },
+      "bismillahAt": {
+        "page": 604,
+        "line": 2
+      }
     },
     {
       "id": 113,
@@ -1016,7 +2802,23 @@
       "meaning": "The Daybreak",
       "revelationPlace": "makkah",
       "versesCount": 5,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        604,
+        604
+      ],
+      "translatedNames": {
+        "en": "The Daybreak",
+        "id": "Waktu Shubuh"
+      },
+      "titleAt": {
+        "page": 604,
+        "line": 5
+      },
+      "bismillahAt": {
+        "page": 604,
+        "line": 6
+      }
     },
     {
       "id": 114,
@@ -1025,7 +2827,23 @@
       "meaning": "Mankind",
       "revelationPlace": "makkah",
       "versesCount": 6,
-      "bismillahPre": true
+      "bismillahPre": true,
+      "pages": [
+        604,
+        604
+      ],
+      "translatedNames": {
+        "en": "Mankind",
+        "id": "Umat Manusia"
+      },
+      "titleAt": {
+        "page": 604,
+        "line": 10
+      },
+      "bismillahAt": {
+        "page": 604,
+        "line": 11
+      }
     }
   ]
 }

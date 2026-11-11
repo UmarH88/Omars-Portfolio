@@ -1,0 +1,157 @@
+---
+/*
+  Mushaf: /mushaf/1 ... /mushaf/604, the whole Quran page by page,
+  like a printed 15-line Madani mushaf. A page can hold several surahs (page 604 has three).
+  Study mode stays surah by surah: /quran/[surah]/study.
+  Coming next: page-turn animation, swipe and "go to page".
+*/
+import Base from '../../layouts/Base.astro';
+import LanguageSwitch from '../../components/LanguageSwitch.astro';
+import MushafModeSwitch from '../../components/MushafModeSwitch.astro';
+import MushafPage from '../../components/MushafPage.astro';
+import T from '../../components/T.astro';
+import { MUSHAF_PAGES, getMushafPage, mushafPageUrl, mushafUrl, studyUrl } from '../../lib/quran';
+
+export function getStaticPaths() {
+  return Array.from({ length: MUSHAF_PAGES }, (_, i) => ({ params: { page: String(i + 1) } }));
+}
+
+const page = Number(Astro.params.page);
+const data = await getMushafPage(page);
+const names = data.chapters.map((c) => c.nameSimple).join(', ');
+// "Al-Ikhlas (Sincerity), Al-Falaq (The Daybreak)" for the bar above the page
+const namesWithMeaning = {
+  en: data.chapters.map((c) => `${c.nameSimple} (${c.translatedNames.en})`).join(', '),
+  id: data.chapters.map((c) => `${c.nameSimple} (${c.translatedNames.id})`).join(', '),
+};
+
+// An Arabic book opens to the left: the NEXT page is on the left
+const next = page < MUSHAF_PAGES ? mushafPageUrl(page + 1) : null;
+const previous = page > 1 ? mushafPageUrl(page - 1) : null;
+---
+
+<Base
+  title={`Mushaf page ${page} · ${names}`}
+  description={`Page ${page} of the Quran (Juz ${data.juz}): ${names}. Tap a word to see its meaning.`}
+  theme="mushaf"
+  fonts={['arabic']}
+>
+  <header class="bar">
+    <a class="round" href="/quran" aria-label="Back to all surahs">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M15 6l-6 6 6 6" />
+      </svg>
+    </a>
+    <div>
+      <h1><T en={namesWithMeaning.en} id={namesWithMeaning.id} /></h1>
+      <p>
+        <T
+          en={`Page ${page} · Juz ${data.juz} · tap or hover a word`}
+          id={`Halaman ${page} · Juz ${data.juz} · ketuk atau arahkan ke kata`}
+        />
+      </p>
+    </div>
+  </header>
+
+  <div class="tools">
+    <MushafModeSwitch mode="page" surahHref={mushafUrl(data.chapters[0].id)} pageHref={mushafPageUrl(page)} />
+    <LanguageSwitch />
+    <a class="pill" href={studyUrl(data.chapters[0].id)}><T en="Study" id="Belajar" /></a>
+  </div>
+
+  <main class="book">
+    <MushafPage data={data} />
+
+    <nav class="turn" aria-label="Turn the page">
+      {
+        next ? (
+          <a class="pill" href={next} rel="next" data-turn="next">← <T en="Next page" id="Halaman berikutnya" /></a>
+        ) : (
+          <span />
+        )
+      }
+      {
+        previous ? (
+          <a class="pill" href={previous} rel="prev" data-turn="previous"><T en="Previous page" id="Halaman sebelumnya" /> →</a>
+        ) : (
+          <span />
+        )
+      }
+    </nav>
+  </main>
+</Base>
+
+<script>
+  // Keyboard: like a real Arabic book, Left = next page, Right = previous page
+  addEventListener('keydown', (event) => {
+    if (event.target instanceof HTMLInputElement) return;
+    const turn = event.key === 'ArrowLeft' ? 'next' : event.key === 'ArrowRight' ? 'previous' : null;
+    const link = turn && document.querySelector<HTMLAnchorElement>(`[data-turn="${turn}"]`);
+    if (link) link.click();
+  });
+</script>
+
+<style>
+  .bar {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    max-width: 36rem;
+    margin-inline: auto;
+    padding: 0.8rem var(--gutter);
+  }
+
+  .bar h1 {
+    font-size: 1.05rem;
+  }
+
+  .bar p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+
+  .round {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 2.75rem;
+    height: 2.75rem;
+    border: 1px solid color-mix(in srgb, var(--gold-500) 60%, transparent);
+    border-radius: 50%;
+    color: var(--gold-300);
+  }
+
+  .pill {
+    padding: 0.5rem 1rem;
+    border: 1px solid color-mix(in srgb, var(--gold-500) 60%, transparent);
+    border-radius: var(--radius-pill);
+    color: var(--gold-300);
+    font-size: 0.85rem;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 36rem;
+    margin-inline: auto;
+    padding: 0 var(--gutter) 0.9rem;
+  }
+
+  /* Phone: the page uses the full width; desktop: about a real mushaf's size */
+  .book {
+    max-width: 34rem;
+    margin-inline: auto;
+    padding: 0 0.6rem 2rem;
+  }
+
+  .turn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+</style>

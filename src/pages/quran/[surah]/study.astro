@@ -3,15 +3,21 @@
   Study mode: /quran/1/study ... /quran/114/study
   One ayah per row: Arabic with tappable words, then the translation.
   "Words under Arabic" toggle prints each word's meaning beneath it.
-  Coming next: Tafseer and Quiz panel.
+  Surahs with downloaded tafsir (npm run fetch:tafsir) also get the Tafseer panel:
+  beside the verses on wide screens, below them on phones.
 */
 import Base from '../../../layouts/Base.astro';
 import LanguageSwitch from '../../../components/LanguageSwitch.astro';
 import QuranWord from '../../../components/QuranWord.astro';
 import StudyVerse from '../../../components/StudyVerse.astro';
+import T from '../../../components/T.astro';
+import TafseerPanel from '../../../components/TafseerPanel.astro';
 import {
   chapters,
+  getChapter,
   getSurah,
+  getSimpleTafsir,
+  getTafsir,
   hasSurahData,
   mushafUrl,
   placeLabel,
@@ -28,13 +34,20 @@ const id = Number(Astro.params.surah);
 const surah = await getSurah(id);
 const rows = studyRows(surah);
 const langs = surah.languages.map((l) => l.lang); // ["en", "id"]
+const tafsir = await getTafsir(id); // null if not downloaded for this surah
+const simpleTafsir = await getSimpleTafsir(id); // the easy version, if written yet
 
 // Bismillah above the surah: words of 1:1 from the API (never typed by hand).
 // Al-Fatihah shows it as its first row instead; At-Tawbah has none.
 const bismillah = id !== 1 && surah.bismillahPre ? (await getSurah(1)).verses[0] : null;
 
 const shownVerses = id === 1 ? 7 : surah.versesCount; // Al-Fatihah: 7 without the Bismillah
-const details = `${surah.meaning} · ${placeLabel(surah.revelationPlace)} · ${shownVerses} verses`;
+const place = placeLabel(surah.revelationPlace);
+const { translatedNames } = getChapter(id)!; // the meanings live in chapters.json
+const details = {
+  en: `${translatedNames.en} · ${place} · ${shownVerses} verses`,
+  id: `${translatedNames.id} · ${place} · ${shownVerses} ayat`,
+};
 ---
 
 <Base
@@ -43,17 +56,17 @@ const details = `${surah.meaning} · ${placeLabel(surah.revelationPlace)} · ${s
   theme="space"
   fonts={['arabic', 'library']}
 >
-  <main class="study">
+  <main class:list={['study', { 'has-panel': tafsir }]}>
     <nav class="top" aria-label="Surah navigation">
-      <a href="/quran">← All surahs</a>
-      <a class="pill" href={mushafUrl(id)}>Mushaf view</a>
+      <a href="/quran">← <T en="All surahs" id="Semua surah" /></a>
+      <a class="pill" href={mushafUrl(id)}><T en="Mushaf view" id="Tampilan mushaf" /></a>
     </nav>
 
     <header class="head">
       <span class="badge" aria-hidden="true">{surah.id}</span>
       <div class="names">
         <h1><span class="sr-only">Surah {surah.id}: </span>{surah.nameSimple}</h1>
-        <p>{details}</p>
+        <p><T en={details.en} id={details.id} /></p>
       </div>
       <p class="arabic-name" lang="ar" dir="rtl">سورة {surah.nameArabic}</p>
     </header>
@@ -62,32 +75,54 @@ const details = `${surah.meaning} · ${placeLabel(surah.revelationPlace)} · ${s
       <LanguageSwitch />
       <!-- aria-pressed tells screen readers whether the toggle is on -->
       <button type="button" class="pill toggle" id="words-toggle" aria-pressed="false">
-        Words under Arabic: <span class="state">Off</span>
+        <T en="Words under Arabic" id="Arti di bawah kata" />:
+        <!-- CSS shows "On" or "Off" from aria-pressed, in the active language -->
+        <span class="state-on"><T en="On" id="Aktif" /></span><span class="state-off"><T en="Off" id="Mati" /></span>
       </button>
     </div>
 
-    {
-      bismillah && (
-        <p class="bismillah" lang="ar" dir="rtl">
-          {bismillah.words.map((word) => <Fragment><QuranWord word={word} langs={langs} />{' '}</Fragment>)}
+    <div class="columns">
+      <div class="reading">
+        {
+          bismillah && (
+            <p class="bismillah" lang="ar" dir="rtl">
+              {bismillah.words.map((word) => <Fragment><QuranWord word={word} langs={langs} />{' '}</Fragment>)}
+            </p>
+          )
+        }
+
+        <p class="hint">
+          <T
+            en="Hover over an Arabic word (or tap it on a phone) to see what it means."
+            id="Arahkan kursor ke kata Arab (atau ketuk di ponsel) untuk melihat artinya."
+          />
         </p>
-      )
-    }
 
-    <p class="hint">Hover over an Arabic word (or tap it on a phone) to see what it means.</p>
+        <div class="verses" id="verses">
+          {rows.map((row) => <StudyVerse row={row} langs={langs} explain={tafsir !== null} />)}
+        </div>
+      </div>
 
-    <div class="verses" id="verses">
-      {rows.map((row) => <StudyVerse row={row} langs={langs} />)}
+      {
+        tafsir && (
+          <aside class="panel" aria-label="Study tools">
+            <TafseerPanel data={tafsir} simple={simpleTafsir} versesCount={surah.versesCount} langs={langs} />
+          </aside>
+        )
+      }
     </div>
 
     <footer>
       {
         surah.languages.map(({ lang, name }) => (
-          <p class="credit" data-lang={lang}>Translation: {name}.</p>
+          <p class="credit" data-lang={lang}><T en="Translation" id="Terjemahan" />: {name}.</p>
         ))
       }
       <p>
-        Arabic text, word meanings and translations from the
+        <T
+          en="Arabic text, word meanings and translations from the"
+          id="Teks Arab, arti kata, dan terjemahan dari"
+        />
         <a href="https://quran.com">Quran.com</a> / Quran Foundation API.
       </p>
     </footer>
@@ -99,12 +134,10 @@ const details = `${surah.meaning} · ${placeLabel(surah.revelationPlace)} · ${s
   const KEY = 'study-words-under';
   const toggle = document.getElementById('words-toggle')!;
   const verses = document.getElementById('verses')!;
-  const state = toggle.querySelector('.state')!;
 
   function apply(on: boolean) {
     verses.classList.toggle('words-under', on);
-    toggle.setAttribute('aria-pressed', String(on));
-    state.textContent = on ? 'On' : 'Off';
+    toggle.setAttribute('aria-pressed', String(on)); // CSS shows "On"/"Off" from this
   }
 
   // localStorage can fail (private mode, blocked storage), so the page works without it
@@ -128,6 +161,39 @@ const details = `${surah.meaning} · ${placeLabel(surah.revelationPlace)} · ${s
     max-width: 46rem;
     margin-inline: auto;
     padding: 1rem var(--gutter) 3rem;
+  }
+
+  /* ---- Verses + panel ---- */
+  /* Phone: one column, panel after the verses */
+  .columns {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .panel {
+    padding: 1.25rem;
+    border: 1px solid color-mix(in srgb, var(--text) 12%, transparent);
+    border-radius: var(--radius-card);
+    background: color-mix(in srgb, var(--surface) 70%, transparent);
+  }
+
+  /* Wide screens: panel beside the verses, staying in view while you scroll */
+  @media (min-width: 64rem) {
+    .study.has-panel {
+      max-width: 76rem;
+    }
+
+    .has-panel .columns {
+      grid-template-columns: minmax(0, 1fr) 26rem;
+      align-items: start;
+    }
+
+    .panel {
+      position: sticky;
+      top: 1rem;
+      max-height: calc(100dvh - 2rem);
+      overflow-y: auto; /* long tafsir scrolls inside the panel */
+    }
   }
 
   .top {
@@ -159,6 +225,12 @@ const details = `${surah.meaning} · ${placeLabel(surah.revelationPlace)} · ${s
   .toggle[aria-pressed='true'] {
     border-color: var(--accent);
     color: var(--accent);
+  }
+
+  /* Show "On" or "Off" depending on the toggle's state */
+  .toggle[aria-pressed='true'] .state-off,
+  .toggle[aria-pressed='false'] .state-on {
+    display: none;
   }
 
   /* ---- Header: badge | names | Arabic name ---- */

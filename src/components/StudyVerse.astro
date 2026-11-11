@@ -6,16 +6,20 @@
   (<html class="lang-id"> = Indonesian, set by LanguageSwitch).
 */
 import QuranWord from './QuranWord.astro';
+import T from './T.astro';
 import VerseMarker from './VerseMarker.astro';
 import type { Lang, StudyRow } from '../lib/quran';
 
 interface Props {
   row: StudyRow;
   langs: Lang[];
+  explain?: boolean; // show "Explain verse" (only when the surah has tafsir)
 }
 
-const { row, langs } = Astro.props;
+const { row, langs, explain = false } = Astro.props;
 const heading = row.label ? `Verse ${row.label}` : 'Bismillah';
+// The verse number the Tafseer panel should open (first numbered piece of this row)
+const explainVerse = row.segments.find((s) => s.number !== null)?.number;
 ---
 
 <article class="study-verse" id={row.anchor} aria-label={heading}>
@@ -37,6 +41,14 @@ const heading = row.label ? `Verse ${row.label}` : 'Bismillah';
         {row.translations[lang]}
       </p>
     ))
+  }
+
+  {
+    explain && explainVerse && (
+      <button type="button" class="explain" data-explain={explainVerse}>
+        <T en={`Explain verse ${row.label}`} id={`Jelaskan ayat ${row.label}`} />
+      </button>
+    )
   }
 </article>
 
@@ -65,6 +77,23 @@ const heading = row.label ? `Verse ${row.label}` : 'Bismillah';
   :global(html:not(.lang-id)) .translation[data-lang='en'],
   :global(html.lang-id) .translation[data-lang='id'] {
     display: flex;
+  }
+
+  /* Small outlined pill, like "Explain verse 1" in the design */
+  .explain {
+    margin-top: 0.9rem;
+    padding: 0.4rem 0.9rem;
+    border: 1px solid color-mix(in srgb, var(--text) 25%, transparent);
+    border-radius: var(--radius-pill);
+    background: none;
+    color: var(--text);
+    font: 500 0.82rem var(--font-ui);
+    cursor: pointer;
+  }
+
+  .explain:hover {
+    border-color: var(--accent);
+    color: var(--accent);
   }
 
   .number {

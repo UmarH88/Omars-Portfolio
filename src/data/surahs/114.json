@@ -6,6 +6,11 @@
   "revelationPlace": "makkah",
   "versesCount": 6,
   "bismillahPre": true,
+  "pages": [
+    604,
+    604
+  ],
+  "formatVersion": 4,
   "languages": [
     {
       "lang": "en",
@@ -38,7 +43,9 @@
             "en": "Say",
             "id": "katakanlah"
           },
-          "transliteration": "qul"
+          "transliteration": "qul",
+          "page": 604,
+          "line": 12
         },
         {
           "text": "أَعُوذُ",
@@ -46,7 +53,9 @@
             "en": "I seek refuge",
             "id": "aku berlindung"
           },
-          "transliteration": "aʿūdhu"
+          "transliteration": "aʿūdhu",
+          "page": 604,
+          "line": 12
         },
         {
           "text": "بِرَبِّ",
@@ -54,7 +63,9 @@
             "en": "in (the) Lord",
             "id": "Tuhannya"
           },
-          "transliteration": "birabbi"
+          "transliteration": "birabbi",
+          "page": 604,
+          "line": 12
         },
         {
           "text": "ٱلنَّاسِ",
@@ -62,7 +73,9 @@
             "en": "(of) mankind",
             "id": "manusia"
           },
-          "transliteration": "l-nāsi"
+          "transliteration": "l-nāsi",
+          "page": 604,
+          "line": 12
         }
       ]
     },
@@ -84,7 +97,9 @@
             "en": "(The) King",
             "id": "Rajanya"
           },
-          "transliteration": "maliki"
+          "transliteration": "maliki",
+          "page": 604,
+          "line": 12
         },
         {
           "text": "ٱلنَّاسِ",
@@ -92,7 +107,9 @@
             "en": "(of) mankind",
             "id": "manusia"
           },
-          "transliteration": "l-nāsi"
+          "transliteration": "l-nāsi",
+          "page": 604,
+          "line": 12
         }
       ]
     },
@@ -114,7 +131,9 @@
             "en": "(The) God",
             "id": "Tuhannya"
           },
-          "transliteration": "ilāhi"
+          "transliteration": "ilāhi",
+          "page": 604,
+          "line": 12
         },
         {
           "text": "ٱلنَّاسِ",
@@ -122,7 +141,9 @@
             "en": "(of) mankind",
             "id": "manusia"
           },
-          "transliteration": "l-nāsi"
+          "transliteration": "l-nāsi",
+          "page": 604,
+          "line": 13
         }
       ]
     },
@@ -144,7 +165,9 @@
             "en": "From",
             "id": "dari"
           },
-          "transliteration": "min"
+          "transliteration": "min",
+          "page": 604,
+          "line": 13
         },
         {
           "text": "شَرِّ",
@@ -152,7 +175,9 @@
             "en": "(the) evil",
             "id": "kejahatan"
           },
-          "transliteration": "sharri"
+          "transliteration": "sharri",
+          "page": 604,
+          "line": 13
         },
         {
           "text": "ٱلْوَسْوَاسِ",
@@ -160,7 +185,9 @@
             "en": "(of) the whisperer",
             "id": "bisikkan"
           },
-          "transliteration": "l-waswāsi"
+          "transliteration": "l-waswāsi",
+          "page": 604,
+          "line": 13
         },
         {
           "text": "ٱلْخَنَّاسِ",
@@ -168,7 +195,9 @@
             "en": "the one who withdraws",
             "id": "menunggu-nunggu/bersembunyi"
           },
-          "transliteration": "l-khanāsi"
+          "transliteration": "l-khanāsi",
+          "page": 604,
+          "line": 13
         }
       ]
     },
@@ -190,7 +219,9 @@
             "en": "The one who",
             "id": "yang"
           },
-          "transliteration": "alladhī"
+          "transliteration": "alladhī",
+          "page": 604,
+          "line": 13
         },
         {
           "text": "يُوَسْوِسُ",
@@ -198,7 +229,9 @@
             "en": "whispers",
             "id": "membisik-bisikan"
           },
-          "transliteration": "yuwaswisu"
+          "transliteration": "yuwaswisu",
+          "page": 604,
+          "line": 14
         },
         {
           "text": "فِى",
@@ -206,7 +239,9 @@
             "en": "in",
             "id": "dalam"
           },
-          "transliteration": "fī"
+          "transliteration": "fī",
+          "page": 604,
+          "line": 14
         },
         {
           "text": "صُدُورِ",
@@ -214,7 +249,9 @@
             "en": "(the) breasts",
             "id": "dada"
           },
-          "transliteration": "ṣudūri"
+          "transliteration": "ṣudūri",
+          "page": 604,
+          "line": 14
         },
         {
           "text": "ٱلنَّاسِ",
@@ -222,7 +259,9 @@
             "en": "(of) mankind",
             "id": "manusia"
           },
-          "transliteration": "l-nāsi"
+          "transliteration": "l-nāsi",
+          "page": 604,
+          "line": 14
         }
       ]
     },
@@ -244,7 +283,9 @@
             "en": "From",
             "id": "dari"
           },
-          "transliteration": "mina"
+          "transliteration": "mina",
+          "page": 604,
+          "line": 15
         },
         {
           "text": "ٱلْجِنَّةِ",
@@ -252,7 +293,9 @@
             "en": "the jinn",
             "id": "jin"
           },
-          "transliteration": "l-jinati"
+          "transliteration": "l-jinati",
+          "page": 604,
+          "line": 15
         },
         {
           "text": "وَٱلنَّاسِ",
@@ -260,7 +303,9 @@
             "en": "and men",
             "id": "dan manusia"
           },
-          "transliteration": "wal-nāsi"
+          "transliteration": "wal-nāsi",
+          "page": 604,
+          "line": 15
         }
       ]
     }

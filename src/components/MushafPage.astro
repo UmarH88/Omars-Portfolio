@@ -1,51 +1,277 @@
 ---
 /*
-  MushafPage: one framed cream page with its page number at the bottom.
-  The page content (header, verses) goes in the slot.
+  MushafPage: one page of the 15-line Madani mushaf, styled like a printed copy:
+  diamond-pattern border, Arabic running header (surah | juz), cream title bars,
+  verses on their real lines, page number in an oval at the bottom.
+
+  The lines come from getMushafPage() (every word in the data knows its page and line).
+  A small script then fits the lines to the screen: see the <script> below.
 */
-import { arabicNumber } from '../lib/quran';
+import QuranWord from './QuranWord.astro';
+import T from './T.astro';
+import VerseMarker from './VerseMarker.astro';
+import { arabicNumber, type Lang, type MushafPageData } from '../lib/quran';
+
+// Word meanings in both languages; the language switch shows one (see QuranWord)
+const LANGS: Lang[] = ['en', 'id'];
 
 interface Props {
-  page: number; // page number in the printed mushaf
+  data: MushafPageData;
+  focus?: number; // Surah mode: show only this surah's lines
 }
 
-const { page } = Astro.props;
+const { data, focus } = Astro.props;
+// Running header: the focused surah, or (like the screenshot) the surah the page ends in
+const headerSurah = data.chapters.find((c) => c.id === focus) ?? data.chapters.at(-1)!;
+const lines = focus ? data.lines.filter((line) => line.kind !== 'empty' && line.surah === focus) : data.lines;
 ---
 
-<section class="mushaf-page" aria-label={`Mushaf page ${page}`}>
-  <div class="frame">
-    <slot />
-    <p class="page-number" aria-hidden="true">{arabicNumber(page)}</p>
+<article class:list={['mushaf', { focused: focus }]} aria-label={`Mushaf page ${data.page}, Juz ${data.juz}`}>
+  <!-- gold studs in the four corners of the border -->
+  <span class="stud tl" aria-hidden="true"></span>
+  <span class="stud tr" aria-hidden="true"></span>
+  <span class="stud bl" aria-hidden="true"></span>
+  <span class="stud br" aria-hidden="true"></span>
+
+  <div class="paper" lang="ar" dir="rtl">
+    <p class="running-header" aria-hidden="true">
+      <span>سورة {headerSurah.nameArabic}</span>
+      <span>الجزء {arabicNumber(data.juz)}</span>
+    </p>
+
+    <div class="lines">
+      {
+        lines.map((line) => {
+          if (line.kind === 'title') {
+            return (
+              <div class="line title" id={`surah-${line.chapter.id}`}>
+                {/* the page is right-to-left: first span = right side of the bar */}
+                <span class="title-en" lang="en" dir="ltr">Surah {line.chapter.id}</span>
+                <span class="title-ar">سورة {line.chapter.nameArabic}</span>
+                <span class="title-en" lang="en" dir="ltr">
+                  {line.chapter.nameSimple} ·{' '}
+                  <T en={line.chapter.translatedNames.en} id={line.chapter.translatedNames.id} />
+                </span>
+              </div>
+            );
+          }
+          if (line.kind === 'bismillah') {
+            return (
+              <div class="line words centered">
+                {line.words.map((word) => <QuranWord word={word} langs={LANGS} />)}
+              </div>
+            );
+          }
+          if (line.kind === 'words') {
+            return (
+              <div class="line words">
+                {line.items.map((item) =>
+                  item.kind === 'word' ? <QuranWord word={item.word} langs={LANGS} /> : <VerseMarker number={item.number} />,
+                )}
+              </div>
+            );
+          }
+          return <div class="line" aria-hidden="true" />;
+        })
+      }
+    </div>
+
+    <footer class="page-foot">
+      <span class="oval">{arabicNumber(data.page)}</span>
+      <span class="page-label" lang="en" dir="ltr">Page {data.page}</span>
+    </footer>
   </div>
-</section>
+</article>
+
+<script>
+  /*
+    Fitting the lines. Our Arabic font isn't exactly the printed mushaf's font, so:
+      1. Measure how wide each line's words are, compared with the space available.
+      2. If any line is too wide (small phones), shrink the page's text with --fit.
+      3. Full lines are stretched edge to edge; short lines (end of a surah) stay centred.
+  */
+  const FULL_LINE = 0.8; // a line using 80%+ of the width counts as "full"
+
+  function fit(page: HTMLElement) {
+    const lines = [...page.querySelectorAll<HTMLElement>('.line.words')];
+    page.style.setProperty('--fit', '1');
+    lines.forEach((l) => l.classList.remove('justify'));
+
+    const ratio = (line: HTMLElement) => {
+      const used = [...line.children].reduce((sum, el) => sum + el.getBoundingClientRect().width, 0);
+      const gaps = parseFloat(getComputedStyle(line).columnGap) * (line.children.length - 1);
+      return (used + gaps) / line.clientWidth;
+    };
+
+    const widest = Math.max(...lines.map(ratio), 0);
+    if (widest > 1) page.style.setProperty('--fit', String(1 / widest));
+
+    lines.forEach((line) => {
+      if (!line.classList.contains('centered') && ratio(line) >= FULL_LINE) line.classList.add('justify');
+    });
+  }
+
+  function fitAll() {
+    document.querySelectorAll<HTMLElement>('.mushaf').forEach(fit);
+  }
+
+  // Fonts change the widths, so wait for them; refit when the screen size changes
+  document.fonts.ready.then(fitAll);
+  let timer: number | undefined;
+  addEventListener('resize', () => {
+    clearTimeout(timer);
+    timer = window.setTimeout(fitAll, 150);
+  });
+</script>
 
 <style>
-  .mushaf-page {
-    padding: 0.5rem;
-    border-radius: 0.6rem;
-    background: var(--paper);
-    /* soft light in the middle of the paper, darker towards the edges */
-    background-image: radial-gradient(ellipse at center, #fffaf0 0%, var(--paper) 70%);
-    color: var(--ink);
-    box-shadow: 0 12px 40px rgb(0 0 0 / 0.45);
+  /* ---- Outer border: repeating blue/red diamond tile (an inline SVG pattern) ---- */
+  .mushaf {
+    position: relative;
+    padding: 14px;
+    border-radius: 6px;
+    background-color: var(--mushaf-blue);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Crect width='20' height='20' fill='%2323408e'/%3E%3Cpath d='M10 1 19 10 10 19 1 10Z' fill='%23b3352c'/%3E%3Cpath d='M10 5 15 10 10 15 5 10Z' fill='%23fbf5e2'/%3E%3Ccircle cx='10' cy='10' r='1.6' fill='%23b3352c'/%3E%3C/svg%3E");
+    background-size: 14px 14px;
+    box-shadow: 0 14px 40px rgb(0 0 0 / 0.5);
   }
 
-  /* Green double frame with a thin gold line inside */
-  .frame {
+  .stud {
+    position: absolute;
+    z-index: 1;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #7a5a1c;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, #f4d98a, var(--gold-500) 60%, #8a6420);
+  }
+
+  .tl { top: -2px; left: -2px; }
+  .tr { top: -2px; right: -2px; }
+  .bl { bottom: -2px; left: -2px; }
+  .br { bottom: -2px; right: -2px; }
+
+  /* ---- The cream page, framed by a red line and a thin gold line ---- */
+  .paper {
+    --fit: 1;
+    container-type: inline-size; /* lets text size follow the page width (cqi units) */
     display: flex;
     flex-direction: column;
-    min-height: 70dvh;
-    padding: 1.25rem 1rem 0.75rem;
-    border: 3px double var(--green-700);
-    border-radius: 0.3rem;
-    box-shadow: inset 0 0 0 4px var(--paper), inset 0 0 0 5px var(--gold-500);
+    aspect-ratio: 0.66; /* the shape of a Madani mushaf page */
+    padding: 4% 5% 3%;
+    border: 2px solid var(--mushaf-red);
+    background: var(--mushaf-cream);
+    box-shadow: inset 0 0 0 3px var(--mushaf-cream), inset 0 0 0 4px var(--gold-500);
+    color: var(--ink);
   }
 
-  .page-number {
-    margin: auto 0 0; /* always at the bottom of the frame */
-    padding-top: 1rem;
-    color: var(--green-700);
+  .running-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 1.5%;
+    padding-bottom: 0.6%;
+    border-bottom: 1px solid color-mix(in srgb, var(--ink) 25%, transparent);
+    color: color-mix(in srgb, var(--ink) 75%, transparent);
     font-family: var(--font-arabic);
+    font-size: 3.6cqi;
+  }
+
+  /* 15 equal lines fill the page */
+  .lines {
+    flex: 1;
+    display: grid;
+    grid-template-rows: repeat(15, 1fr);
+    font-family: var(--font-arabic);
+    font-size: calc(5.4cqi * var(--fit)); /* 5.4% of the page width, shrunk if needed */
+  }
+
+  /* Surah mode: fewer lines, so the page is shorter (no fixed page shape),
+     but every line keeps the height it has on a full 15-line page */
+  .focused .paper {
+    aspect-ratio: auto;
+  }
+
+  .focused .lines {
+    grid-template-rows: none;
+    grid-auto-rows: 8.7cqi; /* = one of 15 lines on a full page */
+  }
+
+  .line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.28em;
+    min-width: 0;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  /* Full lines run edge to edge, like print */
+  .line.justify {
+    justify-content: space-between;
+  }
+
+  /* ---- Surah title bar ---- */
+  /* Three columns: "Surah 112" | Arabic name (centre) | "Al-Ikhlas · Sincerity" */
+  .line.title {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 0.4em;
+    margin: 0.4% 0;
+    padding-inline: 0.5em;
+    border: 2px solid var(--mushaf-red);
+    border-radius: 6px;
+    background: linear-gradient(#fdf3d0, #ecd59a);
+    box-shadow: inset 0 0 0 2px #fdf3d0, inset 0 0 0 3px var(--gold-500);
+    color: var(--mushaf-blue);
+  }
+
+  .title-ar {
+    font-size: 0.82em;
+  }
+
+  /* Small English text at both ends of the bar */
+  .title-en {
+    overflow: hidden;
+    font-family: var(--font-ui);
+    font-size: max(0.34em, 9px);
+    font-weight: 600;
+    text-overflow: ellipsis; /* very long meanings get "…" instead of breaking the bar */
+  }
+
+  .title-en:first-child {
+    text-align: right; /* the right end of the bar */
+  }
+
+  .title-en:last-child {
+    text-align: left; /* the left end of the bar */
+  }
+
+  /* ---- Page number in an oval ---- */
+  .page-foot {
+    display: grid;
+    justify-items: center;
+    gap: 0.2rem;
+    margin-top: 1%;
+  }
+
+  .oval {
+    min-width: 16cqi;
+    padding: 0.4% 4%;
+    border: 2px solid var(--mushaf-red);
+    border-radius: 999px;
+    background: linear-gradient(#fdf3d0, #ecd59a);
+    color: var(--mushaf-blue);
+    font-family: var(--font-arabic);
+    font-size: 3.8cqi;
     text-align: center;
+  }
+
+  .page-label {
+    color: color-mix(in srgb, var(--ink) 55%, transparent);
+    font-family: var(--font-ui);
+    font-size: 2.4cqi;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
   }
 </style>

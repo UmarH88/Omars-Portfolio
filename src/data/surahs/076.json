@@ -6,6 +6,11 @@
   "revelationPlace": "madinah",
   "versesCount": 31,
   "bismillahPre": true,
+  "pages": [
+    578,
+    580
+  ],
+  "formatVersion": 4,
   "languages": [
     {
       "lang": "en",
@@ -38,7 +43,9 @@
             "en": "Has",
             "id": "apakah/bukankah"
           },
-          "transliteration": "hal"
+          "transliteration": "hal",
+          "page": 578,
+          "line": 11
         },
         {
           "text": "أَتَىٰ",
@@ -46,7 +53,9 @@
             "en": "(there) come",
             "id": "telah datang"
           },
-          "transliteration": "atā"
+          "transliteration": "atā",
+          "page": 578,
+          "line": 11
         },
         {
           "text": "عَلَى",
@@ -54,7 +63,9 @@
             "en": "upon",
             "id": "atas"
           },
-          "transliteration": "ʿalā"
+          "transliteration": "ʿalā",
+          "page": 578,
+          "line": 11
         },
         {
           "text": "ٱلْإِنسَـٰنِ",
@@ -62,7 +73,9 @@
             "en": "man",
             "id": "manusia"
           },
-          "transliteration": "l-insāni"
+          "transliteration": "l-insāni",
+          "page": 578,
+          "line": 11
         },
         {
           "text": "حِينٌۭ",
@@ -70,7 +83,9 @@
             "en": "a period",
             "id": "waktu"
           },
-          "transliteration": "ḥīnun"
+          "transliteration": "ḥīnun",
+          "page": 578,
+          "line": 11
         },
         {
           "text": "مِّنَ",
@@ -78,7 +93,9 @@
             "en": "of",
             "id": "dari"
           },
-          "transliteration": "mina"
+          "transliteration": "mina",
+          "page": 578,
+          "line": 11
         },
         {
           "text": "ٱلدَّهْرِ",
@@ -86,7 +103,9 @@
             "en": "time",
             "id": "masa"
           },
-          "transliteration": "l-dahri"
+          "transliteration": "l-dahri",
+          "page": 578,
+          "line": 11
         },
         {
           "text": "لَمْ",
@@ -94,7 +113,9 @@
             "en": "not",
             "id": "tidaklah"
           },
-          "transliteration": "lam"
+          "transliteration": "lam",
+          "page": 578,
+          "line": 11
         },
         {
           "text": "يَكُن",
@@ -102,7 +123,9 @@
             "en": "he was",
             "id": "dia"
           },
-          "transliteration": "yakun"
+          "transliteration": "yakun",
+          "page": 578,
+          "line": 11
         },
         {
           "text": "شَيْـًۭٔا",
@@ -110,7 +133,9 @@
             "en": "a thing",
             "id": "sesuatu"
           },
-          "transliteration": "shayan"
+          "transliteration": "shayan",
+          "page": 578,
+          "line": 11
         },
         {
           "text": "مَّذْكُورًا",
@@ -118,7 +143,9 @@
             "en": "mentioned",
             "id": "yang disebut"
           },
-          "transliteration": "madhkūran"
+          "transliteration": "madhkūran",
+          "page": 578,
+          "line": 11
         }
       ]
     },
@@ -140,7 +167,9 @@
             "en": "Indeed, We",
             "id": "sesungguhnya Kami"
           },
-          "transliteration": "innā"
+          "transliteration": "innā",
+          "page": 578,
+          "line": 12
         },
         {
           "text": "خَلَقْنَا",
@@ -148,7 +177,9 @@
             "en": "[We] created",
             "id": "Kami telah menciptakan"
           },
-          "transliteration": "khalaqnā"
+          "transliteration": "khalaqnā",
+          "page": 578,
+          "line": 12
         },
         {
           "text": "ٱلْإِنسَـٰنَ",
@@ -156,7 +187,9 @@
             "en": "man",
             "id": "manusia"
           },
-          "transliteration": "l-insāna"
+          "transliteration": "l-insāna",
+          "page": 578,
+          "line": 12
         },
         {
           "text": "مِن",
@@ -164,7 +197,9 @@
             "en": "from",
             "id": "dari"
           },
-          "transliteration": "min"
+          "transliteration": "min",
+          "page": 578,
+          "line": 12
         },
         {
           "text": "نُّطْفَةٍ",
@@ -172,7 +207,9 @@
             "en": "a semen-drop",
             "id": "setetes mani"
           },
-          "transliteration": "nuṭ'fatin"
+          "transliteration": "nuṭ'fatin",
+          "page": 578,
+          "line": 12
         },
         {
           "text": "أَمْشَاجٍۢ",
@@ -180,7 +217,9 @@
             "en": "a mixture",
             "id": "bercampur"
           },
-          "transliteration": "amshājin"
+          "transliteration": "amshājin",
+          "page": 578,
+          "line": 12
         },
         {
           "text": "نَّبْتَلِيهِ",
@@ -188,7 +227,9 @@
             "en": "(that) We test him",
             "id": "Kami mengujinya"
           },
-          "transliteration": "nabtalīhi"
+          "transliteration": "nabtalīhi",
+          "page": 578,
+          "line": 12
         },
         {
           "text": "فَجَعَلْنَـٰهُ",
@@ -196,7 +237,9 @@
             "en": "so We made (for) him",
             "id": "maka Kami jadikan ia"
           },
-          "transliteration": "fajaʿalnāhu"
+          "transliteration": "fajaʿalnāhu",
+          "page": 578,
+          "line": 12
         },
         {
           "text": "سَمِيعًۢا",
@@ -204,7 +247,9 @@
             "en": "hearing",
             "id": "mendengar"
           },
-          "transliteration": "samīʿan"
+          "transliteration": "samīʿan",
+          "page": 578,
+          "line": 12
         },
         {
           "text": "بَصِيرًا",
@@ -212,7 +257,9 @@
             "en": "and sight",
             "id": "melihat"
           },
-          "transliteration": "baṣīran"
+          "transliteration": "baṣīran",
+          "page": 578,
+          "line": 13
         }
       ]
     },
@@ -234,7 +281,9 @@
             "en": "Indeed, We",
             "id": "sesungguhnya Kami"
           },
-          "transliteration": "innā"
+          "transliteration": "innā",
+          "page": 578,
+          "line": 13
         },
         {
           "text": "هَدَيْنَـٰهُ",
@@ -242,7 +291,9 @@
             "en": "guided him",
             "id": "Kami beri petunjuk padanya"
           },
-          "transliteration": "hadaynāhu"
+          "transliteration": "hadaynāhu",
+          "page": 578,
+          "line": 13
         },
         {
           "text": "ٱلسَّبِيلَ",
@@ -250,7 +301,9 @@
             "en": "(to) the way",
             "id": "jalan"
           },
-          "transliteration": "l-sabīla"
+          "transliteration": "l-sabīla",
+          "page": 578,
+          "line": 13
         },
         {
           "text": "إِمَّا",
@@ -258,7 +311,9 @@
             "en": "whether",
             "id": "terkadang/adakalanya"
           },
-          "transliteration": "immā"
+          "transliteration": "immā",
+          "page": 578,
+          "line": 13
         },
         {
           "text": "شَاكِرًۭا",
@@ -266,7 +321,9 @@
             "en": "(he) be grateful",
             "id": "bersyukur"
           },
-          "transliteration": "shākiran"
+          "transliteration": "shākiran",
+          "page": 578,
+          "line": 13
         },
         {
           "text": "وَإِمَّا",
@@ -274,7 +331,9 @@
             "en": "and whether",
             "id": "dan terkadang"
           },
-          "transliteration": "wa-immā"
+          "transliteration": "wa-immā",
+          "page": 578,
+          "line": 13
         },
         {
           "text": "كَفُورًا",
@@ -282,7 +341,9 @@
             "en": "(he) be ungrateful",
             "id": "kufur/ingkar"
           },
-          "transliteration": "kafūran"
+          "transliteration": "kafūran",
+          "page": 578,
+          "line": 13
         }
       ]
     },
@@ -304,7 +365,9 @@
             "en": "Indeed, We",
             "id": "sesungguhnya kami"
           },
-          "transliteration": "innā"
+          "transliteration": "innā",
+          "page": 578,
+          "line": 14
         },
         {
           "text": "أَعْتَدْنَا",
@@ -312,7 +375,9 @@
             "en": "[We] have prepared",
             "id": "Kami menyediakan"
           },
-          "transliteration": "aʿtadnā"
+          "transliteration": "aʿtadnā",
+          "page": 578,
+          "line": 14
         },
         {
           "text": "لِلْكَـٰفِرِينَ",
@@ -320,7 +385,9 @@
             "en": "for the disbelievers",
             "id": "bagi orang-orang kafir"
           },
-          "transliteration": "lil'kāfirīna"
+          "transliteration": "lil'kāfirīna",
+          "page": 578,
+          "line": 14
         },
         {
           "text": "سَلَـٰسِلَا۟",
@@ -328,7 +395,9 @@
             "en": "chains",
             "id": "rantai-rantai"
           },
-          "transliteration": "salāsilā"
+          "transliteration": "salāsilā",
+          "page": 578,
+          "line": 14
         },
         {
           "text": "وَأَغْلَـٰلًۭا",
@@ -336,7 +405,9 @@
             "en": "and shackles",
             "id": "dan belenggu-belenggu"
           },
-          "transliteration": "wa-aghlālan"
+          "transliteration": "wa-aghlālan",
+          "page": 578,
+          "line": 14
         },
         {
           "text": "وَسَعِيرًا",
@@ -344,7 +415,9 @@
             "en": "and a Blazing Fire",
             "id": "dan neraka yang menyala-nyala"
           },
-          "transliteration": "wasaʿīran"
+          "transliteration": "wasaʿīran",
+          "page": 578,
+          "line": 14
         }
       ]
     },
@@ -366,7 +439,9 @@
             "en": "Indeed",
             "id": "sesungguhnya"
           },
-          "transliteration": "inna"
+          "transliteration": "inna",
+          "page": 578,
+          "line": 14
         },
         {
           "text": "ٱلْأَبْرَارَ",
@@ -374,7 +449,9 @@
             "en": "the righteous",
             "id": "yang berbuat baik"
           },
-          "transliteration": "l-abrāra"
+          "transliteration": "l-abrāra",
+          "page": 578,
+          "line": 15
         },
         {
           "text": "يَشْرَبُونَ",
@@ -382,7 +459,9 @@
             "en": "will drink",
             "id": "mereka akan minum"
           },
-          "transliteration": "yashrabūna"
+          "transliteration": "yashrabūna",
+          "page": 578,
+          "line": 15
         },
         {
           "text": "مِن",
@@ -390,7 +469,9 @@
             "en": "from",
             "id": "dari"
           },
-          "transliteration": "min"
+          "transliteration": "min",
+          "page": 578,
+          "line": 15
         },
         {
           "text": "كَأْسٍۢ",
@@ -398,7 +479,9 @@
             "en": "a cup",
             "id": "piala/gelas"
           },
-          "transliteration": "kasin"
+          "transliteration": "kasin",
+          "page": 578,
+          "line": 15
         },
         {
           "text": "كَانَ",
@@ -406,7 +489,9 @@
             "en": "is",
             "id": "adalah ia"
           },
-          "transliteration": "kāna"
+          "transliteration": "kāna",
+          "page": 578,
+          "line": 15
         },
         {
           "text": "مِزَاجُهَا",
@@ -414,7 +499,9 @@
             "en": "its mixture",
             "id": "campurannya"
           },
-          "transliteration": "mizājuhā"
+          "transliteration": "mizājuhā",
+          "page": 578,
+          "line": 15
         },
         {
           "text": "كَافُورًا",
@@ -422,7 +509,9 @@
             "en": "(of) Kafur",
             "id": "air kafur"
           },
-          "transliteration": "kāfūran"
+          "transliteration": "kāfūran",
+          "page": 578,
+          "line": 15
         }
       ]
     },
@@ -444,7 +533,9 @@
             "en": "A spring ",
             "id": "mata air"
           },
-          "transliteration": "ʿaynan"
+          "transliteration": "ʿaynan",
+          "page": 579,
+          "line": 1
         },
         {
           "text": "يَشْرَبُ",
@@ -452,7 +543,9 @@
             "en": "will drink",
             "id": "minuman"
           },
-          "transliteration": "yashrabu"
+          "transliteration": "yashrabu",
+          "page": 579,
+          "line": 1
         },
         {
           "text": "بِهَا",
@@ -460,7 +553,9 @@
             "en": "from it",
             "id": "padanya"
           },
-          "transliteration": "bihā"
+          "transliteration": "bihā",
+          "page": 579,
+          "line": 1
         },
         {
           "text": "عِبَادُ",
@@ -468,7 +563,9 @@
             "en": "(the) slaves",
             "id": "hamba-hamba"
           },
-          "transliteration": "ʿibādu"
+          "transliteration": "ʿibādu",
+          "page": 579,
+          "line": 1
         },
         {
           "text": "ٱللَّهِ",
@@ -476,7 +573,9 @@
             "en": "(of) Allah",
             "id": "Allah"
           },
-          "transliteration": "l-lahi"
+          "transliteration": "l-lahi",
+          "page": 579,
+          "line": 1
         },
         {
           "text": "يُفَجِّرُونَهَا",
@@ -484,7 +583,9 @@
             "en": "causing it to gush forth",
             "id": "mereka memancarkannya/mengalirkannya"
           },
-          "transliteration": "yufajjirūnahā"
+          "transliteration": "yufajjirūnahā",
+          "page": 579,
+          "line": 1
         },
         {
           "text": "تَفْجِيرًۭا",
@@ -492,7 +593,9 @@
             "en": "abundantly",
             "id": "dengan pancaran/aliran"
           },
-          "transliteration": "tafjīran"
+          "transliteration": "tafjīran",
+          "page": 579,
+          "line": 1
         }
       ]
     },
@@ -514,7 +617,9 @@
             "en": "They fulfill",
             "id": "mereka memenuhi"
           },
-          "transliteration": "yūfūna"
+          "transliteration": "yūfūna",
+          "page": 579,
+          "line": 1
         },
         {
           "text": "بِٱلنَّذْرِ",
@@ -522,7 +627,9 @@
             "en": "the vows",
             "id": "dengan nazar"
           },
-          "transliteration": "bil-nadhri"
+          "transliteration": "bil-nadhri",
+          "page": 579,
+          "line": 1
         },
         {
           "text": "وَيَخَافُونَ",
@@ -530,7 +637,9 @@
             "en": "and fear",
             "id": "dan mereka takut"
           },
-          "transliteration": "wayakhāfūna"
+          "transliteration": "wayakhāfūna",
+          "page": 579,
+          "line": 1
         },
         {
           "text": "يَوْمًۭا",
@@ -538,7 +647,9 @@
             "en": "a Day ",
             "id": "hari"
           },
-          "transliteration": "yawman"
+          "transliteration": "yawman",
+          "page": 579,
+          "line": 2
         },
         {
           "text": "كَانَ",
@@ -546,7 +657,9 @@
             "en": "(which) is",
             "id": "adalah ia"
           },
-          "transliteration": "kāna"
+          "transliteration": "kāna",
+          "page": 579,
+          "line": 2
         },
         {
           "text": "شَرُّهُۥ",
@@ -554,7 +667,9 @@
             "en": "its evil",
             "id": "bahayanya/azabnya"
           },
-          "transliteration": "sharruhu"
+          "transliteration": "sharruhu",
+          "page": 579,
+          "line": 2
         },
         {
           "text": "مُسْتَطِيرًۭا",
@@ -562,7 +677,9 @@
             "en": "widespread",
             "id": "merata kemana-mana"
           },
-          "transliteration": "mus'taṭīran"
+          "transliteration": "mus'taṭīran",
+          "page": 579,
+          "line": 2
         }
       ]
     },
@@ -584,7 +701,9 @@
             "en": "And they feed",
             "id": "dan mereka memberi makan"
           },
-          "transliteration": "wayuṭ'ʿimūna"
+          "transliteration": "wayuṭ'ʿimūna",
+          "page": 579,
+          "line": 2
         },
         {
           "text": "ٱلطَّعَامَ",
@@ -592,7 +711,9 @@
             "en": "the food",
             "id": "makanan"
           },
-          "transliteration": "l-ṭaʿāma"
+          "transliteration": "l-ṭaʿāma",
+          "page": 579,
+          "line": 2
         },
         {
           "text": "عَلَىٰ",
@@ -600,7 +721,9 @@
             "en": "in spite of",
             "id": "atas"
           },
-          "transliteration": "ʿalā"
+          "transliteration": "ʿalā",
+          "page": 579,
+          "line": 2
         },
         {
           "text": "حُبِّهِۦ",
@@ -608,7 +731,9 @@
             "en": "love (for) it",
             "id": "yang disukainya"
           },
-          "transliteration": "ḥubbihi"
+          "transliteration": "ḥubbihi",
+          "page": 579,
+          "line": 2
         },
         {
           "text": "مِسْكِينًۭا",
@@ -616,7 +741,9 @@
             "en": "(to the) needy",
             "id": "orang miskin"
           },
-          "transliteration": "mis'kīnan"
+          "transliteration": "mis'kīnan",
+          "page": 579,
+          "line": 2
         },
         {
           "text": "وَيَتِيمًۭا",
@@ -624,7 +751,9 @@
             "en": "and (the) orphan",
             "id": "dan anak yatim"
           },
-          "transliteration": "wayatīman"
+          "transliteration": "wayatīman",
+          "page": 579,
+          "line": 3
         },
         {
           "text": "وَأَسِيرًا",
@@ -632,7 +761,9 @@
             "en": "and (the) captive",
             "id": "dan tawanan"
           },
-          "transliteration": "wa-asīran"
+          "transliteration": "wa-asīran",
+          "page": 579,
+          "line": 3
         }
       ]
     },
@@ -654,7 +785,9 @@
             "en": "Only",
             "id": "sesungguhnya hanyalah"
           },
-          "transliteration": "innamā"
+          "transliteration": "innamā",
+          "page": 579,
+          "line": 3
         },
         {
           "text": "نُطْعِمُكُمْ",
@@ -662,7 +795,9 @@
             "en": "we feed you",
             "id": "kami memberi makan kepadamu"
           },
-          "transliteration": "nuṭ'ʿimukum"
+          "transliteration": "nuṭ'ʿimukum",
+          "page": 579,
+          "line": 3
         },
         {
           "text": "لِوَجْهِ",
@@ -670,7 +805,9 @@
             "en": "for (the) Countenance",
             "id": "karena mengharap keridhaan"
           },
-          "transliteration": "liwajhi"
+          "transliteration": "liwajhi",
+          "page": 579,
+          "line": 3
         },
         {
           "text": "ٱللَّهِ",
@@ -678,7 +815,9 @@
             "en": "(of) Allah",
             "id": "Allah"
           },
-          "transliteration": "l-lahi"
+          "transliteration": "l-lahi",
+          "page": 579,
+          "line": 3
         },
         {
           "text": "لَا",
@@ -686,7 +825,9 @@
             "en": "Not",
             "id": "tidak"
           },
-          "transliteration": "lā"
+          "transliteration": "lā",
+          "page": 579,
+          "line": 3
         },
         {
           "text": "نُرِيدُ",
@@ -694,7 +835,9 @@
             "en": "we desire",
             "id": "kami mengharap"
           },
-          "transliteration": "nurīdu"
+          "transliteration": "nurīdu",
+          "page": 579,
+          "line": 3
         },
         {
           "text": "مِنكُمْ",
@@ -702,7 +845,9 @@
             "en": "from you",
             "id": "dari kamu"
           },
-          "transliteration": "minkum"
+          "transliteration": "minkum",
+          "page": 579,
+          "line": 3
         },
         {
           "text": "جَزَآءًۭ",
@@ -710,7 +855,9 @@
             "en": "any reward",
             "id": "balasan"
           },
-          "transliteration": "jazāan"
+          "transliteration": "jazāan",
+          "page": 579,
+          "line": 3
         },
         {
           "text": "وَلَا",
@@ -718,7 +865,9 @@
             "en": "and not",
             "id": "dan tidak"
           },
-          "transliteration": "walā"
+          "transliteration": "walā",
+          "page": 579,
+          "line": 3
         },
         {
           "text": "شُكُورًا",
@@ -726,7 +875,9 @@
             "en": "thanks",
             "id": "terima kasih"
           },
-          "transliteration": "shukūran"
+          "transliteration": "shukūran",
+          "page": 579,
+          "line": 3
         }
       ]
     },
@@ -748,7 +899,9 @@
             "en": "Indeed, we",
             "id": "sesungguhnya kami"
           },
-          "transliteration": "innā"
+          "transliteration": "innā",
+          "page": 579,
+          "line": 4
         },
         {
           "text": "نَخَافُ",
@@ -756,7 +909,9 @@
             "en": "fear",
             "id": "kami takut"
           },
-          "transliteration": "nakhāfu"
+          "transliteration": "nakhāfu",
+          "page": 579,
+          "line": 4
         },
         {
           "text": "مِن",
@@ -764,7 +919,9 @@
             "en": "from",
             "id": "dari"
           },
-          "transliteration": "min"
+          "transliteration": "min",
+          "page": 579,
+          "line": 4
         },
         {
           "text": "رَّبِّنَا",
@@ -772,7 +929,9 @@
             "en": "our Lord",
             "id": "Tuhan kami"
           },
-          "transliteration": "rabbinā"
+          "transliteration": "rabbinā",
+          "page": 579,
+          "line": 4
         },
         {
           "text": "يَوْمًا",
@@ -780,7 +939,9 @@
             "en": "a Day ",
             "id": "suatu hari"
           },
-          "transliteration": "yawman"
+          "transliteration": "yawman",
+          "page": 579,
+          "line": 4
         },
         {
           "text": "عَبُوسًۭا",
@@ -788,7 +949,9 @@
             "en": "harsh",
             "id": "bermuka masam"
           },
-          "transliteration": "ʿabūsan"
+          "transliteration": "ʿabūsan",
+          "page": 579,
+          "line": 4
         },
         {
           "text": "قَمْطَرِيرًۭا",
@@ -796,7 +959,9 @@
             "en": "and distressful",
             "id": "penuh kesulitan"
           },
-          "transliteration": "qamṭarīran"
+          "transliteration": "qamṭarīran",
+          "page": 579,
+          "line": 4
         }
       ]
     },
@@ -818,7 +983,9 @@
             "en": "But will protect them",
             "id": "maka memelihara mereka"
           },
-          "transliteration": "fawaqāhumu"
+          "transliteration": "fawaqāhumu",
+          "page": 579,
+          "line": 4
         },
         {
           "text": "ٱللَّهُ",
@@ -826,7 +993,9 @@
             "en": "Allah",
             "id": "Allah"
           },
-          "transliteration": "l-lahu"
+          "transliteration": "l-lahu",
+          "page": 579,
+          "line": 4
         },
         {
           "text": "شَرَّ",
@@ -834,7 +1003,9 @@
             "en": "(from the) evil",
             "id": "kejelekan/kesusahan"
           },
-          "transliteration": "sharra"
+          "transliteration": "sharra",
+          "page": 579,
+          "line": 4
         },
         {
           "text": "ذَٰلِكَ",
@@ -842,7 +1013,9 @@
             "en": "(of) that",
             "id": "demikian/itu"
           },
-          "transliteration": "dhālika"
+          "transliteration": "dhālika",
+          "page": 579,
+          "line": 4
         },
         {
           "text": "ٱلْيَوْمِ",
@@ -850,7 +1023,9 @@
             "en": "Day",
             "id": "hari"
           },
-          "transliteration": "l-yawmi"
+          "transliteration": "l-yawmi",
+          "page": 579,
+          "line": 5
         },
         {
           "text": "وَلَقَّىٰهُمْ",
@@ -858,7 +1033,9 @@
             "en": "and will cause them to meet",
             "id": "dan Dia menemukan/memberikan pada mereka"
           },
-          "transliteration": "walaqqāhum"
+          "transliteration": "walaqqāhum",
+          "page": 579,
+          "line": 5
         },
         {
           "text": "نَضْرَةًۭ",
@@ -866,7 +1043,9 @@
             "en": "radiance",
             "id": "pandangan/kejernihan"
           },
-          "transliteration": "naḍratan"
+          "transliteration": "naḍratan",
+          "page": 579,
+          "line": 5
         },
         {
           "text": "وَسُرُورًۭا",
@@ -874,7 +1053,9 @@
             "en": "and happiness",
             "id": "dan kegembiraan"
           },
-          "transliteration": "wasurūran"
+          "transliteration": "wasurūran",
+          "page": 579,
+          "line": 5
         }
       ]
     },
@@ -896,7 +1077,9 @@
             "en": "And will reward them",
             "id": "dan Dia memberi balasan pada mereka"
           },
-          "transliteration": "wajazāhum"
+          "transliteration": "wajazāhum",
+          "page": 579,
+          "line": 5
         },
         {
           "text": "بِمَا",
@@ -904,7 +1087,9 @@
             "en": "because",
             "id": "dengan apa/sebab"
           },
-          "transliteration": "bimā"
+          "transliteration": "bimā",
+          "page": 579,
+          "line": 5
         },
         {
           "text": "صَبَرُوا۟",
@@ -912,7 +1097,9 @@
             "en": "they were patient",
             "id": "mereka sabar"
           },
-          "transliteration": "ṣabarū"
+          "transliteration": "ṣabarū",
+          "page": 579,
+          "line": 5
         },
         {
           "text": "جَنَّةًۭ",
@@ -920,7 +1107,9 @@
             "en": "(with) a Garden",
             "id": "sorga"
           },
-          "transliteration": "jannatan"
+          "transliteration": "jannatan",
+          "page": 579,
+          "line": 5
         },
         {
           "text": "وَحَرِيرًۭا",
@@ -928,7 +1117,9 @@
             "en": "and silk",
             "id": "dan sutera"
           },
-          "transliteration": "waḥarīran"
+          "transliteration": "waḥarīran",
+          "page": 579,
+          "line": 5
         }
       ]
     },
@@ -950,7 +1141,9 @@
             "en": "Reclining",
             "id": "mereka duduk bersandar"
           },
-          "transliteration": "muttakiīna"
+          "transliteration": "muttakiīna",
+          "page": 579,
+          "line": 6
         },
         {
           "text": "فِيهَا",
@@ -958,7 +1151,9 @@
             "en": "therein",
             "id": "didalamnya"
           },
-          "transliteration": "fīhā"
+          "transliteration": "fīhā",
+          "page": 579,
+          "line": 6
         },
         {
           "text": "عَلَى",
@@ -966,7 +1161,9 @@
             "en": "on",
             "id": "atas"
           },
-          "transliteration": "ʿalā"
+          "transliteration": "ʿalā",
+          "page": 579,
+          "line": 6
         },
         {
           "text": "ٱلْأَرَآئِكِ ۖ",
@@ -974,7 +1171,9 @@
             "en": "couches",
             "id": "pelaminan/dipan"
           },
-          "transliteration": "l-arāiki"
+          "transliteration": "l-arāiki",
+          "page": 579,
+          "line": 6
         },
         {
           "text": "لَا",
@@ -982,7 +1181,9 @@
             "en": "Not",
             "id": "tidak"
           },
-          "transliteration": "lā"
+          "transliteration": "lā",
+          "page": 579,
+          "line": 6
         },
         {
           "text": "يَرَوْنَ",
@@ -990,7 +1191,9 @@
             "en": "they will see",
             "id": "mereka melihat"
           },
-          "transliteration": "yarawna"
+          "transliteration": "yarawna",
+          "page": 579,
+          "line": 6
         },
         {
           "text": "فِيهَا",
@@ -998,7 +1201,9 @@
             "en": "therein",
             "id": "didalamnya"
           },
-          "transliteration": "fīhā"
+          "transliteration": "fīhā",
+          "page": 579,
+          "line": 6
         },
         {
           "text": "شَمْسًۭا",
@@ -1006,7 +1211,9 @@
             "en": "sun",
             "id": "matahari"
           },
-          "transliteration": "shamsan"
+          "transliteration": "shamsan",
+          "page": 579,
+          "line": 6
         },
         {
           "text": "وَلَا",
@@ -1014,7 +1221,9 @@
             "en": "and not",
             "id": "dan tidak"
           },
-          "transliteration": "walā"
+          "transliteration": "walā",
+          "page": 579,
+          "line": 6
         },
         {
           "text": "زَمْهَرِيرًۭا",
@@ -1022,7 +1231,9 @@
             "en": "freezing cold",
             "id": "kedinginan yang sangat"
           },
-          "transliteration": "zamharīran"
+          "transliteration": "zamharīran",
+          "page": 579,
+          "line": 6
         }
       ]
     },
@@ -1044,7 +1255,9 @@
             "en": "And near",
             "id": "dan dekat"
           },
-          "transliteration": "wadāniyatan"
+          "transliteration": "wadāniyatan",
+          "page": 579,
+          "line": 7
         },
         {
           "text": "عَلَيْهِمْ",
@@ -1052,7 +1265,9 @@
             "en": "above them",
             "id": "atas mereka"
           },
-          "transliteration": "ʿalayhim"
+          "transliteration": "ʿalayhim",
+          "page": 579,
+          "line": 7
         },
         {
           "text": "ظِلَـٰلُهَا",
@@ -1060,7 +1275,9 @@
             "en": "(are) its shades",
             "id": "naungannya"
           },
-          "transliteration": "ẓilāluhā"
+          "transliteration": "ẓilāluhā",
+          "page": 579,
+          "line": 7
         },
         {
           "text": "وَذُلِّلَتْ",
@@ -1068,7 +1285,9 @@
             "en": "and will hang low",
             "id": "dan didekatkan/dimudahkan"
           },
-          "transliteration": "wadhullilat"
+          "transliteration": "wadhullilat",
+          "page": 579,
+          "line": 7
         },
         {
           "text": "قُطُوفُهَا",
@@ -1076,7 +1295,9 @@
             "en": "its cluster of fruits",
             "id": "buah-buahnya"
           },
-          "transliteration": "quṭūfuhā"
+          "transliteration": "quṭūfuhā",
+          "page": 579,
+          "line": 7
         },
         {
           "text": "تَذْلِيلًۭا",
@@ -1084,7 +1305,9 @@
             "en": "dangling low",
             "id": "sedekat-dekatnya/semudah-mudahnya"
           },
-          "transliteration": "tadhlīlan"
+          "transliteration": "tadhlīlan",
+          "page": 579,
+          "line": 7
         }
       ]
     },
@@ -1106,7 +1329,9 @@
             "en": "And will be circulated",
             "id": "dan diedarkan"
           },
-          "transliteration": "wayuṭāfu"
+          "transliteration": "wayuṭāfu",
+          "page": 579,
+          "line": 7
         },
         {
           "text": "عَلَيْهِم",
@@ -1114,7 +1339,9 @@
             "en": "among them",
             "id": "atas mereka"
           },
-          "transliteration": "ʿalayhim"
+          "transliteration": "ʿalayhim",
+          "page": 579,
+          "line": 7
         },
         {
           "text": "بِـَٔانِيَةٍۢ",
@@ -1122,7 +1349,9 @@
             "en": "vessels",
             "id": "dengan bejana-bejana"
           },
-          "transliteration": "biāniyatin"
+          "transliteration": "biāniyatin",
+          "page": 579,
+          "line": 7
         },
         {
           "text": "مِّن",
@@ -1130,7 +1359,9 @@
             "en": "of",
             "id": "dari"
           },
-          "transliteration": "min"
+          "transliteration": "min",
+          "page": 579,
+          "line": 8
         },
         {
           "text": "فِضَّةٍۢ",
@@ -1138,7 +1369,9 @@
             "en": "silver",
             "id": "perak"
           },
-          "transliteration": "fiḍḍatin"
+          "transliteration": "fiḍḍatin",
+          "page": 579,
+          "line": 8
         },
         {
           "text": "وَأَكْوَابٍۢ",
@@ -1146,7 +1379,9 @@
             "en": "and cups",
             "id": "dan piala-piala"
           },
-          "transliteration": "wa-akwābin"
+          "transliteration": "wa-akwābin",
+          "page": 579,
+          "line": 8
         },
         {
           "text": "كَانَتْ",
@@ -1154,7 +1389,9 @@
             "en": "(that) are",
             "id": "adalah ia"
           },
-          "transliteration": "kānat"
+          "transliteration": "kānat",
+          "page": 579,
+          "line": 8
         },
         {
           "text": "قَوَارِيرَا۠",
@@ -1162,7 +1399,9 @@
             "en": "(of) crystal",
             "id": "kaca-kaca"
           },
-          "transliteration": "qawārīrā"
+          "transliteration": "qawārīrā",
+          "page": 579,
+          "line": 8
         }
       ]
     },
@@ -1184,7 +1423,9 @@
             "en": "Crystal-clear",
             "id": "kaca-kaca"
           },
-          "transliteration": "qawārīrā"
+          "transliteration": "qawārīrā",
+          "page": 579,
+          "line": 8
         },
         {
           "text": "مِن",
@@ -1192,7 +1433,9 @@
             "en": "of",
             "id": "dari"
           },
-          "transliteration": "min"
+          "transliteration": "min",
+          "page": 579,
+          "line": 8
         },
         {
           "text": "فِضَّةٍۢ",
@@ -1200,7 +1443,9 @@
             "en": "silver",
             "id": "perak"
           },
-          "transliteration": "fiḍḍatin"
+          "transliteration": "fiḍḍatin",
+          "page": 579,
+          "line": 8
         },
         {
           "text": "قَدَّرُوهَا",
@@ -1208,7 +1453,9 @@
             "en": "They will determine its",
             "id": "mereka mengukurnya"
           },
-          "transliteration": "qaddarūhā"
+          "transliteration": "qaddarūhā",
+          "page": 579,
+          "line": 8
         },
         {
           "text": "تَقْدِيرًۭا",
@@ -1216,7 +1463,9 @@
             "en": "measure",
             "id": "dengan ukuran"
           },
-          "transliteration": "taqdīran"
+          "transliteration": "taqdīran",
+          "page": 579,
+          "line": 8
         }
       ]
     },
@@ -1238,7 +1487,9 @@
             "en": "And they will be given to drink",
             "id": "dan mereka diberi minum"
           },
-          "transliteration": "wayus'qawna"
+          "transliteration": "wayus'qawna",
+          "page": 579,
+          "line": 9
         },
         {
           "text": "فِيهَا",
@@ -1246,7 +1497,9 @@
             "en": "therein",
             "id": "didalamnya"
           },
-          "transliteration": "fīhā"
+          "transliteration": "fīhā",
+          "page": 579,
+          "line": 9
         },
         {
           "text": "كَأْسًۭا",
@@ -1254,7 +1507,9 @@
             "en": "a cup ",
             "id": "piala/gelas"
           },
-          "transliteration": "kasan"
+          "transliteration": "kasan",
+          "page": 579,
+          "line": 9
         },
         {
           "text": "كَانَ",
@@ -1262,7 +1517,9 @@
             "en": "is",
             "id": "adalah ia"
           },
-          "transliteration": "kāna"
+          "transliteration": "kāna",
+          "page": 579,
+          "line": 9
         },
         {
           "text": "مِزَاجُهَا",
@@ -1270,7 +1527,9 @@
             "en": "its mixture",
             "id": "campurannya"
           },
-          "transliteration": "mizājuhā"
+          "transliteration": "mizājuhā",
+          "page": 579,
+          "line": 9
         },
         {
           "text": "زَنجَبِيلًا",
@@ -1278,7 +1537,9 @@
             "en": "(of) Zanjabil",
             "id": "jahe"
           },
-          "transliteration": "zanjabīlan"
+          "transliteration": "zanjabīlan",
+          "page": 579,
+          "line": 9
         }
       ]
     },
@@ -1300,7 +1561,9 @@
             "en": "A spring",
             "id": "mata air"
           },
-          "transliteration": "ʿaynan"
+          "transliteration": "ʿaynan",
+          "page": 579,
+          "line": 9
         },
         {
           "text": "فِيهَا",
@@ -1308,7 +1571,9 @@
             "en": "therein",
             "id": "di dalamnya (di dalam sorga)"
           },
-          "transliteration": "fīhā"
+          "transliteration": "fīhā",
+          "page": 579,
+          "line": 9
         },
         {
           "text": "تُسَمَّىٰ",
@@ -1316,7 +1581,9 @@
             "en": "named",
             "id": "dinamakan"
           },
-          "transliteration": "tusammā"
+          "transliteration": "tusammā",
+          "page": 579,
+          "line": 9
         },
         {
           "text": "سَلْسَبِيلًۭا",
@@ -1324,7 +1591,9 @@
             "en": "Salsabil",
             "id": "salsabil"
           },
-          "transliteration": "salsabīlan"
+          "transliteration": "salsabīlan",
+          "page": 579,
+          "line": 9
         }
       ]
     },
@@ -1346,7 +1615,9 @@
             "en": "And will circulate",
             "id": "dan mengelilingi"
           },
-          "transliteration": "wayaṭūfu"
+          "transliteration": "wayaṭūfu",
+          "page": 579,
+          "line": 10
         },
         {
           "text": "عَلَيْهِمْ",
@@ -1354,7 +1625,9 @@
             "en": "among them",
             "id": "atas atas mereka"
           },
-          "transliteration": "ʿalayhim"
+          "transliteration": "ʿalayhim",
+          "page": 579,
+          "line": 10
         },
         {
           "text": "وِلْدَٰنٌۭ",
@@ -1362,7 +1635,9 @@
             "en": "young boys",
             "id": "anak-anak muda"
           },
-          "transliteration": "wil'dānun"
+          "transliteration": "wil'dānun",
+          "page": 579,
+          "line": 10
         },
         {
           "text": "مُّخَلَّدُونَ",
@@ -1370,7 +1645,9 @@
             "en": "made eternal",
             "id": "mereka kekal/tetap"
           },
-          "transliteration": "mukhalladūna"
+          "transliteration": "mukhalladūna",
+          "page": 579,
+          "line": 10
         },
         {
           "text": "إِذَا",
@@ -1378,7 +1655,9 @@
             "en": "When",
             "id": "apabila"
           },
-          "transliteration": "idhā"
+          "transliteration": "idhā",
+          "page": 579,
+          "line": 10
         },
         {
           "text": "رَأَيْتَهُمْ",
@@ -1386,7 +1665,9 @@
             "en": "you see them",
             "id": "kamu melihat mereka"
           },
-          "transliteration": "ra-aytahum"
+          "transliteration": "ra-aytahum",
+          "page": 579,
+          "line": 10
         },
         {
           "text": "حَسِبْتَهُمْ",
@@ -1394,7 +1675,9 @@
             "en": "you would think them",
             "id": "kamu mengira mereka"
           },
-          "transliteration": "ḥasib'tahum"
+          "transliteration": "ḥasib'tahum",
+          "page": 579,
+          "line": 10
         },
         {
           "text": "لُؤْلُؤًۭا",
@@ -1402,7 +1685,9 @@
             "en": "(to be) pearls",
             "id": "mutiara"
           },
-          "transliteration": "lu'lu-an"
+          "transliteration": "lu'lu-an",
+          "page": 579,
+          "line": 10
         },
         {
           "text": "مَّنثُورًۭا",
@@ -1410,7 +1695,9 @@
             "en": "scattered",
             "id": "bertaburan"
           },
-          "transliteration": "manthūran"
+          "transliteration": "manthūran",
+          "page": 579,
+          "line": 10
         }
       ]
     },
@@ -1432,7 +1719,9 @@
             "en": "And when",
             "id": "dan apabila"
           },
-          "transliteration": "wa-idhā"
+          "transliteration": "wa-idhā",
+          "page": 579,
+          "line": 11
         },
         {
           "text": "رَأَيْتَ",
@@ -1440,7 +1729,9 @@
             "en": "you look",
             "id": "kamu melihat"
           },
-          "transliteration": "ra-ayta"
+          "transliteration": "ra-ayta",
+          "page": 579,
+          "line": 11
         },
         {
           "text": "ثَمَّ",
@@ -1448,7 +1739,9 @@
             "en": "then",
             "id": "di sana"
           },
-          "transliteration": "thamma"
+          "transliteration": "thamma",
+          "page": 579,
+          "line": 11
         },
         {
           "text": "رَأَيْتَ",
@@ -1456,7 +1749,9 @@
             "en": "you will see",
             "id": "kamu melihat"
           },
-          "transliteration": "ra-ayta"
+          "transliteration": "ra-ayta",
+          "page": 579,
+          "line": 11
         },
         {
           "text": "نَعِيمًۭا",
@@ -1464,7 +1759,9 @@
             "en": "blessings",
             "id": "kenikmatan"
           },
-          "transliteration": "naʿīman"
+          "transliteration": "naʿīman",
+          "page": 579,
+          "line": 11
         },
         {
           "text": "وَمُلْكًۭا",
@@ -1472,7 +1769,9 @@
             "en": "and a kingdom",
             "id": "dan kerajaan"
           },
-          "transliteration": "wamul'kan"
+          "transliteration": "wamul'kan",
+          "page": 579,
+          "line": 11
         },
         {
           "text": "كَبِيرًا",
@@ -1480,7 +1779,9 @@
             "en": "great",
             "id": "yang besar"
           },
-          "transliteration": "kabīran"
+          "transliteration": "kabīran",
+          "page": 579,
+          "line": 11
         }
       ]
     },
@@ -1502,7 +1803,9 @@
             "en": "Upon them",
             "id": "mereka memakai"
           },
-          "transliteration": "ʿāliyahum"
+          "transliteration": "ʿāliyahum",
+          "page": 579,
+          "line": 11
         },
         {
           "text": "ثِيَابُ",
@@ -1510,7 +1813,9 @@
             "en": "(will be) garments",
             "id": "pakaian"
           },
-          "transliteration": "thiyābu"
+          "transliteration": "thiyābu",
+          "page": 579,
+          "line": 11
         },
         {
           "text": "سُندُسٍ",
@@ -1518,7 +1823,9 @@
             "en": "(of) fine silk",
             "id": "sutera halus"
           },
-          "transliteration": "sundusin"
+          "transliteration": "sundusin",
+          "page": 579,
+          "line": 11
         },
         {
           "text": "خُضْرٌۭ",
@@ -1526,7 +1833,9 @@
             "en": "green",
             "id": "yang hijau"
           },
-          "transliteration": "khuḍ'run"
+          "transliteration": "khuḍ'run",
+          "page": 579,
+          "line": 12
         },
         {
           "text": "وَإِسْتَبْرَقٌۭ ۖ",
@@ -1534,7 +1843,9 @@
             "en": "and heavy brocade",
             "id": "dan sutera tebal"
           },
-          "transliteration": "wa-is'tabraqun"
+          "transliteration": "wa-is'tabraqun",
+          "page": 579,
+          "line": 12
         },
         {
           "text": "وَحُلُّوٓا۟",
@@ -1542,7 +1853,9 @@
             "en": "And they will be adorned",
             "id": "dan mereka diberi perhiasan"
           },
-          "transliteration": "waḥullū"
+          "transliteration": "waḥullū",
+          "page": 579,
+          "line": 12
         },
         {
           "text": "أَسَاوِرَ",
@@ -1550,7 +1863,9 @@
             "en": "(with) bracelets",
             "id": "gelang-gelang"
           },
-          "transliteration": "asāwira"
+          "transliteration": "asāwira",
+          "page": 579,
+          "line": 12
         },
         {
           "text": "مِن",
@@ -1558,7 +1873,9 @@
             "en": "of",
             "id": "dari"
           },
-          "transliteration": "min"
+          "transliteration": "min",
+          "page": 579,
+          "line": 12
         },
         {
           "text": "فِضَّةٍۢ",
@@ -1566,7 +1883,9 @@
             "en": "silver",
             "id": "perak"
           },
-          "transliteration": "fiḍḍatin"
+          "transliteration": "fiḍḍatin",
+          "page": 579,
+          "line": 12
         },
         {
           "text": "وَسَقَىٰهُمْ",
@@ -1574,7 +1893,9 @@
             "en": "and will give them to drink",
             "id": "dan memberi minum mereka"
           },
-          "transliteration": "wasaqāhum"
+          "transliteration": "wasaqāhum",
+          "page": 579,
+          "line": 12
         },
         {
           "text": "رَبُّهُمْ",
@@ -1582,7 +1903,9 @@
             "en": "their Lord",
             "id": "Tuhan mereka"
           },
-          "transliteration": "rabbuhum"
+          "transliteration": "rabbuhum",
+          "page": 579,
+          "line": 12
         },
         {
           "text": "شَرَابًۭا",
@@ -1590,7 +1913,9 @@
             "en": "a drink",
             "id": "minuman"
           },
-          "transliteration": "sharāban"
+          "transliteration": "sharāban",
+          "page": 579,
+          "line": 12
         },
         {
           "text": "طَهُورًا",
@@ -1598,7 +1923,9 @@
             "en": "pure",
             "id": "suci/bersih"
           },
-          "transliteration": "ṭahūran"
+          "transliteration": "ṭahūran",
+          "page": 579,
+          "line": 13
         }
       ]
     },
@@ -1620,7 +1947,9 @@
             "en": "Indeed",
             "id": "sesungguhnya"
           },
-          "transliteration": "inna"
+          "transliteration": "inna",
+          "page": 579,
+          "line": 13
         },
         {
           "text": "هَـٰذَا",
@@ -1628,7 +1957,9 @@
             "en": "this",
             "id": "ini"
           },
-          "transliteration": "hādhā"
+          "transliteration": "hādhā",
+          "page": 579,
+          "line": 13
         },
         {
           "text": "كَانَ",
@@ -1636,7 +1967,9 @@
             "en": "is",
             "id": "adalah ia"
           },
-          "transliteration": "kāna"
+          "transliteration": "kāna",
+          "page": 579,
+          "line": 13
         },
         {
           "text": "لَكُمْ",
@@ -1644,7 +1977,9 @@
             "en": "for you",
             "id": "bagi kalian"
           },
-          "transliteration": "lakum"
+          "transliteration": "lakum",
+          "page": 579,
+          "line": 13
         },
         {
           "text": "جَزَآءًۭ",
@@ -1652,7 +1987,9 @@
             "en": "a reward",
             "id": "balasan"
           },
-          "transliteration": "jazāan"
+          "transliteration": "jazāan",
+          "page": 579,
+          "line": 13
         },
         {
           "text": "وَكَانَ",
@@ -1660,7 +1997,9 @@
             "en": "and has been",
             "id": "dan adalah"
           },
-          "transliteration": "wakāna"
+          "transliteration": "wakāna",
+          "page": 579,
+          "line": 13
         },
         {
           "text": "سَعْيُكُم",
@@ -1668,7 +2007,9 @@
             "en": "your effort",
             "id": "usahamu"
           },
-          "transliteration": "saʿyukum"
+          "transliteration": "saʿyukum",
+          "page": 579,
+          "line": 13
         },
         {
           "text": "مَّشْكُورًا",
@@ -1676,7 +2017,9 @@
             "en": "appreciated",
             "id": "disyukuri"
           },
-          "transliteration": "mashkūran"
+          "transliteration": "mashkūran",
+          "page": 579,
+          "line": 13
         }
       ]
     },
@@ -1698,7 +2041,9 @@
             "en": "Indeed, We",
             "id": "sesungguhnya Kami"
           },
-          "transliteration": "innā"
+          "transliteration": "innā",
+          "page": 579,
+          "line": 13
         },
         {
           "text": "نَحْنُ",
@@ -1706,7 +2051,9 @@
             "en": "[We]",
             "id": "Kami"
           },
-          "transliteration": "naḥnu"
+          "transliteration": "naḥnu",
+          "page": 579,
+          "line": 14
         },
         {
           "text": "نَزَّلْنَا",
@@ -1714,7 +2061,9 @@
             "en": "[We] revealed",
             "id": "Kami telah turunkan"
           },
-          "transliteration": "nazzalnā"
+          "transliteration": "nazzalnā",
+          "page": 579,
+          "line": 14
         },
         {
           "text": "عَلَيْكَ",
@@ -1722,7 +2071,9 @@
             "en": "to you",
             "id": "atasmu"
           },
-          "transliteration": "ʿalayka"
+          "transliteration": "ʿalayka",
+          "page": 579,
+          "line": 14
         },
         {
           "text": "ٱلْقُرْءَانَ",
@@ -1730,7 +2081,9 @@
             "en": "the Quran",
             "id": "Al Qur'an"
           },
-          "transliteration": "l-qur'āna"
+          "transliteration": "l-qur'āna",
+          "page": 579,
+          "line": 14
         },
         {
           "text": "تَنزِيلًۭا",
@@ -1738,7 +2091,9 @@
             "en": "progressively",
             "id": "turun"
           },
-          "transliteration": "tanzīlan"
+          "transliteration": "tanzīlan",
+          "page": 579,
+          "line": 14
         }
       ]
     },
@@ -1760,7 +2115,9 @@
             "en": "So be patient",
             "id": "maka bersabarlah kamu"
           },
-          "transliteration": "fa-iṣ'bir"
+          "transliteration": "fa-iṣ'bir",
+          "page": 579,
+          "line": 14
         },
         {
           "text": "لِحُكْمِ",
@@ -1768,7 +2125,9 @@
             "en": "for (the) Command",
             "id": "bagi/untuk hukum"
           },
-          "transliteration": "liḥuk'mi"
+          "transliteration": "liḥuk'mi",
+          "page": 579,
+          "line": 14
         },
         {
           "text": "رَبِّكَ",
@@ -1776,7 +2135,9 @@
             "en": "(of) your Lord",
             "id": "Tuhanmu"
           },
-          "transliteration": "rabbika"
+          "transliteration": "rabbika",
+          "page": 579,
+          "line": 14
         },
         {
           "text": "وَلَا",
@@ -1784,7 +2145,9 @@
             "en": "and (do) not",
             "id": "dan jangan"
           },
-          "transliteration": "walā"
+          "transliteration": "walā",
+          "page": 579,
+          "line": 14
         },
         {
           "text": "تُطِعْ",
@@ -1792,7 +2155,9 @@
             "en": "obey",
             "id": "kamu ikuti"
           },
-          "transliteration": "tuṭiʿ"
+          "transliteration": "tuṭiʿ",
+          "page": 579,
+          "line": 14
         },
         {
           "text": "مِنْهُمْ",
@@ -1800,7 +2165,9 @@
             "en": "from them",
             "id": "di antara mereka"
           },
-          "transliteration": "min'hum"
+          "transliteration": "min'hum",
+          "page": 579,
+          "line": 15
         },
         {
           "text": "ءَاثِمًا",
@@ -1808,7 +2175,9 @@
             "en": "any sinner",
             "id": "orang yang berdosa"
           },
-          "transliteration": "āthiman"
+          "transliteration": "āthiman",
+          "page": 579,
+          "line": 15
         },
         {
           "text": "أَوْ",
@@ -1816,7 +2185,9 @@
             "en": "or",
             "id": "atau"
           },
-          "transliteration": "aw"
+          "transliteration": "aw",
+          "page": 579,
+          "line": 15
         },
         {
           "text": "كَفُورًۭا",
@@ -1824,7 +2195,9 @@
             "en": "disbeliever",
             "id": "orang yang kafir"
           },
-          "transliteration": "kafūran"
+          "transliteration": "kafūran",
+          "page": 579,
+          "line": 15
         }
       ]
     },
@@ -1846,7 +2219,9 @@
             "en": "And remember",
             "id": "dan ingatlah/sebutlah"
           },
-          "transliteration": "wa-udh'kuri"
+          "transliteration": "wa-udh'kuri",
+          "page": 579,
+          "line": 15
         },
         {
           "text": "ٱسْمَ",
@@ -1854,7 +2229,9 @@
             "en": "(the) name",
             "id": "nama"
           },
-          "transliteration": "is'ma"
+          "transliteration": "is'ma",
+          "page": 579,
+          "line": 15
         },
         {
           "text": "رَبِّكَ",
@@ -1862,7 +2239,9 @@
             "en": "(of) your Lord",
             "id": "Tuhanmu"
           },
-          "transliteration": "rabbika"
+          "transliteration": "rabbika",
+          "page": 579,
+          "line": 15
         },
         {
           "text": "بُكْرَةًۭ",
@@ -1870,7 +2249,9 @@
             "en": "morning",
             "id": "di waktu pagi"
           },
-          "transliteration": "buk'ratan"
+          "transliteration": "buk'ratan",
+          "page": 579,
+          "line": 15
         },
         {
           "text": "وَأَصِيلًۭا",
@@ -1878,7 +2259,9 @@
             "en": "and evening",
             "id": "dan petang"
           },
-          "transliteration": "wa-aṣīlan"
+          "transliteration": "wa-aṣīlan",
+          "page": 579,
+          "line": 15
         }
       ]
     },
@@ -1900,7 +2283,9 @@
             "en": "And of",
             "id": "dan dari"
           },
-          "transliteration": "wamina"
+          "transliteration": "wamina",
+          "page": 580,
+          "line": 1
         },
         {
           "text": "ٱلَّيْلِ",
@@ -1908,7 +2293,9 @@
             "en": "the night",
             "id": "sebagian malam"
           },
-          "transliteration": "al-layli"
+          "transliteration": "al-layli",
+          "page": 580,
+          "line": 1
         },
         {
           "text": "فَٱسْجُدْ",
@@ -1916,7 +2303,9 @@
             "en": "prostrate",
             "id": "maka bersujudlah"
           },
-          "transliteration": "fa-us'jud"
+          "transliteration": "fa-us'jud",
+          "page": 580,
+          "line": 1
         },
         {
           "text": "لَهُۥ",
@@ -1924,7 +2313,9 @@
             "en": "to Him",
             "id": "kepada-Nya"
           },
-          "transliteration": "lahu"
+          "transliteration": "lahu",
+          "page": 580,
+          "line": 1
         },
         {
           "text": "وَسَبِّحْهُ",
@@ -1932,7 +2323,9 @@
             "en": "and glorify Him",
             "id": "dan bertasbihlah kepada-Nya"
           },
-          "transliteration": "wasabbiḥ'hu"
+          "transliteration": "wasabbiḥ'hu",
+          "page": 580,
+          "line": 1
         },
         {
           "text": "لَيْلًۭا",
@@ -1940,7 +2333,9 @@
             "en": "a night",
             "id": "malam"
           },
-          "transliteration": "laylan"
+          "transliteration": "laylan",
+          "page": 580,
+          "line": 1
         },
         {
           "text": "طَوِيلًا",
@@ -1948,7 +2343,9 @@
             "en": "long",
             "id": "panjang"
           },
-          "transliteration": "ṭawīlan"
+          "transliteration": "ṭawīlan",
+          "page": 580,
+          "line": 1
         }
       ]
     },
@@ -1970,7 +2367,9 @@
             "en": "Indeed",
             "id": "sesungguhnya"
           },
-          "transliteration": "inna"
+          "transliteration": "inna",
+          "page": 580,
+          "line": 1
         },
         {
           "text": "هَـٰٓؤُلَآءِ",
@@ -1978,7 +2377,9 @@
             "en": "these",
             "id": "mereka itu"
           },
-          "transliteration": "hāulāi"
+          "transliteration": "hāulāi",
+          "page": 580,
+          "line": 2
         },
         {
           "text": "يُحِبُّونَ",
@@ -1986,7 +2387,9 @@
             "en": "love",
             "id": "mereka mencintai"
           },
-          "transliteration": "yuḥibbūna"
+          "transliteration": "yuḥibbūna",
+          "page": 580,
+          "line": 2
         },
         {
           "text": "ٱلْعَاجِلَةَ",
@@ -1994,7 +2397,9 @@
             "en": "the immediate",
             "id": "cepat-cepat/kehidupan"
           },
-          "transliteration": "l-ʿājilata"
+          "transliteration": "l-ʿājilata",
+          "page": 580,
+          "line": 2
         },
         {
           "text": "وَيَذَرُونَ",
@@ -2002,7 +2407,9 @@
             "en": "and leave",
             "id": "dan mereka meninggalkan"
           },
-          "transliteration": "wayadharūna"
+          "transliteration": "wayadharūna",
+          "page": 580,
+          "line": 2
         },
         {
           "text": "وَرَآءَهُمْ",
@@ -2010,7 +2417,9 @@
             "en": "behind them",
             "id": "di belakang mereka"
           },
-          "transliteration": "warāahum"
+          "transliteration": "warāahum",
+          "page": 580,
+          "line": 2
         },
         {
           "text": "يَوْمًۭا",
@@ -2018,7 +2427,9 @@
             "en": "a Day",
             "id": "hari"
           },
-          "transliteration": "yawman"
+          "transliteration": "yawman",
+          "page": 580,
+          "line": 2
         },
         {
           "text": "ثَقِيلًۭا",
@@ -2026,7 +2437,9 @@
             "en": "grave",
             "id": "yang berat"
           },
-          "transliteration": "thaqīlan"
+          "transliteration": "thaqīlan",
+          "page": 580,
+          "line": 2
         }
       ]
     },
@@ -2048,7 +2461,9 @@
             "en": "We",
             "id": "Kami"
           },
-          "transliteration": "naḥnu"
+          "transliteration": "naḥnu",
+          "page": 580,
+          "line": 2
         },
         {
           "text": "خَلَقْنَـٰهُمْ",
@@ -2056,7 +2471,9 @@
             "en": "created them",
             "id": "Kami menciptakan mereka"
           },
-          "transliteration": "khalaqnāhum"
+          "transliteration": "khalaqnāhum",
+          "page": 580,
+          "line": 3
         },
         {
           "text": "وَشَدَدْنَآ",
@@ -2064,7 +2481,9 @@
             "en": "and We strengthened",
             "id": "dan Kami kuatkan"
           },
-          "transliteration": "washadadnā"
+          "transliteration": "washadadnā",
+          "page": 580,
+          "line": 3
         },
         {
           "text": "أَسْرَهُمْ ۖ",
@@ -2072,7 +2491,9 @@
             "en": "their forms",
             "id": "tubuh mereka"
           },
-          "transliteration": "asrahum"
+          "transliteration": "asrahum",
+          "page": 580,
+          "line": 3
         },
         {
           "text": "وَإِذَا",
@@ -2080,7 +2501,9 @@
             "en": "and when",
             "id": "dan apabila"
           },
-          "transliteration": "wa-idhā"
+          "transliteration": "wa-idhā",
+          "page": 580,
+          "line": 3
         },
         {
           "text": "شِئْنَا",
@@ -2088,7 +2511,9 @@
             "en": "We will",
             "id": "Kami menghendaki"
           },
-          "transliteration": "shi'nā"
+          "transliteration": "shi'nā",
+          "page": 580,
+          "line": 3
         },
         {
           "text": "بَدَّلْنَآ",
@@ -2096,7 +2521,9 @@
             "en": "We can change",
             "id": "Kami mengganti"
           },
-          "transliteration": "baddalnā"
+          "transliteration": "baddalnā",
+          "page": 580,
+          "line": 3
         },
         {
           "text": "أَمْثَـٰلَهُمْ",
@@ -2104,7 +2531,9 @@
             "en": "their likeness[es]",
             "id": "serupa mereka"
           },
-          "transliteration": "amthālahum"
+          "transliteration": "amthālahum",
+          "page": 580,
+          "line": 3
         },
         {
           "text": "تَبْدِيلًا",
@@ -2112,7 +2541,9 @@
             "en": "(with) a change",
             "id": "penggantian"
           },
-          "transliteration": "tabdīlan"
+          "transliteration": "tabdīlan",
+          "page": 580,
+          "line": 3
         }
       ]
     },
@@ -2134,7 +2565,9 @@
             "en": "Indeed",
             "id": "sesungguhnya"
           },
-          "transliteration": "inna"
+          "transliteration": "inna",
+          "page": 580,
+          "line": 4
         },
         {
           "text": "هَـٰذِهِۦ",
@@ -2142,7 +2575,9 @@
             "en": "this",
             "id": "ini"
           },
-          "transliteration": "hādhihi"
+          "transliteration": "hādhihi",
+          "page": 580,
+          "line": 4
         },
         {
           "text": "تَذْكِرَةٌۭ ۖ",
@@ -2150,7 +2585,9 @@
             "en": "(is) a reminder",
             "id": "peringatan/pengajaran"
           },
-          "transliteration": "tadhkiratun"
+          "transliteration": "tadhkiratun",
+          "page": 580,
+          "line": 4
         },
         {
           "text": "فَمَن",
@@ -2158,7 +2595,9 @@
             "en": "so whoever",
             "id": "maka barang siapa"
           },
-          "transliteration": "faman"
+          "transliteration": "faman",
+          "page": 580,
+          "line": 4
         },
         {
           "text": "شَآءَ",
@@ -2166,7 +2605,9 @@
             "en": "wills",
             "id": "dia menghendaki"
           },
-          "transliteration": "shāa"
+          "transliteration": "shāa",
+          "page": 580,
+          "line": 4
         },
         {
           "text": "ٱتَّخَذَ",
@@ -2174,7 +2615,9 @@
             "en": "let him take",
             "id": "dia mengambil"
           },
-          "transliteration": "ittakhadha"
+          "transliteration": "ittakhadha",
+          "page": 580,
+          "line": 4
         },
         {
           "text": "إِلَىٰ",
@@ -2182,7 +2625,9 @@
             "en": "to",
             "id": "kepada"
           },
-          "transliteration": "ilā"
+          "transliteration": "ilā",
+          "page": 580,
+          "line": 4
         },
         {
           "text": "رَبِّهِۦ",
@@ -2190,7 +2635,9 @@
             "en": "his Lord",
             "id": "Tuhannya"
           },
-          "transliteration": "rabbihi"
+          "transliteration": "rabbihi",
+          "page": 580,
+          "line": 4
         },
         {
           "text": "سَبِيلًۭا",
@@ -2198,7 +2645,9 @@
             "en": "a way",
             "id": "jalan"
           },
-          "transliteration": "sabīlan"
+          "transliteration": "sabīlan",
+          "page": 580,
+          "line": 4
         }
       ]
     },
@@ -2220,7 +2669,9 @@
             "en": "And not",
             "id": "dan tidak"
           },
-          "transliteration": "wamā"
+          "transliteration": "wamā",
+          "page": 580,
+          "line": 5
         },
         {
           "text": "تَشَآءُونَ",
@@ -2228,7 +2679,9 @@
             "en": "you will",
             "id": "kamu menghendaki"
           },
-          "transliteration": "tashāūna"
+          "transliteration": "tashāūna",
+          "page": 580,
+          "line": 5
         },
         {
           "text": "إِلَّآ",
@@ -2236,7 +2689,9 @@
             "en": "except",
             "id": "kecuali"
           },
-          "transliteration": "illā"
+          "transliteration": "illā",
+          "page": 580,
+          "line": 5
         },
         {
           "text": "أَن",
@@ -2244,7 +2699,9 @@
             "en": "that",
             "id": "bahwa"
           },
-          "transliteration": "an"
+          "transliteration": "an",
+          "page": 580,
+          "line": 5
         },
         {
           "text": "يَشَآءَ",
@@ -2252,7 +2709,9 @@
             "en": "wills",
             "id": "menghendaki"
           },
-          "transliteration": "yashāa"
+          "transliteration": "yashāa",
+          "page": 580,
+          "line": 5
         },
         {
           "text": "ٱللَّهُ ۚ",
@@ -2260,7 +2719,9 @@
             "en": "Allah",
             "id": "Allah"
           },
-          "transliteration": "l-lahu"
+          "transliteration": "l-lahu",
+          "page": 580,
+          "line": 5
         },
         {
           "text": "إِنَّ",
@@ -2268,7 +2729,9 @@
             "en": "Indeed",
             "id": "sesungguhnya"
           },
-          "transliteration": "inna"
+          "transliteration": "inna",
+          "page": 580,
+          "line": 5
         },
         {
           "text": "ٱللَّهَ",
@@ -2276,7 +2739,9 @@
             "en": "Allah",
             "id": "Allah"
           },
-          "transliteration": "l-laha"
+          "transliteration": "l-laha",
+          "page": 580,
+          "line": 5
         },
         {
           "text": "كَانَ",
@@ -2284,7 +2749,9 @@
             "en": "is",
             "id": "adalah ia"
           },
-          "transliteration": "kāna"
+          "transliteration": "kāna",
+          "page": 580,
+          "line": 5
         },
         {
           "text": "عَلِيمًا",
@@ -2292,7 +2759,9 @@
             "en": "All-Knower",
             "id": "Maha Mengetahui"
           },
-          "transliteration": "ʿalīman"
+          "transliteration": "ʿalīman",
+          "page": 580,
+          "line": 5
         },
         {
           "text": "حَكِيمًۭا",
@@ -2300,7 +2769,9 @@
             "en": "All-Wise",
             "id": "Maha Bijaksana"
           },
-          "transliteration": "ḥakīman"
+          "transliteration": "ḥakīman",
+          "page": 580,
+          "line": 5
         }
       ]
     },
@@ -2322,7 +2793,9 @@
             "en": "He admits",
             "id": "Dia memasukkan"
           },
-          "transliteration": "yud'khilu"
+          "transliteration": "yud'khilu",
+          "page": 580,
+          "line": 6
         },
         {
           "text": "مَن",
@@ -2330,7 +2803,9 @@
             "en": "whom",
             "id": "siapa"
           },
-          "transliteration": "man"
+          "transliteration": "man",
+          "page": 580,
+          "line": 6
         },
         {
           "text": "يَشَآءُ",
@@ -2338,7 +2813,9 @@
             "en": "He wills",
             "id": "Dia kehendaki"
           },
-          "transliteration": "yashāu"
+          "transliteration": "yashāu",
+          "page": 580,
+          "line": 6
         },
         {
           "text": "فِى",
@@ -2346,7 +2823,9 @@
             "en": "into",
             "id": "dalam"
           },
-          "transliteration": "fī"
+          "transliteration": "fī",
+          "page": 580,
+          "line": 6
         },
         {
           "text": "رَحْمَتِهِۦ ۚ",
@@ -2354,7 +2833,9 @@
             "en": "His mercy",
             "id": "rahmat-Nya"
           },
-          "transliteration": "raḥmatihi"
+          "transliteration": "raḥmatihi",
+          "page": 580,
+          "line": 6
         },
         {
           "text": "وَٱلظَّـٰلِمِينَ",
@@ -2362,7 +2843,9 @@
             "en": "but (for) the wrongdoers",
             "id": "dan orang-orang zalim"
           },
-          "transliteration": "wal-ẓālimīna"
+          "transliteration": "wal-ẓālimīna",
+          "page": 580,
+          "line": 6
         },
         {
           "text": "أَعَدَّ",
@@ -2370,7 +2853,9 @@
             "en": "He has prepared",
             "id": "Dia sediakan"
           },
-          "transliteration": "aʿadda"
+          "transliteration": "aʿadda",
+          "page": 580,
+          "line": 6
         },
         {
           "text": "لَهُمْ",
@@ -2378,7 +2863,9 @@
             "en": "for them",
             "id": "bagi mereka"
           },
-          "transliteration": "lahum"
+          "transliteration": "lahum",
+          "page": 580,
+          "line": 6
         },
         {
           "text": "عَذَابًا",
@@ -2386,7 +2873,9 @@
             "en": "a punishment",
             "id": "azab"
           },
-          "transliteration": "ʿadhāban"
+          "transliteration": "ʿadhāban",
+          "page": 580,
+          "line": 6
         },
         {
           "text": "أَلِيمًۢا",
@@ -2394,7 +2883,9 @@
             "en": "painful",
             "id": "pedih"
           },
-          "transliteration": "alīman"
+          "transliteration": "alīman",
+          "page": 580,
+          "line": 6
         }
       ]
     }

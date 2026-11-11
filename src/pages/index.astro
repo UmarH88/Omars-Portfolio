@@ -1,19 +1,9 @@
 ---
-// Intro page: logo, orbit scene (person + badges + tilt), text, ticker, buttons.
+// Intro page, top to bottom: logo, "Hi, I'm Omar." text, orbit scene (person + named badges + tilt),
+// buttons. (The scrolling ticker was removed: the badges now show the interest names.
+// components/InterestTicker.astro is kept in case it's wanted again.)
 import Base from '../layouts/Base.astro';
-import InterestTicker from '../components/InterestTicker.astro';
 import IntroScene from '../components/IntroScene.astro';
-
-const interests = [
-  'Quran',
-  'Islamic studies',
-  'Physics',
-  'Quantum computing',
-  'Aerospace',
-  'Computer science',
-  'Space',
-  'Languages',
-];
 
 const githubUrl = 'https://github.com/UmarH88';
 ---
@@ -21,8 +11,6 @@ const githubUrl = 'https://github.com/UmarH88';
 <Base title="Omar's Library" theme="space">
   <main class="intro">
     <a class="logo" href="/" aria-label="Omar's Library, home">O</a>
-
-    <IntroScene />
 
     <section class="text">
       <h1>Hi, I’m Omar.</h1>
@@ -32,11 +20,10 @@ const githubUrl = 'https://github.com/UmarH88';
       </p>
     </section>
 
-    <InterestTicker items={interests} />
+    <IntroScene />
 
     <nav class="actions" aria-label="Main">
-      <!-- TEMPORARY: goes to /quran until the 3D library (/library) is built -->
-      <a class="btn-primary" href="/quran">
+      <a class="btn-primary" href="/library">
         Enter the library
         <span class="arrow" aria-hidden="true">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
@@ -64,7 +51,7 @@ const githubUrl = 'https://github.com/UmarH88';
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* scene on top, buttons at the bottom of the screen */
+    justify-content: space-between; /* text at the top, buttons at the bottom, scene in between */
     gap: 1.5rem;
     min-height: 100dvh;
     max-width: 40rem;

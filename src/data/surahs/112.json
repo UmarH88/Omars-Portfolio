@@ -6,6 +6,11 @@
   "revelationPlace": "makkah",
   "versesCount": 4,
   "bismillahPre": true,
+  "pages": [
+    604,
+    604
+  ],
+  "formatVersion": 4,
   "languages": [
     {
       "lang": "en",
@@ -38,7 +43,9 @@
             "en": "Say",
             "id": "katakanlah"
           },
-          "transliteration": "qul"
+          "transliteration": "qul",
+          "page": 604,
+          "line": 3
         },
         {
           "text": "هُوَ",
@@ -46,7 +53,9 @@
             "en": "He",
             "id": "Dia"
           },
-          "transliteration": "huwa"
+          "transliteration": "huwa",
+          "page": 604,
+          "line": 3
         },
         {
           "text": "ٱللَّهُ",
@@ -54,7 +63,9 @@
             "en": "(is) Allah",
             "id": "Allah"
           },
-          "transliteration": "l-lahu"
+          "transliteration": "l-lahu",
+          "page": 604,
+          "line": 3
         },
         {
           "text": "أَحَدٌ",
@@ -62,7 +73,9 @@
             "en": "the One",
             "id": "Esa"
           },
-          "transliteration": "aḥadun"
+          "transliteration": "aḥadun",
+          "page": 604,
+          "line": 3
         }
       ]
     },
@@ -84,7 +97,9 @@
             "en": "Allah",
             "id": "Allah"
           },
-          "transliteration": "al-lahu"
+          "transliteration": "al-lahu",
+          "page": 604,
+          "line": 3
         },
         {
           "text": "ٱلصَّمَدُ",
@@ -92,7 +107,9 @@
             "en": "the Eternal, the Absolute",
             "id": "tempat bergantung"
           },
-          "transliteration": "l-ṣamadu"
+          "transliteration": "l-ṣamadu",
+          "page": 604,
+          "line": 3
         }
       ]
     },
@@ -114,7 +131,9 @@
             "en": "Not",
             "id": "tidak"
           },
-          "transliteration": "lam"
+          "transliteration": "lam",
+          "page": 604,
+          "line": 3
         },
         {
           "text": "يَلِدْ",
@@ -122,7 +141,9 @@
             "en": "He begets",
             "id": "beranak"
           },
-          "transliteration": "yalid"
+          "transliteration": "yalid",
+          "page": 604,
+          "line": 3
         },
         {
           "text": "وَلَمْ",
@@ -130,7 +151,9 @@
             "en": "and not",
             "id": "dan tidak"
           },
-          "transliteration": "walam"
+          "transliteration": "walam",
+          "page": 604,
+          "line": 4
         },
         {
           "text": "يُولَدْ",
@@ -138,7 +161,9 @@
             "en": "He is begotten",
             "id": "diperanakkan"
           },
-          "transliteration": "yūlad"
+          "transliteration": "yūlad",
+          "page": 604,
+          "line": 4
         }
       ]
     },
@@ -160,7 +185,9 @@
             "en": "And not",
             "id": "dan tidak"
           },
-          "transliteration": "walam"
+          "transliteration": "walam",
+          "page": 604,
+          "line": 4
         },
         {
           "text": "يَكُن",
@@ -168,7 +195,9 @@
             "en": "is",
             "id": "ada"
           },
-          "transliteration": "yakun"
+          "transliteration": "yakun",
+          "page": 604,
+          "line": 4
         },
         {
           "text": "لَّهُۥ",
@@ -176,7 +205,9 @@
             "en": "for Him",
             "id": "baginya"
           },
-          "transliteration": "lahu"
+          "transliteration": "lahu",
+          "page": 604,
+          "line": 4
         },
         {
           "text": "كُفُوًا",
@@ -184,7 +215,9 @@
             "en": "equivalent",
             "id": "menyamai/setara"
           },
-          "transliteration": "kufuwan"
+          "transliteration": "kufuwan",
+          "page": 604,
+          "line": 4
         },
         {
           "text": "أَحَدٌۢ",
@@ -192,7 +225,9 @@
             "en": "any [one]",
             "id": "seorang"
           },
-          "transliteration": "aḥadun"
+          "transliteration": "aḥadun",
+          "page": 604,
+          "line": 4
         }
       ]
     }

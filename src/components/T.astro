@@ -1,0 +1,16 @@
+---
+/*
+  T ("text"): one piece of interface text in both site languages.
+    <T en="Study" id="Belajar" />
+  Both are in the page; CSS in global.css shows only the active language
+  (<html class="lang-id"> = Indonesian). No JavaScript, so switching is instant.
+*/
+interface Props {
+  en: string;
+  id: string;
+}
+
+const { en, id } = Astro.props;
+---
+
+<span data-ui="en" lang="en">{en}</span><span data-ui="id" lang="id">{id}</span>

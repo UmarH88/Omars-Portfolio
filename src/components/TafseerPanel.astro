@@ -1,0 +1,309 @@
+---
+/*
+  TafseerPanel: "About this surah" + the explanation of each verse.
+
+  Two layers:
+    1. Easy (if available): short, plain English or Indonesian (follows the language switch),
+       simplified only from the source texts. Shown first.
+    2. Full original: the published texts from the API (Maududi's introduction,
+       Ibn Kathir / Ma'arif al-Qur'an), behind a "Read the full original" button.
+  The original HTML was cleaned to simple safe tags by the fetch script, so set:html is OK.
+
+  Picking a verse (here, or "Explain verse" on a verse row) shows its explanation in both layers.
+*/
+import T from './T.astro';
+import type { Lang, SimpleTafsirFile, TafsirFile } from '../lib/quran';
+
+interface Props {
+  data: TafsirFile;
+  simple: SimpleTafsirFile | null;
+  versesCount: number;
+  langs: Lang[];
+}
+
+const { data, simple, versesCount, langs } = Astro.props;
+const { about, tafsir } = data;
+const verses = Array.from({ length: versesCount }, (_, i) => i + 1);
+const rangeLabel = (from: number, to: number) => (from === to ? `Verse ${from}` : `Verses ${from}–${to}`);
+
+// Without an easy version, the original history sections are opened by default
+const OPEN_BY_DEFAULT = /period of revelation|background|historical/i;
+const UI = {
+  en: { about: 'About this surah', verses: 'What the verses mean' },
+  id: { about: 'Tentang surah ini', verses: 'Makna ayat-ayatnya' },
+};
+---
+
+<section class="tafseer" id="tafseer" aria-labelledby="tafseer-title">
+  {
+    simple ? (
+      langs.map((lang) => (
+        <div class="easy" data-lang={lang} lang={lang}>
+          <h2 id={lang === langs[0] ? 'tafseer-title' : undefined}>{UI[lang].about}</h2>
+          {simple[lang].sections.map((section) => (
+            <section class="easy-section">
+              <h3>{section.title}</h3>
+              {section.paragraphs.map((p) => <p>{p}</p>)}
+            </section>
+          ))}
+          <h3 class="verses-title">{UI[lang].verses}</h3>
+        </div>
+      ))
+    ) : (
+      <h2 id="tafseer-title"><T en="About this surah" id="Tentang surah ini" /></h2>
+    )
+  }
+
+  <p class="label" id="picker-label">
+    <T en="Pick a verse to read its explanation:" id="Pilih ayat untuk membaca penjelasannya:" />
+  </p>
+  <div class="picker" role="group" aria-labelledby="picker-label">
+    {
+      verses.map((n) => (
+        <button type="button" class="verse-button" data-verse={n} aria-pressed={n === 1 ? 'true' : 'false'}>
+          {n}
+        </button>
+      ))
+    }
+  </div>
+
+  {
+    simple &&
+      langs.map((lang) =>
+        simple[lang].verses.map((v, i) => (
+          <article class="passage easy-passage" data-group={`easy-${lang}`} data-lang={lang} lang={lang}
+            data-from={v.from} data-to={v.to} hidden={i !== 0}>
+            {v.paragraphs.map((p) => <p>{p}</p>)}
+          </article>
+        )),
+      )
+  }
+
+  <!-- The full original texts: open by default only when there's no easy version -->
+  <details class="original" open={!simple}>
+    <summary>
+      {
+        simple ? (
+          <T en="Read the full original (detailed, English)" id="Baca teks asli lengkap (rinci, bahasa Inggris)" />
+        ) : (
+          <T en="Introduction and tafsir (English)" id="Pengantar dan tafsir (bahasa Inggris)" />
+        )
+      }
+    </summary>
+
+    {
+      about.sections.map((section) => (
+        <details open={!simple && section.title ? OPEN_BY_DEFAULT.test(section.title) : false}>
+          <summary>{section.title ?? 'Note'}</summary>
+          <div class="prose" set:html={section.html} />
+        </details>
+      ))
+    }
+    <p class="credit"><T en="Introduction" id="Pengantar" />: {about.source}.</p>
+
+    {
+      tafsir.passages.map((passage, i) => (
+        <article class="passage" data-group="original" data-from={passage.from} data-to={passage.to} hidden={i !== 0}>
+          <h4 class="range">{rangeLabel(passage.from, passage.to)} · {tafsir.name}</h4>
+          <div class="prose" set:html={passage.html} />
+        </article>
+      ))
+    }
+  </details>
+
+  <p class="credit">
+    {
+      simple && (
+        <Fragment>
+          <T en="Easy version simplified only from" id="Versi mudah ini disederhanakan hanya dari" />:
+          {simple.basedOn.join('; ')}.{' '}
+        </Fragment>
+      )
+    }
+    <T en="Original tafsir" id="Tafsir asli" />: {tafsir.name}, {tafsir.author}. Via Quran.com / Quran
+    Foundation API.
+    <T en="For deeper study, learn with a teacher." id="Untuk belajar lebih dalam, belajarlah bersama guru." />
+  </p>
+</section>
+
+<script>
+  const panel = document.getElementById('tafseer');
+
+  if (panel) {
+    const buttons = [...panel.querySelectorAll<HTMLButtonElement>('.verse-button')];
+    const passages = [...panel.querySelectorAll<HTMLElement>('.passage')];
+    const covers = (p: HTMLElement, verse: number) => verse >= Number(p.dataset.from) && verse <= Number(p.dataset.to);
+
+    // In every group (easy English, easy Indonesian, original), show the passage covering `verse`
+    function select(verse: number) {
+      const groups = new Set(passages.map((p) => p.dataset.group));
+      for (const group of groups) {
+        const inGroup = passages.filter((p) => p.dataset.group === group);
+        const match = inGroup.find((p) => covers(p, verse));
+        if (match) inGroup.forEach((p) => (p.hidden = p !== match));
+      }
+      // Outline every verse explained together with this one (in the original tafsir)
+      const original = passages.find((p) => p.dataset.group === 'original' && covers(p, verse));
+      buttons.forEach((b) => {
+        const n = Number(b.dataset.verse);
+        b.setAttribute('aria-pressed', String(n === verse));
+        b.classList.toggle('in-range', !!original && covers(original, n));
+      });
+    }
+
+    buttons.forEach((b) => b.addEventListener('click', () => select(Number(b.dataset.verse))));
+
+    // "Explain verse N" buttons on the verse rows
+    document.addEventListener('click', (event) => {
+      const trigger = (event.target as Element).closest<HTMLElement>('[data-explain]');
+      if (!trigger) return;
+      select(Number(trigger.dataset.explain));
+      panel.querySelector('.picker')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    select(1);
+  }
+</script>
+
+<style>
+  .tafseer {
+    display: grid;
+    gap: 0.9rem;
+  }
+
+  /* Show only the active language (html.lang-id = Indonesian, set by LanguageSwitch) */
+  .easy,
+  .easy-passage:not([hidden]) {
+    display: none;
+  }
+
+  :global(html:not(.lang-id)) .easy[data-lang='en'],
+  :global(html.lang-id) .easy[data-lang='id'] {
+    display: grid;
+    gap: 0.9rem;
+  }
+
+  :global(html:not(.lang-id)) .easy-passage[data-lang='en']:not([hidden]),
+  :global(html.lang-id) .easy-passage[data-lang='id']:not([hidden]) {
+    display: block;
+  }
+
+  h2 {
+    font-family: var(--font-library);
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  h3 {
+    margin: 0 0 0.35rem;
+    color: var(--accent);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .verses-title {
+    margin-top: 0.6rem;
+    font-family: var(--font-library);
+    color: var(--text);
+    font-size: 1.3rem;
+  }
+
+  /* Easy text: larger and airy, so it's comfortable for every reader */
+  .easy-section p,
+  .easy-passage p {
+    margin: 0 0 0.7rem;
+    color: color-mix(in srgb, var(--text) 90%, var(--muted));
+    font-size: 1.02rem;
+    line-height: 1.75;
+  }
+
+  .label {
+    margin: 0;
+    color: var(--muted);
+  }
+
+  .picker {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+
+  /* Round verse buttons, like the screenshot */
+  .verse-button {
+    width: 2.6rem;
+    height: 2.6rem;
+    border: 1px solid color-mix(in srgb, var(--text) 25%, transparent);
+    border-radius: 50%;
+    background: none;
+    color: var(--text);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .verse-button.in-range {
+    border-color: color-mix(in srgb, var(--accent) 60%, transparent);
+  }
+
+  .verse-button[aria-pressed='true'] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--navy-950);
+    font-weight: 600;
+  }
+
+  /* Collapsible sections (the original texts) */
+  details {
+    border: 1px solid color-mix(in srgb, var(--text) 12%, transparent);
+    border-radius: 0.75rem;
+    padding: 0.2rem 1rem;
+  }
+
+  details details {
+    margin-bottom: 0.6rem;
+  }
+
+  summary {
+    padding: 0.6rem 0;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  details[open] > summary {
+    color: var(--accent);
+  }
+
+  .prose {
+    padding-bottom: 0.75rem;
+    color: color-mix(in srgb, var(--text) 85%, var(--muted));
+    line-height: 1.7;
+  }
+
+  .prose :global(p) {
+    margin: 0 0 0.8rem;
+    unicode-bidi: plaintext; /* Arabic quotes inside English read in the right direction */
+  }
+
+  .prose :global(h4) {
+    margin: 1.2rem 0 0.4rem;
+    color: var(--highlight);
+    font-size: 1rem;
+  }
+
+  .prose :global(em) {
+    color: var(--text);
+  }
+
+  .range {
+    margin: 0.5rem 0 0.4rem;
+    color: var(--accent);
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .credit {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.78rem;
+  }
+</style>

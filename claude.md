@@ -31,9 +31,14 @@ Pages, in build order:
    cover on a right-side hinge like a real mushaf, showing Al-Fatihah, then "Read it in the mushaf".
 4. **Quran index** (`/quran`): list of all 114 surahs (number, English + Arabic name, meaning, place, verse count).
    Each surah links to Mushaf mode and Study mode.
-5. **Mushaf mode** (`/quran/[surah]`, one template via `getStaticPaths`): traditional framed cream page,
-   green and gold surah header, Arabic only, round verse markers. Hover or tap a word → its English meaning in a
-   tooltip above it. No translation on the page.
+5. **Mushaf mode** (`/mushaf/1` … `/mushaf/604`): the whole Quran PAGE BY PAGE, like the printed 15-line
+   Madani mushaf (a page can hold several surahs; page 604 = Al-Ikhlas, Al-Falaq, An-Nas). Every word sits on
+   its real line (word `page`/`line` from the API, mushaf layout 1). One page at a time with a page-turn
+   animation. Arabic only, round verse markers; hover/tap a word → English meaning. No translation.
+   Two reading modes with a Surah | Page switch (`MushafModeSwitch.astro`):
+   - Surah mode `/quran/[surah]` (`mushafUrl()`): one surah on its own, its real lines only.
+   - Page mode `/mushaf/[page]` (`mushafPageUrl()`, `surahPageUrl()`): the full printed pages.
+   Study mode stays surah by surah.
 6. **Study mode** (`/quran/[surah]/study`): dark navy page. Header: surah number badge, English name, meaning,
    place, verse count, Arabic name in gold. Bismillah, then ONE ayah per row: Arabic, then its translation.
    Toggles: translation language, "words under Arabic" (word-by-word meaning under each word).
@@ -51,7 +56,10 @@ Pages, in build order:
 - **Library:** dark walnut and gold, Cormorant Garamond headings, small gold uppercase labels
   ("OMAR'S LIBRARY", "THE MAIN WING"), bottom card with ‹ › arrows and gold "Walk to this shelf" button.
 - **Quran book:** green cover, gold border and glowing gold circle with the title; opens to cream pages.
-- **Mushaf:** cream paper, green double frame, gold lines, green pill surah header, page number at bottom.
+- **Mushaf:** like Omar's page-604 screenshot: blue/red diamond-pattern border with gold corner studs,
+  cream page with red + gold frame lines, Arabic running header (سورة … | الجزء …), cream-gold surah title
+  bars with red border and blue text, gold-ring verse markers with blue digits, page number in an oval
+  + "PAGE 604". Full lines justified edge to edge, short lines centred (fitted by a small script).
 - **Study:** dark navy, gold verse markers, light Arabic, muted blue-grey translation, cyan active tab.
 
 Omar will attach screenshots of the designs. Match them.
@@ -67,7 +75,8 @@ src/pages/index.astro          intro
 src/pages/library.astro        3D library
 src/pages/samples.astro        wing samples
 src/pages/quran/index.astro            surah index
-src/pages/quran/[surah].astro          mushaf mode
+src/pages/mushaf/[page].astro          mushaf, page by page (1-604)
+src/pages/quran/[surah].astro          mushaf, Surah mode (one surah, real lines)
 src/pages/quran/[surah]/study.astro    study mode (tafseer + quiz tabs)
 src/components/                shelf, Quran book, word tooltip, etc.
 src/layouts/Base.astro         shared head, fonts, frame
@@ -102,6 +111,16 @@ scripts/fetch-quran.mjs        downloads Quran data once
   Study mode must use the same numbering for Al-Fatihah.
 - Tafseer text also comes ONLY from the API (a published tafsir, e.g. Ibn Kathir abridged), with its name
   and source shown. Never write or "summarise" tafseer or hadith from memory.
+- EXCEPTION (Omar's go-ahead, 2026-11-11): an "easy" version in very simple English + Indonesian, in
+  `src/data/tafsir-simple/NNN.json`. Rules: simplify ONLY the saved source texts for that surah (never add
+  facts or hadith from memory), keep just the important parts (where/when revealed, what it's about, why
+  it's special, what each verse means), keep each hadith's source (Al-Bukhari…), natural flowing language,
+  no filler. The full original stays on the page behind "Read the full original". One surah at a time,
+  Omar checks the first one (112) before the rest are written.
+- `npm run fetch:tafsir` (scripts/fetch-tafsir.mjs) saves `src/data/tafsir/100.json` … (surahs 100–114 for now):
+  surah introduction (revelation, history, themes) from Maududi's Tafhim al-Qur'an (`/chapters/{id}/info`)
+  + Ibn Kathir (Abridged, id 169), falling back to Ma'arif al-Qur'an (id 168) where Ibn Kathir is empty
+  (e.g. 105). API HTML is cleaned to simple tags with no attributes before saving.
 
 ## Secrets
 - Keys live in `.env` as `QF_CLIENT_ID` and `QF_CLIENT_SECRET`, and the same names in
@@ -126,13 +145,22 @@ scripts/fetch-quran.mjs        downloads Quran data once
 - [x] Base layout, fonts, colours
 - [x] Intro page: `IntroScene.astro` (CSS 3D orbit, tilt) + `Person.astro` (option A "2.5D" layered SVG,
       moving rim light; Three.js can replace just this component later). Needs a visual check vs. design.
-- [ ] 3D library (then point the intro's "Enter the library" button back to `/library`; it goes to `/quran` for now)
+- [x] 3D library `/library`: `LibraryRoom.astro` (CSS 3D ring of 14 `Bookcase.astro`, wings in `src/data/wings.ts`),
+      turn by arrows/keys/swipe/tap, "Walk to this shelf". Needs a visual check. "Orbit" (cyan) look still to do.
 - [ ] Quran book animation
 - [x] Quran index
-- [x] Mushaf mode
+- [x] Mushaf mode, page by page (604 pages, real lines, printed-mushaf styling)
+- [x] Mushaf: Surah | Page mode switch
+- [x] Everything in Indonesian when the language switch is on: `T.astro` for UI text, easy tafseer for
+      100–114 in EN + ID, Indonesian surah meanings (`translatedNames`), language applied before first paint
+- [ ] Quiz: 8–12 questions per surah (Study mode) and 15 per mushaf page (Page mode)
+- [ ] Mushaf: page-turn animation, swipe, "go to page"
+- [x] Easy tafseer: all 15 surahs (100–114) in English and Indonesian
 - [x] Study mode (word-by-word, translation; translation-language toggle still to do)
-- [ ] Study mode: tafseer tab
-- [ ] Study mode: quiz tab
+- [x] Study mode: tafseer panel (surahs 100–114)
+- [ ] Study mode: quiz, 8–12 multiple-choice questions per surah from the data, explains answers (100–114)
+- [ ] Study mode: flashcards (Arabic word → meaning, flip, "I knew it / again")
+- [ ] Study mode: personal notes per surah/verse (saved in the browser)
 - [ ] Samples page
 - [ ] Three.js upgrade
 
