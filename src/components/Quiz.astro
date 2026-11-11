@@ -1,0 +1,523 @@
+---
+/*
+  Quiz: one multiple-choice question at a time, built from the real data (see lib/quiz.ts).
+  The questions are put in the page as JSON; the small script below shows them,
+  checks answers, explains each one, and gives a score at the end.
+  Every text exists in English and Indonesian; the language switch shows one
+  (the same data-ui="en" / "id" rule as components/T.astro).
+*/
+import T from './T.astro';
+import type { QuizQuestion } from '../lib/quiz';
+
+interface Props {
+  surah: number;
+  questions: QuizQuestion[];
+}
+
+const { surah, questions } = Astro.props;
+---
+
+<section class="quiz" data-quiz data-surah={surah} aria-label="Quiz">
+  <script type="application/json" data-questions set:html={JSON.stringify(questions)} />
+
+  <p class="intro">
+    <T
+      en={`${questions.length} questions about the words and verses of this surah. Pick an answer to see if you're right.`}
+      id={`${questions.length} soal tentang kata dan ayat surah ini. Pilih jawaban untuk melihat apakah kamu benar.`}
+    />
+  </p>
+
+  <!-- Filled in by the script -->
+  <div class="stage" aria-live="polite"></div>
+
+  <noscript><p>The quiz needs JavaScript.</p></noscript>
+</section>
+
+<script>
+  import type { QuizQuestion, Text } from '../lib/quiz';
+
+  // Build an element (small helper so the code below stays readable)
+  function el(tag: string, className?: string, children: (Node | string)[] = []) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    node.append(...children);
+    return node;
+  }
+
+  // Arabic letters (with their vowel marks); a run of Arabic words counts as one piece
+  const ARABIC = /([\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]+(?:\s+[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]+)*)/;
+
+  // Text that may contain Arabic: each Arabic piece goes in a <bdi> (keeps its right-to-left
+  // order inside an English sentence) and gets the Quran font
+  function rich(text: string) {
+    return text.split(ARABIC).map((part, i) => {
+      if (i % 2 === 0) return part; // split() puts the Arabic pieces at odd positions
+      const ar = el('bdi', 'ar-inline', [part]);
+      ar.lang = 'ar';
+      ar.dir = 'rtl';
+      return ar;
+    });
+  }
+
+  // Both languages; the CSS rule in global.css shows the active one
+  function both(text: Text) {
+    const en = el('span', undefined, rich(text.en));
+    en.dataset.ui = 'en';
+    en.lang = 'en';
+    const id = el('span', undefined, rich(text.id));
+    id.dataset.ui = 'id';
+    id.lang = 'id';
+    return [en, id];
+  }
+
+  function arabic(text: string, className: string) {
+    const node = el('p', className, [text]);
+    node.lang = 'ar';
+    node.dir = 'rtl';
+    return node;
+  }
+
+  function shuffled<T>(items: T[]) {
+    const copy = [...items];
+    for (let i = copy.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  }
+
+  function setUp(root: HTMLElement) {
+    const all: QuizQuestion[] = JSON.parse(root.querySelector('[data-questions]')!.textContent!);
+    const stage = root.querySelector<HTMLElement>('.stage')!;
+    const bestKey = `quiz-best-${root.dataset.surah}`;
+
+    let questions = all;
+    let index = 0;
+    let score = 0;
+    let mistakes: { q: QuizQuestion; chosen: number }[] = []; // reviewed at the end
+
+    function start(shuffle: boolean) {
+      // "Try again": new order of questions and of the options inside each one
+      questions = shuffle
+        ? shuffled(all).map((q) => {
+            const order = shuffled(q.options.map((_, i) => i));
+            return { ...q, options: order.map((i) => q.options[i]), answer: order.indexOf(q.answer) };
+          })
+        : all;
+      index = 0;
+      score = 0;
+      mistakes = [];
+      show(shuffle); // on first load, don't pull the keyboard focus into the quiz
+    }
+
+    function show(moveFocus = true) {
+      const q = questions[index];
+      const progress = el('p', 'progress', [
+        ...both({ en: `Question ${index + 1} of ${questions.length}`, id: `Soal ${index + 1} dari ${questions.length}` }),
+        el('span', 'score', [...both({ en: `Score ${score}`, id: `Skor ${score}` })]),
+      ]);
+      const bar = el('div', 'bar');
+      bar.style.setProperty('--done', String(index / questions.length));
+
+      const parts: Node[] = [progress, bar, el('h3', 'prompt', both(q.prompt))];
+      if (q.quote) parts.push(el('blockquote', 'quote', both(q.quote)));
+      if (q.arabic) parts.push(arabic(q.arabic, q.kind === 'meaning' ? 'arabic big' : 'arabic'));
+
+      const list = el('div', 'options');
+      list.setAttribute('role', 'group');
+      q.options.forEach((option, i) => {
+        const button = fillOption(el('button', option.ar ? 'option ar' : 'option'), option) as HTMLButtonElement;
+        button.type = 'button';
+        button.addEventListener('click', () => answer(i, list));
+        list.append(button);
+      });
+      parts.push(list);
+
+      stage.replaceChildren(...parts);
+      if (moveFocus) stage.querySelector<HTMLButtonElement>('.option')?.focus({ preventScroll: true });
+    }
+
+    function answer(chosen: number, list: HTMLElement) {
+      const q = questions[index];
+      const right = chosen === q.answer;
+      if (right) score++;
+      else mistakes.push({ q, chosen });
+
+      const buttons = [...list.querySelectorAll<HTMLButtonElement>('.option')];
+      buttons.forEach((button, i) => {
+        button.disabled = true;
+        if (i === q.answer) button.classList.add('right');
+        else if (i === chosen) button.classList.add('wrong');
+        // What this option means / where it's from, so the wrong options teach something too
+        const note = q.options[i].note;
+        if (note) button.after(el('p', 'note', both(note)));
+      });
+
+      const verdict = right
+        ? { en: 'Correct! Here is why:', id: 'Benar! Ini penjelasannya:' }
+        : { en: 'Not quite. The right answer is in green. Here is why:', id: 'Belum tepat. Jawaban yang benar berwarna hijau. Ini penjelasannya:' };
+      const last = index === questions.length - 1;
+      const next = el('button', 'next', both(last ? { en: 'See my score', id: 'Lihat skor' } : { en: 'Next question', id: 'Soal berikutnya' })) as HTMLButtonElement;
+      next.type = 'button';
+      next.addEventListener('click', () => {
+        index++;
+        if (last) finish();
+        else show();
+      });
+
+      stage.append(
+        el('div', `feedback ${right ? 'is-right' : 'is-wrong'}`, [
+          el('p', 'verdict', both(verdict)),
+          ...explanation(q),
+        ]),
+        next,
+      );
+      next.focus({ preventScroll: true });
+    }
+
+    function finish() {
+      let best = 0;
+      try {
+        best = Math.max(score, Number(localStorage.getItem(bestKey)) || 0);
+        localStorage.setItem(bestKey, String(best));
+      } catch {} // storage blocked: the quiz still works, it just can't remember
+
+      const total = questions.length;
+      const message =
+        score === total
+          ? { en: 'Perfect! You know this surah well.', id: 'Sempurna! Kamu sudah paham surah ini.' }
+          : score >= total * 0.7
+            ? { en: 'Well done! Try again to get them all.', id: 'Bagus! Coba lagi supaya benar semua.' }
+            : { en: 'Read the verses and their meanings again, then try once more.', id: 'Baca lagi ayat dan artinya, lalu coba sekali lagi.' };
+
+      const again = el('button', 'next', both({ en: 'Try again', id: 'Coba lagi' })) as HTMLButtonElement;
+      again.type = 'button';
+      again.addEventListener('click', () => start(true));
+
+      stage.replaceChildren(
+        el('div', 'result', [
+          el('p', 'big-score', [`${score} / ${total}`]),
+          el('p', 'verdict', both(message)),
+          el('p', 'best', both({ en: `Your best: ${best} / ${total}`, id: `Skor terbaikmu: ${best} / ${total}` })),
+        ]),
+        again,
+        ...review(),
+      );
+      again.focus({ preventScroll: true });
+    }
+
+    // Go over every wrong answer once more: the question, what you picked, the right answer
+    function review(): Node[] {
+      if (!mistakes.length) return [];
+      const items = mistakes.map(({ q, chosen }) => {
+        const parts: Node[] = [el('p', 'review-q', both(q.prompt))];
+        if (q.quote) parts.push(el('blockquote', 'quote', both(q.quote)));
+        if (q.arabic) parts.push(arabic(q.arabic, 'arabic small'));
+        parts.push(
+          el('p', 'review-label wrong-label', both({ en: 'You picked', id: 'Pilihanmu' })),
+          fillOption(el('div', 'option wrong'), q.options[chosen]),
+          el('p', 'review-label right-label', both({ en: 'Right answer', id: 'Jawaban benar' })),
+          fillOption(el('div', 'option right'), q.options[q.answer]),
+          ...explanation(q),
+        );
+        return el('li', 'review-item', parts);
+      });
+      return [
+        el('h3', 'prompt', both({ en: 'Learn from your mistakes', id: 'Belajar dari kesalahan' })),
+        el('ol', 'review', items),
+      ];
+    }
+
+    start(false);
+  }
+
+  // The explanation, plus the verse word by word when the question has one
+  function explanation(q: QuizQuestion): Node[] {
+    const parts: Node[] = [el('p', 'explain', both(q.explain))];
+    if (q.breakdown) {
+      // Word by word, right to left like the verse: Arabic on top, meaning underneath
+      const cards = q.breakdown.map(({ ar, meaning }) => {
+        const word = el('span', 'card-ar', [ar]);
+        word.lang = 'ar';
+        const meaningText = el('span', 'card-meaning', both(meaning));
+        meaningText.dir = 'ltr'; // English/Indonesian reads left to right inside the right-to-left row
+        return el('li', 'card', [word, meaningText]);
+      });
+      const list = el('ol', 'breakdown', cards);
+      list.dir = 'rtl';
+      parts.push(list);
+    }
+    return parts;
+  }
+
+  // An answer option's content: Arabic (right-to-left) or a meaning in both languages
+  function fillOption(node: HTMLElement, option: QuizQuestion['options'][number]) {
+    if (option.ar) {
+      node.lang = 'ar';
+      node.dir = 'rtl';
+      node.classList.add('ar');
+      node.append(option.ar);
+    } else if (option.text) {
+      node.append(...both(option.text));
+    }
+    return node;
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-quiz]').forEach(setUp);
+</script>
+
+<style>
+  .quiz {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .intro {
+    margin: 0;
+    color: var(--muted);
+  }
+
+  /* Everything inside .stage is made by the script, so these selectors are :global */
+  .stage {
+    display: grid;
+    gap: 0.9rem;
+  }
+
+  .stage :global(.progress) {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  .stage :global(.score) {
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  /* Progress bar: --done goes from 0 to 1 */
+  .stage :global(.bar) {
+    height: 4px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, var(--accent) calc(var(--done) * 100%), color-mix(in srgb, var(--text) 12%, transparent) 0);
+  }
+
+  .stage :global(.prompt) {
+    font-family: var(--font-ui);
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+
+  .stage :global(.quote) {
+    margin: 0;
+    padding: 0.6rem 0.9rem;
+    border-left: 3px solid var(--highlight);
+    background: color-mix(in srgb, var(--highlight) 8%, transparent);
+    font-size: 1.02rem;
+  }
+
+  .stage :global(.arabic) {
+    margin: 0;
+    font-size: 1.7rem;
+    line-height: 2;
+    text-align: center;
+  }
+
+  .stage :global(.arabic.big) {
+    color: var(--highlight);
+    font-size: 2.6rem;
+  }
+
+  .stage :global(.options) {
+    display: grid;
+    gap: 0.6rem;
+  }
+
+  .stage :global(.option) {
+    min-height: 3rem;
+    padding: 0.65rem 1rem;
+    border: 1px solid color-mix(in srgb, var(--text) 22%, transparent);
+    border-radius: 0.75rem;
+    background: color-mix(in srgb, var(--text) 4%, transparent);
+    color: var(--text);
+    font-size: 1.02rem;
+    text-align: start;
+    cursor: pointer;
+    transition: border-color 0.15s ease, background 0.15s ease;
+  }
+
+  .stage :global(.option.ar) {
+    font-family: var(--font-arabic);
+    font-size: 1.5rem;
+    line-height: 1.9;
+  }
+
+  .stage :global(.option:not(:disabled):hover) {
+    border-color: var(--accent);
+  }
+
+  .stage :global(.option:disabled) {
+    cursor: default;
+  }
+
+  .stage :global(.option.right) {
+    border-color: #4cc38a;
+    background: rgb(76 195 138 / 0.16);
+  }
+
+  .stage :global(.option.wrong) {
+    border-color: #e5675b;
+    background: rgb(229 103 91 / 0.16);
+  }
+
+  .stage :global(.feedback) {
+    padding: 0.75rem 0.9rem;
+    border-radius: 0.75rem;
+    background: color-mix(in srgb, var(--text) 6%, transparent);
+  }
+
+  .stage :global(.verdict) {
+    margin: 0;
+    font-weight: 700;
+  }
+
+  .stage :global(.is-right .verdict) {
+    color: #4cc38a;
+  }
+
+  .stage :global(.is-wrong .verdict) {
+    color: #f08a7f;
+  }
+
+  .stage :global(.explain),
+  .stage :global(.best) {
+    margin: 0.3rem 0 0;
+    color: var(--muted);
+  }
+
+  .stage :global(.next) {
+    justify-self: start;
+    min-height: 2.9rem;
+    padding: 0.5rem 1.4rem;
+    border: 0;
+    border-radius: var(--radius-pill);
+    background: var(--accent);
+    color: var(--navy-950);
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  /* Under each option after answering: what it means */
+  .stage :global(.note) {
+    margin: -0.3rem 0 0.2rem;
+    padding-inline: 0.4rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  .stage :global(.option.right + .note) {
+    color: #8fdcb5;
+  }
+
+  /* Arabic inside an explanation sentence */
+  .stage :global(.ar-inline) {
+    font-family: var(--font-arabic);
+    font-size: 1.25em;
+    line-height: 1;
+  }
+
+  /* Word by word: a row of small cards, Arabic above its meaning */
+  .stage :global(.breakdown) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0.6rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .stage :global(.card) {
+    display: grid;
+    justify-items: center;
+    gap: 0.15rem;
+    min-width: 4rem;
+    max-width: 9rem;
+    padding: 0.4rem 0.6rem 0.5rem;
+    border-radius: 0.5rem;
+    background: color-mix(in srgb, var(--text) 6%, transparent);
+    text-align: center;
+  }
+
+  .stage :global(.card-ar) {
+    color: var(--highlight);
+    font-family: var(--font-arabic);
+    font-size: 1.45rem;
+    line-height: 1.6;
+  }
+
+  .stage :global(.card-meaning) {
+    color: var(--muted);
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+
+  /* ---- Mistakes review ---- */
+  .stage :global(.review) {
+    display: grid;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .stage :global(.review-item) {
+    display: grid;
+    gap: 0.45rem;
+    padding: 0.9rem;
+    border: 1px solid color-mix(in srgb, var(--text) 12%, transparent);
+    border-radius: 0.75rem;
+  }
+
+  .stage :global(.review-q) {
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .stage :global(.review-label) {
+    margin: 0.2rem 0 0;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .stage :global(.wrong-label) {
+    color: #f08a7f;
+  }
+
+  .stage :global(.right-label) {
+    color: #4cc38a;
+  }
+
+  .stage :global(.arabic.small) {
+    font-size: 1.4rem;
+  }
+
+  .stage :global(.result) {
+    text-align: center;
+  }
+
+  .stage :global(.big-score) {
+    margin: 0.5rem 0;
+    color: var(--highlight);
+    font-family: var(--font-display);
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .stage :global(.result) ~ :global(.next) {
+    justify-self: center;
+  }
+</style>

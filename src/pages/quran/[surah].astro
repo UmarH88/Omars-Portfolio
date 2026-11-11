@@ -66,23 +66,34 @@ const versesShown = chapter.id === 1 ? 7 : chapter.versesCount; // Al-Fatihah: 7
 </Base>
 
 <style>
+  /* Phones: the language switch gets its own row under Surah | Page and Study */
+  @media (max-width: 30rem) {
+    .tools :global(.language-switch) {
+      order: 1;
+      flex-basis: 100%;
+      justify-content: center;
+    }
+  }
+
   .bar,
   .tools {
     display: flex;
     align-items: center;
     gap: 0.9rem;
-    max-width: 36rem;
+    max-width: 46rem;
     margin-inline: auto;
     padding: 0.8rem var(--gutter) 0;
   }
 
   .tools {
+    flex-wrap: wrap; /* never run off the side of a phone */
+    gap: 0.75rem;
     justify-content: space-between;
     padding-bottom: 0.9rem;
   }
 
   .names h1 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .names h1 span {
@@ -93,7 +104,7 @@ const versesShown = chapter.id === 1 ? 7 : chapter.versesCount; // Al-Fatihah: 7
   .names p {
     margin: 0;
     color: var(--muted);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .round {
@@ -112,7 +123,7 @@ const versesShown = chapter.id === 1 ? 7 : chapter.versesCount; // Al-Fatihah: 7
     border: 1px solid color-mix(in srgb, var(--gold-500) 60%, transparent);
     border-radius: var(--radius-pill);
     color: var(--gold-300);
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     text-decoration: none;
   }
 
@@ -120,8 +131,8 @@ const versesShown = chapter.id === 1 ? 7 : chapter.versesCount; // Al-Fatihah: 7
   .book {
     display: grid;
     gap: 1.25rem;
-    max-width: 34rem;
+    max-width: 44rem;
     margin-inline: auto;
-    padding: 0 0.6rem 2.5rem;
+    padding: 0 0.4rem 2.5rem;
   }
 </style>

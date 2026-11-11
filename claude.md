@@ -153,12 +153,14 @@ scripts/fetch-quran.mjs        downloads Quran data once
 - [x] Mushaf: Surah | Page mode switch
 - [x] Everything in Indonesian when the language switch is on: `T.astro` for UI text, easy tafseer for
       100–114 in EN + ID, Indonesian surah meanings (`translatedNames`), language applied before first paint
-- [ ] Quiz: 8–12 questions per surah (Study mode) and 15 per mushaf page (Page mode)
+- [ ] Quiz: 15 questions per mushaf page (Page mode). Study-mode quiz done.
 - [ ] Mushaf: page-turn animation, swipe, "go to page"
 - [x] Easy tafseer: all 15 surahs (100–114) in English and Indonesian
 - [x] Study mode (word-by-word, translation; translation-language toggle still to do)
 - [x] Study mode: tafseer panel (surahs 100–114)
-- [ ] Study mode: quiz, 8–12 multiple-choice questions per surah from the data, explains answers (100–114)
+- [x] Study mode: quiz, 8–12 multiple-choice questions per surah from the data, explains answers
+      (`lib/quiz.ts` + `Quiz.astro`; all 114 surahs; Tafseer | Quiz tabs). Must stay HARD (Omar): look-alike
+      wrong options from the same surah, no giveaway hints, verse order + verse meaning questions, mistakes review.
 - [ ] Study mode: flashcards (Arabic word → meaning, flip, "I knew it / again")
 - [ ] Study mode: personal notes per surah/verse (saved in the browser)
 - [ ] Samples page

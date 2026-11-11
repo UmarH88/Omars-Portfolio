@@ -3,10 +3,12 @@
   Study mode: /quran/1/study ... /quran/114/study
   One ayah per row: Arabic with tappable words, then the translation.
   "Words under Arabic" toggle prints each word's meaning beneath it.
-  Surahs with downloaded tafsir (npm run fetch:tafsir) also get the Tafseer panel:
-  beside the verses on wide screens, below them on phones.
+  Side panel (beside the verses on wide screens, below them on phones) with tabs:
+  Tafseer (surahs with downloaded tafsir, npm run fetch:tafsir) and Quiz (every surah,
+  questions generated from the data by lib/quiz.ts).
 */
 import Base from '../../../layouts/Base.astro';
+import Quiz from '../../../components/Quiz.astro';
 import LanguageSwitch from '../../../components/LanguageSwitch.astro';
 import QuranWord from '../../../components/QuranWord.astro';
 import StudyVerse from '../../../components/StudyVerse.astro';
@@ -23,6 +25,7 @@ import {
   placeLabel,
   studyRows,
 } from '../../../lib/quran';
+import { buildQuiz, quizExtra } from '../../../lib/quiz';
 
 export function getStaticPaths() {
   return chapters
@@ -41,6 +44,18 @@ const simpleTafsir = await getSimpleTafsir(id); // the easy version, if written 
 // Al-Fatihah shows it as its first row instead; At-Tawbah has none.
 const bismillah = id !== 1 && surah.bismillahPre ? (await getSurah(1)).verses[0] : null;
 
+// Quiz: this surah's words and verses; nearby surahs only supply extra wrong options
+const neighbours = [id - 2, id - 1, id + 1, id + 2].filter((n) => n >= 1 && n <= 114 && hasSurahData(n));
+const extra = quizExtra(
+  await Promise.all(
+    neighbours.map(async (n) => {
+      const other = await getSurah(n);
+      return { name: other.nameSimple, rows: studyRows(other) };
+    }),
+  ),
+);
+const questions = buildQuiz(id, rows, extra);
+
 const shownVerses = id === 1 ? 7 : surah.versesCount; // Al-Fatihah: 7 without the Bismillah
 const place = placeLabel(surah.revelationPlace);
 const { translatedNames } = getChapter(id)!; // the meanings live in chapters.json
@@ -56,7 +71,7 @@ const details = {
   theme="space"
   fonts={['arabic', 'library']}
 >
-  <main class:list={['study', { 'has-panel': tafsir }]}>
+  <main class="study has-panel">
     <nav class="top" aria-label="Surah navigation">
       <a href="/quran">← <T en="All surahs" id="Semua surah" /></a>
       <a class="pill" href={mushafUrl(id)}><T en="Mushaf view" id="Tampilan mushaf" /></a>
@@ -103,13 +118,31 @@ const details = {
         </div>
       </div>
 
-      {
-        tafsir && (
-          <aside class="panel" aria-label="Study tools">
-            <TafseerPanel data={tafsir} simple={simpleTafsir} versesCount={surah.versesCount} langs={langs} />
-          </aside>
-        )
-      }
+      <aside class="panel" aria-label="Study tools">
+        {
+          tafsir && (
+            <div class="tabs" role="tablist" aria-label="Study tools">
+              <button type="button" role="tab" id="tab-tafseer" aria-controls="pane-tafseer" aria-selected="true">
+                <T en="Tafseer" id="Tafsir" />
+              </button>
+              <button type="button" role="tab" id="tab-quiz" aria-controls="pane-quiz" aria-selected="false" tabindex="-1">
+                <T en="Quiz" id="Kuis" />
+              </button>
+            </div>
+          )
+        }
+        {
+          tafsir && (
+            <div role="tabpanel" id="pane-tafseer" aria-labelledby="tab-tafseer">
+              <TafseerPanel data={tafsir} simple={simpleTafsir} versesCount={surah.versesCount} langs={langs} />
+            </div>
+          )
+        }
+        <div role={tafsir ? 'tabpanel' : undefined} id="pane-quiz" aria-labelledby={tafsir ? 'tab-quiz' : undefined} hidden={tafsir !== null}>
+          {!tafsir && <h2 class="panel-title"><T en="Quiz" id="Kuis" /></h2>}
+          <Quiz surah={id} questions={questions} />
+        </div>
+      </aside>
     </div>
 
     <footer>
@@ -130,6 +163,31 @@ const details = {
 </Base>
 
 <script>
+  // Panel tabs (Tafseer | Quiz): click, or arrow keys to move between tabs
+  const tabs = [...document.querySelectorAll<HTMLButtonElement>('[role="tab"]')];
+  function selectTab(tab: HTMLButtonElement) {
+    tabs.forEach((t) => {
+      const on = t === tab;
+      t.setAttribute('aria-selected', String(on));
+      t.tabIndex = on ? 0 : -1;
+      document.getElementById(t.getAttribute('aria-controls')!)!.hidden = !on;
+    });
+  }
+  tabs.forEach((tab, i) => {
+    tab.addEventListener('click', () => selectTab(tab));
+    tab.addEventListener('keydown', (e) => {
+      const step = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+      if (!step) return;
+      const next = tabs[(i + step + tabs.length) % tabs.length];
+      selectTab(next);
+      next.focus();
+    });
+  });
+  // "Explain verse" buttons need the Tafseer tab, so switch back to it when one is pressed
+  document.querySelectorAll('[data-explain]').forEach((button) =>
+    button.addEventListener('click', () => tabs[0] && selectTab(tabs[0])),
+  );
+
   // "Words under Arabic" toggle. The choice is remembered between visits.
   const KEY = 'study-words-under';
   const toggle = document.getElementById('words-toggle')!;
@@ -168,6 +226,38 @@ const details = {
   .columns {
     display: grid;
     gap: 2rem;
+  }
+
+  /* Tafseer | Quiz tabs: the active one is cyan, like the design */
+  .tabs {
+    display: flex;
+    gap: 0.4rem;
+    margin-bottom: 1.1rem;
+    padding: 0.25rem;
+    border-radius: var(--radius-pill);
+    background: color-mix(in srgb, var(--text) 6%, transparent);
+  }
+
+  .tabs button {
+    flex: 1;
+    min-height: 2.6rem;
+    border: 0;
+    border-radius: var(--radius-pill);
+    background: none;
+    color: var(--muted);
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .tabs button[aria-selected='true'] {
+    background: var(--accent);
+    color: var(--navy-950);
+  }
+
+  .panel-title {
+    margin-bottom: 0.75rem;
+    font-family: var(--font-library);
+    font-size: 1.6rem;
   }
 
   .panel {
@@ -215,9 +305,7 @@ const details = {
     border-radius: var(--radius-pill);
     background: none;
     color: var(--text);
-    font: 500 0.72rem/1 ui-monospace, 'Cascadia Mono', Consolas, monospace;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+    font: 600 0.9rem/1 var(--font-ui);
     text-decoration: none;
     cursor: pointer;
   }
@@ -315,20 +403,20 @@ const details = {
     margin: 1.5rem 0 0;
     padding-bottom: 1rem;
     border-bottom: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
-    font-size: clamp(1.7rem, 7vw, 2.2rem);
+    font-size: clamp(1.9rem, 8vw, 2.6rem);
     text-align: center;
   }
 
   .hint {
     margin: 0.75rem 0 0;
     color: var(--muted);
-    font-size: 0.8rem;
+    font-size: 0.92rem;
   }
 
   footer {
     margin-top: 2.5rem;
     color: var(--muted);
-    font-size: 0.8rem;
+    font-size: 0.88rem;
     text-align: center;
   }
 </style>

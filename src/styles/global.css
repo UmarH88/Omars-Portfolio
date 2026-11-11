@@ -113,6 +113,14 @@ a {
   color: inherit;
 }
 
+/* Browsers give buttons and form fields their own small system font; use the site's font instead */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
 /* Arabic text always uses the Quran font */
 :lang(ar) {
   font-family: var(--font-arabic);

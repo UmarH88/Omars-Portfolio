@@ -93,23 +93,32 @@ const previous = page > 1 ? mushafPageUrl(page - 1) : null;
 </script>
 
 <style>
+  /* Phones: the language switch gets its own row under Surah | Page and Study */
+  @media (max-width: 30rem) {
+    .tools :global(.language-switch) {
+      order: 1;
+      flex-basis: 100%;
+      justify-content: center;
+    }
+  }
+
   .bar {
     display: flex;
     align-items: center;
     gap: 0.9rem;
-    max-width: 36rem;
+    max-width: 46rem;
     margin-inline: auto;
     padding: 0.8rem var(--gutter);
   }
 
   .bar h1 {
-    font-size: 1.05rem;
+    font-size: 1.2rem;
   }
 
   .bar p {
     margin: 0;
     color: var(--muted);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .round {
@@ -128,25 +137,27 @@ const previous = page > 1 ? mushafPageUrl(page - 1) : null;
     border: 1px solid color-mix(in srgb, var(--gold-500) 60%, transparent);
     border-radius: var(--radius-pill);
     color: var(--gold-300);
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     text-decoration: none;
     white-space: nowrap;
   }
 
   .tools {
     display: flex;
+    flex-wrap: wrap; /* never run off the side of a phone */
+    gap: 0.75rem;
     justify-content: space-between;
     align-items: center;
-    max-width: 36rem;
+    max-width: 46rem;
     margin-inline: auto;
     padding: 0 var(--gutter) 0.9rem;
   }
 
   /* Phone: the page uses the full width; desktop: about a real mushaf's size */
   .book {
-    max-width: 34rem;
+    max-width: 44rem;
     margin-inline: auto;
-    padding: 0 0.6rem 2rem;
+    padding: 0 0.4rem 2rem;
   }
 
   .turn {

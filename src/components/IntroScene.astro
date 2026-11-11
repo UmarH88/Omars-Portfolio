@@ -132,7 +132,8 @@ const interests: Interest[] = [
 
   .scene {
     --size: min(24rem, 92vw); /* stage width */
-    --radius: calc(var(--size) * 0.44); /* orbit radius */
+    /* orbit radius: on phones, small enough that the badge names stay on screen */
+    --radius: min(calc(var(--size) * 0.44), calc(50vw - 4rem));
     --tip: 72deg; /* how far the orbit plane is tipped back */
     display: grid;
     justify-items: center;
@@ -242,9 +243,12 @@ const interests: Interest[] = [
     translate: -50% 0;
     color: var(--text);
     font-family: var(--font-display);
-    font-size: 0.7rem;
+    font-size: 0.82rem;
     font-weight: 600;
-    white-space: nowrap;
+    width: max-content;
+    max-width: 5.5rem; /* long names wrap onto 2 lines instead of leaving the screen */
+    line-height: 1.15;
+    text-align: center;
     text-shadow: 0 1px 6px var(--bg); /* stays readable over the ring and the person */
     pointer-events: none;
   }
@@ -270,7 +274,7 @@ const interests: Interest[] = [
   .hint {
     margin: 0.75rem 0 0;
     color: var(--accent);
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     font-weight: 500;
   }
 
