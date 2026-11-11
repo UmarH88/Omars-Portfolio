@@ -16,8 +16,9 @@ Act as a patient mentor pair-programming with him.
 - Never skip ahead or build several features at once.
 
 ## The project
-A personal study website. Repo: UmarH88/Omars-Portfolio (private). Site: public on Cloudflare Pages.
-Every push to `main` deploys automatically.
+A personal study website. Repo: UmarH88/Omars-Portfolio (private). Site: public on a Cloudflare Worker
+(`omars-portfolio`, static files from `dist/`, config in `wrangler.jsonc`). Deploys via Workers Builds
+(Cloudflare builds and deploys every push to `main`); `npm run deploy` deploys by hand if ever needed.
 
 Pages, in build order:
 1. **Intro** (`/`): "Hi, I'm Omar." Six interest badges (plane, Quran, atom, laptop/code, "Aa ع" languages, planet)
@@ -161,6 +162,10 @@ scripts/fetch-quran.mjs        downloads Quran data once
 - [x] Study mode: quiz, 8–12 multiple-choice questions per surah from the data, explains answers
       (`lib/quiz.ts` + `Quiz.astro`; all 114 surahs; Tafseer | Quiz tabs). Must stay HARD (Omar): look-alike
       wrong options from the same surah, no giveaway hints, verse order + verse meaning questions, mistakes review.
+      UNDERSTANDING questions (Omar, 2026-11-11: "not memorisation, understanding"): hand-written in
+      `src/data/quiz-understanding/NNN.json` (100-114), 5-6 per surah, EN + ID. Rules: relevant to that surah only,
+      based ONLY on its easy tafseer (src/data/tafsir-simple), no random/AI filler topics; first option = right
+      answer (the build shuffles); `ref` points to the verse/section so the learner can check it.
 - [ ] Study mode: flashcards (Arabic word → meaning, flip, "I knew it / again")
 - [ ] Study mode: personal notes per surah/verse (saved in the browser)
 - [ ] Samples page

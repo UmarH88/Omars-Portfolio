@@ -9,6 +9,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "deploy": "astro build && wrangler deploy",
     "fetch:quran": "node scripts/fetch-quran.mjs",
     "fetch:tafsir": "node scripts/fetch-tafsir.mjs",
     "astro": "astro"
